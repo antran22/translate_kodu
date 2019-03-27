@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Tiles>
   <sensor>
-    <gamepad label="gamepad">Cho phép người chơi điều khiển một nhân vật. Chỉ định nút bấm, cần điều khiển, hoặc người chơi nếu cần.</gamepad>
-    <keyboard label="keyboard">Cho phép người chơi điều khiển một nhân vật. Chỉ định một nút bấm</keyboard>
-    <mouse label="mouse">Phản hồi với bấm chuột</mouse>
-    <touch label="touch">Phản hồi với màn hình cảm ứng</touch>
+    <!-- <gamepad label="gamepad">Allow a player to control a character.  Specify button, trigger, or stick, and optionally player.</gamepad> -->
+    <gamepad label="Tay cầm">Cho phép người chơi điều khiển một nhân vật. Chỉ định nút bấm, cần điều khiển, hoặc người chơi nếu cần.</gamepad>
+    <!-- <keyboard label="keyboard">Allow a player to control a character. Specify any key.</keyboard> -->
+    <keyboard label="Bàn phím">Cho phép người chơi điều khiển một nhân vật. Chỉ định một nút bấm</keyboard>
+    <!-- <mouse label="mouse">Respond to mouse input.</mouse> -->
+    <mouse label="Chuột">Phản hồi với bấm chuột</mouse>
+    <!-- <touch label="touch">Respond to touch input.</touch> -->
+    <touch label="Cảm ứng">Phản hồi với màn hình cảm ứng</touch>
+    <!-- <microbit label="BBC micro:bit">Respond to BBC micro:bit input.</microbit> -->
     <microbit label="BBC micro:bit">Phần hồi với mạch BBC micro:bit</microbit>
-    <eyes label="see">Phản ứng khi bạn nhìn thấy một vật thể tùy vào loại hoặc màu. Đồi nút hoặc tường có thể chặn tầm nhìn nếu bạn cho bộ lọc tầm nhìn (LOS)</eyes>
+    <!-- <eyes label="see">React when you see an object depending on type or color. Hills and walls can block sight if you use the line-of-sight(LOS) filter.</eyes> -->
+    <eyes label="Nhìn">Phản ứng khi bạn nhìn thấy một vật thể tùy vào loại hoặc màu. Đồi nút hoặc tường có thể chặn tầm nhìn nếu bạn cho bộ lọc tầm nhìn (LOS)</eyes>
     <ears label="hear">React when you hear an object depending on type or sound. Hearing works through walls.</ears>
     <bumpers label="bumped">React when you bump into another object depending on type, color, etc.</bumpers>
     <timer label="timer">React to a number of seconds passing. Add numbers to make longer times.</timer>
