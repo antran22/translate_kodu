@@ -20,7 +20,7 @@
     <!-- <timer label="timer">React to a number of seconds passing. Add numbers to make longer times.</timer> -->
     <timer label="đếm thời gian">Phản ứng sau một số giây. Ghép các số vào cạnh nhau để tạo ra các khoảng thời gian dài hơn.</timer>
     <!-- <got label="got">React to picking something up depending on type, color, etc.</got> -->
-    <got label="nhặt được">Phản ứng khi nhặt được một vật gì đó, phụ thuộc vào loại vật thể, màu sắc, vân vân...<got>
+    <got label="nhặt được">Phản ứng khi nhặt được một vật gì đó, phụ thuộc vào loại vật thể, màu sắc, vân vân</got>
     <!-- <scored label="scored">React to changes in a score.</scored> -->
     <scored label="điểm số">Phản ứng đối với sự thay đổi về điểm số.</scored>
     <!-- <health label="health">React to changes in health.</health> -->
@@ -62,7 +62,6 @@
     <me label="tôi">Chỉ kiểm tra nhân vật đang thực hiện chương trình này</me>
     <!-- <said label="said">Listen for another character to say something.  Type in what you want to listen for.</said> -->
     <said label="nghe nói">Nghe một nhân vật khác nói. Viết vào điều mà bạn muốn nghe được</said>
-    <!-- <countnone label="none">React when you can't see anything that matches the description. For example, see - blue - none will react when nothing blue is in sight.</countnone> -->
     <countnone label="none">React when you can't see anything that matches the description. For example, see - blue - none will react when nothing blue is in sight.</countnone>
     <starfish label="starfish">React to a starfish.</starfish>
     <clam label="clam">React to a clam.</clam>

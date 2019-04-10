@@ -1,153 +1,163 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <XmlOverlayData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
   <overlay>
     <id>MiniHub</id>
-    <a>Select</a>
-    <back>Resume</back>
-    <bottom>Press &lt;start&gt; at any time to return here.</bottom>
-
-    <keyMouse>
+    <!-- <a>Select</a> -->
+    <a>Lựa chọn</a>
+    <!-- <back>Resume</back> -->
+    <back>Quay lại</back>
+    <!-- <bottom>Press &lt;start&gt; at any time to return here.</bottom> -->
+    <bottom>Bấm &lt;start&gt; bất kể lúc nào để quay trở lại đây.</bottom>
+    <!-- <keyMouse>
       [Enter] Select
+    </keyMouse> -->
+    <keyMouse>
+      [Enter] Lựa chọn
     </keyMouse>
-    <keyMouseBottom>Press [home] at any time to return here.</keyMouseBottom>
-    <touch></touch>
-    <touchBottom>Tap [home] at any time to return here.</touchBottom>
+    <!-- <keyMouseBottom>Press [home] at any time to return here.</keyMouseBottom> -->
+    <keyMouseBottom>Bấm [home] bất kỳ lúc nào để quay trở lại đây</keyMouseBottom>
+    <touch/>
+    <!-- <touchBottom>Tap [home] at any time to return here.</touchBottom> -->
+    <touchBottom>Bấm phím [home] bất kỳ lúc nào để trở lại đây</touchBottom>
   </overlay>
-
   <overlay>
     <id>ModularMessageDialog</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
-
-    <keyMouseBottom></keyMouseBottom>
-    <touchBottom></touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
+    <keyMouseBottom/>
+    <touchBottom/>
   </overlay>
-  
   <overlay>
     <id>LoadLevelMenu</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom mid = "false">Press <![CDATA[<back>]]> to return to previous menu.</bottom>
-
-    <keyMouseBottom>Press [Esc] to return to previous menu.</keyMouseBottom>
-    <touchBottom>Tap here to return to previous menu.</touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom mid = "false">Press <![CDATA[<back>]]> to return to previous menu.</bottom> -->
+    <bottom mid="false">Bấm &lt;back&gt; để trở lại menu trước đó.</bottom>
+    <!-- <keyMouseBottom>Press [Esc] to return to previous menu.</keyMouseBottom> -->
+    <keyMouseBottom>Bấm [Esc] để trở lại menu trước đó</keyMouseBottom>
+    <!-- <touchBottom>Tap here to return to previous menu.</touchBottom> -->
+    <touchBottom>Chạm ở đây để trở lại menu trước đó</touchBottom>
   </overlay>
-
   <overlay>
     <id>LoadLevelPopup</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
-
-    <keyMouseBottom></keyMouseBottom>
-    <touchBottom></touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
+    <keyMouseBottom/>
+    <touchBottom/>
   </overlay>
-
   <overlay>
     <id>SelectNextLevel</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom mid = "false">Press <![CDATA[<back>]]> to return to previous menu.</bottom>
-
-    <keyMouseBottom>Press [Esc] to return to previous menu.</keyMouseBottom>
-    <touchBottom>Tap here to return to previous menu.</touchBottom>
-  </overlay>  
-
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom mid = "false">Press <![CDATA[<back>]]> to return to previous menu.</bottom> -->
+    <bottom mid="false">Bấm &lt;back&gt; để trở về menu trước đó.</bottom>
+    <!-- <keyMouseBottom>Press [Esc] to return to previous menu.</keyMouseBottom> -->
+    <keyMouseBottom>Bấm [Esc] để trở lại menu trước đó</keyMouseBottom>
+    <!-- <touchBottom>Tap here to return to previous menu.</touchBottom> -->
+    <touchBottom>Chạm vào đây để trở lại menu trước đó</touchBottom>
+  </overlay>
   <overlay>
     <id>MouseEditBase</id>
-
-    <keyMouse></keyMouse>
+    <keyMouse/>
+    <!-- <keyMouseBottom>Mouse Edit Base</keyMouseBottom> -->
     <keyMouseBottom>Mouse Edit Base</keyMouseBottom>
   </overlay>
   <overlay>
     <id>MouseEditHome</id>
-
-    <keyMouse></keyMouse>
-    <keyMouseBottom>Home Menu</keyMouseBottom>
-    <touch></touch>
-    <touchBottom>Home Menu</touchBottom>
+    <keyMouse/>
+    <!-- <keyMouseBottom>Home Menu</keyMouseBottom> -->
+    <keyMouseBottom>Menu chính</keyMouseBottom>
+    <touch/>
+    <!-- <touchBottom>Home Menu</touchBottom> -->
+    <touchBottom>Menu chính</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditPlay</id>
-
-    <keyMouse></keyMouse>
-    <keyMouseBottom>Play Game</keyMouseBottom>
-
-    <touch></touch>
-    <touchBottom>Play Game</touchBottom>
+    <keyMouse/>
+    <!-- <keyMouseBottom>Play Game</keyMouseBottom> -->
+    <keyMouseBottom>Chơi trò chơi</keyMouseBottom>
+    <touch/>
+    <!-- <touchBottom>Play Game</touchBottom> -->
+    <touchBottom>Chơi trò chơi</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditCameraMove</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Terrain
       &lt;rightmouse&gt; Orbit Camera
       &lt;middlemouse&gt; Scroll Wheel Zoom
       [Tab] Find Next Character
       [F4] Center Camera
 
-    </keyMouse>
-    <keyMouseBottom>Move Camera</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Kéo địa hình
+      &lt;rightmouse&gt; Quay camera
+      &lt;middlemouse&gt; Phóng to thu nhỏ
+      [Tab] Tìm nhân vật tiếp theo
+      [F4] Tập trung camera vào vật thể
 
-    <touch>
+    </keyMouse>
+    <!-- <keyMouseBottom>Move Camera</keyMouseBottom> -->
+    <keyMouseBottom>Di chuyển Camera</keyMouseBottom>
+    <!-- <touch>
       &lt;doubleDrag&gt; Drag Terrain
       &lt;drag&gt; Pitch Camera
       &lt;rotate&gt; Orbit Camera
       &lt;pinch&gt; Zoom
+    </touch> -->
+    <touch>
+      &lt;doubleDrag&gt; Kéo địa hình
+      &lt;drag&gt; Quay góc camera
+      &lt;rotate&gt; Quay camera
+      &lt;pinch&gt; Phóng to thu nhỏ
     </touch>
-    <touchBottom>Move Camera</touchBottom>
+    <!-- <touchBottom>Move Camera</touchBottom> -->
+    <touchBottom>Di chuyển Camera</touchBottom>
   </overlay>
-  
   <overlay>
     <id>MouseEditAddItemPieMenu</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
-
-    <keyMouseBottom></keyMouseBottom>
-    <touchBottom></touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
+    <keyMouseBottom/>
+    <touchBottom/>
   </overlay>
-
   <overlay>
     <id>MouseMenu</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
-
-    <keyMouseBottom></keyMouseBottom>
-    <touchBottom></touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
+    <keyMouseBottom/>
+    <touchBottom/>
   </overlay>
-
   <overlay>
     <id>MouseEditMenu</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
-
-    <keyMouseBottom></keyMouseBottom>
-    <touchBottom></touchBottom>
-  </overlay>  
-
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
+    <keyMouseBottom/>
+    <touchBottom/>
+  </overlay>
   <overlay>
     <id>MouseEditEditObject</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Add/Select Object
       &lt;rightmouse&gt; Options
 
@@ -158,21 +168,39 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Thêm/Chọn vật thể
+      &lt;rightmouse&gt; Tuỳ chỉnh vật thể
 
-    <touch>
+      HelpLevelMid
+      [Tab] Tìm nhân vật tiếp theo
+      [F3] Bật/tắt khoá vào lưới
+      [F4] Tập trung camera vào vật thể
+      [Space] Giữ để di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ vật thể: Thêm hoặc chỉnh sửa nhân vật và vật thể</keyMouseBottom>
+    <!-- <touch>
       &lt;doubleTap&gt; Add Object      
       &lt;tap&gt; Select Object
       &lt;drag&gt; Drag Object
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;doubleTap&gt; Thêm vật thể
+      &lt;tap&gt; Chọn vật thể
+      &lt;drag&gt; Kéo vật thể
+      &lt;touchHold&gt; Tuỳ chỉnh vật thể
     </touch>
-    <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom>
+    <!-- <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom> -->
+    <touchBottom>Công cụ vật thể: Thêm hoặc chỉnh sửa nhân vật và vật thể</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditEditObjectFocus</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Object
       &lt;rightmouse&gt; Options
       [leftarrow][rightarrow] Change Color
@@ -184,23 +212,44 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Kéo vật thể
+      &lt;rightmouse&gt; Tuỳ chỉnh vật thể
+      [leftarrow][rightarrow] Thay đổi màu sắc
 
-    <touch>
+      HelpLevelMid
+      [Tab] Tìm nhân vật tiếp theo
+      [F3] Bật/tắt khoá vào lưới
+      [F4] Tập trung camera vào vật thể
+      [Space] Giữ để di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ vật thể: Thêm hoặc chỉnh sửa nhân vật và vật thể</keyMouseBottom>
+    <!-- <touch>
       &lt;doubleTap&gt; Add Object
       &lt;tap&gt; Select Object
       &lt;drag&gt; Drag Object
       &lt;touchHold&gt; Options
       &lt;rotate&gt; Rotate Object
       &lt;pinch&gt; Scale Object
+    </touch> -->
+    <touch>
+      &lt;doubleTap&gt; Thêm vật thể
+      &lt;tap&gt; Chọn vật thể
+      &lt;drag&gt; Di chuyển vật thể
+      &lt;touchHold&gt; Tuỳ chỉnh vật thể
+      &lt;rotate&gt; Xoay vật thể
+      &lt;pinch&gt; Thay đổi kích cỡ vật thể
     </touch>
-    <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom>    
+    <!-- <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom>     -->
+    <touchBottom>Công cụ vật thể: Thêm hoặc chỉnh sửa nhân vật và vật thể</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditEditObjectFocusTree</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Object
       &lt;rightmouse&gt; Options
       [leftarrow][rightarrow] Change Color
@@ -211,23 +260,43 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Kéo vật thể
+      &lt;rightmouse&gt; Tuỳ chỉnh vật thể
+      [leftarrow][rightarrow] Đổi màu
+      [uparrow][downarrow] Đổi loại cây
 
-    <touch>
+      HelpLevelMid
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Giữ để di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ vật thể</keyMouseBottom>
+    <!-- <touch>
       &lt;doubleTap&gt; Add Object
       &lt;tap&gt; Select Object
       &lt;drag&gt; Drag Object
       &lt;touchHold&gt; Options
       &lt;rotate&gt; Rotate Object
       &lt;pinch&gt; Scale Object
+    </touch> -->
+    <touch>
+      &lt;doubleTap&gt; Thêm vật thể
+      &lt;tap&gt; Chọn vật thể
+      &lt;drag&gt; Kéo vật thể
+      &lt;touchHold&gt; Tuỳ chỉnh vật thể
+      &lt;rotate&gt; Xoay vật thể
+      &lt;pinch&gt; Thay đổi kích cỡ vật thể
     </touch>
-    <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom>
+    <!-- <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom> -->
+    <touchBottom>Công cụ vật thể: Thêm hoặc chỉnh sửa nhân vật và vật thể</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditPaths</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Node or Edge
       &lt;rightmouse&gt; Options
       [Shift] Act on Full Path
@@ -236,21 +305,35 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Di chuyển nút hoặc đoạn
+      &lt;rightmouse&gt; Tuỳ chỉnh
+      [Shift] Giữ để chỉnh sửa toàn bộ đường 
 
-    <touch>
+      HelpLevelMid
+      [Space] Giữ để di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy
+    </keyMouse>
+    <!-- <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ đường đi: Thêm hoặc chỉnh sửa đường đi</keyMouseBottom>
+    <!-- <touch>
       &lt;tap&gt; Select Node or Edge
       &lt;drag&gt; Drag Node or Edge
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn nút hoặc đoạn
+      &lt;drag&gt; Di chuyển nút hoặc đoạn
+      &lt;touchHold&gt; Cạnh
     </touch>
-    <touchBottom>Path Tool: Add or Edit Paths</touchBottom>
+    <!-- <touchBottom>Path Tool: Add or Edit Paths</touchBottom> -->
+    <touchBottom>Công cụ đường đi: Thêm hoặc chỉnh sửa đường đi</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditPathsAllPath</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Node or Edge
       &lt;rightmouse&gt; Options
       [Shift] Act on Full Path
@@ -259,20 +342,35 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Di chuyển nút hoặc đoạn
+      &lt;rightmouse&gt; Tuỳ chỉnh
+      [Shift] Giữ để chỉnh sửa toàn bộ đường 
 
-    <touch>
+      HelpLevelMid
+      [Space] Giữ để di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy
+    </keyMouse>
+    <!-- <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ đường đi: Thêm hoặc chỉnh sửa đường</keyMouseBottom>
+    <!-- <touch>
       &lt;tap&gt; Select Path
       &lt;drag&gt; Drag Path
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn đường đi
+      &lt;drag&gt; Di chuyển đường đi
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Add or Edit Paths (Act on Path)</touchBottom>
+    <!-- <touchBottom>Path Tool: Add or Edit Paths (Act on Path)</touchBottom> -->
+    <touchBottom>Công cụ đường đi: Thêm hoặc chỉnh sửa đường</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditPathsAddPath</id>
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Node or Edge
       &lt;rightmouse&gt; Options
       [Shift] Act on Full Path
@@ -281,38 +379,59 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Di chuyển nút hay đoạn
+      &lt;rightmouse&gt; Tuỳ chỉnh
+      [Shift] Chỉnh sửa toàn bộ đường
 
-    <touch>
+      HelpLevelMid
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ đường đi: Thêm hoặc chỉnh sửa đường</keyMouseBottom>
+    <!-- <touch>
       &lt;tap&gt; Add Node or Connect to Node
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Thêm nút hoặc nối các nút
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Add Paths</touchBottom>
+    <!-- <touchBottom>Path Tool: Add Paths</touchBottom> -->
+    <touchBottom>Công cụ đường: Thêm đường</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditPathsDeletePath</id>
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Delete Full Path
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Xoá toàn bộ đường
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Delete Paths</touchBottom>
+    <!-- <touchBottom>Path Tool: Delete Paths</touchBottom> -->
+    <touchBottom>Công cụ đường: Xoá đường</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditPathsDeleteNode</id>
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Delete Node
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Xoá nút
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Delete Nodes</touchBottom>
+    <!-- <touchBottom>Path Tool: Delete Nodes</touchBottom> -->
+    <touchBottom>Công cụ đường: Xoá nút</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditPathsFocusNode</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Node
       &lt;rightmouse&gt; Options
       [Shift] Act on Full Path
@@ -323,20 +442,37 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Di chuyển nút
+      &lt;rightmouse&gt; Tuỳ chỉnh
+      [Shift] Chỉnh sửa toàn bộ đường
+      [leftarrow][rightarrow] Đổi màu
+      [uparrow][downarrow] Đổi kiểu đường
 
-    <touch>
+      HelpLevelMid
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ đường đi: Thêm hoặc chỉnh sửa đường</keyMouseBottom>
+    <!-- <touch>
       &lt;tap&gt; Select Node
       &lt;drag&gt; Drag Node
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn nút
+      &lt;drag&gt; Di chuyển nút
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Add or Edit Paths</touchBottom>
+    <!-- <touchBottom>Path Tool: Add or Edit Paths</touchBottom> -->
+    <touchBottom>Công cụ đường: Thêm hoặc điều chỉnh đường</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditPathsFocusEdge</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Edge
       &lt;rightmouse&gt; Options
       [Shift] Act on Full Path
@@ -346,20 +482,36 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Di chuyển đoạn
+      &lt;rightmouse&gt; Tuỳ chỉnh
+      [Shift] Chỉnh sửa toàn bộ đường
+      [leftarrow][rightarrow] Đổi màu
 
-    <touch>
+      HelpLevelMid
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy
+    </keyMouse>
+    <!-- <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ đường: thêm hoặc chỉnh sửa đường</keyMouseBottom>
+    <!-- <touch>
       &lt;tap&gt; Select Edge
       &lt;drag&gt; Drag Edge
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn đoạn
+      &lt;drag&gt; Di chuyển đoạn
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Add or Edit Paths</touchBottom>    
+    <!-- <touchBottom>Path Tool: Add or Edit Paths</touchBottom>     -->
+    <touchBottom>Công cụ đường đi: thêm hoặc chỉnh sửa đường</touchBottom>
   </overlay>
   <overlay>
     <id>MouseEditPathsFocusPath</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Drag Path
       &lt;rightmouse&gt; Options
       [Shift] Act on Full Path
@@ -369,22 +521,36 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Di chuyển đường đi
+      &lt;rightmouse&gt; Tuỳ chỉnh
+      [Shift] Chỉnh sửa toàn bộ đường
+      [leftarrow][rightarrow] Đổi màu
 
-    <touch>
+      HelpLevelMid
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Path Tool: Add or Edit Paths</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ đường đi: Thêm hoặc điều chỉnh đường</keyMouseBottom>
+    <!-- <touch>
       &lt;tap&gt; Select Path
       &lt;drag&gt; Drag Path
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn đường đi
+      &lt;drag&gt; Di chuyển đường đi
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    <touchBottom>Path Tool: Add or Edit Paths</touchBottom>    
+    <!-- <touchBottom>Path Tool: Add or Edit Paths</touchBottom>     -->
+    <touchBottom>Công cụ đường đi: Thêm hoặc điều chỉnh đường</touchBottom>
   </overlay>
-
-
   <overlay>
     <id>MouseEditTerrainPaint</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Paint and Add Material
       [Shift] +&lt;leftmouse&gt; Paint Material
       [Ctrl] +&lt;leftmouse&gt; Add Material
@@ -398,54 +564,85 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Ground Brush: Paint, Add, or Delete Ground</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Tô màu và vẽ địa hình
+      [Shift] +&lt;leftmouse&gt; Tô màu địa hình
+      [Ctrl] +&lt;leftmouse&gt; Thêm địa hình
+      &lt;rightmouse&gt; Xoá
 
-    <touch>
+      [leftarrow][rightarrow] Thay đổi kích cỡ bút vẽ
+
+      HelpLevelMid
+      [Alt] Lấy loại địa hình trên trò chơi
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Ground Brush: Paint, Add, or Delete Ground</keyMouseBottom> -->
+    <keyMouseBottom>Bút vẽ địa hình: Tô màu, thêm hoặc xoá địa hình</keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Move Brush
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Di chuyển bút vẽ
     </touch>
-    <touchBottom>Ground Brush: Paint, Add, or Delete Ground</touchBottom>
+    <!-- <touchBottom>Ground Brush: Paint, Add, or Delete Ground</touchBottom> -->
+    <touchBottom>Bút vẽ địa hình: Tô màu, thêm hoặc xoá địa hình</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainPaintSmooth</id>
-
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Add and Paint Material (Smooth)
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Thêm và tô màu địa hình (Mượt)
     </touch>
-    <touchBottom>Ground Brush: Add and Paint Ground (Smooth)</touchBottom>
+    <!-- <touchBottom>Ground Brush: Add and Paint Ground (Smooth)</touchBottom> -->
+    <touchBottom>Bút vẽ địa hình: Thêm và tô màu địa hình (Mượt)</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainPaintCubic</id>
-
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Add and Paint Material (Cubic)
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Thêm và tô màu địa hình (Khối)
     </touch>
-    <touchBottom>Ground Brush: Add and Paint Ground (Cubic)</touchBottom>
+    <!-- <touchBottom>Ground Brush: Add and Paint Ground (Cubic)</touchBottom> -->
+    <touchBottom>Bút vẽ địa hình: Thêm và tô màu địa hình </touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainDelete</id>
-
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Remove Ground
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Xoá địa hình
     </touch>
-    <touchBottom>Ground Brush: Remove Ground</touchBottom>
+    <!-- <touchBottom>Ground Brush: Remove Ground</touchBottom> -->
+    <touchBottom>Bút vẽ địa hình: Xoá địa hình</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainPaintMagicBrush</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Paint and Add Material
       [Shift] +&lt;leftmouse&gt; Paint Material
       [Ctrl] +&lt;leftmouse&gt; Add Material
@@ -461,22 +658,44 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Ground Brush: Paint, Add, or Delete Ground</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Tô màu và thêm địa hình
+      [Shift] +&lt;leftmouse&gt; Tô màu địa hình
+      [Ctrl] +&lt;leftmouse&gt; Thêm địa hình
+      &lt;rightmouse&gt; Xoá địa hình
 
-    <touch>
+      [leftarrow][rightarrow] Đổi kích cỡ bút vẽ
+      [uparrow] Kiểu: Khối
+      [downarrow] Kiểu: Mượt
+
+      HelpLevelMid
+      [Alt] Lấy loại địa hình trên trò chơi
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Ground Brush: Paint, Add, or Delete Ground</keyMouseBottom> -->
+    <keyMouseBottom>Bút vẽ địa hình: Tô màu, thêm hoặc xoá địa hình</keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Move Brush
       &lt;drag&gt; Paint and Add Material
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ 
+      &lt;tap&gt; Di chuyển bút vẽ
+      &lt;drag&gt; Tô màu và thêm địa hình
     </touch>
-    <touchBottom>Ground Brush: Paint, Add, or Delete Ground</touchBottom>    
+    <!-- <touchBottom>Ground Brush: Paint, Add, or Delete Ground</touchBottom> -->
+    <touchBottom>Bút vẽ địa  hình: Tô màu, thêm hoặc xoá địa hình</touchBottom>
   </overlay>
-  
   <overlay>
     <id>MouseEditTerrainRaiseLower</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Raise Terrain
       &lt;middlemouse&gt; Smooth Terrain
       &lt;rightmouse&gt; Lower Terrain
@@ -488,41 +707,68 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Up/Down: Create Hills or Valleys</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Nâng địa hình
+      &lt;middlemouse&gt; Làm mượt địa hình
+      &lt;rightmouse&gt; Hạ địa hình
 
-    <touch>
+      [leftarrow][rightarrow] Thay đổi kích cỡ bút vẽ
+
+      HelpLevelMid
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Up/Down: Create Hills or Valleys</keyMouseBottom> -->
+    <keyMouseBottom>Nâng/Hạ: Tạo đồi núi hay thung lũng</keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Move Brush
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Tăng kích cỡ bút vẽ
+      &lt;tap&gt; Di chuyển bút vẽ
     </touch>
-    <touchBottom>Up/Down: Create Hills or Valleys</touchBottom>    
+    <!-- <touchBottom>Up/Down: Create Hills or Valleys</touchBottom>     -->
+    <touchBottom>Nâng/Hạ: Tạo đồi núi hay thung lũng</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainRaising</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Raise Terrain
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Nâng địa hình
     </touch>
-    <touchBottom>Up/Down: Create Hills or Valleys</touchBottom>
+    <!-- <touchBottom>Up/Down: Create Hills or Valleys</touchBottom> -->
+    <touchBottom>Nâng/Hạ: Tạo Đồi núi hoặc thung lũng</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainLowering</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Lower Terrain
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Hạ địa  hình
     </touch>
-    <touchBottom>Up/Down: Create Hills or Valleys</touchBottom>
+    <!-- <touchBottom>Up/Down: Create Hills or Valleys</touchBottom> -->
+    <touchBottom>Nâng/Hạ: Tạo Đồi núi hoặc Thung lũng</touchBottom>
   </overlay>
-  
   <overlay>
     <id>MouseEditTerrainSmoothLevel</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Make Smooth
       &lt;middlemouse&gt; Smooth Terrain
       &lt;rightmouse&gt; Make Level
@@ -534,43 +780,68 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Flatten: Make Ground Smooth or Level</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Làm mượt
+      &lt;middlemouse&gt; Mượt địa hình
+      &lt;rightmouse&gt; Làm bằng địa hình
 
-    <touch>
+      [leftarrow][rightarrow] Thay đổi kích cỡ bút vẽ
+
+      HelpLevelMid
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Flatten: Make Ground Smooth or Level</keyMouseBottom> -->
+    <keyMouseBottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Move Brush
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Di chuyển bút vẽ
     </touch>
-    <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom>
+    <!-- <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom> -->
+    <touchBottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainSmoothLevel_ToggleFlatten</id>
-    
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Flatten Terrain
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Làm phẳng địa hình
     </touch>
-    <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom>
+    <!-- <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom> -->
+    <touchBottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainSmoothLevel_ToggleSmooth</id>
-
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;drag&gt; Smooth Terrain
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;drag&gt; Làm mượt địa hình
     </touch>
-    <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom>
+    <!-- <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom> -->
+    <touchBottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainSpikeyHilly</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Make Spikey
       &lt;middlemouse&gt; Smooth Terrain
       &lt;rightmouse&gt; Make Hilly
@@ -582,53 +853,83 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Roughen: Create Spikey or Hilly Ground</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Tạo địa hình lởm chởm
+      &lt;middlemouse&gt; Làm mượt địa hình
+      &lt;rightmouse&gt; Tạo địa hình đồi núi
 
-    <touch>
+      [leftarrow][rightarrow] Thay đổi kích cỡ bút vẽ
+
+      HelpLevelMid
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Roughen: Create Spikey or Hilly Ground</keyMouseBottom> -->
+    <keyMouseBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Move Brush
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Di chuyển bút vẽ
     </touch>
-    <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom>
+    <!-- <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom> -->
+    <touchBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</touchBottom>
   </overlay>
-
-
   <overlay>
     <id>MouseEditTerrainSpikeyHilly_ToggleSmooth</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Smooth Terrain
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Tăng kích cỡ bút vẽ
+      &lt;tap&gt; Làm mượt địa hình
     </touch>
-    <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom>
+    <!-- <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom> -->
+    <touchBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainSpikeyHilly_ToggleHilly</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Make Hilly
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Tạo địa hình đồi núi
     </touch>
-    <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom>
+    <!-- <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom> -->
+    <touchBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditTerrainSpikeyHilly_ToggleSpikey</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Make Spikey
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Tạo địa hình lởm chởm
     </touch>
-    <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom>
+    <!-- <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom> -->
+    <touchBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</touchBottom>
   </overlay>
-  
-
   <overlay>
     <id>MouseEditWaterRaiseLower</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Raise Water
       &lt;middlemouse&gt; Change Water Color
       &lt;rightmouse&gt; Lower Water
@@ -638,41 +939,65 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Water Tool: Add, Remove, or Tint Water</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Nâng mực nước
+      &lt;middlemouse&gt; Thay đổi màu nước
+      &lt;rightmouse&gt; Hạ mực nước
 
-    <touch>
+      HelpLevelMid
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Water Tool: Add, Remove, or Tint Water</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ nước: Thêm, bớt, hoặc đổi màu nước</keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Move Brush
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Di chuyển bút vẽ
     </touch>
-    <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom>
+    <!-- <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom> -->
+    <touchBottom>Công cụ nước: Thêm, bớt, hoặc đổi màu nước</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditWaterRaiseLower_ToggleRaise</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Raise Water
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Nâng mực nước
     </touch>
-    <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom>
+    <touchBottom>Công cụ nước: Thêm, bớt, hoặc đổi màu nước</touchBottom>
   </overlay>
-  
   <overlay>
     <id>MouseEditWaterRaiseLower_ToggleLower</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Lower Water
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Hạ mực nước
     </touch>
-    <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom>
+    <!-- <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom> -->
+    <touchBottom>Công cụ nước: Thêm, bớt, hoặc đổi màu nước</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditDeleteObjects</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Delete
       &lt;rightmouse&gt; Nothing here, move along.
 
@@ -683,578 +1008,883 @@
       [Space] Move Camera
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Delete Tool: Use a Brush to Clear Objects</keyMouseBottom>
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Xoá
+      &lt;rightmouse&gt; Không làm gì cả
 
-    <touch>
+      [leftarrow][rightarrow] Thay đổi kích cỡ bút vẽ
+
+      HelpLevelMid
+      [F3] Bật/tắt khoá vào lưới
+      [Space] Di chuyển camera
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Delete Tool: Use a Brush to Clear Objects</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ xoá: Dùng một bút vẽ để xoá vật thể </keyMouseBottom>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Move Brush
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Di chuyển bút vẽ
     </touch>
-    <touchBottom>Delete Tool: Use a Brush to Clear Objects</touchBottom>
+    <!-- <keyMouseBottom>Delete Tool: Use a Brush to Clear Objects</keyMouseBottom> -->
+    <touchBottom>Công cụ xoá: Dùng một bút vẽ để xoá vật thể</touchBottom>
   </overlay>
-
   <overlay>
     <id>MouseEditDeleteObjects_Deleting</id>
-    <touch>
+    <!-- <touch>
       &lt;brushBigger&gt; Increase Brush Size
       &lt;brushSmaller&gt; Decrease Brush Size
       &lt;tap&gt; Delete Objects
+    </touch> -->
+    <touch>
+      &lt;brushBigger&gt; Tăng kích cỡ bút vẽ
+      &lt;brushSmaller&gt; Giảm kích cỡ bút vẽ
+      &lt;tap&gt; Xoá vật thể
     </touch>
-    <touchBottom>Delete Tool: Use a Brush to Clear Objects</touchBottom>
+    <!-- <touchBottom>Delete Tool: Use a Brush to Clear Objects</touchBottom> -->
+    <touchBottom>Công cụ xoá: Dùng một bút vẽ để xoá vật thể</touchBottom>
   </overlay>
-  
-
   <overlay>
     <id>MouseEditWorldTweak</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       Change World Settings
 
       HelpLevelMid
       [Home] Home Menu
       [Esc] Run
-    </keyMouse>
-    <keyMouseBottom>Change World Settings</keyMouseBottom>
-    <touchBottom>Change World Settings</touchBottom>
-  </overlay>
+    </keyMouse> -->
+    <keyMouse>
+      Thay đổi cài đặt thế giới
 
+      HelpLevelMid
+      [Home] Menu chính
+      [Esc] Chạy trò chơi
+    </keyMouse>
+    <!-- <keyMouseBottom>Change World Settings</keyMouseBottom> -->
+    <keyMouseBottom>Thay đổi cài đặt thế giới</keyMouseBottom>
+    <!-- <touchBottom>Change World Settings</touchBottom> -->
+    <touchBottom>Thay đổi cài đặt thế giới</touchBottom>
+  </overlay>
   <overlay>
     <id>MouseEditSlider</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Value
       [Esc] Accept
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Thay đổi giá trị
+      [Esc] Chấp nhận thay đổi
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>ToolMenu</id>
     <!-- Placeholder, should not be seen. -->
-    <back>Run Game</back>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <back>Run Game</back> -->
+    <back>Chơi trò chơi</back>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Lựa chọn công cụ</a>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Thu nhỏ</rightShoulder>
+    <bottom/>
   </overlay>
-
   <overlay>
     <id>ToolMenuRunSim</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Play Game</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Play Game</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chơi trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Play Game</a> -->
+    <a>Chơi trò chơi</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Play Game</bottom> -->
+    <bottom>Chơi trò chơi</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       HelpLevelMid
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      HelpLevelMid
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Play Game</keyMouseBottom>
-    <touchBottom>Play Game</touchBottom>
+    <!-- <keyMouseBottom>Play Game</keyMouseBottom> -->
+    <keyMouseBottom>Chơi trò chơi</keyMouseBottom>
+    <!-- <touchBottom>Play Game</touchBottom> -->
+    <touchBottom>Chơi trò chơi</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuHomeMenu</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Home Menu</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Home Menu</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Home Menu</a> -->
+    <a>Menu chính</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trò</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Di chuyển camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Home Menu</bottom> -->
+    <bottom>Menu chính</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       HelpLevelMid
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      HelpLevelMid
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Play Game</keyMouseBottom>
-    <touchBottom>Play Game</touchBottom>
+    <!-- <keyMouseBottom>Play Game</keyMouseBottom> -->
+    <keyMouseBottom>Chơi trò chơi</keyMouseBottom>
+    <!-- <touchBottom>Play Game</touchBottom> -->
+    <touchBottom>Chạy trò chơi</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuObjectEdit</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Object Tool: Add or Edit Characters and Objects</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Object Tool: Add or Edit Characters and Objects</bottom> -->
+    <bottom>Công cụ vật thể: Thêm hoặc bớt nhân vật hoặc vật thể</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom>
-
-    <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom>
+    <!-- <keyMouseBottom>Object Tool: Add or Edit Characters and Objects</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ vật thể: Thêm hoặc bớt nhân vật hoặc vật thể</keyMouseBottom>
+    <!-- <touchBottom>Object Tool: Add or Edit Characters and Objects</touchBottom> -->
+    <touchBottom>Công cụ vật thể: Thêm hoặc bớt nhân vật hoặc vật thể</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuDeleteObjects</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Delete Tool: Use a Brush to Clear Objects</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Delete Tool: Use a Brush to Clear Objects</bottom> -->
+    <bottom>Công cụ xoá: Sử dụng một bút vẽ để xoá các vật thể</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Delete Tool: Use a Brush to Clear Objects</keyMouseBottom>
-
-    <touchBottom>Delete Tool: Use a Brush to Clear Objects</touchBottom>
+    <!-- <keyMouseBottom>Delete Tool: Use a Brush to Clear Objects</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ xoá: Sử dụng một bút vẽ để xoá các vật thể</keyMouseBottom>
+    <!-- <touchBottom>Delete Tool: Use a Brush to Clear Objects</touchBottom> -->
+    <touchBottom>Công cụ xoá: Sử dụng một bút vẽ để xoá các vật thể</touchBottom>
   </overlay>
-  
   <overlay>
     <id>ToolMenuTerrainSmoothLevel</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Flatten: Make Ground Smooth or Level</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Flatten: Make Ground Smooth or Level</bottom> -->
+    <bottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Flatten: Make Ground Smooth or Level</keyMouseBottom>
-
-    <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom>
-
+    <!-- <keyMouseBottom>Flatten: Make Ground Smooth or Level</keyMouseBottom> -->
+    <keyMouseBottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</keyMouseBottom>
+    <!-- <touchBottom>Flatten: Make Ground Smooth or Level</touchBottom> -->
+    <touchBottom>Làm phẳng: Làm địa hình trở nên mượt hoặc bằng phẳng</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuTerrainMaterial</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Ground Brush: add and remove ground</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Ground Brush: add and remove ground</bottom> -->
+    <bottom>Bút vẽ địa hình: Thêm và bớt địa hình</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Ground Brush: Paint, Add, or Delete Ground</keyMouseBottom>
-
-    <touchBottom>Ground Brush: Paint, Add, or Delete Ground</touchBottom>
-
+    <!-- <keyMouseBottom>Ground Brush: Paint, Add, or Delete Ground</keyMouseBottom> -->
+    <keyMouseBottom>Bút vẽ địa hình: Thêm và bớt địa hình</keyMouseBottom>
+    <!-- <touchBottom>Ground Brush: Paint, Add, or Delete Ground</touchBottom> -->
+    <touchBottom>Bút vẽ địa hình: Thêm và bớt địa hình</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuTerrainSpikeyHilly</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Roughen: Create Spikey or Hilly Ground</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Bắt đầu trò chơi</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Roughen: Create Spikey or Hilly Ground</bottom> -->
+    <bottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Roughen: Create Spikey or Hilly Ground</keyMouseBottom>
-
-    <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom>
-
+    <!-- <keyMouseBottom>Roughen: Create Spikey or Hilly Ground</keyMouseBottom> -->
+    <keyMouseBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</keyMouseBottom>
+    <!-- <touchBottom>Roughen: Create Spikey or Hilly Ground</touchBottom> -->
+    <touchBottom>Làm gồ ghề: Tạo địa hình lởm chởm hoặc đồi núi</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuTerrainUpDown</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Up/Down: Create Hills or Valleys</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Lựa chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Up/Down: Create Hills or Valleys</bottom> -->
+    <bottom>Nâng/Hạ: Tạo đồi núi hay thung lũng</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Up/Down: Create Hills or Valleys</keyMouseBottom>
-
-    <touchBottom>Up/Down: Create Hills or Valleys</touchBottom>
-
+    <!-- <keyMouseBottom>Up/Down: Create Hills or Valleys</keyMouseBottom> -->
+    <keyMouseBottom>Nâng/Hạ: Tạo đồi núi hay thung lũng</keyMouseBottom>
+    <!-- <touchBottom>Up/Down: Create Hills or Valleys</touchBottom> -->
+    <touchBottom>Nâng/Hạ: Tạo đồi núi hay thung lũng</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuTerrainWater</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Water Tool: Add, Remove, or Tint Water</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Lựa chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Water Tool: Add, Remove, or Tint Water</bottom> -->
+    <bottom>Công cụ nước: Thêm, bớt, đổi màu nước</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy trò chơi
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Water Tool: Add, Remove, or Tint Water</keyMouseBottom>
-
-    <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom>
-
+    <!-- <keyMouseBottom>Water Tool: Add, Remove, or Tint Water</keyMouseBottom> -->
+    <keyMouseBottom>Công cụ nước: Thêm, bớt, đổi màu nước</keyMouseBottom>
+    <!-- <touchBottom>Water Tool: Add, Remove, or Tint Water</touchBottom> -->
+    <touchBottom>Công cụ nước: Thêm, bớt, đổi màu nước</touchBottom>
   </overlay>
   <overlay>
     <id>ToolMenuWorldSettings</id>
-    <back>Run Game</back>
-    <start>Home Menu</start>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select Tool</a>
-    <leftStick mid = "false">Move Cursor</leftStick>
-    <rightStick mid = "false">Orbit Camera</rightStick>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-    <leftShoulder mid = "false">Zoom Out</leftShoulder>
-    <rightShoulder mid = "false">Zoom In</rightShoulder>
-    <bottom>Change World Settings</bottom>
-
-    <keyMouse>
+    <!-- <back>Run Game</back> -->
+    <back>Chạy trò chơi</back>
+    <!-- <start>Home Menu</start> -->
+    <start>Menu chính</start>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select Tool</a> -->
+    <a>Chọn công cụ</a>
+    <!-- <leftStick mid = "false">Move Cursor</leftStick> -->
+    <leftStick mid="false">Di chuyển con trỏ</leftStick>
+    <!-- <rightStick mid = "false">Orbit Camera</rightStick> -->
+    <rightStick mid="false">Quay camera</rightStick>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <leftShoulder mid = "false">Zoom Out</leftShoulder> -->
+    <leftShoulder mid="false">Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder mid = "false">Zoom In</rightShoulder> -->
+    <rightShoulder mid="false">Phóng to</rightShoulder>
+    <!-- <bottom>Change World Settings</bottom> -->
+    <bottom>Thay đổi cài đặt thế giới</bottom>
+    <!-- <keyMouse>
       [Esc] Run
       [Home] Home Menu
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
+    </keyMouse> -->
+    <keyMouse>
+      [Esc] Chạy
+      [Home] Menu chính
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
     </keyMouse>
-    <keyMouseBottom>Change World Settings</keyMouseBottom>
-
-    <touchBottom>Change World Settings</touchBottom>
-
+    <!-- <keyMouseBottom>Change World Settings</keyMouseBottom> -->
+    <keyMouseBottom>Thay đổi cài đặt thế giới</keyMouseBottom>
+    <!-- <touchBottom>Change World Settings</touchBottom> -->
+    <touchBottom>Thay đổi cài đặt thế giới</touchBottom>
   </overlay>
-
   <overlay>
     <id>BrushPickerSquare</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Square brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Square brush</bottom> -->
+    <bottom>Bút vuông</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Square brush</keyMouseBottom>
-
-    <touchBottom>Square brush</touchBottom>
-
+    <keyMouseBottom>Bút vuông</keyMouseBottom>
+    <touchBottom>Bút vuông</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerSquareLinear</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Linear square brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Linear square brush</bottom> -->
+    <bottom>Bút kẻ đầu vuông</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Linear square brush</keyMouseBottom>
-
-    <touchBottom>Linear square brush</touchBottom>
+    <!-- <keyMouseBottom>Linear square brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút kẻ đầu vuông</keyMouseBottom>
+    <!-- <touchBottom>Linear square brush</touchBottom> -->
+    <touchBottom>Bút kẻ đầu vuông</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerHardRound</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Hard round brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Hard round brush</bottom> -->
+    <bottom>Bút tròn cứng</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Hard round brush</keyMouseBottom>
-
-    <touchBottom>Hard round brush</touchBottom>
+    <!-- <keyMouseBottom>Hard round brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút tròn cứng</keyMouseBottom>
+    <!-- <touchBottom>Hard round brush</touchBottom> -->
+    <touchBottom>Bút tròn cứng</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerMediumRound</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Medium round brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Medium round brush</bottom> -->
+    <bottom>Bút tròn cứng vừa</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Medium round brush</keyMouseBottom>
-
-    <touchBottom>Medium round brush</touchBottom>
-
+    <!-- <keyMouseBottom>Medium round brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút tròn cứng vừa</keyMouseBottom>
+    <!-- <touchBottom>Medium round brush</touchBottom> -->
+    <touchBottom>Bút tròn cứng vừa</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerSoftRound</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Soft round brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Soft round brush</bottom> -->
+    <bottom>Bút tròn mềm</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Soft round brush</keyMouseBottom>
-
-    <touchBottom>Soft round brush</touchBottom>
-
+    <!-- <keyMouseBottom>Soft round brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút tròn mềm</keyMouseBottom>
+    <!-- <touchBottom>Soft round brush</touchBottom> -->
+    <touchBottom>Bút tròn mềm</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerHardRoundLinear</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Linear hard round brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Linear hard round brush</bottom> -->
+    <bottom>Bút kẻ đầu tròn cứng</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Linear hard round brush</keyMouseBottom>
-
-    <touchBottom>Linear hard round brush</touchBottom>
-
+    <!-- <keyMouseBottom>Linear hard round brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút kẻ đầu tròn cứng</keyMouseBottom>
+    <!-- <touchBottom>Linear hard round brush</touchBottom> -->
+    <touchBottom>Bút kẻ đầu tròn cứng</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerMediumRoundLinear</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Linear medium round brush</bottom>
-
-    <keyMouse>
-      [Y] Accept and Switch to Material Picker
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Linear medium round brush</bottom> -->
+    <bottom>Bút kẻ đầu tròn cứng vừa</bottom>
+    <!-- <keyMouse>
+      [Y] Accept and Swditch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Linear medium round brush</keyMouseBottom>
-
-    <touchBottom>Linear medium round brush</touchBottom>
-
+    <!-- <keyMouseBottom>Linear medium round brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút kẻ đầu tròn cứng vừa</keyMouseBottom>
+    <!-- <touchBottom>Linear medium round brush</touchBottom> -->
+    <touchBottom>Bút kẻ đầu tròn cứng vừa</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerSoftRoundLinear</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Linear soft round brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Linear soft round brush</bottom> -->
+    <bottom>Bút kẻ đầu tròn mềm</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Linear soft round brush</keyMouseBottom>
-
-    <touchBottom>Linear soft round brush</touchBottom>
-
+    <!-- <keyMouseBottom>Linear soft round brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút kẻ đầu tròn mềm</keyMouseBottom>
+    <!-- <touchBottom>Linear soft round brush</touchBottom> -->
+    <touchBottom>Bút kẻ đầu tròn mềm</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerMottled</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Mottled brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Mottled brush</bottom> -->
+    <bottom>Bút đầu lấm chấm</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Mottled brush</keyMouseBottom>
-
-    <touchBottom>Mottled brush</touchBottom>
-
+    <!-- <keyMouseBottom>Mottled brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút đầu lấm chấm</keyMouseBottom>
+    <!-- <touchBottom>Mottled brush</touchBottom> -->
+    <touchBottom>Bút đầu lấm chấm</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerMottledLinear</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Linear mottled brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Linear mottled brush</bottom> -->
+    <bottom>Bút kẻ đầu lấm chấm</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Linear mottled brush</keyMouseBottom>
-
-    <touchBottom>Linear mottled brush</touchBottom>
-
+    <!-- <keyMouseBottom>Linear mottled brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút kẻ đầu lấm chấm</keyMouseBottom>
+    <!-- <touchBottom>Linear mottled brush</touchBottom> -->
+    <touchBottom>Bút kẻ đầu lấm chấm</touchBottom>
   </overlay>
   <overlay>
     <id>BrushPickerMagic</id>
-    <y>Accept and Switch to Material Picker</y>
-    <b>Cancel</b>
-    <a>Select brush</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Magic brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Select brush</a> -->
+    <a>Chọn bút</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Magic brush</bottom> -->
+    <bottom>Bút ma thuật</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
-    <keyMouseBottom>Magic brush</keyMouseBottom>
-
-    <touchBottom>Magic brush</touchBottom>
-
+    <!-- <keyMouseBottom>Magic brush</keyMouseBottom> -->
+    <keyMouseBottom>Bút ma thuật</keyMouseBottom>
+    <!-- <touchBottom>Magic brush</touchBottom> -->
+    <touchBottom>Bút ma thuật</touchBottom>
   </overlay>
-
   <overlay>
     <id>CameraSetMode</id>
-    <a>Accept</a>
-    <bottom>Move the camera to the position you want, then press &lt;A&gt;</bottom>
-
-    <keyMouse>
+    <!-- <a>Accept</a> -->
+    <a>Chấp nhận</a>
+    <!-- <bottom>Move the camera to the position you want, then press &lt;A&gt;</bottom> -->
+    <bottom>Di chuyển camera đến vị trí bạn muốn, rồi bấm &lt;A&gt;</bottom>
+    <!-- <keyMouse>
       [Enter] Accept
       &lt;leftmouse&gt; Move Camera
       &lt;rightmouse&gt; Orbit Camera
       [PgUp][PgDn] Zoom In/Out
+    </keyMouse> -->
+    <keyMouse>
+      [Enter] Chấp nhận
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
     </keyMouse>
-    <keyMouseBottom>Move the camera to the position you want, then press [Enter]</keyMouseBottom>
-
-    <touch>
+    <!-- <keyMouseBottom>Move the camera to the position you want, then press [Enter]</keyMouseBottom> -->
+    <keyMouseBottom>Di chuyển camera đến vị trí bạn muốn, rồi bấm [Enter]</keyMouseBottom>
+    <!-- <touch>
       &lt;doubleDrag&gt; Drag Terrain
       &lt;drag&gt; Pitch Camera
       &lt;rotate&gt; Orbit Camera
       &lt;pinch&gt; Zoom
+    </touch> -->
+    <touch>
+      &lt;doubleDrag&gt; Di chuyển địa hình
+      &lt;drag&gt; Quay góc camera
+      &lt;rotate&gt; Quay camera
+      &lt;pinch&gt; Phóng to/Thu nhỏ
     </touch>
-
-    <touchBottom>Move the camera to the position you want, then tap here.</touchBottom>
-
+    <!-- <touchBottom>Move the camera to the position you want, then tap here.</touchBottom> -->
+    <touchBottom>Di chuyển camera đến vị trí bạn muốn, rồi chạm vào đây</touchBottom>
   </overlay>
-
   <!--Object edit permutations-->
   <overlay>
     <!-- Nothing selected, nothing moused, something in the clipboard-->
     <id>ObjectEdit</id>
-    <y></y>
-    <x></x>
-    <b>Tool Menu</b>
-    <a>Add</a>
-
-    <leftTrigger ghosted = "true">Cut</leftTrigger>
-    <rightTrigger ghosted = "false">Paste</rightTrigger>
-
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <x/>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Add</a> -->
+    <a>Thêm vào</a>
+    <!-- <leftTrigger ghosted = "true">Cut</leftTrigger> -->
+    <leftTrigger ghosted="true">Cắt</leftTrigger>
+    <!-- <rightTrigger ghosted = "false">Paste</rightTrigger> -->
+    <rightTrigger ghosted="false">Dán</rightTrigger>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Alt]+&lt;leftmouse&gt; Paste
       [Space]+&lt;leftmouse&gt; Add
 
@@ -1263,27 +1893,41 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [Alt]+&lt;leftmouse&gt; Dán 
+      [Space]+&lt;leftmouse&gt; Thêm vào
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <!-- Nothing selected, nothing moused, nothing in the clipboard-->
     <id>ObjectEditEmptyClipboard</id>
-    <y></y>
-    <x></x>
-    <b>Tool Menu</b>
-    <a>Add</a>
-
-    <leftTrigger ghosted = "true">Cut</leftTrigger>
-    <rightTrigger ghosted = "true">Paste</rightTrigger>
-
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <x/>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Add</a> -->
+    <a>Thêm vào</a>
+    <!-- <leftTrigger ghosted = "true">Cut</leftTrigger> -->
+    <leftTrigger ghosted="true">Cắt</leftTrigger>
+    <!-- <rightTrigger ghosted = "true">Paste</rightTrigger> -->
+    <rightTrigger ghosted="true">Dán</rightTrigger>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Space]+&lt;leftmouse&gt; Add
 
       &lt;leftmouse&gt; Move Camera
@@ -1291,106 +1935,166 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [Space]+&lt;leftmouse&gt; Thêm
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <!-- Something selected (picked up, red), nothing moused.
     Selected thing isn't programmable. This never happens any more, since everything except the cursor
     and waypoints (handled elsewhere) is programmable.
     -->
     <id>ObjectEditSelected</id>
-    <y></y>
-    <x>Settings</x>
-    <a>Put Here</a>
-    <leftTrigger>Cut</leftTrigger>
-    <rightTrigger>Clone</rightTrigger>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <dpadVertical>Move Up/Down</dpadVertical>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <y/>
+    <!-- <x>Settings</x> -->
+    <x>Cài đặt</x>
+    <!-- <a>Put Here</a> -->
+    <a>Đặt vào đây</a>
+    <!-- <leftTrigger>Cut</leftTrigger> -->
+    <leftTrigger>Cắt</leftTrigger>
+    <!-- <rightTrigger>Clone</rightTrigger> -->
+    <rightTrigger>Nhân đôi</rightTrigger>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <dpadVertical>Move Up/Down</dpadVertical> -->
+    <dpadVertical>Di chuyển Lên/Xuống</dpadVertical>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
-
   <overlay>
     <!-- Something selected (picked up, red), nothing moused. Selected thing is a gameactor.-->
     <id>ObjectEditSelectedProgrammable</id>
-    <y>Program</y>
-    <x>Settings</x>
-    <a>Put Here</a>
-    <leftTrigger>Cut</leftTrigger>
-    <rightTrigger>Clone</rightTrigger>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <dpadVertical>Move Up/Down</dpadVertical>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Program</y> -->
+    <y>Lập trình</y>
+    <!-- <x>Settings</x> -->
+    <x>Cài đặt</x>
+    <!-- <a>Put Here</a> -->
+    <a>Đặt ở đây</a>
+    <!-- <leftTrigger>Cut</leftTrigger> -->
+    <leftTrigger>Cắt</leftTrigger>
+    <!-- <rightTrigger>Clone</rightTrigger> -->
+    <rightTrigger>Nhân đôi</rightTrigger>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <dpadVertical>Move Up/Down</dpadVertical> -->
+    <dpadVertical>Di chuyển Lên/Xuống</dpadVertical>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
-
   <overlay>
     <!-- Something cursored (not picked up, blue), nothing moused. Cursored thing is not a gameactor.
     This isn't useful anymore, since everything is programmable except the cursor and
     waypoints (handled elsewhere)
     -->
     <id>ObjectEditFocus</id>
-    <y></y>
-    <x>Settings</x>
-    <b>Tool Menu</b>
-    <a>Pick Up</a>
-    <leftTrigger>Cut</leftTrigger>
-    <rightTrigger>Clone</rightTrigger>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <dpadVertical>Change Size</dpadVertical>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <y/>
+    <!-- <x>Settings</x> -->
+    <x>Cài đặt</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Pick Up</a> -->
+    <a>Nhặt lên</a>
+    <!-- <leftTrigger>Cut</leftTrigger> -->
+    <leftTrigger>Cắt</leftTrigger>
+    <!-- <rightTrigger>Clone</rightTrigger> -->
+    <rightTrigger>Nhân đôi</rightTrigger>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <dpadVertical>Change Size</dpadVertical> -->
+    <dpadVertical>Thay đổi kích cỡ</dpadVertical>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <!-- GameActor cursored (not picked up, blue), nothing moused.-->
     <id>ObjectEditFocusProgrammable</id>
-    <y>Program</y>
-    <x>Settings</x>
-    <b>Tool Menu</b>
-    <a>Pick Up</a>
-    <leftTrigger>Cut</leftTrigger>
-    <rightTrigger>Clone</rightTrigger>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <dpadVertical>Change Size</dpadVertical>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Program</y> -->
+    <y>Lập trình</y>
+    <!-- <x>Settings</x> -->
+    <x>Cài đặt</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Pick Up</a> -->
+    <a>Nhặt lên</a>
+    <!-- <leftTrigger>Cut</leftTrigger> -->
+    <leftTrigger>Cắt</leftTrigger>
+    <!-- <rightTrigger>Clone</rightTrigger> -->
+    <rightTrigger>Nhân bản</rightTrigger>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <dpadVertical>Change Size</dpadVertical> -->
+    <dpadVertical>Thay đổi kích cỡ</dpadVertical>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
-
   <!--And one for the trees-->
   <overlay>
     <!--A Tree is cursored (not picked up), nothing highlighted.-->
     <id>TreeEditFocusProgrammable</id>
-    <y>Program</y>
-    <x>Settings</x>
-    <b>Tool Menu</b>
-    <a>Pick Up</a>
-    <leftTrigger>Cut</leftTrigger>
-    <rightTrigger>Clone</rightTrigger>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <dpadVertical>Change Type</dpadVertical>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Program</y> -->
+    <y>Lập trình</y>
+    <!-- <x>Settings</x> -->
+    <x>Cài đặt</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Pick Up</a> -->
+    <a>Nhặt lên</a>
+    <!-- <leftTrigger>Cut</leftTrigger> -->
+    <leftTrigger>Cắt</leftTrigger>
+    <!-- <rightTrigger>Clone</rightTrigger> -->
+    <rightTrigger>Nhân bản</rightTrigger>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <dpadVertical>Change Type</dpadVertical> -->
+    <dpadVertical>Đổi loại</dpadVertical>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>ObjectEditMouseOver</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [Y] Program
       [X] Settings
       [leftarrow][rightarrow] Change Color
@@ -1408,12 +2112,30 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Lập trình
+      [X] Cài đặt
+      [leftarrow][rightarrow] Đổi màu
+      [uparrow][downarrow] Đổi cỡ
+
+      &lt;leftmouse&gt; Kéo
+      [Shift]+&lt;leftmouse&gt; Nâng/Hạ
+      [Shift]+&lt;rightmouse&gt; Xoay
+
+      [Space]+&lt;leftmouse&gt; Thêm vào
+      [Alt]+&lt;leftmouse&gt; Nhân đôi
+      [Ctrl]+&lt;leftmouse&gt; Cắt
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <overlay>
     <id>TreeEditMouseOver</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [Y] Program
       [X] Settings
       [leftarrow][rightarrow] Change Color
@@ -1432,83 +2154,134 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Lập trình
+      [X] Cài đặt
+      [leftarrow][rightarrow] Đổi màu
+      [uparrow][downarrow] Đổi kích cỡ
+      [Tab] Đổi loại
+
+      &lt;leftmouse&gt; Di chuyển
+      [Shift]+&lt;leftmouse&gt; Nâng/Hạ
+      [Shift]+&lt;rightmouse&gt; Xoay
+
+      [Space]+&lt;leftmouse&gt; Thêm vào
+      [Alt]+&lt;leftmouse&gt; Nhân đôi
+      [Ctrl]+&lt;leftmouse&gt; Cắt
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <!--End of the object edit permutations-->
-
   <overlay>
     <id>ObjectTweak</id>
-    <y></y>
-    <x></x>
-    <b>Tool Menu</b>
-    <a></a>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <a/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>ObjectTweakFocus</id>
-    <y></y>
-    <x></x>
-    <b>Tool Menu</b>
-    <a>Tweak Settings</a>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Tweak Settings</a> -->
+    <a>Điều chỉnh cài đặt</a>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi màu</dpadHorizontal>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>ObjectTweakFocusProgrammable</id>
-    <y>Program</y>
-    <x></x>
-    <b>Tool Menu</b>
-    <a>Tweak Settings</a>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Program</y> -->
+    <y>Lập trình</y>
+    <x/>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Tweak Settings</a> -->
+    <a>Điều chỉnh cài đặt</a>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi màu</dpadHorizontal>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
-
   <overlay>
     <id>TextDisplay</id>
-    <a>Continue</a>
+    <!-- <a>Continue</a> -->
+    <a>Tiếp tục</a>
   </overlay>
-
   <overlay>
     <id>ScrollableTextDisplay</id>
-    <a>Continue</a>
-    <leftStick>Scroll Text</leftStick>
+    <!-- <a>Continue</a> -->
+    <a>Tiếp tục</a>
+    <!-- <leftStick>Scroll Text</leftStick> -->
+    <leftStick>Cuộn dòng chữ</leftStick>
   </overlay>
-
   <overlay>
     <id>PieSelectorProgrammingNoSelection</id>
-    <b>Cancel</b>
-    <leftStick>Select Tile</leftStick>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <leftStick>Select Tile</leftStick> -->
+    <leftStick>Chọn ô</leftStick>
   </overlay>
   <overlay>
     <id>PieSelectorProgramming</id>
-    <a>Add Tile</a>
-    <b>Cancel</b>
-    <y>Help</y>
-    <leftStick>Select Item</leftStick>
+    <!-- <a>Add Tile</a> -->
+    <a>Thêm ô</a>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <y>Help</y> -->
+    <y>Trợ giúp</y>
+    <!-- <leftStick>Select Item</leftStick> -->
+    <leftStick>Chọn mục</leftStick>
   </overlay>
   <overlay>
     <id>PieSelectorAddItemNoSelection</id>
-    <b>Cancel</b>
-    <leftStick>Select Item</leftStick>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <leftStick>Select Item</leftStick> -->
+    <leftStick>Chọn mục</leftStick>
   </overlay>
   <overlay>
     <id>PieSelectorAddItem</id>
-    <a>Add Selection</a>
-    <b>Cancel</b>
-    <y>Help</y>
-    <leftStick>Select Item</leftStick>
+    <!-- <a>Add Selection</a> -->
+    <a>Thêm lựa chọn</a>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <y>Help</y> -->
+    <y>Trợ giúp</y>
+    <!-- <leftStick>Select Item</leftStick> -->
+    <leftStick>Chọn mục</leftStick>
   </overlay>
   <overlay>
     <id>HelpCardProgramming</id>
@@ -1516,74 +2289,97 @@
   <overlay>
     <id>HelpCardAddItem</id>
   </overlay>
-
   <overlay>
     <id>ToolBox</id>
     <!-- Placeholder, should not be seen. -->
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
   </overlay>
-
   <overlay>
     <id>BasePicker</id>
     <!-- Placeholder, should not be seen. -->
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
   </overlay>
   <overlay>
     <id>BrushPicker</id>
-    <y></y>
-    <x></x>
-
-    <b>Cancel</b>
-    <a>Accept</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Choose a Brush</bottom>
-
-    <keyMouse>
+    <y/>
+    <x/>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Accept</a> -->
+    <a>Chấp nhận</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Choose a Brush</bottom> -->
+    <bottom>Chọn một loại bút</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
   </overlay>
   <overlay>
     <id>BrushPickerMaterial</id>
     <!-- Placeholder, should not be seen. -->
-    <y>Accept and Switch to Material Picker</y>
-    <x></x>
-
-    <b>Cancel</b>
-    <a>Accept</a>
-    <leftTrigger>Previous Brush</leftTrigger>
-    <rightTrigger>Next Brush</rightTrigger>
-    <bottom>Choose a Brush</bottom>
-
-    <keyMouse>
+    <!-- <y>Accept and Switch to Material Picker</y> -->
+    <y>Chấp nhận và chuyển sang Bảng màu địa hình</y>
+    <x/>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Accept</a> -->
+    <a>Chấp nhận</a>
+    <!-- <leftTrigger>Previous Brush</leftTrigger> -->
+    <leftTrigger>Bút trước</leftTrigger>
+    <!-- <rightTrigger>Next Brush</rightTrigger> -->
+    <rightTrigger>Bút sau</rightTrigger>
+    <!-- <bottom>Choose a Brush</bottom> -->
+    <bottom>Chọn một loại bút</bottom>
+    <!-- <keyMouse>
       [Y] Accept and Switch to Material Picker
       [leftarrow][rightarrow] Change Brush
       [Enter] Select brush
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chấp nhận và chuyển sang Bảng màu địa hình
+      [leftarrow][rightarrow] Đổi bút
+      [Enter] Chọn bút
     </keyMouse>
   </overlay>
   <overlay>
     <id>MaterialPicker</id>
-    <y>Select Material Under Cursor</y>
-    <x>Accept and Switch to Brush Picker</x>
-    <b>Cancel</b>
-    <a>Accept</a>
-    <dpadUp>Style: Cubic</dpadUp>
-    <dpadDown>Style: Smooth</dpadDown>
-    <leftTrigger>Previous Material</leftTrigger>
-    <rightTrigger>Next Material</rightTrigger>
-    <bottom>Choose a Material</bottom>
-
-    <keyMouse>
+    <!-- <y>Select Material Under Cursor</y> -->
+    <y>Chọn màu địa hình dưới con trỏ</y>
+    <!-- <x>Accept and Switch to Brush Picker</x> -->
+    <x>Chấp nhận và chuyển sang Bảng loại bút</x>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Accept</a> -->
+    <a>Chấp nhận</a>
+    <!-- <dpadUp>Style: Cubic</dpadUp> -->
+    <dpadUp>Kiểu: Khối</dpadUp>
+    <!-- <dpadDown>Style: Smooth</dpadDown> -->
+    <dpadDown>Kiểu: Mượt</dpadDown>
+    <!-- <leftTrigger>Previous Material</leftTrigger> -->
+    <leftTrigger>Màu địa hình trước</leftTrigger>
+    <!-- <rightTrigger>Next Material</rightTrigger> -->
+    <rightTrigger>Màu địa hình sau</rightTrigger>
+    <!-- <bottom>Choose a Material</bottom> -->
+    <bottom>Chọn một màu địa hình</bottom>
+    <!-- <keyMouse>
       [X] Accept and Switch to Brush Picker
       [leftarrow][rightarrow] Change Material
       [uparrow] Style: Cubic
@@ -1591,57 +2387,91 @@
       [Enter] Select Material
       &lt;leftmouse&gt; Select Material Under Cursor
       [Alt] + &lt;leftmouse&gt;  Select Material from World
+    </keyMouse> -->
+    <keyMouse>
+      [X] Chấp nhận và chuyển sang Bảng loại bút
+      [leftarrow][rightarrow] Đổi màu
+      [uparrow] Kiểu: Khối
+      [downarrow] Kiểu: Mượt
+      [Enter] Chọn màu
+      &lt;leftmouse&gt; Chọn màu địa hình ở dưới con trỏ
+      [Alt] + &lt;leftmouse&gt;  Chọn màu địa hình ở trong Thế giới
     </keyMouse>
   </overlay>
   <overlay>
     <id>MaterialFilterPicker</id>
-    <y>Select Material Under Bot</y>
-    <x></x>
-    <b>Cancel</b>
-    <a>Accept</a>
-    <leftTrigger>Previous Material</leftTrigger>
-    <rightTrigger>Next Material</rightTrigger>
-    <bottom>Choose a Material</bottom>
-
-    <keyMouse>
+    <!-- <y>Select Material Under Bot</y> -->
+    <y>Chọn màu địa hình dưới nhân vật</y>
+    <x/>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Accept</a> -->
+    <a>Chấp nhận</a>
+    <!-- <leftTrigger>Previous Material</leftTrigger> -->
+    <leftTrigger>Màu trước</leftTrigger>
+    <!-- <rightTrigger>Next Material</rightTrigger> -->
+    <rightTrigger>Màu sau</rightTrigger>
+    <!-- <bottom>Choose a Material</bottom> -->
+    <bottom>Chọn một màu địa hình</bottom>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Material
       [Enter] Select Material
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi màu
+      [Enter] Chọn màu
     </keyMouse>
   </overlay>
   <overlay>
     <id>WaterPicker</id>
-    <y>Select Water At Cursor</y>
-    <x></x>
-    <leftTrigger>Previous Water</leftTrigger>
-    <rightTrigger>Next Water</rightTrigger>
-
-    <b>Cancel</b>
-    <a>Accept</a>
-    <bottom>Choose a Water Type</bottom>
-
-    <keyMouse>
+    <!-- <y>Select Water At Cursor</y> -->
+    <y>Chọn loại nước ở dưới con trỏ</y>
+    <x/>
+    <!-- <leftTrigger>Previous Water</leftTrigger> -->
+    <leftTrigger>Loại nước trước</leftTrigger>
+    <!-- <rightTrigger>Next Water</rightTrigger> -->
+    <rightTrigger>Loại nước sau</rightTrigger>
+    <!-- <b>Cancel</b> -->
+    <b>Huỷ</b>
+    <!-- <a>Accept</a> -->
+    <a>Chấp nhận</a>
+    <!-- <bottom>Choose a Water Type</bottom> -->
+    <bottom>Chọn một loại nước</bottom>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Water Type
       [Enter] Select Water Type
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi loại nước
+      [Enter] Chọn loại nước
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>HeightMapTool</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Smooth</a>
-    <leftTrigger>Lower</leftTrigger>
-    <rightTrigger>Raise</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Chọn bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Smooth</a> -->
+    <a>Làm mượt</a>
+    <!-- <leftTrigger>Lower</leftTrigger> -->
+    <leftTrigger>Hạ</leftTrigger>
+    <!-- <rightTrigger>Raise</rightTrigger> -->
+    <rightTrigger>Nâng</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1654,26 +2484,48 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Hạ
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Nâng
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <overlay>
     <id>HeightMapToolStart</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Skip</b>
-    <a>Smooth</a>
-    <leftTrigger>Lower Ground</leftTrigger>
-    <rightTrigger>Raise Ground</rightTrigger>
-
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Skip</b> -->
+    <b>Bỏ qua</b>
+    <!-- <a>Smooth</a> -->
+    <a>Làm mượt</a>
+    <!-- <leftTrigger>Lower Ground</leftTrigger> -->
+    <leftTrigger>Hạ địa hình</leftTrigger>
+    <!-- <rightTrigger>Raise Ground</rightTrigger> -->
+    <rightTrigger>Nâng địa hình</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1686,26 +2538,48 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Skip Line
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Hạ 
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Nâng
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Bỏ qua
     </keyMouse>
   </overlay>
   <overlay>
     <id>HeightMapToolGoing</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Smooth</a>
-    <leftTrigger>Lower Ground</leftTrigger>
-    <rightTrigger>Raise Ground</rightTrigger>
-
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Smooth</a> -->
+    <a>Làm mượt</a>
+    <!-- <leftTrigger>Lower Ground</leftTrigger> -->
+    <leftTrigger>Hạ địa hình</leftTrigger>
+    <!-- <rightTrigger>Raise Ground</rightTrigger> -->
+    <rightTrigger>Nâng địa hình</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1718,27 +2592,49 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Hạ
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Nâng
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>AddTool</id>
-    <y>Material Picker</y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Change Ground Color</a>
-    <leftTrigger>Erase Ground</leftTrigger>
-    <rightTrigger>Add Ground</rightTrigger>
-
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Material Picker</y> -->
+    <y>Bảng màu địa hình</y>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Change Ground Color</a> -->
+    <a>Đổi màu nền địa hình</a>
+    <!-- <leftTrigger>Erase Ground</leftTrigger> -->
+    <leftTrigger>Xoá địa hình</leftTrigger>
+    <!-- <rightTrigger>Add Ground</rightTrigger> -->
+    <rightTrigger>Thêm địa hình</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay bút</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Y] Material Picker
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
@@ -1752,27 +2648,53 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Bảng màu địa hình
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Xoá địa hình
+      [Alt]+&lt;leftmouse&gt; Đổi màu địa hình
+      [Space]+&lt;leftmouse&gt; Thêm địa hình
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <overlay>
     <id>AddToolMagicBrush</id>
-    <y>Material Picker</y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Change Ground Color</a>
-    <leftTrigger>Erase Ground</leftTrigger>
-    <rightTrigger ghosted = "true">Add Ground</rightTrigger>
-
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <dpadUp>Style: Cubic</dpadUp>
-    <dpadDown>Style: Smooth</dpadDown>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Material Picker</y> -->
+    <y>Bảng màu địa hình</y>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Change Ground Color</a> -->
+    <a>Đổi màu địa hình</a>
+    <!-- <leftTrigger>Erase Ground</leftTrigger> -->
+    <leftTrigger>Xoá địa hình</leftTrigger>
+    <!-- <rightTrigger ghosted = "true">Add Ground</rightTrigger> -->
+    <rightTrigger ghosted="true">Thêm địa hình</rightTrigger>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <dpadUp>Style: Cubic</dpadUp> -->
+    <dpadUp>Kiểu: Khối</dpadUp>
+    <!-- <dpadDown>Style: Smooth</dpadDown> -->
+    <dpadDown>Kiểu: Mượt</dpadDown>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Y] Material Picker
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
@@ -1787,27 +2709,51 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
-    </keyMouse>
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Bảng màu địa hình
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+      [uparrow] Kiểu: Khối
+      [downarrow] Kiểu: Mượt
 
+      [Ctrl]+&lt;leftmouse&gt; Xoá địa hình
+      [Alt]+&lt;leftmouse&gt; Đổi màu địa hình
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
+    </keyMouse>
   </overlay>
   <overlay>
     <id>AddToolStart</id>
-    <y>Material Picker</y>
-    <x>Brush Picker</x>
-    <b>Skip</b>
-    <a>Change Material</a>
-    <leftTrigger>Erase</leftTrigger>
-    <rightTrigger>Add</rightTrigger>
-
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Material Picker</y> -->
+    <y>Bảng màu địa hình</y>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Skip</b> -->
+    <b>Bỏ qua</b>
+    <!-- <a>Change Material</a> -->
+    <a>Đổi màu địa hình</a>
+    <!-- <leftTrigger>Erase</leftTrigger> -->
+    <leftTrigger>Xoá</leftTrigger>
+    <!-- <rightTrigger>Add</rightTrigger> -->
+    <rightTrigger>Thêm vào</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Y] Material Picker
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
@@ -1821,25 +2767,50 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Skip Line
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Bảng màu địa hình
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Xoá địa hình
+      [Alt]+&lt;leftmouse&gt; Đổi màu địa hình
+      [Space]+&lt;leftmouse&gt; Thêm địa hình
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Bỏ qua dòng
     </keyMouse>
   </overlay>
   <overlay>
     <id>AddToolGoing</id>
-    <y>Material Picker</y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Change Material</a>
-    <leftTrigger>Erase</leftTrigger>
-    <rightTrigger>Add</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Material Picker</y> -->
+    <y>Bảng màu địa hình</y>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Change Material</a> -->
+    <a>Đổi màu địa hình</a>
+    <!-- <leftTrigger>Erase</leftTrigger> -->
+    <leftTrigger>Xoá</leftTrigger>
+    <!-- <rightTrigger>Add</rightTrigger> -->
+    <rightTrigger>Thêm</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Y] Material Picker
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
@@ -1853,26 +2824,49 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Bảng màu địa hình
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Bảng cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Xoá địa hình
+      [Alt]+&lt;leftmouse&gt; Đổi màu địa hình
+      [Space]+&lt;leftmouse&gt; Thêm địa hình
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>NoiseTool</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Smooth</a>
-    <leftTrigger>Spiky</leftTrigger>
-    <rightTrigger>Hilly</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Smooth</a> -->
+    <a>Làm mượt</a>
+    <!-- <leftTrigger>Spiky</leftTrigger> -->
+    <leftTrigger>Lởm chởm</leftTrigger>
+    <!-- <rightTrigger>Hilly</rightTrigger> -->
+    <rightTrigger>Đồi núi</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1885,25 +2879,48 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Đồi núi
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Lởm chởm
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <overlay>
     <id>NoiseToolStart</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Skip</b>
-    <a>Smooth</a>
-    <leftTrigger>Spiky</leftTrigger>
-    <rightTrigger>Hilly</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Skip</b> -->
+    <b>Bỏ qua</b>
+    <!-- <a>Smooth</a> -->
+    <a>Làm mượt</a>
+    <!-- <leftTrigger>Spiky</leftTrigger> -->
+    <leftTrigger>Lởm chởm</leftTrigger>
+    <!-- <rightTrigger>Hilly</rightTrigger> -->
+    <rightTrigger>Đồi núi</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1916,25 +2933,47 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Skip Line
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Đồi núi
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Lởm chởm
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Bỏ qua
     </keyMouse>
   </overlay>
   <overlay>
     <id>NoiseToolGoing</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Smooth</a>
-    <leftTrigger>Spiky</leftTrigger>
-    <rightTrigger>Hilly</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Smooth</a> -->
+    <a>Làm mượt</a>
+    <!-- <leftTrigger>Spiky</leftTrigger> -->
+    <leftTrigger>Lởm chởm</leftTrigger>
+    <!-- <rightTrigger>Hilly</rightTrigger> -->
+    <rightTrigger>Đồi núi</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1947,25 +2986,46 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Đồi núi
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Lởm chởm
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>LevelTool</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a></a>
-    <leftTrigger>Smooth</leftTrigger>
-    <rightTrigger>Level</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <a/>
+    <!-- <leftTrigger>Smooth</leftTrigger> -->
+    <leftTrigger>Làm mượt</leftTrigger>
+    <!-- <rightTrigger>Level</rightTrigger> -->
+    <rightTrigger>Làm phẳng</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -1977,26 +3037,48 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Alt]+&lt;leftmouse&gt; Làm mượt
+      [Space]+&lt;leftmouse&gt; Làm phẳng
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
-    <bottom></bottom>
+    <bottom/>
   </overlay>
   <overlay>
     <id>LevelToolStart</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <a>Pave Instantly</a>
-    <leftTrigger>Smooth</leftTrigger>
-    <rightTrigger>Pave Slowly</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Pave Instantly</a> -->
+    <a>Lát đường ngay lập tức</a>
+    <!-- <leftTrigger>Smooth</leftTrigger> -->
+    <leftTrigger>Làm mượt</leftTrigger>
+    <!-- <rightTrigger>Pave Slowly</rightTrigger> -->
+    <rightTrigger>Lát đường chậm rãi</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -2009,25 +3091,48 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Skip Line
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Làm mượt
+      [Alt]+&lt;leftmouse&gt; Lát đường ngay lập tức
+      [Space]+&lt;leftmouse&gt; Lát đường từ từ
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Bỏ qua
     </keyMouse>
   </overlay>
   <overlay>
     <id>LevelToolGoing</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Done</b>
-    <a>Pave Instantly</a>
-    <leftTrigger>Smooth</leftTrigger>
-    <rightTrigger>Pave Slowly</rightTrigger>
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Bảng loại bú</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Pave Instantly</a> -->
+    <a>Lát đường ngay lập tức</a>
+    <!-- <leftTrigger>Smooth</leftTrigger> -->
+    <leftTrigger>Làm mượt</leftTrigger>
+    <!-- <rightTrigger>Pave Slowly</rightTrigger> -->
+    <rightTrigger>Lát đường từ từ</rightTrigger>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Bảng kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -2040,27 +3145,47 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Bảng loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Làm mượt
+      [Alt]+&lt;leftmouse&gt; Lát đường ngay lập tức
+      [Space]+&lt;leftmouse&gt; Lát đường từ từ
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>WaterAdd</id>
-    <y>Pick Water Type</y>
-    <x></x>
-    <b>Tool Menu</b>
-    <a>Set Water Type</a>
-    <leftTrigger>Lower Water</leftTrigger>
-    <rightTrigger>Raise Water</rightTrigger>
-
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal></dpadHorizontal>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Pick Water Type</y> -->
+    <y>Chọn loại nước</y>
+    <x/>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <a>Set Water Type</a> -->
+    <a>Chọn loại nước</a>
+    <!-- <leftTrigger>Lower Water</leftTrigger> -->
+    <leftTrigger>Giảm mực nước</leftTrigger>
+    <!-- <rightTrigger>Raise Water</rightTrigger> -->
+    <rightTrigger>Tăng mực nước</rightTrigger>
+    <dpadVertical/>
+    <dpadHorizontal/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [Y] Pick Water Type
 
       [Ctrl]+&lt;leftmouse&gt; Lower Water
@@ -2073,27 +3198,47 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [Y] Chọn loại nước
+
+      [Ctrl]+&lt;leftmouse&gt; Giảm mực nước
+      [Alt]+&lt;leftmouse&gt; Chọn loại nước
+      [Space]+&lt;leftmouse&gt; Tăng mực nước
+
+      &lt;leftmouse&gt; Di chuyển con trỏ
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>DelObjTool</id>
-    <y></y>
-    <x>Brush Picker</x>
-    <b>Tool Menu</b>
-    <leftTrigger>Delete Objects</leftTrigger>
-    <rightTrigger>Delete Objects</rightTrigger>
-    <rightTrigger></rightTrigger>
-
-    <dpadVertical></dpadVertical>
-    <dpadHorizontal>Brush Size</dpadHorizontal>
-    <leftStick>Move Brush</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
-
-    <keyMouse>
+    <y/>
+    <!-- <x>Brush Picker</x> -->
+    <x>Chọn loại bút</x>
+    <!-- <b>Tool Menu</b> -->
+    <b>Menu công cụ</b>
+    <!-- <leftTrigger>Delete Objects</leftTrigger> -->
+    <leftTrigger>Xoá vật thể</leftTrigger>
+    <!-- <rightTrigger>Delete Objects</rightTrigger> -->
+    <rightTrigger>Xoá vật thể</rightTrigger>
+    <rightTrigger/>
+    <dpadVertical/>
+    <!-- <dpadHorizontal>Brush Size</dpadHorizontal> -->
+    <dpadHorizontal>Kích cỡ bút</dpadHorizontal>
+    <!-- <leftStick>Move Brush</leftStick> -->
+    <leftStick>Di chuyển bút</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
+    <!-- <keyMouse>
       [X] Brush Picker
       [leftarrow][rightarrow] Brush Size
 
@@ -2105,141 +3250,234 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool menu
+    </keyMouse> -->
+    <keyMouse>
+      [X] Chọn loại bút
+      [leftarrow][rightarrow] Kích cỡ bút
+
+      [Ctrl]+&lt;leftmouse&gt; Xoá
+      [Space]+&lt;leftmouse&gt; Xoá
+
+      &lt;leftmouse&gt; Di chuyển camera
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>EditWayPointNode</id>
-    <y>Add More Nodes</y>
-    <x>Select Whole Path</x>
-    <b>Done</b>
-    <a>Pick Up</a>
-    <dpadVertical>Change Type</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger>Delete Node</leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Add More Nodes</y> -->
+    <y>Thêm nút</y>
+    <!-- <x>Select Whole Path</x> -->
+    <x>Chọn toàn bộ đường đi</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Pick Up</a> -->
+    <a>Nhặt lên</a>
+    <!-- <dpadVertical>Change Type</dpadVertical> -->
+    <dpadVertical>Đổi loại đường</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <leftTrigger>Delete Node</leftTrigger> -->
+    <leftTrigger>Xoá nút</leftTrigger>
+    <rightTrigger/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointEdge</id>
-    <y>Change Direction</y>
-    <x>Select Whole Path</x>
-    <b>Done</b>
-    <a>Pick Up</a>
-    <dpadVertical>Change Type</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger>Delete Edge</leftTrigger>
-    <rightTrigger>Split Edge</rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Change Direction</y> -->
+    <y>Đổi hướng</y>
+    <!-- <x>Select Whole Path</x> -->
+    <x>Chọn toàn bộ đường</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Pick Up</a> -->
+    <a>Nhặt lên</a>
+    <!-- <dpadVertical>Change Type</dpadVertical> -->
+    <dpadVertical>Đổi loại đường</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <leftTrigger>Delete Edge</leftTrigger> -->
+    <leftTrigger>Xoá đoạn</leftTrigger>
+    <!-- <rightTrigger>Split Edge</rightTrigger> -->
+    <rightTrigger>Chia đoạn</rightTrigger>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointPath</id>
-    <y>Change Direction</y>
-    <x>Select Node/Edge</x>
-    <b>Done</b>
-    <a>Pick Up</a>
-    <dpadVertical>Change Type</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger>Delete Path</leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Change Direction</y> -->
+    <y>Đổi hướng</y>
+    <!-- <x>Select Node/Edge</x> -->
+    <x>Chọn Cạnh/Đường</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Pick Up</a> -->
+    <a>Nhặt lên</a>
+    <!-- <dpadVertical>Change Type</dpadVertical> -->
+    <dpadVertical>Đổi loại</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <leftTrigger>Delete Path</leftTrigger> -->
+    <leftTrigger>Xoá đường</leftTrigger>
+    <rightTrigger/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointMoveNode</id>
-    <y></y>
-    <x>Pick Up Whole Path</x>
-    <b>Done</b>
-    <a>Put Down</a>
-    <dpadVertical>Change Height</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger>Delete Node</leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <y/>
+    <!-- <x>Pick Up Whole Path</x> -->
+    <x>Nhặt lên toàn bộ đường</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Put Down</a> -->
+    <a>Hạ xuống</a>
+    <!-- <dpadVertical>Change Height</dpadVertical> -->
+    <dpadVertical>Thay đổi độ cao</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <leftTrigger>Delete Node</leftTrigger> -->
+    <leftTrigger>Xoá nút</leftTrigger>
+    <rightTrigger/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointMoveEdge</id>
-    <y>Change Direction</y>
-    <x>Pick Up Whole Path</x>
-    <b>Done</b>
-    <a>Put Down</a>
-    <dpadVertical>Change Height</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger>Delete Edge</leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Change Direction</y> -->
+    <y>Đổi hướng</y>
+    <!-- <x>Pick Up Whole Path</x> -->
+    <x>Nhặt lên toàn bộ đường</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Put Down</a> -->
+    <a>Bỏ xuống</a>
+    <!-- <dpadVertical>Change Height</dpadVertical> -->
+    <dpadVertical>Thay đổi độ cao</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <leftTrigger>Delete Edge</leftTrigger> -->
+    <leftTrigger>Xoá cạnh</leftTrigger>
+    <rightTrigger/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointMovePath</id>
-    <y>Change Direction</y>
-    <x>Select Node/Edge</x>
-    <b>Done</b>
-    <a>Put Down</a>
-    <dpadVertical>Change Height</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger>Delete Path</leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Change Direction</y> -->
+    <y>Thay đổi hướng</y>
+    <!-- <x>Select Node/Edge</x> -->
+    <x>Chọn Nút/Cạnh</x>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Put Down</a> -->
+    <a>Bỏ xuống</a>
+    <!-- <dpadVertical>Change Height</dpadVertical> -->
+    <dpadVertical>Thay đổi độ cao</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <!-- <leftTrigger>Delete Path</leftTrigger> -->
+    <leftTrigger>Thay đổi độ cao</leftTrigger>
+    <rightTrigger/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointAddNode</id>
-    <y>Put Node and Done</y>
-    <x></x>
-    <b>Done</b>
-    <a>Put Node</a>
-    <dpadVertical>Change Type</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger></leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>Move Cursor</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <!-- <y>Put Node and Done</y> -->
+    <y>Đặt nút và Xong</y>
+    <x/>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <a>Put Node</a> -->
+    <a>Đặt nút</a>
+    <!-- <dpadVertical>Change Type</dpadVertical> -->
+    <dpadVertical>Đổi loại</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <leftTrigger/>
+    <rightTrigger/>
+    <!-- <leftStick>Move Cursor</leftStick> -->
+    <leftStick>Di chuyển con trỏ</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointEndAddNode</id>
-    <y></y>
-    <x></x>
-    <b>Done</b>
-    <a></a>
-    <dpadVertical>Change Type</dpadVertical>
-    <dpadHorizontal>Change Color</dpadHorizontal>
-    <leftTrigger></leftTrigger>
-    <rightTrigger></rightTrigger>
-    <leftStick>New Position</leftStick>
-    <rightStick>Orbit Camera</rightStick>
-    <leftShoulder>Zoom Out</leftShoulder>
-    <rightShoulder>Zoom In</rightShoulder>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <a/>
+    <!-- <dpadVertical>Change Type</dpadVertical> -->
+    <dpadVertical>Đổi loại</dpadVertical>
+    <!-- <dpadHorizontal>Change Color</dpadHorizontal> -->
+    <dpadHorizontal>Đổi màu</dpadHorizontal>
+    <leftTrigger/>
+    <rightTrigger/>
+    <!-- <leftStick>New Position</leftStick> -->
+    <leftStick>Vị trí mới</leftStick>
+    <!-- <rightStick>Orbit Camera</rightStick> -->
+    <rightStick>Quay camera</rightStick>
+    <!-- <leftShoulder>Zoom Out</leftShoulder> -->
+    <leftShoulder>Thu nhỏ</leftShoulder>
+    <!-- <rightShoulder>Zoom In</rightShoulder> -->
+    <rightShoulder>Phóng to</rightShoulder>
+    <bottom/>
   </overlay>
   <overlay>
     <id>EditWayPointNodeFree</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Color
       [Tab] Change Type
 
@@ -2254,12 +3492,27 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi màu
+      [Tab] Đổi loại
+
+      &lt;leftmouse&gt; Di chuyển nút
+      [Shift]+&lt;leftmouse&gt; Nâng/Hạ nút
+      [X] Chế độ chỉnh sửa toàn bộ đường
+
+      [Space]+&lt;leftmouse&gt; Thêm nút
+      [Ctrl]+&lt;leftmouse&gt; Xoá nút
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <overlay>
     <id>EditWayPointEdgeFree</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Color
       [Tab] Change Type
 
@@ -2274,16 +3527,31 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi màu
+      [Tab] Đổi loại
+
+      &lt;leftmouse&gt; Kéo đoạn
+      [Shift]+&lt;leftmouse&gt; Nâng/Hạ đoạn
+      [X] Chế độ chỉnh sửa toàn bộ đường
+
+      [Space]+&lt;leftmouse&gt; Tách đoạn
+      [Ctrl]+&lt;leftmouse&gt; Xoá đoạn
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
   <overlay>
     <id>EditWayPointPathFree</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Color
       [Tab] Change Type
 
-      &lt;leftmouse&gt; Drag Path
+      &lt;leftmouse&gt; Drag Edge
       [Shift]+&lt;leftmouse&gt; Raise/Lower Path
       [X] Node/Edge Mode
 
@@ -2294,13 +3562,27 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Tool Menu
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi màu
+      [Tab] Đổi loại
+
+      &lt;leftmouse&gt; Di chuyển đường đi
+      [Shift]+&lt;leftmouse&gt; Nâng hạ đường đi
+      [X] Chế độ Nút/Cạnh
+
+      [Space]+&lt;leftmouse&gt; Thêm nút
+      [Ctrl]+&lt;leftmouse&gt; Xoá đường đi
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Menu công cụ
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>EditWayPointAddFree</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Color
       [Tab] Change Type
 
@@ -2311,12 +3593,23 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Done Adding
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Thay đổi màu sắc
+      [Tab] Đổi loại
+
+      &lt;leftmouse&gt; Thêm nút và tiếp tục
+      [Alt]+&lt;leftmouse&gt; Thêm nút và Xong
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Xong
     </keyMouse>
   </overlay>
   <overlay>
     <id>EditWayPointEndFree</id>
-
-    <keyMouse>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Color
       [Tab] Change Type
 
@@ -2326,116 +3619,161 @@
       [PgUp][PgDn] Zoom In/Out
 
       [Esc] Done Adding
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi màu
+      [Tab] Đổi loại
+
+      &lt;leftmouse&gt; Xong
+
+      &lt;rightmouse&gt; Quay camera
+      [PgUp][PgDn] Phóng to/Thu nhỏ
+
+      [Esc] Xong
     </keyMouse>
   </overlay>
-
   <overlay>
     <id>RunSimulation</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom mid = "false">Press <![CDATA[<back>]]> to edit.</bottom>
-
-    <keyMouseBottom>Press [Esc] to edit.</keyMouseBottom>
-    <touchBottom>Tap here to edit.</touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom mid="false">Press &lt;back&gt; to edit.</bottom> -->
+    <bottom mid="false">Bấm &lt;back&gt; để sửa trò chơi.</bottom>
+    <!-- <keyMouseBottom>Press [Esc] to edit.</keyMouseBottom> -->
+    <keyMouseBottom>Bấm [Esc] để sửa trò chơi.</keyMouseBottom>
+    <!-- <touchBottom>Tap here to edit.</touchBottom> -->
+    <touchBottom>Chạm vào đây để sửa trò chơi.</touchBottom>
   </overlay>
-
   <overlay>
     <id>RunSimulationPreGame</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom mid = "false">Press <![CDATA[<a>]]> to continue.</bottom>
-
-    <keyMouseBottom>Press [Enter] to continue.</keyMouseBottom>
-    <touchBottom>Tap here to continue.</touchBottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom mid="false">Press &lt;a&gt; to continue.</bottom> -->
+    <bottom mid="false">Bấm &lt;a&gt; để tiếp tục.</bottom>
+    <!-- <keyMouseBottom>Press [Enter] to continue.</keyMouseBottom> -->
+    <keyMouseBottom>Bấm [Enter] để tiếp tục.</keyMouseBottom>
+    <!-- <touchBottom>Tap here to continue.</touchBottom> -->
+    <touchBottom>Chạm vào đây để tiếp tục.</touchBottom>
   </overlay>
-
   <overlay>
     <id>PauseGame</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Resume</a>
-    <bottom>Game paused, press <![CDATA[<a>]]> to resume.</bottom>
-
-    <keyMouse>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Resume</a> -->
+    <a>Tiếp tục</a>
+    <!-- <bottom>Game paused, press &lt;a&gt; to resume.</bottom> -->
+    <bottom>Trò chơi đang tạm dừng, bấm &lt;a&gt; để tiếp tục.</bottom>
+    <!-- <keyMouse>
       [Pause] Resume
+    </keyMouse> -->
+    <keyMouse>
+      [Pause] Tiếp tục
     </keyMouse>
-
-    <keyMouseBottom>Game paused, press [Pause] to resume.</keyMouseBottom>
-    <touchBottom>Game paused, tap here to resume.</touchBottom>
+    <!-- <keyMouseBottom>Game paused, press [Pause] to resume.</keyMouseBottom> -->
+    <keyMouseBottom>Trò chơi đang tạm dừng, bấm [Pause] để tiếp tục.</keyMouseBottom>
+    <!-- <touchBottom>Game paused, tap here to resume.</touchBottom> -->
+    <touchBottom>Trò chơi đang tạm dừng, chạm vào đây để tiếp tục.</touchBottom>
   </overlay>
-
   <overlay>
     <id>Programming</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <bottom/>
   </overlay>
-
   <overlay>
     <id>PageHandleFullPasteBuffer</id>
-    <y>Print Kode</y>
-    <x>Copy Page</x>
-    <b>Close</b>
-    <a></a>
-    <leftTrigger>Cut Page</leftTrigger>
-    <rightTrigger>Paste Page</rightTrigger>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Print Kode</y> -->
+    <y>In Kode</y>
+    <!-- <x>Copy Page</x> -->
+    <x>Copy trang</x>
+    <!-- <b>Close</b> -->
+    <b>Đóng</b>
+    <a/>
+    <!-- <leftTrigger>Cut Page</leftTrigger> -->
+    <leftTrigger>Cắt trang</leftTrigger>
+    <!-- <rightTrigger>Paste Page</rightTrigger> -->
+    <rightTrigger>Dán trang</rightTrigger>
+    <bottom/>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Switch Page
       [Delete] Cut Page
       [Insert] Paste Page
       [Esc] Back
       [Ctrl-P] Print Kode
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Chuyển trang
+      [Delete] Cắt trang
+      [Insert] Dán trang
+      [Esc] Trở lại
+      [Ctrl-P] In Kode
     </keyMouse>
-    
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Switch Page
-      &lt;touchHold&gt; Options
-    </touch>    
+      &lt;touchHold&gt; Settings
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Đổi trang
+      &lt;touchHold&gt; Tuỳ chỉnh
+    </touch>
   </overlay>
   <overlay>
     <id>PageHandleEmptyPasteBuffer</id>
-    <y>Print Kode</y>
-    <x>Copy Page</x>
-    <b>Close</b>
-    <a></a>
-    <leftTrigger>Cut Page</leftTrigger>
-    <rightTrigger ghosted = "true">Paste Page</rightTrigger>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Print Kode</y> -->
+    <y>In Kode</y>
+    <!-- <x>Copy Page</x> -->
+    <x>Copy Trang</x>
+    <!-- <b>Close</b> -->
+    <b>Đóng</b>
+    <a/>
+    <!-- <leftTrigger>Cut Page</leftTrigger> -->
+    <leftTrigger>Cắt Trang</leftTrigger>
+    <!-- <rightTrigger ghosted="true">Paste Page</rightTrigger> -->
+    <rightTrigger ghosted="true">Dán Trang</rightTrigger>
+    <bottom/>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Switch Page
       [Delete] Cut Page
       [Esc] Back
       [Ctrl-P] Print Kode
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Chuyển trang
+      [Delete] Cắt trang
+      [Esc] Quay lại
+      [Ctrl-P] In Kode
     </keyMouse>
-    
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Switch Page
-      &lt;touchHold&gt; Options
+      &lt;touchHold&gt; Settings
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chuyển trang
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    
   </overlay>
-
   <overlay>
     <id>RowHandleFullPasteBuffer</id>
-    <y>Print Kode</y>
-    <x>Copy Row</x>
-    <b>Close</b>
-    <a>Move Row</a>
-    <leftTrigger>Cut Row</leftTrigger>
-    <rightTrigger>Paste Row</rightTrigger>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Print Kode</y> -->
+    <y>In Kode</y>
+    <!-- <x>Copy Row</x> -->
+    <x>Copy Hàng</x>
+    <!-- <b>Close</b> -->
+    <b>Đóng</b>
+    <!-- <a>Move Row</a> -->
+    <a>Di chuyển hàng</a>
+    <!-- <leftTrigger>Cut Row</leftTrigger> -->
+    <leftTrigger>Cắt hàng</leftTrigger>
+    <!-- <rightTrigger>Paste Row</rightTrigger> -->
+    <rightTrigger>Dán hàng</rightTrigger>
+    <bottom/>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Pick Up Row
       &lt;rightmouse&gt; Cut Row
       [Enter] Pick Up Row
@@ -2445,26 +3783,45 @@
       [Insert] Paste Row
       [Esc] Back
       [Ctrl-P] Print Kode
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Nhặt hàng lên
+      &lt;rightmouse&gt; Cắt hàng
+      [Enter] Nhặt hàng lên
+      [Tab] Trang sau
+      [Shift][Tab] Trang trước
+      [Delete] Cắt hàng
+      [Insert] Dán hàng
+      [Esc] Trở lại
+      [Ctrl-P] In Kode
     </keyMouse>
-
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Select Row
       &lt;drag&gt; Move Row
-      &lt;touchHold&gt; Options
+      &lt;touchHold&gt; Settings
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn hàng
+      &lt;drag&gt; Di chuyển hàng
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-
   </overlay>
   <overlay>
     <id>RowHandleEmptyPasteBuffer</id>
-    <y>Print Kode</y>
-    <x>Copy Row</x>
-    <b>Close</b>
-    <a>Move Row</a>
-    <leftTrigger>Cut Row</leftTrigger>
-    <rightTrigger ghosted = "true">Paste Row</rightTrigger>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Print Kode</y> -->
+    <y>In Kode</y>
+    <!-- <x>Copy Row</x> -->
+    <x>Dán hàng</x>
+    <!-- <b>Close</b> -->
+    <b>Đóng</b>
+    <!-- <a>Move Row</a> -->
+    <a>Di chuyển hàng</a>
+    <!-- <leftTrigger>Cut Row</leftTrigger> -->
+    <leftTrigger>Cắt hàng</leftTrigger>
+    <!-- <rightTrigger ghosted="true">Paste Row</rightTrigger> -->
+    <rightTrigger ghosted="true">Dán hàng</rightTrigger>
+    <bottom/>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Pick Up Row
       &lt;rightmouse&gt; Cut Row
       [Enter] Pick Up Row
@@ -2473,50 +3830,82 @@
       [Delete] Cut Row
       [Esc] Back
       [Ctrl-P] Print Kode
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Nhặt hàng lên
+      &lt;rightmouse&gt; Cắt hàng
+      [Enter] Nhặt hàng lên
+      [Tab] Trang sau
+      [Shift][Tab] Trang trước
+      [Delete] Cắt hàng
+      [Esc] Trở lại
+      [Ctrl-P] In Kode
     </keyMouse>
-
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Select Row
       &lt;drag&gt; Move Row
       &lt;touchHold&gt; Options      
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn hàng
+      &lt;drag&gt; Di chuyển hàng
+      &lt;touchHold&gt; Tuỳ chỉnh      
     </touch>
-    
   </overlay>
   <overlay>
     <id>RowMove</id>
-    <y>Print Kode</y>
-    <x></x>
-    <b>Close</b>
-    <leftStick>Change Row Priority</leftStick>
-    <a>Put Row Here</a>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Print Kode</y> -->
+    <y>In hàng</y>
+    <x/>
+    <!-- <b>Close</b> -->
+    <b>Đóng</b>
+    <!-- <leftStick>Change Row Priority</leftStick> -->
+    <leftStick>Đổi thứ tự ưu tiên của hàng</leftStick>
+    <!-- <a>Put Row Here</a> -->
+    <a>Đặt hàng ở đây</a>
+    <bottom/>
+    <!-- <keyMouse>
       [uparrow] Move Up
       [downarrow] Move Down
       [rightarrow] Indent Block
       [leftarrow] Unindent Block
       [Enter] Put Here
       [Ctrl-P] Print Kode
+    </keyMouse> -->
+    <keyMouse>
+      [uparrow] Di chuyển lên
+      [downarrow] Di chuyển xuống
+      [rightarrow] Thụt đầu dòng khối lệnh
+      [leftarrow] Bỏ thụt đầu dòng khối lệnh
+      [Enter] Đặt ở đây
+      [Ctrl-P] In Kode
     </keyMouse>
-
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Select Row
       &lt;drag&gt; Move Row
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Chọn hàng
+      &lt;drag&gt; Di chuyển hàng
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
-    
   </overlay>
   <overlay>
+    <!-- <id>Tile</id> -->
     <id>Tile</id>
-    <y>Help</y>
-    <x>Delete Tile</x>
-    <b>Close</b>
-    <a>Change Tile</a>
-    <leftTrigger>Delete Tile</leftTrigger>
-    <bottom></bottom>
-
-    <keyMouse>
+    <!-- <y>Help</y> -->
+    <y>Hướng dẫn</y>
+    <!-- <x>Delete Tile</x> -->
+    <x>Xoá khối lệnh</x>
+    <!-- <b>Close</b> -->
+    <b>Đóng</b>
+    <!-- <a>Change Tile</a> -->
+    <a>Đổi khối lệnh</a>
+    <!-- <leftTrigger>Delete Tile</leftTrigger> -->
+    <leftTrigger>Xoá khối lệnh</leftTrigger>
+    <bottom/>
+    <!-- <keyMouse>
       &lt;leftmouse&gt; Add/Change Tile
       &lt;rightmouse&gt; Delete Tile
       [Enter] Add/Change Tile
@@ -2525,186 +3914,263 @@
       [Delete] Delete Tile
       [Esc] Return
       [Ctrl-P] Print Kode
+    </keyMouse> -->
+    <keyMouse>
+      &lt;leftmouse&gt; Thêm/Đổi khối lệnh
+      &lt;rightmouse&gt; Xoá khối lệnh
+      [Enter] Thêm/Đổi khối lệnh
+      [Tab] Trang sau
+      [Shift][Tab] Trang trước
+      [Delete] Xoá khối lệnh
+      [Esc] Trở lại
+      [Ctrl-P] In Kode
     </keyMouse>
-
-    <touch>
+    <!-- <touch>
       &lt;tap&gt; Add/Change Tile
       &lt;touchHold&gt; Options
+    </touch> -->
+    <touch>
+      &lt;tap&gt; Thêm/Sửa khối lệnh
+      &lt;touchHold&gt; Tuỳ chỉnh
     </touch>
   </overlay>
-
   <overlay>
     <id>TopLevelPaletteEditWorldParameters</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom>Edit World Settings</bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom>Edit World Settings</bottom> -->
+    <bottom>Thay đổi cài đặt Thế giới</bottom>
   </overlay>
   <overlay>
     <id>TopLevelPaletteEditObjectParameters</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom>Edit Object Settings</bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom>Edit Object Settings</bottom> -->
+    <bottom>Thay đổi cài đặt Vật thể</bottom>
   </overlay>
   <overlay>
     <id>EditWorldParameters</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Select</a>
-    <bottom>World Settings</bottom>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Select</a> -->
+    <a>Chọn</a>
+    <!-- <bottom>World Settings</bottom> -->
+    <bottom>Cài đặt thế giới</bottom>
   </overlay>
   <overlay>
     <id>EditObjectParameters</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <bottom>Character Settings</bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <!-- <bottom>Character Settings</bottom> -->
+    <bottom>Cài đặt nhân vật</bottom>
   </overlay>
   <overlay>
     <id>UIGridCheckbox</id>
-    <y></y>
-    <x></x>
-    <b>Exit</b>
-    <a>Change</a>
-    <dpadVertical>Switch Property</dpadVertical>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <!-- <b>Exit</b> -->
+    <b>Thoát</b>
+    <!-- <a>Change</a> -->
+    <a>Thay đổi</a>
+    <!-- <dpadVertical>Switch Property</dpadVertical> -->
+    <dpadVertical>Chuyển thuộc tính</dpadVertical>
+    <bottom/>
   </overlay>
   <overlay>
     <id>UIGridSlider</id>
-    <y></y>
-    <x></x>
+    <y/>
+    <x/>
+    <!-- <b>Exit</b> -->
     <b>Exit</b>
-    <a></a>
-    <dpadHorizontal>Left/Right to Change</dpadHorizontal>
-    <dpadVertical>Switch Property</dpadVertical>
-    <bottom></bottom>
+    <a/>
+    <!-- <dpadHorizontal>Left/Right to Change</dpadHorizontal> -->
+    <dpadHorizontal>Trái/Phải để thay đổi</dpadHorizontal>
+    <!-- <dpadVertical>Switch Property</dpadVertical> -->
+    <dpadVertical>Chuyển thuộc tính</dpadVertical>
+    <bottom/>
   </overlay>
   <overlay>
     <id>UIGridPictureList</id>
-    <y></y>
-    <x></x>
+    <y/>
+    <x/>
     <b>Exit</b>
-    <a></a>
-    <dpadHorizontal>Left/Right to Change</dpadHorizontal>
-    <dpadVertical>Switch Property</dpadVertical>
-    <bottom></bottom>
+    <a/>
+    <!-- <dpadHorizontal>Left/Right to Change</dpadHorizontal> -->
+    <dpadHorizontal>Trái/Phải để thay đổi</dpadHorizontal>
+    <!-- <dpadVertical>Switch Property</dpadVertical> -->
+    <dpadVertical>Chuyển thuộc tính</dpadVertical>
+    <bottom/>
   </overlay>
   <overlay>
     <id>UIGridTextList</id>
-    <y></y>
-    <x></x>
-    <b>Exit</b>
-    <a>Select Next Option</a>
-    <dpadVertical>Switch Property</dpadVertical>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <!-- <b>Exit</b> -->
+    <b>Thoát</b>
+    <!-- <a>Select Next Option</a> -->
+    <a>Lựa chọn tiếp theo</a>
+    <!-- <dpadVertical>Switch Property</dpadVertical> -->
+    <dpadVertical>Chuyển thuộc tính</dpadVertical>
+    <bottom/>
   </overlay>
   <overlay>
     <id>PreGame</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a></a>
-    <dpadHorizontal></dpadHorizontal>
-    <dpadVertical></dpadVertical>
-    <bottom></bottom>
+    <y/>
+    <x/>
+    <b/>
+    <a/>
+    <dpadHorizontal/>
+    <dpadVertical/>
+    <bottom/>
   </overlay>
   <overlay>
     <id>PreGameDescription</id>
-    <y></y>
-    <x></x>
-    <b></b>
-    <a>Start Game</a>
-    <dpadHorizontal></dpadHorizontal>
-    <dpadVertical></dpadVertical>
-    <bottom>Press &lt;a&gt; to Start Game</bottom>
-
-    <keyMouse>
+    <y/>
+    <x/>
+    <b/>
+    <!-- <a>Start Game</a> -->
+    <a>Trò chơi mới</a>
+    <dpadHorizontal/>
+    <dpadVertical/>
+    <!-- <bottom>Press &lt;a&gt; to Start Game</bottom> -->
+    <bottom>Bấm &lt;a&gt; để bắt đầu trò chơi</bottom>
+    <!-- <keyMouse>
       [Enter] Start Game
+    </keyMouse> -->
+    <keyMouse>
+      [Enter] Bắt đầu trò chơi
     </keyMouse>
-    <keyMouseBottom>Press [Enter] to Start Game</keyMouseBottom>
-    <touchBottom>Tap here to Start Game</touchBottom>
+    <!-- <keyMouseBottom>Press [Enter] to Start Game</keyMouseBottom> -->
+    <keyMouseBottom>Bấm [Enter] để bắt đầu trò chơi</keyMouseBottom>
+    <!-- <touchBottom>Tap here to Start Game</touchBottom> -->
+    <touchBottom>Chạm vào đây để bắt đầu trò chơi</touchBottom>
   </overlay>
-
   <overlay>
     <id>ModularMenu</id>
-    <a>Select</a>
-    <leftStick>Change Selection</leftStick>
+    <!-- <a>Select</a> -->
+    <a>Chọn</a>
+    <!-- <leftStick>Change Selection</leftStick> -->
+    <leftStick>Thay đổi lựa chọn</leftStick>
   </overlay>
   <overlay>
     <id>ModularPictureList</id>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-
-    <keyMouse>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Setting
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi cài đặt
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularCameraMode</id>
-    <dpadHorizontal>Change Selection</dpadHorizontal>
-
-    <keyMouse>
+    <!-- <dpadHorizontal>Change Selection</dpadHorizontal> -->
+    <dpadHorizontal>Thay đổi lựa chọn</dpadHorizontal>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Camera
       [X] Set Camera
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Chuyển camera
+      [X] Đặt camera
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularCheckbox</id>
-    <a>Change</a>
-    <keyMouse>
+    <!-- <a>Change</a> -->
+    <a>Đổi</a>
+    <!-- <keyMouse>
       [Enter] Change
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [Enter] Đổi
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularNextLevel</id>
-    <a>Change</a>
-    <keyMouse>
+    <!-- <a>Change</a> -->
+    <a>Đổi</a>
+    <!-- <keyMouse>
       [Enter] Change
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [Enter] Đổi
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularSlider</id>
-    <dpadHorizontal>Change Value</dpadHorizontal>
-    <keyMouse>
+    <!-- <dpadHorizontal>Change Value</dpadHorizontal> -->
+    <dpadHorizontal>Đổi giá trị</dpadHorizontal>
+    <!-- <keyMouse>
       [leftarrow][rightarrow] Change Value
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [leftarrow][rightarrow] Đổi giá trị
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularRadioBox</id>
-    <a>Change</a>
-    <keyMouse>
+    <!-- <a>Change</a> -->
+    <a>Đổi</a>
+    <!-- <keyMouse>
       [Enter] Change Selection
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [Enter] Thay đổi lựa chọn
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularCheckboxList</id>
-    <a>Change</a>
-    <b>Done</b>
-    <keyMouse>
+    <!-- <a>Change</a> -->
+    <a>Đổi</a>
+    <!-- <b>Done</b> -->
+    <b>Xong</b>
+    <!-- <keyMouse>
       [uparrow][downarrow] Select Tag
       [Enter] Toggle Tag
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [uparrow][downarrow] Chọn thẻ
+      [Enter] Bật/Tắt thẻ
+      [Esc] Trở lại
     </keyMouse>
   </overlay>
   <overlay>
     <id>ModularButtonElement</id>
-    <a>View Change History</a>
-    <x>Delete Change History</x>
-    <keyMouse>
+    <!-- <a>View Change History</a> -->
+    <a>Xem lịch sử chỉnh sửa</a>
+    <!-- <x>Delete Change History</x> -->
+    <x>Xoá lịch sử chính sửa</x>
+    <!-- <keyMouse>
       [A] View Change History
       [X] Delete Change History
       [Esc] Back
+    </keyMouse> -->
+    <keyMouse>
+      [A] Xem lịch sử chỉnh sửa
+      [X] Xoá lịch sử chỉnh sửa
+      [Esc] Back
     </keyMouse>
   </overlay>
-
 </XmlOverlayData>
