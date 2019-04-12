@@ -5,172 +5,247 @@
 
     <!--  To HomeMenu, yes you can get here from anywhere -->
     <Crumb id="HomeMenu0">
-      <gamepadText>Press &lt;start&gt; to go to the Home Menu.</gamepadText>
-      <mouseText>Press [esc] to go to the Home Menu.</mouseText>
-      <touchText>Tap at bottom of screen to go to Home Menu.</touchText>
+      <!-- <gamepadText>Press &lt;start&gt; to go to the Home Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;start&gt; để đi đến Menu chính.</gamepadText>
+      <!-- <mouseText>Press [esc] to go to the Home Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để đi đến Menu Chính</mouseText>
+      <!-- <touchText>Tap at bottom of screen to go to Home Menu.</touchText> -->
+      <touchText>Chạm vào phần dưới màn hình để đi đến Menu Chính</touchText>
     </Crumb>
 
 
 
     <!--  From InGame  -->
     <Crumb id="MouseCameraMove0">
-      <gamepadText>Press &lt;back&gt; to go to Edit mode.</gamepadText>
-      <mouseText>Press [esc] to go to Edit mode.</mouseText>
-      <touchText>Tap at bottom of screen to go to Edit mode.</touchText>
+      <!-- <gamepadText>Press &lt;back&gt; to go to Edit mode.</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để chuyển sang chế độ Chỉnh sửa.</gamepadText>
+      <!-- <mouseText>Press [esc] to go to Edit mode.</mouseText> -->
+      <mouseText>Bấm [esc] để chuyển sang chế độ chỉnh sửa</mouseText>
+      <!-- <touchText>Tap at bottom of screen to go to Edit mode.</touchText> -->
+      <touchText>Chạm vào phần dưới màn hình để chuyển sang chế độ chỉnh sửa</touchText>
     </Crumb>
 
     <Crumb id="TouchCameraMove0">
-      <gamepadText>Press &lt;back&gt; to go to Edit mode.</gamepadText>
-      <mouseText>Press [esc] to go to Edit mode.</mouseText>
-      <touchText>Tap at bottom of screen to go to Edit mode.</touchText>
+      <!-- <gamepadText>Press &lt;back&gt; to go to Edit mode.</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để chuyển sang chế độ chỉnh sửa.</gamepadText>
+      <!-- <mouseText>Press [esc] to go to Edit mode.</mouseText> -->
+      <mouseText>Bấm [esc] để chuyển sang chế độ chỉnh sửa</mouseText>
+      <!-- <touchText>Tap at bottom of screen to go to Edit mode.</touchText> -->
+      <touchText>Chạm vào phần dưới màn hình để chuyển sang chế độ chỉnh sửa</touchText>
     </Crumb>
 
     <Crumb id="ToolMenuEditObject0">
-      <gamepadText>Press &lt;back&gt; to go to Edit mode.</gamepadText>
-      <mouseText>Press [esc] to go to Edit mode.</mouseText>
-      <touchText>Tap at bottom of screen to go to Edit mode.</touchText>
+      <!-- <gamepadText>Press &lt;back&gt; to go to Edit mode.</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để chuyển sang chế độ chỉnh sửa</gamepadText>
+      <!-- <mouseText>Press [esc] to go to Edit mode.</mouseText> -->
+      <mouseText>Bấm [esc] để chuyển sang chế độ chỉnh sửa</mouseText>
+      <!-- <touchText>Tap at bottom of screen to go to Edit mode.</touchText> -->
+      <touchText>Chạm vào phần dưới màn hình để chuyển sang chế độ chỉnh sửa</touchText>
     </Crumb>
 
     <!--  From MainMenu  -->
     <Crumb id="InGame0">
-      <gamepadText>Select RESUME and press &lt;a&gt;.</gamepadText>
-      <mouseText>Click on RESUME.</mouseText>
-      <touchText>Tap on RESUME.</touchText>
+      <!-- <gamepadText>Select RESUME and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Chọn TIẾP TỤC và bấm &lt;a&gt;.</gamepadText>
+      <!-- <mouseText>Click on RESUME.</mouseText> -->
+      <mouseText>Bấm vào TIẾP TỤC</mouseText>
+      <!-- <touchText>Tap on RESUME.</touchText> -->
+      <touchText>Chạm vào TIẾP TỤC</touchText>
     </Crumb>
 
     <Crumb id="LoadLevelMenu0">
-      <gamepadText>Select LOAD WORLD and press &lt;a&gt;.</gamepadText>
-      <mouseText>Click on LOAD WORLD.</mouseText>
-      <touchText>Tap on LOAD WORLD.</touchText>
+      <!-- <gamepadText>Select LOAD WORLD and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Chọn MỞ THẾ GIỚI và bấm &lt;a&gt;.</gamepadText>
+      <!-- <mouseText>Click on LOAD WORLD.</mouseText> -->
+      <mouseText>Bấm vào MỞ THẾ GIỚI</mouseText>
+      <!-- <touchText>Tap on LOAD WORLD.</touchText> -->
+      <touchText>Chạm vào MỞ THẾ GIỚI</touchText>
     </Crumb>
 
     <Crumb id="CommunityMenu0">
-      <gamepadText>Select COMMUNITY and press &lt;a&gt;.</gamepadText>
-      <mouseText>Click on COMMUNITY.</mouseText>
-      <touchText>Tap on COMMUNITY.</touchText>
+      <!-- <gamepadText>Select COMMUNITY and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Chọn CỘNG ĐỒNG và bấm &lt;a&gt;.</gamepadText>
+      <!-- <mouseText>Click on COMMUNITY.</mouseText> -->
+      <mouseText>Bấm vào CỘNG ĐỒNG</mouseText>
+      <!-- <touchText>Tap on COMMUNITY.</touchText> -->
+      <touchText>Chạm vào CỘNG ĐỒNG</touchText>
     </Crumb>
 
     <Crumb id="OptionsMenu0">
-      <gamepadText>Select OPTIONS and press &lt;a&gt;.</gamepadText>
-      <mouseText>Click on OPTIONS.</mouseText>
-      <touchText>Tap on OPTIONS.</touchText>
+      <!-- <gamepadText>Select OPTIONS and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Chọn CÀI ĐẶT và bấm &lt;a&gt;.</gamepadText>
+      <!-- <mouseText>Click on OPTIONS.</mouseText> -->
+      <mouseText>Click vào CÀI ĐẶT</mouseText>
+      <!-- <touchText>Tap on OPTIONS.</touchText> -->
+      <touchText>Chạm vào CÀI ĐẶT</touchText>
     </Crumb>
 
     <Crumb id="HelpScreens0">
-      <gamepadText>Select HELP and press &lt;a&gt;.</gamepadText>
-      <mouseText>Click on HELP.</mouseText>
-      <touchText>Tap on HELP.</touchText>
+      <!-- <gamepadText>Select HELP and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Chọn TRỢ GIÚP và bấm &lt;a&gt;</gamepadText>
+      <!-- <mouseText>Click on HELP.</mouseText> -->
+      <mouseText>Bấm vào TRỢ GIÚP</mouseText>
+      <!-- <touchText>Tap on HELP.</touchText> -->
+      <touchText>Chạm vào TRỢ GIÚP</touchText>
     </Crumb>
 
     <Crumb id="SharingHub0">
-      <gamepadText>Select SHARE and press &lt;a&gt;.</gamepadText>
-      <mouseText>Click on SHARE.</mouseText>
-      <touchText>Tap on SHARE.</touchText>
+      <!-- <gamepadText>Select SHARE and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Chọn CHIA SẺ và bấm &lt;a&gt;</gamepadText>
+      <!-- <mouseText>Click on SHARE.</mouseText> -->
+      <mouseText>Bấm vào CHIA SẺ</mouseText>
+      <!-- <touchText>Tap on SHARE.</touchText> -->
+      <touchText>Chạm vào CHIA SẺ</touchText>
     </Crumb>
 
     <!--  From SharingHub DEPRICATED: XBOX ONLY -->
     <Crumb id="SharingSession0">
-      <gamepadText>Press &lt;start&gt; to enter sharing session.</gamepadText>
-      <mouseText>Press &lt;enter&gt; or click on the open door to enter sharing session .</mouseText>
+      <!-- <gamepadText>Press &lt;start&gt; to enter sharing session.</gamepadText> -->
+      <gamepadText>Bấm &lt;start&gt; để truy cập vào hệ thống chia sẻ</gamepadText>
+      <!-- <mouseText>Press &lt;enter&gt; or click on the open door to enter sharing session .</mouseText> -->
+      <mouseText>Bấm &lt;enter&gt; hoặc bấm vào cánh cửa mở để truy cập vào hệ thống chia sẻ </mouseText>
     </Crumb>
 
     <Crumb id="MainMenu0">
-      <gamepadText>Press &lt;b&gt; to return to Main Menu.</gamepadText>
-      <mouseText>Press &lt;esc&gt; to return to Main Menu.</mouseText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to Main Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính.</gamepadText>
+      <!-- <mouseText>Press &lt;esc&gt; to return to Main Menu.</mouseText> -->
+      <mouseText>Bấm &lt;esc&gt; đẻ trở lại menu chính.</mouseText>
     </Crumb>
 
     <!--  From SharingSession DEPRICATED: XBOX ONLY -->
     <Crumb id="SharingHub1">
-      <gamepadText>Press &lt;back&gt; to exit sharing session.</gamepadText>
-      <mouseText>Press &lt;esc&gt; to exit sharing session .</mouseText>
+      <!-- <gamepadText>Press &lt;back&gt; to exit sharing session.</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để thoát hệ thống chia sẻ.</gamepadText>
+      <!-- <mouseText>Press &lt;esc&gt; to exit sharing session .</mouseText> -->
+      <mouseText>Bấm &lt;esc&gt; để thoát hệ thống chia sẻ.</mouseText>
     </Crumb>
 
     <!--  From OptionsMenu  -->
     <Crumb id="MainMenu1">
-      <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText>
-      <mouseText>Press [esc] or click off of the menu items to return to the Main Menu.</mouseText>
-      <touchText>Press [esc] or tap off of the menu items to return to the Main Menu.</touchText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính.</gamepadText>
+      <!-- <mouseText>Press [esc] or click off of the menu items to return to the Main Menu.</mouseText> -->
+      <mouseText>Bấm [esc] hoặc bấm ra ngoài để trở lại menu chính.</mouseText>
+      <!-- <touchText>Press [esc] or tap off of the menu items to return to the Main Menu.</touchText> -->
+      <touchText>Bấm [esc] hoặc bấm ra ngoài để trở lại menu chính.</touchText>
     </Crumb>
 
     <!--  From HelpScreens  -->
     <Crumb id="MainMenu2">
-      <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText>
-      <mouseText>Press [esc] to return to the Main Menu.</mouseText>
-      <tapText>Tap in lower left corner to return to the Main Menu.</tapText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính.</gamepadText>
+      <!-- <mouseText>Press [esc] to return to the Main Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại menu chính</mouseText>
+      <!-- <tapText>Tap in lower left corner to return to the Main Menu.</tapText> -->
+      <tapText>Chạm vào góc dưới bên trái để trở lại menu chính</tapText>
     </Crumb>
 
     <!--  From LoadLevelMenu  -->
     <Crumb id="Unknown0">
-      <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText>
-      <mouseText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính</gamepadText>
+      <!-- <mouseText>
         Click on green arrows to scroll, click on game tile to choose game.
         Use [leftarrow][rightarrow] to scroll, press [enter] to choose game.
+      </mouseText> -->
+      <mouseText>
+        Bấm vào mũi tên màu xanh để cuộn danh sách, bấm vào tên game để chọn trò chơi
+        Bấm [leftarrow][rightarrow] để cuộn danh sách, bấm [enter] để chọn trò chơi
       </mouseText>
-      <touchText>
+      <!-- <touchText>
         Tap on green arrows or drag to scroll, tap on game tile to choose game.
+      </touchText> -->
+      <touchText>
+        Chạm vào mũi tên màu xanh hoặc kéo để cuộn danh sách, chạm vào tên trò chơi để chọn.
       </touchText>
     </Crumb>
 
     <Crumb id="MainMenu3">
-      <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText>
-      <mouseText>Press [esc] to return to the Main Menu.</mouseText>
-      <touchText>Press [esc] to return to the Main Menu.</touchText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính</gamepadText>
+      <!-- <mouseText>Press [esc] to return to the Main Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại menu chính</mouseText>
+      <!-- <touchText>Press [esc] to return to the Main Menu.</touchText> -->
+      <touchText>Bấm [esc] để trở lại menu chính</touchText>
     </Crumb>
 
     <Crumb id="HomeMenu1">
-      <gamepadText>Press &lt;b&gt; to return to the Home Menu.</gamepadText>
-      <mouseText>Press [esc] to return to the Home Menu.</mouseText>
-      <touchText>Press [esc] to return to the Home Menu.</touchText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Home Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính</gamepadText>
+      <!-- <mouseText>Press [esc] to return to the Home Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại menu chính</mouseText>
+      <!-- <touchText>Press [esc] to return to the Home Menu.</touchText> -->
+      <touchText>Bấm [esc] để trở lại menu chính</touchText>
     </Crumb>
 
     <!--  From CommunityMenu  -->
     <Crumb id="Unknown1">
-      <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText>
-      <mouseText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính.</gamepadText>
+      <!-- <mouseText>
         Click on green arrows to scroll, click on game tile to choose game.
         Use [leftarrow][rightarrow] to scroll, press [enter] to choose game.
+      </mouseText> -->
+      <mouseText>
+        Bấm vào mũi tên màu xanh để cuộn danh sách, bấm vào tên game để chọn trò chơi
+        Bấm [leftarrow][rightarrow] để cuộn danh sách, bấm [enter] để chọn trò chơi
       </mouseText>
-      <touchText>
+      <!-- <touchText>
         Tap on green arrows or drag to scroll, tap on game tile to choose game.
+      </touchText> -->
+      <touchText>
+        Chạm vào mũi tên màu xanh hoặc kéo để cuộn danh sách, chạm vào tên trò chơi để chọn.
       </touchText>
     </Crumb>
 
     <Crumb id="MainMenu4">
-      <gamepadText>Press &lt;b&gt; to return to the Main Menu.</gamepadText>
-      <mouseText>Press [esc] to return to the Main Menu.</mouseText>
-      <touchText>Press [esc] to return to the Main Menu.</touchText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Home Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính</gamepadText>
+      <!-- <mouseText>Press [esc] to return to the Home Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại menu chính</mouseText>
+      <!-- <touchText>Press [esc] to return to the Home Menu.</touchText> -->
+      <touchText>Bấm [esc] để trở lại menu chính</touchText>
     </Crumb>
 
     <Crumb id="HomeMenu2">
-      <gamepadText>Press &lt;b&gt; to return to the Home Menu.</gamepadText>
-      <mouseText>Press [esc] to return to the Home Menu.</mouseText>
-      <touchText>Press [esc] to return to the Home Menu.</touchText>
+      <!-- <gamepadText>Press &lt;b&gt; to return to the Home Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để trở lại menu chính</gamepadText>
+      <!-- <mouseText>Press [esc] to return to the Home Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại menu chính</mouseText>
+      <!-- <touchText>Press [esc] to return to the Home Menu.</touchText> -->
+      <touchText>Bấm [esc] để trở lại menu chính</touchText>
     </Crumb>
 
     <!--  ToolMenu from any tool to every other. Gamepad only.  -->
 
     <Crumb id="InGame1">
-      <gamepadText>Use the triggers to choose Play &lt;play&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose Play &lt;play&gt;</gamepadText> -->
+      <gamepadText>Dùng phím lưng để chọn Chơi &lt;play&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuEditObject1">
-      <gamepadText>Use the triggers to choose Object Edit &lt;ObjectEdit&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose Object Edit &lt;ObjectEdit&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn mục Chỉnh sửa vật thể &lt;ObjectEdit&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <!-- Lead user through EditObjectFocus to get to Programming -->
     <Crumb id="GamepadEditObjectFocus0">
-      <gamepadText>Press &lt;a&gt; to program objects.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to program objects.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để lập trình vật thể.</gamepadText>
       <mouseText></mouseText>
-      <touchText>Tap &lt;Kodu&gt; to program objects.</touchText>
+      <!-- <touchText>Tap &lt;Kodu&gt; to program objects.</touchText> -->
+      <touchText>Chạm vào &lt;Kodu&gt; để lập trình vật thể.</touchText>
     </Crumb>
 
     <!-- Lead user through EditObject to get to Programming -->
     <Crumb id="Programming0">
-      <gamepadText>Use the triggers to choose Object Edit &lt;ObjectEdit&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose Object Edit &lt;ObjectEdit&gt;</gamepadText> -->
+      <gamepadText>Dùng các phím lưng để chọn Lập trình vật thể&lt;ObjectEdit&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
@@ -340,7 +415,8 @@
 
     <Crumb id="MousePlay0">
       <gamepadText></gamepadText>
-      <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText>
+      <!-- <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText> -->
+      <mouseText>Bấm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
       <touchText>Tap on Play &lt;play&gt; to run your game.</touchText>
     </Crumb>
     <Crumb id="InGame4">
@@ -369,7 +445,8 @@
 
     <Crumb id="MouseEditObject0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</mouseText>
+      <!-- <mouseText>Click on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</mouseText> -->
+      <mouseText>Bấm vào Công cụ vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình trò chơi</mouseText>
       <touchText>Tap on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</touchText>
     </Crumb>
 
@@ -460,7 +537,8 @@
 
     <Crumb id="TouchEditObject0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</mouseText>
+      <!-- <mouseText>Click on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</mouseText> -->
+      <mouseText>Bấm vào Công cụ vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình trò chơi</mouseText>
       <touchText>Tap on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</touchText>
     </Crumb>
 
