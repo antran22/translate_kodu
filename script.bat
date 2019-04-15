@@ -30,6 +30,11 @@ if '%errorlevel%' NEQ '0' (
 
 :-------------------------------------- 
 
+reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" > NUL && set OS=32BIT || set OS=64BIT
+
+if %OS%==32BIT xcopy /y .\VN\* "C:\Program Files\Microsoft Research\Kodu Game Lab\Content\Xml\Localizable\ES"
+if %OS%==64BIT xcopy /y .\VN\* "C:\Program Files (x86)\Microsoft Research\Kodu Game Lab\Content\Xml\Localizable\ES"
+
 xcopy /y .\VN\* "C:\Program Files (x86)\Microsoft Research\Kodu Game Lab\Content\Xml\Localizable\ES"
 
 echo Start Kodu and Change the Language to Spanish (Espanol) for this patch to work
