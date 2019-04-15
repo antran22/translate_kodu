@@ -55,11 +55,11 @@
 
     <Crumb id="LoadLevelMenu0">
       <!-- <gamepadText>Select LOAD WORLD and press &lt;a&gt;.</gamepadText> -->
-      <gamepadText>Chọn MỞ THẾ GIỚI và bấm &lt;a&gt;.</gamepadText>
+      <gamepadText>Chọn MỞ TRÒ CHƠI TRONG MÁY và bấm &lt;a&gt;.</gamepadText>
       <!-- <mouseText>Click on LOAD WORLD.</mouseText> -->
-      <mouseText>Bấm vào MỞ THẾ GIỚI</mouseText>
+      <mouseText>Bấm vào MỞ TRÒ CHƠI TRONG MÁY</mouseText>
       <!-- <touchText>Tap on LOAD WORLD.</touchText> -->
-      <touchText>Chạm vào MỞ THẾ GIỚI</touchText>
+      <touchText>Chạm vào MỞ TRÒ CHƠI TRONG MÁY</touchText>
     </Crumb>
 
     <Crumb id="CommunityMenu0">
@@ -245,49 +245,56 @@
     <!-- Lead user through EditObject to get to Programming -->
     <Crumb id="Programming0">
       <!-- <gamepadText>Use the triggers to choose Object Edit &lt;ObjectEdit&gt;</gamepadText> -->
-      <gamepadText>Dùng các phím lưng để chọn Lập trình vật thể&lt;ObjectEdit&gt;</gamepadText>
+      <gamepadText>Dùng các phím lưng để chọn mục Chỉnh sửa Vật thể&lt;ObjectEdit&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuTerrainSmoothLevel0">
-      <gamepadText>Use the triggers to choose the Terrain Smooth/Level tool &lt;terrainsmoothlevel&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose the Terrain Smooth/Level tool &lt;terrainsmoothlevel&gt;</gamepadText> -->
+      <gamepadText>Dùng các phím lưng để chọn mục Làm Mượt/Bằng Địa hình &lt;terrainsmoothlevel&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuTerrainPaint0">
-      <gamepadText>Use the triggers to choose the Terrain Paint tool &lt;terrainpaint&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose the Terrain Paint tool &lt;terrainpaint&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn mục Vẽ Địa hình &lt;terrainpaint&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuTerrainSpikeyHilly0">
-      <gamepadText>Use the triggers to choose the Terrain Spikey/Hilly tool &lt;terrainspikeyhilly&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose the Terrain Spikey/Hilly tool &lt;terrainspikeyhilly&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn mục Làm Địa hình Lởm chởm/Gập ghềnh &lt;terrainspikeyhilly&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuTerrainUpDown0">
-      <gamepadText>Use the triggers to choose the Terrain Raise/Lower tool &lt;terrainUpDown&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose the Terrain Raise/Lower tool &lt;terrainUpDown&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn mục Nâng/Hạ Địa hình &lt;terrainUpDown&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuWater0">
-      <gamepadText>Use the triggers to choose the Water tool &lt;water&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose the Water tool &lt;water&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn mục Chỉnh sửa Nước &lt;water&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuDeleteObjects0">
-      <gamepadText>Use the triggers to choose Delete Objects tool &lt;deleteobjects&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose Delete Objects tool &lt;deleteobjects&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn Công cụ xoá Vật thể &lt;deleteobjects&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuWorldSettings0">
-      <gamepadText>Use the triggers to choose World Settings &lt;worldsettings&gt;</gamepadText>
+      <!-- <gamepadText>Use the triggers to choose World Settings &lt;worldsettings&gt;</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để chọn mục Cài đặt thế giới &lt;worldsettings&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
@@ -295,13 +302,15 @@
     <!--  GamePad Tools, from any tool back to the ToolBar -->
 
     <Crumb id="ToolMenuEditObject2">
-      <gamepadText>Press &lt;back&gt; to go to the Tool Menu.</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to go to the Tool Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="ToolMenuEditObject3">
-      <gamepadText>Press &lt;back&gt; to exit.</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to exit.</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để thoát.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
@@ -309,104 +318,122 @@
     <!--  Gamepad tools, from toolbar to actual tool  -->
 
     <Crumb id="InGame2">
-      <gamepadText>Press &lt;a&gt; to run your game.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to run your game.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để chạy trò chơi của bạn.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadEditObject0">
-      <gamepadText>Press &lt;a&gt; to add, program or edit objects.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to add, program or edit objects.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để thêm, lập trình hoặc chỉnh sửa vật thể.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadTerrainSmoothLevel0">
-      <gamepadText>Press &lt;a&gt; to change your terrain.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to change your terrain.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để chỉnh sửa địa hình của bạn.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadTerrainPaint0">
-      <gamepadText>Press &lt;a&gt; to add or paint your terrain.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to add or paint your terrain.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để thêm hoặc tô màu địa hình của bạn.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadTerrainSpikeyHilly0">
-      <gamepadText>Press &lt;a&gt; to change your terrain.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to change your terrain.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để chỉnh sửa địa hình của bạn.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadEditObject1">
-      <gamepadText>Press &lt;a&gt; to add, program or edit objects.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to add, program or edit objects.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để thêm, lập trình hoặc chỉnh sửa vật thể.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadTerrainUpDown0">
-      <gamepadText>Press &lt;a&gt; to raise and lower your terrain.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to raise and lower your terrain.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để nâng và hạ địa hình của bạn.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadWater0">
-      <gamepadText>Press &lt;a&gt; to add or change water.</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to add or change water.</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để thêm hoặc điều chỉnh nước.</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadDeleteObjects0">
-      <gamepadText>Press &lt;a&gt; to use the Delete Objects tool &lt;deleteobjects&gt;</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to use the Delete Objects tool &lt;deleteobjects&gt;</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để sử dụng công cụ Xoá Vật thể &lt;deleteobjects&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="GamepadWorldSettings0">
-      <gamepadText>Press &lt;a&gt; to change World Settings &lt;worldsettings&gt;</gamepadText>
+      <!-- <gamepadText>Press &lt;a&gt; to change World Settings &lt;worldsettings&gt;</gamepadText> -->
+      <gamepadText>Bấm &lt;a&gt; để thay đổi các Cài dặt Thế giới &lt;worldsettings&gt;</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <!-- From gamepad tools back to tool menu -->
     <Crumb id="ToolMenuEditObject4">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="ToolMenuTerrainPaint1">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText> -->
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="ToolMenuTerrainUpDown1">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="ToolMenuTerrainSmoothLevel1">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="ToolMenuTerrainSpikeyHilly1">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="ToolMenuWater1">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="ToolMenuDeleteObjects1">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="InGame3">
-      <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText>
+      <!-- <gamepadText>Press &lt;back&gt; to return to the Tool Menu</gamepadText> -->
+      <gamepadText>Bấm &lt;back&gt; để trở lại Menu công cụ</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
@@ -417,183 +444,240 @@
       <gamepadText></gamepadText>
       <!-- <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText> -->
       <mouseText>Bấm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
-      <touchText>Tap on Play &lt;play&gt; to run your game.</touchText>
+      <!-- <touchText>Tap on Play &lt;play&gt; to run your game.</touchText> -->
+      <mouseText>Chạm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
     </Crumb>
     <Crumb id="InGame4">
       <gamepadText></gamepadText>
-      <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText>
-      <touchText>Tap on Play &lt;play&gt; to run your game.</touchText>
+      <!-- <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText> -->
+      <mouseText>Bấm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
+      <!-- <touchText>Tap on Play &lt;play&gt; to run your game.</touchText> -->
+      <mouseText>Chạm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
     </Crumb>
 
     <Crumb id="MouseHome0">
       <gamepadText></gamepadText>
-      <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText>
-      <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText>
+      <!-- <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText> -->
+      <mouseText>Bấm vào Menu chính &lt;homemenu&gt;</mouseText>
+      <!-- <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText> -->
+      <touchText>Chàm vào Menu chính &lt;homemenu&gt;</touchText>
     </Crumb>
 
     <Crumb id="HomeMenu3">
       <gamepadText></gamepadText>
-      <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText>
-      <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText>
+      <!-- <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText> -->
+      <mouseText>Bấm vào Menu chính &lt;homemenu&gt;</mouseText>
+      <!-- <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText> -->
+      <touchText>Chạm vào &lt;homemenu&gt;</touchText>
     </Crumb>
 
     <Crumb id="MouseCameraMove1">
       <gamepadText></gamepadText>
-      <mouseText>Click on Camera Move &lt;cameramove&gt;</mouseText>
-      <touchText>Tap on Camera Move &lt;cameramove&gt;</touchText>
+      <!-- <mouseText>Click on Camera Move &lt;cameramove&gt;</mouseText> -->
+      <mouseText>Bấm vào Di chuyển Camera &lt;cameramove&gt;</mouseText>
+      <!-- <touchText>Tap on Camera Move &lt;cameramove&gt;</touchText> -->
+      <touchText>Chạm vào Di chuyển camera &lt;cameramove&gt;</touchText>
     </Crumb>
 
     <Crumb id="MouseEditObject0">
       <gamepadText></gamepadText>
       <!-- <mouseText>Click on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</mouseText> -->
-      <mouseText>Bấm vào Công cụ vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình trò chơi</mouseText>
-      <touchText>Tap on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</touchText>
+      <mouseText>Bấm vào Công cụ Vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình vật thể</mouseText>
+      <!-- <touchText>Tap on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</touchText> -->
+      <touchText>Chạm vào Công cụ Vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình vật thể.</touchText>
     </Crumb>
 
     <Crumb id="MouseEditObject1">
       <gamepadText></gamepadText>
-      <mouseText>Click off of the menu or press [Esc] to return to the Object Tool &lt;ObjectEdit&gt;.</mouseText>
-      <touchText>Tap off of the menu to return to the Object Tool &lt;ObjectEdit&gt;.</touchText>
+      <!-- <mouseText>Click off of the menu or press [Esc] to return to the Object Tool &lt;ObjectEdit&gt;.</mouseText> -->
+      <mouseText>Bấm ra ngoài menu hoặc bấm [Esc] để trở lại Công cụ Vật thể &lt;ObjectEdit&gt;.</mouseText>
+      <!-- <touchText>Tap off of the menu to return to the Object Tool &lt;ObjectEdit&gt;.</touchText> -->
+      <touchText>Chạm ra ngoài menu để trở lại Công cụ Vật thể &lt;ObjectEdit&gt;.</touchText>
     </Crumb>
 
     <Crumb id="MousePaths0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</mouseText>
-      <touchText>Tap on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</touchText>
+      <!-- <mouseText>Click on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Đường đi &lt;paths&gt; ở menu bên dưới để thêm hoặc chỉnh sửa đường đi.</mouseText>
+      <!-- <touchText>Tap on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</touchText> -->
+      <touchText>Chạm vào Công cụ Đường đi &lt;paths&gt; ở menu bên dưới để thêm hoặc chỉnh sửa đường đi.</touchText>
     </Crumb>
 
     <Crumb id="MouseTerrainPaint0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</mouseText>
-      <touchText>Tap on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Địa hình &lt;terrainpaint&gt; ở menu bên dưới để thêm hoặc tô màu địa hình.</mouseText>
+      <!-- <touchText>Tap on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Địa hình &lt;terrainpaint&gt; ở menu bên dưới để thêm hoặc tô màu địa hình.</touchText>
     </Crumb>
 
     <Crumb id="MouseTerrainUpDown0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</mouseText>
-      <touchText>Tap on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Nâng/Hạ Địa hình &lt;terrainUpDown&gt; ở menu bên dưới để điều chỉnh địa hình của bạn.</mouseText>
+      <!-- <touchText>Tap on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Nâng/Hạ Địa hình &lt;terrainUpDown&gt; ở menu bên dưới để điều chỉnh địa hình của bạn.</touchText>
     </Crumb>
 
     <Crumb id="MouseTerrainSmoothLevel0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</mouseText>
-      <touchText>Tap on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Làm Mượt/Bằng Địa hình &lt;terrainsmoothlevel&gt; ở menu bên dưới để điều chỉnh địa hình của bạn.</mouseText>
+      <!-- <touchText>Tap on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Làm Mượt/Bằng Địa hình &lt;terrainsmoothlevel&gt; ở menu bên dưới để điều chỉnh địa hình của bạn.</touchText>
     </Crumb>
 
     <Crumb id="MouseTerrainSpikeyHilly0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</mouseText>
-      <touchText>Tap on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Làm Lởm chởm/Gập ghềnh địa hình &lt;terrainspikeyhilly&gt; ở menu bên dưới để điều chỉnh địa hình của bạn</mouseText>
+      <!-- <touchText>Tap on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Làm Lởm chởm/Gập ghềnh địa hình &lt;terrainspikeyhilly&gt; ở menu bên dưới để điều chỉnh địa hình của bạn</touchText>
     </Crumb>
 
     <Crumb id="MouseWater0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Water Tool &lt;water&gt; in the menu below to add or change water.</mouseText>
-      <touchText>Tap on the Water Tool &lt;water&gt; in the menu below to add or change water.</touchText>
+      <!-- <mouseText>Click on the Water Tool &lt;water&gt; in the menu below to add or change water.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Nước &lt;water&gt; ở Menu bên dưới để thêm hoặc điều chỉnh nước.</mouseText>
+      <!-- <touchText>Tap on the Water Tool &lt;water&gt; in the menu below to add or change water.</touchText> -->
+      <touchText>Chạm vào Công cụ Nước &lt;water&gt; ở Menu bên dưới để thêm hoặc điều chỉnh nước.</touchText>
     </Crumb>
 
     <Crumb id="MouseDeleteObjects0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</mouseText>
-      <touchText>Tap on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</touchText>
+      <!-- <mouseText>Click on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Xoá Vật thể &lt;deleteobjects&gt; ở menu bên dưới để nhanh chóng xoá vật thể khỏi thế giới của bạn.</mouseText>
+      <!-- <touchText>Tap on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</touchText> -->
+      <touchText>Chạm vào Công cụ Xoá Vật thể &lt;deleteobjects&gt; ở menu bên dưới để nhanh chóng xoá vật thể khỏi thế giới của bạn.</touchText>
     </Crumb>
 
     <Crumb id="MouseWorldSettings0">
       <gamepadText></gamepadText>
-      <mouseText>Click on World Settings &lt;worldsettings&gt; in the menu below.</mouseText>
-      <touchText>Tap on World Settings &lt;worldsettings&gt; in the menu below.</touchText>
+      <!-- <mouseText>Click on World Settings &lt;worldsettings&gt; in the menu below.</mouseText> -->
+      <mouseText>Bấm vào mục Cài đặt Thế giới &lt;worldsettings&gt; ở menu bên dưới.</mouseText>
+      <!-- <touchText>Tap on World Settings &lt;worldsettings&gt; in the menu below.</touchText> -->
+      <touchText>Chạm vào mục Cài đặt Thế giới &lt;worldsettings&gt; ở menu bên dưới.</touchText>
     </Crumb>
 
     <!--  Touch Tools, from every tool to every other tool -->
 
     <Crumb id="TouchPlay0">
       <gamepadText></gamepadText>
-      <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText>
-      <touchText>Tap on Play &lt;play&gt; to run your game.</touchText>
+      <!-- <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText> -->
+      <mouseText>Bấm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
+      <!-- <touchText>Tap on Play &lt;play&gt; to run your game.</touchText> -->
+      <mouseText>Chạm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
     </Crumb>
     <Crumb id="InGame5">
       <gamepadText></gamepadText>
-      <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText>
-      <touchText>Tap on Play &lt;play&gt; to run your game.</touchText>
+      <!-- <mouseText>Click on Play &lt;play&gt; to run your game.</mouseText> -->
+      <mouseText>Bấm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
+      <!-- <touchText>Tap on Play &lt;play&gt; to run your game.</touchText> -->
+      <mouseText>Chạm vào Chơi &lt;play&gt; để chơi trò chơi.</mouseText>
     </Crumb>
 
     <Crumb id="TouchHome0">
       <gamepadText></gamepadText>
-      <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText>
-      <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText>
+      <!-- <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText> -->
+      <mouseText>Bấm vào Menu chính &lt;homemenu&gt;</mouseText>
+      <!-- <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText> -->
+      <touchText>Chạm vào Menu chính &lt;homemenu&gt;</touchText>
     </Crumb>
 
     <Crumb id="HomeMenu4">
       <gamepadText></gamepadText>
-      <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText>
-      <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText>
+      <!-- <mouseText>Click on Home Menu &lt;homemenu&gt;</mouseText> -->
+      <mouseText>Bấm vào Menu chính &lt;homemenu&gt;</mouseText>
+      <!-- <touchText>Tap on Home Menu &lt;homemenu&gt;</touchText> -->
+      <touchText>Chạm vào Menu chính &lt;homemenu&gt;</touchText>
     </Crumb>
 
     <Crumb id="TouchCameraMove1">
       <gamepadText></gamepadText>
-      <mouseText>Click on Camera Move &lt;cameramove&gt;</mouseText>
-      <touchText>Tap on Camera Move &lt;cameramove&gt;</touchText>
+      <!-- <mouseText>Click on Camera Move &lt;cameramove&gt;</mouseText> -->
+      <mouseText>Bấm vào Di chuyển Camera &lt;cameramove&gt;</mouseText>
+      <!-- <touchText>Tap on Camera Move &lt;cameramove&gt;</touchText> -->
+      <touchText>Chạm vào Di chuyển Camera &lt;cameramove&gt;</touchText>
     </Crumb>
 
     <Crumb id="TouchEditObject0">
       <gamepadText></gamepadText>
       <!-- <mouseText>Click on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</mouseText> -->
-      <mouseText>Bấm vào Công cụ vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình trò chơi</mouseText>
-      <touchText>Tap on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</touchText>
+      <mouseText>Bấm vào Công cụ Vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình vật thể</mouseText>
+      <!-- <touchText>Tap on the Object Tool &lt;ObjectEdit&gt; in the menu below to add or program objects.</touchText> -->
+      <touchText>Chạm vào Công cụ Vật thể &lt;ObjectEdit&gt; ở menu bên dưới để thêm hoặc lập trình vật thể</touchText>
     </Crumb>
 
     <Crumb id="TouchEditObject1">
       <gamepadText></gamepadText>
-      <mouseText>Click off of the menu or press [Esc] to return to the Object Tool &lt;ObjectEdit&gt;.</mouseText>
-      <touchText>Tap off of the menu to return to the Object Tool &lt;ObjectEdit&gt;.</touchText>
+      <!-- <mouseText>Click off of the menu or press [Esc] to return to the Object Tool &lt;ObjectEdit&gt;.</mouseText> -->
+      <mouseText>Bấm ra ngoài menu hoặc bấm [Esc] để trở lại Công cụ Vật thể &lt;ObjectEdit&gt;.</mouseText>
+      <!-- <touchText>Tap off of the menu to return to the Object Tool &lt;ObjectEdit&gt;.</touchText> -->
+      <touchText>Chạm ra ngoài menu để trở lại Công cụ Vật thể &lt;ObjectEdit&gt;.</touchText>
     </Crumb>
 
     <Crumb id="TouchPaths0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</mouseText>
-      <touchText>Tap on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</touchText>
+      <!-- <mouseText>Click on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Đường &lt;paths&gt; ở menu bên dưới để thêm hoặc chỉnh sửa đường.</mouseText>
+      <!-- <touchText>Tap on the Paths Tool &lt;paths&gt; in the menu below to add or edit paths.</touchText> -->
+      <touchText>Chạm vào Công cụ Đường &lt;paths&gt; ở menu bên dưới để thêm hoặc chỉnh sửa đường.</touchText>
     </Crumb>
 
     <Crumb id="TouchTerrainPaint0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</mouseText>
-      <touchText>Tap on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Địa hình &lt;terrainpaint&gt; ở Menu bên dưới để thêm hoặc tô màu địa hình.</mouseText>
+      <!-- <touchText>Tap on the Terrain Tool &lt;terrainpaint&gt; in the menu below to add or paint terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Địa hình &lt;terrainpaint&gt; ở Menu bên dưới để thêm hoặc tô màu địa hình.</touchText>
     </Crumb>
 
     <Crumb id="TouchTerrainUpDown0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</mouseText>
-      <touchText>Tap on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Nâng/Hạ Địa hình &lt;terrainUpDown&gt; ở Menu bên dưới để điều chỉnh địa hình của bạn.</mouseText>
+      <!-- <touchText>Tap on the Terrain UpDown Tool &lt;terrainUpDown&gt; in the menu below to modify your terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Nâng/Hạ Địa hình &lt;terrainUpDown&gt; ở Menu bên dưới để điều chỉnh địa hình của bạn.</touchText>
     </Crumb>
 
     <Crumb id="TouchTerrainSmoothLevel0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</mouseText>
-      <touchText>Tap on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</mouseText> -->
+      <mouseText>Bấm vào công cụ Làm Mượt/Bằng Địa hình &lt;terrainsmoothlevel&gt; ở menu bên dưới để điều chỉnh địa hình của bạn.</mouseText>
+      <!-- <touchText>Tap on the Terrain Smooth/Level Tool &lt;terrainsmoothlevel&gt; in the menu below to modify your terrain.</touchText> -->
+      <touchText>Chạm vào công cụ Làm Mượt/Bằng Địa hình &lt;terrainsmoothlevel&gt; ở menu bên dưới để điều chỉnh địa hình của bạn.</touchText>
     </Crumb>
 
     <Crumb id="TouchTerrainSpikeyHilly0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</mouseText>
-      <touchText>Tap on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</touchText>
+      <!-- <mouseText>Click on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Làm Lởm chởm/Gập ghềnh địa hình &lt;terrainspikeyhilly&gt; ở menu bên dưới để chỉnh sửa địa hình của bạn.</mouseText>
+      <!-- <touchText>Tap on the Terrain Spikey/Hilly Tool &lt;terrainspikeyhilly&gt; in the menu below to modify your terrain.</touchText> -->
+      <touchText>Chạm vào Công cụ Làm Lởm chởm/Gập ghềnh địa hình &lt;terrainspikeyhilly&gt; ở menu bên dưới để chỉnh sửa địa hình của bạn.</touchText>
     </Crumb>
 
     <Crumb id="TouchWater0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Water Tool &lt;water&gt; in the menu below to add or change water.</mouseText>
-      <touchText>Tap on the Water Tool &lt;water&gt; in the menu below to add or change water.</touchText>
+      <!-- <mouseText>Click on the Water Tool &lt;water&gt; in the menu below to add or change water.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Nước &lt;water&gt; ở menu bên dưới để thêm hoặc thay đổi nước.</mouseText>
+      <!-- <touchText>Tap on the Water Tool &lt;water&gt; in the menu below to add or change water.</touchText> -->
+      <touchText>Chạm vào Công cụ Nước &lt;water&gt; ở menu bên dưới để thêm hoặc thay đổi nước.</touchText>
     </Crumb>
 
     <Crumb id="TouchDeleteObjects0">
       <gamepadText></gamepadText>
-      <mouseText>Click on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</mouseText>
-      <touchText>Tap on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</touchText>
+      <!-- <mouseText>Click on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</mouseText> -->
+      <mouseText>Bấm vào Công cụ Xoá Vật thể &lt;deleteobjects&gt; ở menu bên dưới để nhanh chóng xoá vật thể khỏi thế giới của bạn.</mouseText>
+      <!-- <touchText>Tap on the Delete Objects Tool &lt;deleteobjects&gt; in the menu below to quickly remove objects from your world.</touchText> -->
+      <touchText>Chạm vào Công cụ Xoá Vật thể &lt;deleteobjects&gt; ở menu bên dưới để nhanh chóng xoá vật thể khỏi thế giới của bạn.</touchText>
     </Crumb>
 
     <Crumb id="TouchWorldSettings0">
       <gamepadText></gamepadText>
-      <mouseText>Click on World Settings &lt;worldsettings&gt; in the menu below.</mouseText>
-      <touchText>Tap on World Settings &lt;worldsettings&gt; in the menu below.</touchText>
+      <!-- <mouseText>Click on World Settings &lt;worldsettings&gt; in the menu below.</mouseText> -->
+      <mouseText>Bấm vào mục Cài đặt Thế giới &lt;worldsettings&gt; ở menu bên dưới.</mouseText>
+      <!-- <touchText>Tap on World Settings &lt;worldsettings&gt; in the menu below.</touchText> -->
+      <touchText>Chạm vào mục Cài đặt Thế giới &lt;worldsettings&gt; ở menu bên dưới.</touchText>
     </Crumb>
 
 
@@ -625,181 +709,258 @@
     <!--  Out of pickers  -->
 
     <Crumb id="MouseTerrainPaint1">
-      <gamepadText>Use triggers to choose material and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose material, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose material, tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose material and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi màu địa hình và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose material, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi màu địa hình, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose material, tap to select.</touchText> -->
+      <touchText>Kéo để đổi màu địa hình, chạm để chọn.</touchText>
     </Crumb>
 
     <Crumb id="MouseWater1">
-      <gamepadText>Use triggers to choose water and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose water, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose water, tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose water and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi màu nước và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose water, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi màu nước, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose water, tap to select.</touchText> -->
+      <touchText>Kéo để đổi màu nước, chạm để chọn.</touchText>
     </Crumb>
 
     <Crumb id="MouseTerrainPaint2">
-      <gamepadText>Use triggers to choose brush and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose brush, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose brush tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose brush and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi loại bút và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose brush, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi loại bút, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose brush tap to select.</touchText> -->
+      <touchText>Kéo để đổi loại bút, chạm để chọn</touchText>
     </Crumb>
 
     <Crumb id="TouchTerrainPaint1">
-      <gamepadText>Use triggers to choose material and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose material, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose material, tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose material and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi màu địa hình và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose material, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi màu địa hình, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose material, tap to select.</touchText> -->
+      <touchText>Kéo để đổi màu địa hình, chạm để chọn</touchText>
     </Crumb>
 
     <Crumb id="TouchWater1">
-      <gamepadText>Use triggers to choose water and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose water, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose water, tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose water and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi màu nước và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose water, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi màu nước, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose water, tap to select.</touchText> -->
+      <touchText>Kéo để đổi màu nước, chạm để chọn</touchText>
     </Crumb>
 
     <Crumb id="TouchTerrainPaint2">
-      <gamepadText>Use triggers to choose brush and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose brush, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose brush tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose brush and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi loại bút và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose brush, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi loại bút, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose brush, tap to select.</touchText> -->
+      <touchText>Kéo để đổi loại bút, chạm để chọn</touchText>
     </Crumb>
 
     <Crumb id="GamepadTerrainPaint1">
-      <gamepadText>Use triggers to choose material and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose material, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose material, tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose material and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi màu địa hình và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose material, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi màu địa hình, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose material, tap to select.</touchText> -->
+      <touchText>Kéo để đổi màu địa hình, chạm để chọn</touchText>
     </Crumb>
 
     <Crumb id="GamepadWater1">
-      <gamepadText>Use triggers to choose water and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose water, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose water, tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose water and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi màu nước và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose water, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi màu nước, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose water, tap to select.</touchText> -->
+      <touchText>Kéo để đổi màu nước, chạm để chọn</touchText>
     </Crumb>
 
     <Crumb id="GamepadTerrainPaint2">
-      <gamepadText>Use triggers to choose brush and press &lt;a&gt; to select.</gamepadText>
-      <mouseText>Use [leftarrow][rightarrow] to choose brush, press [enter] or click to select.</mouseText>
-      <touchText>Drag to choose brush tap to select.</touchText>
+      <!-- <gamepadText>Use triggers to choose brush and press &lt;a&gt; to select.</gamepadText> -->
+      <gamepadText>Sử dụng các phím lưng để đổi loại bút và bấm &lt;a&gt; để chọn.</gamepadText>
+      <!-- <mouseText>Use [leftarrow][rightarrow] to choose brush, press [enter] or click to select.</mouseText> -->
+      <mouseText>Sử dụng [leftarrow][rightarrow] để đổi loại bút, bấm [enter] hoặc bấm chuột để chọn.</mouseText>
+      <!-- <touchText>Drag to choose brush, tap to select.</touchText> -->
+      <touchText>Kéo để đổi loại bút, chạm để chọn</touchText>
     </Crumb>
 
 
 
     <Crumb id="ToolMenuEditObject5">
-      <gamepadText>Press &lt;b&gt; to exit.</gamepadText>
-      <mouseText>Press [esc] or click off of the menu.</mouseText>
-      <touchText>Press [esc] or tap off of the menu.</touchText>
+      <!-- <gamepadText>Press &lt;b&gt; to exit.</gamepadText> -->
+      <gamepadText>Bấm &lt;b&gt; để thoát.</gamepadText>
+      <!-- <mouseText>Press [esc] or click off of the menu.</mouseText> -->
+      <mouseText>Bấm [esc] hoặc bấm ra ngoài menu.</mouseText>
+      <!-- <touchText>Press [esc] or tap off of the menu.</touchText> -->
+      <touchText>Bấm [esc] hoặc chạm ra ngoài menu.</touchText>
     </Crumb>
 
     <!-- From HomeMenu -->
 
     <Crumb id="MainMenu5">
-      <gamepadText>Select Main Menu.</gamepadText>
-      <mouseText>Click on Main Menu.</mouseText>
-      <touchText>Tap on Main Menu.</touchText>
+      <!-- <gamepadText>Select Main Menu.</gamepadText> -->
+      <gamepadText>Chọn Menu chính.</gamepadText>
+      <!-- <mouseText>Click on Main Menu.</mouseText> -->
+      <mouseText>Bấm vào Menu chính.</mouseText>
+      <!-- <touchText>Tap on Main Menu.</touchText> -->
+      <touchText>Chạm vào Menu chính.</touchText>
     </Crumb>
 
     <Crumb id="InGame6">
-      <gamepadText>Select Restart World.</gamepadText>
-      <mouseText>Click on Restart World.</mouseText>
-      <touchText>Tap on Restart World.</touchText>
+      <!-- <gamepadText>Select Restart World.</gamepadText> -->
+      <gamepadText>Chọn Chạy lại Thế giới</gamepadText>
+      <!-- <mouseText>Click on Restart World.</mouseText> -->
+      <mouseText>Bấm vào Chạy lại Thế giới.</mouseText>
+      <!-- <touchText>Tap on Restart World.</touchText> -->
+      <touchText>Chạm vào Chạy lại Thế giới.</touchText>
     </Crumb>
 
     <Crumb id="ToolMenuEditObject6">
-      <gamepadText>Select Edit World.</gamepadText>
-      <mouseText>Click on Edit World.</mouseText>
-      <touchText>Tap on Edit World.</touchText>
+      <!-- <gamepadText>Select Edit World.</gamepadText> -->
+      <gamepadText>Chọn Chỉnh sửa</gamepadText>
+      <!-- <mouseText>Click on Edit World.</mouseText> -->
+      <mouseText>Bấm vào Chỉnh sửa.</mouseText>
+      <!-- <touchText>Tap on Edit World.</touchText> -->
+      <touchText>Chạm vào Chỉnh sửa.</touchText>
     </Crumb>
 
     <Crumb id="MouseCameraMove2">
-      <gamepadText>Select Edit World.</gamepadText>
-      <mouseText>Click on Edit World.</mouseText>
-      <touchText>Tap on Edit World.</touchText>
+      <!-- <gamepadText>Select Edit World.</gamepadText> -->
+      <gamepadText>Chọn Chỉnh sửa</gamepadText>
+      <!-- <mouseText>Click on Edit World.</mouseText> -->
+      <mouseText>Bấm vào Chỉnh sửa.</mouseText>
+      <!-- <touchText>Tap on Edit World.</touchText> -->
+      <touchText>Chạm vào Chỉnh sửa.</touchText>
     </Crumb>
 
     <Crumb id="TouchCameraMove2">
-      <gamepadText>Select Edit World.</gamepadText>
-      <mouseText>Click on Edit World.</mouseText>
-      <touchText>Tap on Edit World.</touchText>
+      <!-- <gamepadText>Select Edit World.</gamepadText> -->
+      <gamepadText>Chọn Chỉnh sửa</gamepadText>
+      <!-- <mouseText>Click on Edit World.</mouseText> -->
+      <mouseText>Bấm vào Chỉnh sửa.</mouseText>
+      <!-- <touchText>Tap on Edit World.</touchText> -->
+      <touchText>Chạm vào Chỉnh sửa.</touchText>
     </Crumb>
 
     <Crumb id="LoadLevelMenu1">
-      <gamepadText>Select Load World.</gamepadText>
-      <mouseText>Click on Load World.</mouseText>
-      <touchText>Tap on Load World.</touchText>
+      <!-- <gamepadText>Select Load World.</gamepadText> -->
+      <gamepadText>Chọn Mở Trò chơi trong máy</gamepadText>
+      <!-- <mouseText>Click on Load World.</mouseText> -->
+      <mouseText>Bấm vào Mở Trò chơi trong máy.</mouseText>
+      <!-- <touchText>Tap on Load World.</touchText> -->
+      <touchText>Chạm vào Mở Trò chơi trong máy.</touchText>
     </Crumb>
 
     <Crumb id="SharingHub2">
-      <gamepadText>Select Share with Friends.</gamepadText>
-      <mouseText>Click on Share with Friends.</mouseText>
-      <touchText>Tap on Share with Friends.</touchText>
+      <!-- <gamepadText>Select Share with Friends.</gamepadText> -->
+      <gamepadText>Chọn Chia sẻ với Bạn bè</gamepadText>
+      <!-- <mouseText>Click on Share with Friends.</mouseText> -->
+      <mouseText>Bấm vào Chia sẻ với Bạn bè.</mouseText>
+      <!-- <touchText>Tap on Share with Friends.</touchText> -->
+      <touchText>Chạm vào Chia sẻ với Bạn bè.</touchText>
     </Crumb>
 
     <!-- Into Add Item -->
     <Crumb id="AddItem0">
-      <gamepadText>Move the cursor to where you want to add a new object and press &lt;a&gt;.</gamepadText>
-      <mouseText>Left click &lt;leftmouse&gt; anywhere on the ground to add a new object.</mouseText>
-      <touchText>Double-tap anywhere on the ground to add a new object.</touchText>
+      <!-- <gamepadText>Move the cursor to where you want to add a new object and press &lt;a&gt;.</gamepadText> -->
+      <gamepadText>Di chuyển con trỏ đến nơi bạn muốn thêm một vật thể mới và bấm &lt;a&gt;.</gamepadText>
+      <!-- <mouseText>Left click &lt;leftmouse&gt; anywhere on the ground to add a new object.</mouseText> -->
+      <mouseText>Bấm chuột trái &lt;leftmouse&gt; vào bất kể đâu để thêm một vật thể.</mouseText>
+      <!-- <touchText>Double-tap anywhere on the ground to add a new object.</touchText> -->
+      <touchText>Chạm đúp ở bất kể đâu để thêm một vật thể mới</touchText>
     </Crumb>
 
     <!-- From mouse world settings -->
     <Crumb id="MouseCameraMove3">
       <gamepadText></gamepadText>
-      <mouseText>Press [esc] to return to the tool menu.</mouseText>
+      <!-- <mouseText>Press [esc] to return to the tool menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại menu công cụ.</mouseText>
     </Crumb>
 
     <Crumb id="TouchCameraMove3">
       <gamepadText></gamepadText>
       <mouseText></mouseText>
-      <touchText>Press [esc] or tap off of the menu to return to the tool menu.</touchText>
+      <!-- <touchText>Press [esc] or tap off of the menu to return to the tool menu.</touchText> -->
+      <touchText>Bấm [esc] hoặc chạm ra ngoài menu để trở lại menu công cụ.</touchText>
     </Crumb>
 
     <!-- To and From Programming -->
     <Crumb id="Programming1">
-      <gamepadText>Press &lt;B&gt; to go back.</gamepadText>
-      <mouseText>Press [esc] to go back.</mouseText>
-      <touchText>Tap on the background or press [esc] to go back.</touchText>
+      <!-- <gamepadText>Press &lt;B&gt; to go back.</gamepadText> -->
+      <gamepadText>Bấm &lt;B&gt; để trở lại.</gamepadText>
+      <!-- <mouseText>Press [esc] to go back.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại.</mouseText>
+      <!-- <touchText>Tap on the background or press [esc] to go back.</touchText> -->
+      <touchText>Chạm vào nền hoặc bấm [esc] để trở lại.</touchText>
     </Crumb>
 
     <Crumb id="GamepadEditObjectFocus1">
-      <gamepadText>Move the cursor to the character.</gamepadText>
+      <!-- <gamepadText>Move the cursor to the character.</gamepadText> -->
+      <gamepadText>Di chuyển con trỏ đến nhân vật</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
     <Crumb id="GamepadEditObject2">
-      <gamepadText>Move the cursor to an empty space.</gamepadText>
+      <!-- <gamepadText>Move the cursor to an empty space.</gamepadText> -->
+      <gamepadText>Di chuyển con trỏ đến một vị trí trống</gamepadText>
       <mouseText></mouseText>
       <touchText></touchText>
     </Crumb>
 
     <Crumb id="Programming2">
-      <gamepadText>Press &lt;Y&gt; to enter Programming.</gamepadText>
-      <mouseText>Right click on the character and select Program.</mouseText>
-      <touchText>Double tap the object and select Program.</touchText>
+      <!-- <gamepadText>Press &lt;Y&gt; to enter Programming.</gamepadText> -->
+      <gamepadText>Bấm &lt;Y&gt; để vào chế độ Lập trình.</gamepadText>
+      <!-- <mouseText>Right click on the character and select Program.</mouseText> -->
+      <mouseText>Bấm chuột phải vào nhân vật và chọn Lập trình.</mouseText>
+      <!-- <touchText>Double tap the object and select Program.</touchText> -->
+      <touchText>Bấm đúp vào vật thể và chọn Lập trình.</touchText>
     </Crumb>
 
     <Crumb id="TouchEditMenu0">
-      <gamepadText>Press &lt;Y&gt; to enter Programming.</gamepadText>
-      <mouseText>Right click on the character and select Program.</mouseText>
-      <touchText>Double tap the object and select Program.</touchText>
+      <!-- <gamepadText>Press &lt;Y&gt; to enter Programming.</gamepadText> -->
+      <gamepadText>Bấm &lt;Y&gt; để vào chế độ Lập trình.</gamepadText>
+      <!-- <mouseText>Right click on the character and select Program.</mouseText> -->
+      <mouseText>Bấm chuột phải vào nhân vật và chọn Lập trình.</mouseText>
+      <!-- <touchText>Double tap the object and select Program.</touchText> -->
+      <touchText>Bấm đúp vào vật thể và chọn Lập trình.</touchText>
     </Crumb>
 
     <Crumb id="Programming3">
       <gamepadText></gamepadText>
       <mouseText></mouseText>
-      <touchText>Tap on Program.</touchText>
+      <!-- <touchText>Tap on Program.</touchText> -->
+      <touchText>Chạm vào Lập trình.</touchText>
     </Crumb>
 
     <!-- Out of programming -->
     <Crumb id="MouseEditObject2">
-      <gamepadText>Press &lt;B&gt; to go close and go back to the Edit Menu.</gamepadText>
-      <mouseText>Press [esc] to go back to the Edit Menu.</mouseText>
-      <touchText>Press [esc] to go back to the Edit Menu.</touchText>
+      <!-- <gamepadText>Press &lt;B&gt; to go close and go back to the Edit Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;B&gt; để đóng và quay lại Menu chỉnh sửa.</gamepadText>
+      <!-- <mouseText>Press [esc] to go back to the Edit Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại Menu chỉnh sửa.</mouseText>
+      <!-- <touchText>Press [esc] to go back to the Edit Menu.</touchText> -->
+      <touchText>Bấm [esc] để trở lại Menu chỉnh sửa.</touchText>
     </Crumb>
     <Crumb id="TouchEditObject2">
-      <gamepadText>Press &lt;B&gt; to go close and go back to the Edit Menu.</gamepadText>
-      <mouseText>Press [esc] to go back to the Edit Menu.</mouseText>
-      <touchText>Tap on the background or press [esc] to go back to the Edit Menu.</touchText>
+      <!-- <gamepadText>Press &lt;B&gt; to go close and go back to the Edit Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;B&gt; để đóng và quay lại Menu chỉnh sửa.</gamepadText>
+      <!-- <mouseText>Press [esc] to go back to the Edit Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại Menu chỉnh sửa.</mouseText>
+      <!-- <touchText>Tap on the background or press [esc] to go back to the Edit Menu.</touchText> -->
+      <touchText>Chạm vào nền hoặc bấm [esc] để trở lại Menu chỉnh sửa.</touchText>
     </Crumb>
     <Crumb id="GamepadEditObject3">
-      <gamepadText>Press &lt;B&gt; to go close and go back to the Edit Menu.</gamepadText>
-      <mouseText>Press [esc] to go back to the Edit Menu.</mouseText>
-      <touchText>Press [esc] to go back to the Edit Menu.</touchText>
+      <!-- <gamepadText>Press &lt;B&gt; to go close and go back to the Edit Menu.</gamepadText> -->
+      <gamepadText>Bấm &lt;B&gt; để đóng và quay lại Menu chỉnh sửa.</gamepadText>
+      <!-- <mouseText>Press [esc] to go back to the Edit Menu.</mouseText> -->
+      <mouseText>Bấm [esc] để trở lại Menu chỉnh sửa.</mouseText>
+      <!-- <touchText>Press [esc] to go back to the Edit Menu.</touchText> -->
+      <touchText>Bấm [esc] để trở lại Menu chỉnh sửa.</touchText>
     </Crumb>
 
 

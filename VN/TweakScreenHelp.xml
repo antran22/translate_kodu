@@ -4,420 +4,591 @@
   <!-- Help for Object Edit Tweak Screen-->
 
   <helpText id="PushRange">
-    <desc>Controls the base range in which objects will be pushed away. Also affected by object scale.</desc>
+    <!-- <desc>Controls the base range in which objects will be pushed away. Also affected by object scale.</desc> -->
+    <desc>Điều khiển phạm vi cơ sở trong đó các đối tượng sẽ bị đẩy đi. Cũng bị ảnh hưởng bởi tỉ lệ đối tượng.</desc>
   </helpText>
 
   <helpText id="PushStrength">
-    <desc>Controls how much force to push objects. It is modified by strength modifiers.</desc>
+    <!-- <desc>Controls how much force to push objects. It is modified by strength modifiers.</desc> -->
+    <desc>Kiểm soát bao nhiêu lực để đẩy vật. Nó được sửa đổi bởi các thay đổi về sức mạnh.</desc>
   </helpText>
   
   <helpText id="LightRange">
-    <desc>Set how far this light shines (only available for lights).</desc>
+    <!-- <desc>Set how far this light shines (only available for lights).</desc> -->
+    <desc>Đặt khoảng cách này ánh sáng chiếu sáng (chỉ có sẵn cho đèn).</desc>
   </helpText>
   <helpText id="SpeedMultiplier">
-    <desc>
+    <!-- <desc> 
 Fine tune the speed of this bot.
 A value of 1.0 will match the default speed.
+    </desc>-->
+     <desc>
+Tinh chỉnh tốc độ của đối tượng này.
+Giá trị 1.0 sẽ khớp với tốc độ mặc định.
     </desc>
   </helpText>
   <helpText id="AccelerationMultiplier">
-    <desc>
+    <!-- <desc> 
 Fine tune the acceleration of this bot.
 A value of 1.0 will match the default acceleration.
+    </desc>-->
+     <desc>
+Tinh chỉnh tốc độ của đối tượng này.
+Giá trị 1.0 sẽ khớp với tốc độ mặc định.
     </desc>
   </helpText>
   <helpText id="Helmet">
-    <desc>Add a helmet to this character.</desc>
+    <!-- <desc>Add a helmet to this character.</desc> -->
+    <desc>Thêm một chiếc mũ bảo hiểm cho nhân vật này.</desc>
   </helpText>
   <helpText id="Immobile">
-    <desc>Lock this bot's position so it can't move in any direction.  It can still rotate.</desc>
+    <!-- <desc>Lock this bot's position so it can't move in any direction.  It can still rotate.</desc> -->
+    <desc>Khóa vị trí của đối tượng này để nó không thể di chuyển theo bất kỳ hướng nào. Nó vẫn có thể xoay.</desc>
   </helpText>
   <helpText id="Invulnerable">
-    <desc>Makes this bot indestructible.</desc>
+    <!-- <desc>Makes this bot indestructible.</desc> -->
+    <desc>Làm cho đối tượng này bất tử.</desc>
   </helpText>
   <helpText id="ShowHitPoints">
-    <desc>When set, a small bar will appear over the top of the head of this bot indicating how much health the bot has remaining.</desc>
+    <!-- <desc>When set, a small bar will appear over the top of the head of this bot indicating how much health the bot has remaining.</desc> -->
+    <desc>Khi được đặt, một thanh nhỏ sẽ xuất hiện trên đỉnh đầu của đối tượng này cho biết đối tượng còn lại bao nhiêu sức khỏe.</desc>
   </helpText>
   <helpText id="MaxHitPoints">
-    <desc>This lets you control the starting number of hit points this bot has.  The number of hit points will then go down as the bot is damaged and up when it is healed.</desc>
+    <!-- <desc>This lets you control the starting number of hit points this bot has.  The number of hit points will then go down as the bot is damaged and up when it is healed.</desc> -->
+    <desc>Điều này cho phép bạn kiểm soát số điểm bắt đầu mà đối tượng này có. Số lượng điểm nhấn sau đó sẽ giảm xuống khi đối tượng bị hỏng và tăng lên khi nó được chữa lành.</desc>
   </helpText>
   <helpText id="Creatable">
-    <desc>
+    <!-- <desc>
 When a bot is marked as "Creatable" it then becomes special in two ways.
 First, if you clone this bot then all the clones will share the same brain - changes to one will change them all.  You can see the link between creatables and their clones as dotted lines (when editing.)
 Second, you can now program other bots to Create this bot complete with its programming.  This is great for arcade games where you want to continuously create enemies.
 Note that this can make it easy to overrun the world's budget at which point Create will stop working.
+    </desc> -->
+     <desc>
+Khi một đối tượng được đánh dấu là "Có thể tạo", nó sẽ trở nên đặc biệt theo hai cách.
+Đầu tiên, nếu bạn nhân bản đối tượng này thì tất cả các bản sao sẽ chia sẻ cùng một bộ não - thay đổi thành một sẽ thay đổi tất cả. Bạn có thể thấy liên kết giữa các tác phẩm và bản sao của chúng dưới dạng các đường chấm chấm (khi chỉnh sửa.)
+Thứ hai, bây giờ bạn có thể lập trình các đối tượng khác để tạo đối tượng này hoàn thành với chương trình của nó. Điều này rất tốt cho các game arcade nơi bạn muốn liên tục tạo ra kẻ thù.
+Lưu ý rằng điều này có thể kiến bạn dễ dàng vượt qua dung lượng của thế giới tại thời điểm Tạo sẽ ngừng hoạt động.
     </desc>
   </helpText>
   <helpText id="MaxCreated">
-    <desc>
+    <!-- <desc> 
 For creatables, this count limits the number that can be created during gameplay. Clones that you spread about while editing don't count, this just limits the number that can be spawned by other bots with Create while playing.
+    </desc>-->
+    <desc>
+Đối với người tạo, số lượng này giới hạn số lượng có thể được tạo trong quá trình chơi trò chơi. Bản sao mà bạn tạo ra trong khi chỉnh sửa không được tính, điều này chỉ giới hạn số lượng có thể được sinh ra bởi các đối tượng khác với Tạo trong khi chơi.
     </desc>
   </helpText>
   <helpText id="CameraFollowMode">
-    <desc>
+    <!-- <desc> 
 Controls how the camera acts with regard to this bot.  Normally the camera will follow any bot that is controlled by a player.
 If you set this to Always then the camera will always follow this bot.  If you have more than one bot with this set then the camera will try and keep them all on screen.
 If you set this to Never then the camera will ignore this bot even if it is user controlled.
+    </desc>-->
+     <desc>
+Kiểm soát cách thức hoạt động của máy ảnh liên quan đến đối tượng này. Thông thường camera sẽ theo bất kỳ đối tượng nào được điều khiển bởi người chơi.
+Nếu bạn đặt thành Luôn luôn thì máy ảnh sẽ luôn theo đối tượng này. Nếu bạn có nhiều đối tượng với bộ này thì máy ảnh sẽ thử và giữ tất cả chúng trên màn hình.
+Nếu bạn đặt thành Không bao giờ thì máy ảnh sẽ bỏ qua bot này ngay cả khi nó do người dùng kiểm soát.
     </desc>
   </helpText>
   <helpText id="HoldDistance">
-    <desc>This controls how far away a "held" object is carried.</desc>
+    <!-- <desc>This controls how far away a "held" object is carried.</desc> -->
+    <desc>Điều này kiểm soát khoảng cách xa một đối tượng "bị giữ" được mang theo.</desc>
   </helpText>
   <helpText id="Bounciness">
-    <desc>This controls how bouncy a bot is when colliding the the terrain, walls, or other bots.</desc>
+    <!-- <desc>This controls how bouncy a bot is when colliding the the terrain, walls, or other bots.</desc> -->
+    <desc>Điều này kiểm soát mức độ nảy của đối tượng khi va chạm vào địa hình, tường hoặc các đối tượng khác.</desc>
   </helpText>
   <helpText id="Friction">
-    <desc>This controls how much a bot slides when colliding the the terrain, walls, or other bots.</desc>
+    <!-- <desc>This controls how much a bot slides when colliding the the terrain, walls, or other bots.</desc> -->
+    <desc>Điều này kiểm soát số lượng đối tượng trượt khi va chạm vào địa hình, tường hoặc các đối tượng khác.</desc>
   </helpText>
 
   <helpText id="BlipDamage">
-    <desc>Controls how much damage a blip fired from this bot causes.</desc>
+    <!-- <desc>Controls how much damage a blip fired from this bot causes.</desc> -->
+    <desc>Kiểm soát mức độ thiệt hại mà một đạn từ đối tượng này gây ra.</desc>
   </helpText>
   <helpText id="BlipReloadTime">
-    <desc>
+   <!-- <desc> 
 The blip reload time controls long after a bot fires a blip before it can fire again.
 This is measured in seconds.
-    </desc>
+   </desc>-->
+  <desc>
+Thời gian đạn kiểm soát sau khi đối tượng bắn một viên đạn trước khi nó có thể bắn lại.
+Điều này được đo bằng giây.
+  </desc>
   </helpText>
   <helpText id="BlipRange">
-    <desc>Controls how far blips can travel before disappearing.</desc>
+    <!-- <desc>Controls how far blips can travel before disappearing.</desc> -->
+    <desc>Kiểm soát khoảng cách những viên đạn có thể đi trước khi biến mất.</desc>
   </helpText>
   <helpText id="BlipSpeed">
-    <desc>Controls how fast blips fired from this bot travel.</desc>
+    <!-- <desc>Controls how fast blips fired from this bot travel.</desc> -->
+    <desc>Kiểm soát tốc độ bắn nhanh từ đối tượng.</desc>
   </helpText>
   <helpText id="BlipsInAir">
-    <desc>
+    <!-- <desc>
 Controls how many blips this bot can have in the air at once.
 Once the bot has fired this number, it can't fire again until some blips have either hit something or reached their maximum range.
+    </desc> -->
+    <desc>
+Kiểm soát bao nhiêu viên đạn đối tượng này có thể có trong không khí cùng một lúc.
+Khi đối tượng đã bắn con số này, nó không thể bắn lại cho đến khi một số viên đạn trúng thứ gì đó hoặc đạt đến phạm vi tối đa của chúng.
     </desc>
   </helpText>
 
   <helpText id="MissileDamage">
-    <desc>Controls how many Hit Points a missile fired from this bot damages a target when hit.</desc>
+    <!-- <desc>Controls how many Hit Points a missile fired from this bot damages a target when hit.</desc> -->
+    <desc>Kiểm soát số điểm Hit mà tên lửa bắn ra từ đối tượng này gây sát thương cho mục tiêu khi bị bắn trúng.</desc>
   </helpText>
   <helpText id="MissileReloadTime">
-    <desc>
+    <!-- <desc> 
 Controls how long a bot has to wait between firing missiles.
 This is measured in seconds.
+    </desc>-->
+    <desc>
+Kiểm soát thời gian một đối tượng phải chờ giữa các lần bắn tên lửa.
+Điều này được đo bằng giây.
     </desc>
   </helpText>
   <helpText id="MissileRange">
-    <desc>Controls how far missiles can travel before disappearing.</desc>
+    <!-- <desc>Controls how far missiles can travel before disappearing.</desc> -->
+    <desc>Kiểm soát cách tên lửa có thể đi xa bao nhiêu trước khi biến mất.</desc>
   </helpText>
   <helpText id="MissileSpeed">
-    <desc>Controls how fast missiles fired from this bot travel.</desc>
+    <!-- <desc>Controls how fast missiles fired from this bot travel.</desc> -->
+    <desc>Kiểm soát cách tên lửa bắn nhanh từ đối tượng này đi.</desc>
   </helpText>
   <helpText id="MissilesInAir">
-    <desc>
+    <!-- <desc> 
 Controls how many missiles this bot can have in the air at once.
 Once the bot has fired this number, it can't fire again until some missiles either hit something or reach their maximum range.
+    </desc>-->
+    <desc>
+Kiểm soát số lượng tên lửa mà đối tượng này có thể có trong không khí cùng một lúc.
+Khi đối tượng đã bắn con số này, nó không thể bắn lại cho đến khi một số tên lửa bắn trúng thứ gì đó hoặc đạt phạm vi tối đa của chúng.
     </desc>
   </helpText>
   <helpText id="MissileSmoke">
-    <desc>Controls whether missiles fired by this bot emit smoke. Missiles with no smoke are faster to render.</desc>
+    <!-- <desc>Controls whether missiles fired by this bot emit smoke. Missiles with no smoke are faster to render.</desc> -->
+    <desc>Kiểm soát xem tên lửa được bắn bởi đối tượng này có phát ra khói hay không. Tên lửa không có khói nhanh hơn để kết xuất.</desc>
   </helpText>
 
   <helpText id="ShieldEffects">
-    <desc>Controls whether the shield visual effect is displayed when this bot hits something or takes damage.</desc>
+    <!-- <desc>Controls whether the shield visual effect is displayed when this bot hits something or takes damage.</desc> -->
+    <desc>Kiểm soát xem hiệu ứng hình ảnh khiên được hiển thị khi đối tượng này đánh thứ gì đó hoặc gây sát thương.</desc>
   </helpText>
 
   <helpText id="Invisible">
-    <desc>Controls whether this bot is displayed at all. Can still be seen and heard by other bots.</desc>
+    <!-- <desc>Controls whether this bot is displayed at all. Can still be seen and heard by other bots.</desc> -->
+    <desc>Kiểm soát xem đối tượng này được hiển thị ở tất cả. Vẫn có thể được nhìn thấy và nghe thấy bởi các đối tượng khác.</desc>
   </helpText>
 
   <helpText id="Ignored">
-    <desc>Controls whether this bot can be seen, heard and bumped by other bots. Ghost bots can still see and hear others, but can't bump them.</desc>
+    <!-- <desc>Controls whether this bot can be seen, heard and bumped by other bots. Ghost bots can still see and hear others, but can't bump them.</desc> -->
+    <desc>Kiểm soát xem đối tượng này có thể được nhìn thấy, nghe và va chạm bởi các đối tượng khác hay không. Các đối tượng ma vẫn có thể nhìn và nghe thấy người khác, nhưng không thể va vào chúng.</desc>
   </helpText>
 
   <helpText id="Mute">
-    <desc>Disable all built-in sounds from this character. Programmed sounds will still play. Note that other characters will still be able to detect this character's presence by listening.</desc>
+    <!-- <desc>Disable all built-in sounds from this character. Programmed sounds will still play. Note that other characters will still be able to detect this character's presence by listening.</desc> -->
+    <desc>Vô hiệu hóa tất cả âm thanh tích hợp từ nhân vật này. Âm thanh được lập trình vẫn sẽ phát. Lưu ý rằng các nhân vật khác vẫn có thể phát hiện sự hiện diện của nhân vật này bằng cách lắng nghe.</desc>
   </helpText>
 
   <helpText id="StayAboveWater">
-    <desc>Glide over the surface of any water. Turn this off to allow characters to fly down into the water.</desc>
+    <!-- <desc>Glide over the surface of any water. Turn this off to allow characters to fly down into the water.</desc> -->
+    <desc>Lướt trên bề mặt của bất kỳ nước. Tắt cái này để cho phép nhân vật bay xuống nước.</desc>
   </helpText>
 
   <helpText id="Loudness">
-    <desc>Controls how far away other characters can hear this character. Doesn't change the actual sound the player hears.</desc>
+    <!-- <desc>Controls how far away other characters can hear this character. Doesn't change the actual sound the player hears.</desc> -->
+    <desc>Kiểm soát khoảng cách các nhân vật khác có thể nghe thấy nhân vật này. Không thay đổi âm thanh thực tế mà người chơi nghe thấy.</desc>
   </helpText>
 
   <helpText id="Hearing">
-    <desc>Controls how far away this character can hear other characters. Doesn't change the actual sound the player hears.</desc>
+    <!-- <desc>Controls how far away this character can hear other characters. Doesn't change the actual sound the player hears.</desc> -->
+    <desc>Kiểm soát khoảng cách nhân vật này có thể nghe thấy các nhân vật khác. Không thay đổi âm thanh thực tế mà người chơi nghe thấy.</desc>
   </helpText>
 
   <helpText id="Camouflaged">
-    <desc>True if bot is ghosted but still collidable with the environment.</desc>
+    <!-- <desc>True if bot is ghosted but still collidable with the environment.</desc> -->
+    <desc>Đúng nếu đối tượng bị thành bóng ma nhưng vẫn có thể va chạm với môi trường.</desc>
   </helpText>
   
   <helpText id="KickStrength">
-    <desc>Controls how strongly this bot kicks objects.  A stronger kick will cause the object to fly farther.</desc>
+    <!-- <desc>Controls how strongly this bot kicks objects.  A stronger kick will cause the object to fly farther.</desc> -->
+    <desc>Kiểm soát sức mạnh đối tượng này đá các đối tượng. Cú đá mạnh hơn sẽ khiến vật thể bay xa hơn.</desc>
   </helpText>
   <helpText id="KickRate">
-    <desc>Controls how quickly this bot can kick a second object after kicking the first one.</desc>
+    <!-- <desc>Controls how quickly this bot can kick a second object after kicking the first one.</desc> -->
+    <desc>Kiểm soát cách nhanh chóng bot này có thể đá một đối tượng thứ hai sau khi đá cái đầu tiên.</desc>
   </helpText>
   <helpText id="ReScale">
-    <desc>Scale the bot up (larger) or down (smaller). A scale of 1.0 is normal size.</desc>
+    <!-- <desc>Scale the bot up (larger) or down (smaller). A scale of 1.0 is normal size.</desc> -->
+    <desc>Tỷ lệ đối tượng tăng (lớn hơn) hoặc giảm (nhỏ hơn). Thang đo 1.0 là kích thước bình thường.</desc>
   </helpText>
   <helpText id="MemoryLifetime">
-    <desc>When you see something, you remember it for a few seconds as though you can still see it.</desc>
+    <!-- <desc>When you see something, you remember it for a few seconds as though you can still see it.</desc> -->
+    <desc>Khi bạn nhìn thấy một cái gì đó, bạn nhớ nó trong vài giây như thể bạn vẫn có thể nhìn thấy nó.</desc>
   </helpText>
   <helpText id="GlowStrength">
-    <desc>Affects how bright the glow effect is for this character. Note that glowing characters do not normally cast light on other characters.</desc>
+    <!-- <desc>Affects how bright the glow effect is for this character. Note that glowing characters do not normally cast light on other characters.</desc> -->
+    <desc>Ảnh hưởng đến hiệu ứng phát sáng của nhân vật này. Lưu ý rằng các đối tượng phát sáng thường không chiếu sáng vào các đối tượng khác.</desc>
   </helpText>
   <helpText id="GlowLightStrength">
-    <desc>Make this object actually cast light on others when it's glowing, and set how strong the effect is.</desc>
+    <!-- <desc>Make this object actually cast light on others when it's glowing, and set how strong the effect is.</desc> -->
+    <desc>Làm cho vật thể này thực sự phát sáng lên người khác khi nó phát sáng và thiết lập mức độ hiệu ứng mạnh như thế nào.</desc>
   </helpText>
   <helpText id="GlowEmission">
-    <desc>Set how strongly the glow from this bot lights itself up.</desc>
+    <!-- <desc>Set how strongly the glow from this bot lights itself up.</desc> -->
+    <desc>Đặt mức độ phát sáng mạnh từ bot này tự phát sáng.</desc>
   </helpText>
 
   <helpText id="Debug:DisplayLineOfSight">
-    <desc>When characters are programmed to wander, circle, or move away from something, this shows any barriers that are obstructing its path.</desc>
+    <!-- <desc>When characters are programmed to wander, circle, or move away from something, this shows any barriers that are obstructing its path.</desc> -->
+    <desc>Khi các nhân vật được lập trình để đi lang thang, vòng tròn hoặc di chuyển khỏi thứ gì đó, điều này cho thấy bất kỳ rào cản nào đang cản trở con đường của nó.</desc>
   </helpText>
   <helpText id="Debug:DrawLinesShowingWhatISeeAndHear">
-    <desc>If this bot is using vision or hearing, shows which bots this bot can see and hear.</desc>
+    <!-- <desc>If this bot is using vision or hearing, shows which bots this bot can see and hear.</desc> -->
+    <desc>Nếu đối tượng này đang sử dụng thị giác hoặc thính giác, hãy cho biết đối tượng nào đối tượng này có thể nhìn và nghe ..</desc>
   </helpText>
   <helpText id="Debug:DrawCurrentPage">
-    <desc>Shows the current programming page over the bot.</desc>
+    <!-- <desc>Shows the current programming page over the bot.</desc> -->
+    <desc>Hiển thị trang lập trình hiện tại qua đối tượng.</desc>
   </helpText>
   <helpText id="ShowSensors">
-    <desc>Currently not implemented.</desc>
+    <!-- <desc>Currently not implemented.</desc> -->
+    <desc>Hiện tại không được thực hiện.</desc>
   </helpText>
 
   <!-- Help for World Edit Tweak Screen-->
 
   <helpText id="GlassWalls">
-    <desc>Creates an invisible barrier around the edges of your world.  This will prevent bots from falling off the edge of the world.
+    <!-- <desc>Creates an invisible barrier around the edges of your world.  This will prevent bots from falling off the edge of the world.
     
-The Balloon, Cloud, Jet, Light, Saucer, Blimp, Wisp and Missile can go through the glass wall.</desc>
+The Balloon, Cloud, Jet, Light, Saucer, Blimp, Wisp and Missile can go through the glass wall.</desc> -->
+   <desc>Tạo ra một rào cản vô hình xung quanh các cạnh của thế giới của bạn. Điều này sẽ ngăn đối tượng rơi khỏi rìa thế giới.
+    
+khinh khí cầu tròn, đám mây, máy bay, ánh sáng, đĩa bay, khinh khí cầu bầu dục, đốm sáng và tên lửa có thể đi xuyên qua bức tường này.</desc>
   </helpText>
   <helpText id ="ChangeHistory">
-    <desc>Displays a history of the people who have changed this world.</desc>
+    <!-- <desc>Displays a history of the people who have changed this world.</desc> -->
+    <desc>Hiển thị một lịch sử của những người đã thay đổi thế giới này.</desc>
   </helpText>
   <helpText id="CameraMode">
-    <desc>Allows you to control how the camera moves when your game is running.
+    <!-- <desc>Allows you to control how the camera moves when your game is running. 
     
 The Fixed Position option keeps the camera from moving at all while your game is running.  Useful for arcade style games that require an overhead view. Note that the view will be different on widescreen displays.
 
 The Fixed Offset option keeps the camera a fixed distance and direction from whatever object the camera is following.  This can be the cursor or a bot.  Useful for sidescrollers.
 
 The Free option is the default and lets the camera roam free unless a bot's programming tells the camera to be in first person or to follow it.  If you're using fixed or offset camera, pressing the &lt;X&gt; button will let you set the position of the camera.
+    </desc>-->
+     <desc>Cho phép bạn kiểm soát cách camera di chuyển khi trò chơi của bạn đang chạy.
+    
+Tùy chọn Fixed Position cố định giữ cho máy ảnh không di chuyển trong khi trò chơi của bạn đang chạy. Hữu ích cho các trò chơi phong cách arcade đòi hỏi một cái nhìn trên cao. Lưu ý rằng chế độ xem sẽ khác nhau trên màn hình rộng.
+
+Tùy chọn Offset cố định giữ cho máy ảnh một khoảng cách và hướng cố định từ bất kỳ đối tượng nào mà máy ảnh đang theo dõi. Đây có thể là con trỏ hoặc đối tượng. Hữu ích cho sidecrollers.
+
+Tùy chọn Free là mặc định và cho phép máy ảnh chuyển vùng miễn phí trừ khi lập trình của đối tượng bảo máy ảnh ở vị trí đầu tiên hoặc theo dõi nó. Nếu bạn đang sử dụng máy ảnh cố định hoặc bù, hãy nhấn &lt; X&gt; nút sẽ cho phép bạn đặt vị trí của máy ảnh.
     </desc>
   </helpText>
   <helpText id="StartingCameraPosition">
-    <desc>Controls where the camera is positioned when your game starts.  To use, move the camera to where you want it to be when the game starts, open World Settings and check the box.
-If you later want to change the position you can press &lt;x&gt; which will be put into a mode which will let you freely align the camera to whatever position you need.</desc>
+      <!-- <desc>Controls where the camera is positioned when your game starts.  To use, move the camera to where you want it to be when the game starts, open World Settings and check the box. 
+If you later want to change the position you can press &lt;x&gt; which will be put into a mode which will let you freely align the camera to whatever position you need.</desc>-->
+      <desc>Điều khiển vị trí đặt camera khi trò chơi của bạn bắt đầu. Để sử dụng, hãy di chuyển camera đến nơi bạn muốn khi trò chơi bắt đầu, mở Cài đặt thế giới và chọn hộp.
+Nếu sau này bạn muốn thay đổi vị trí, bạn có thể nhấn &lt; x&gt; sẽ được đưa vào chế độ cho phép bạn tự do căn chỉnh máy ảnh theo bất kỳ vị trí nào bạn cần.</desc>
   </helpText>
   <helpText id ="CameraSpringStrength">
-    <desc>Controls how strongly the camera swings to be behind a user-controlled character. </desc>
+    <!-- <desc>Controls how strongly the camera swings to be behind a user-controlled character. </desc> -->
+    <desc>Kiểm soát mức độ mạnh mẽ của camera xoay phía sau nhân vật do người dùng điều khiển. </desc>
   </helpText>
   <helpText id="ShowCompass">
-    <desc>Lets you hide the Compass which normally appears in the lower right hand corner of the screen.  The compass is always shown during editing and is only hidden when you run your game.</desc>
+    <!-- <desc>Lets you hide the Compass which normally appears in the lower right hand corner of the screen.  The compass is always shown during editing and is only hidden when you run your game.</desc> -->
+    <desc>Cho phép bạn ẩn La bàn thường xuất hiện ở góc dưới bên phải màn hình. La bàn luôn được hiển thị trong quá trình chỉnh sửa và chỉ bị ẩn khi bạn chạy trò chơi của mình.</desc>
   </helpText>
   <helpText id="ShowResourceMeter">
-    <desc>Lets you hide the Resource Meter (thermometer) which normally appears on the right side of the screen.  The Resource Meter is always shown during editing and is only hidden when you run your game.</desc>
+    <!-- <desc>Lets you hide the Resource Meter (thermometer) which normally appears on the right side of the screen.  The Resource Meter is always shown during editing and is only hidden when you run your game.</desc> -->
+    <desc>Cho phép bạn ẩn Bộ đo tài nguyên (nhiệt kế) thường xuất hiện ở bên phải màn hình. Bộ đo tài nguyên luôn được hiển thị trong khi chỉnh sửa và chỉ bị ẩn khi bạn chạy trò chơi của mình.</desc>
   </helpText>
   <helpText id="EnableResourceLimiting">
-    <desc>
+    <!-- <desc> 
 Lets you turn off the resource limiting as shown by the Resource Meter (thermometer) which normally appears on the right side of the screen.  With this option off you can add as much terrain and as many object to your world as you want.  
 WARNING:  Without this limit you may cause Kodu to run extremely slowly.  You may also exceed your system's memory and cause Kodu to crash.
+  </desc>-->
+  <desc>
+Cho phép bạn tắt giới hạn dung lượng như được hiển thị bởi Bộ đo tài nguyên (nhiệt kế) thường xuất hiện ở bên phải màn hình. Với tùy chọn này, bạn có thể thêm bao nhiêu địa hình và nhiều đối tượng vào thế giới của bạn như bạn muốn.
+CẢNH BÁO: Nếu không có giới hạn này, bạn có thể khiến Kodu chạy rất chậm. Bạn cũng có thể vượt quá bộ nhớ hệ thống của mình và khiến Kodu gặp sự cố.
   </desc>
   </helpText>
   <helpText id="WaveHeight">
-    <desc>Controls the height of the waves when you have water in your world.</desc>
+    <!-- <desc>Controls the height of the waves when you have water in your world.</desc> -->
+    <desc>Kiểm soát độ cao của sóng khi bạn có nước trong thế giới của bạn.</desc>
   </helpText>
   <helpText id="WaterStrength">
-    <desc>Controls how strongly the water distorts the view.</desc>
+    <!-- <desc>Controls how strongly the water distorts the view.</desc> -->
+    <desc>Kiểm soát mức độ mạnh của nước làm biến dạng tầm nhìn.</desc>
   </helpText>
   <helpText id="Sky">
-    <desc>Choose a set of background colors for your world.
-Combine the Sky and Lighting settings to help create a mood for you game.</desc>
+    <!-- <desc>Choose a set of background colors for your world.
+Combine the Sky and Lighting settings to help create a mood for you game.</desc> -->
+    <desc>Chọn một bộ màu nền cho thế giới của bạn.
+Kết hợp cài đặt Bầu trời và Ánh sáng để giúp tạo tâm trạng cho trò chơi của bạn.</desc>
   </helpText>
   <helpText id="Lighting">
-    <desc>Choose a set of lights for your world.  If you choose a dark lighting setup then it will only be dark when you run your game.  During editing a brighter lighting setup will be used so you can still clearly see your world.
-Combine the Sky and Lighting settings to help create a mood for you game.</desc>
+    <!-- <desc>Choose a set of lights for your world.  If you choose a dark lighting setup then it will only be dark when you run your game.  During editing a brighter lighting setup will be used so you can still clearly see your world.
+Combine the Sky and Lighting settings to help create a mood for you game.</desc> -->
+ <desc>Chọn một bộ đèn cho thế giới của bạn. Nếu bạn chọn một thiết lập ánh sáng tối thì nó sẽ chỉ tối khi bạn chạy trò chơi của mình. Trong quá trình chỉnh sửa, thiết lập ánh sáng sáng hơn sẽ được sử dụng để bạn vẫn có thể nhìn rõ thế giới của mình.
+Kết hợp cài đặt Bầu trời và Ánh sáng để giúp tạo tâm trạng cho trò chơi của bạn</desc>
   </helpText>
   <helpText id="MinBreeze">
-    <desc>Controls the softest the breeze blows through the trees in game.</desc>
+    <!-- <desc>Controls the softest the breeze blows through the trees in game.</desc> -->
+    <desc>Điều khiển những cơn gió nhẹ nhất thổi qua những tán cây trong trò chơi.</desc>
   </helpText>
   <helpText id="MaxBreeze">
-    <desc>Controls the hardest the breeze blows through the trees in game.</desc>
+    <!-- <desc>Controls the hardest the breeze blows through the trees in game.</desc> -->
+    <desc>Kiểm soát những cơn gió mạnh nhất thổi qua những cái cây trong trò chơi.</desc>
   </helpText>
   <helpText id="PreGame">
-    <desc>Control how your game starts when you play it:
+    <!-- <desc>Control how your game starts when you play it: 
 "Nothing" just starts the game as normal, with no effect.
 "World Title" displays the name of the world for 3 seconds and then starts playing.
 "World Description" displays the name of the world and prompts the user to press &lt;a&gt; to start playing.  This uses the description you provide when you save the game.
-"Countdown" displays a 3-2-1 countdown before the game begins.  This is great for racing games.</desc>
+"Countdown" displays a 3-2-1 countdown before the game begins.  This is great for racing games.</desc>-->
+  <desc>Kiểm soát cách trò chơi của bạn bắt đầu khi bạn chơi nó:
+"Không có gì" chỉ bắt đầu trò chơi như bình thường, không có hiệu lực.
+"Tiêu đề thế giới" hiển thị tên của thế giới trong 3 giây và sau đó bắt đầu chơi.
+"Mô tả thế giới" hiển thị tên của thế giới và nhắc người dùng nhấn &lt; a&gt; để bắt đầu chơi Điều này sử dụng mô tả bạn cung cấp khi bạn lưu trò chơi.
+"Đếm ngược" hiển thị đếm ngược 3-2-1 trước khi trò chơi bắt đầu. Điều này là tuyệt vời cho các trò chơi đua xe.</desc>
   </helpText>
   <helpText id="Debug:PathFollowing">
-    <desc>When characters are following paths, this shows which waypoint each character is moving towards. Target goals show as wireframes and are colored the same as the character who is moving towards them</desc>
+    <!-- <desc>When characters are following paths, this shows which waypoint each character is moving towards. Target goals show as wireframes and are colored the same as the character who is moving towards them</desc> -->
+    <desc>Khi các nhân vật đi theo các đường dẫn, điều này cho thấy điểm nào mà mỗi nhân vật đang di chuyển tới. Mục tiêu mục tiêu hiển thị dưới dạng khung lưới và được tô màu giống như nhân vật đang tiến về phía họ</desc>
   </helpText>
   <helpText id="Debug:DisplayCollisions">
-    <desc>Shows the shapes that are used by bots and other objects to bump into each other and the ground.</desc>
+    <!-- <desc>Shows the shapes that are used by bots and other objects to bump into each other and the ground.</desc> -->
+    <desc>Hiển thị các hình dạng được sử dụng bởi đối tượng và các đối tượng khác để va vào nhau và mặt đất.</desc>
   </helpText>
   <helpText id="Debug:ShowLinesOfPerception">
-    <desc>If any bot is using vision or hearing, shows which bots they can see and hear.</desc>
+    <!-- <desc>If any bot is using vision or hearing, shows which bots they can see and hear.</desc> -->
+    <desc>Nếu bất kỳ đối tượng nào đang sử dụng thị giác hoặc thính giác, hãy cho biết những bot nào họ có thể nhìn và nghe thấy.</desc>
   </helpText>
   <helpText id="Debug:ShowCurrentPage">
-    <desc>Shows the current programming page for programmed bots.</desc>
+    <!-- <desc>Shows the current programming page for programmed bots.</desc> -->
+    <desc>Hiển thị trang lập trình hiện tại cho các đối tượng được lập trình.</desc>
   </helpText>
   <helpText id="TerrainSpeed">
-    <desc>Speed factor for terrain edits. Smaller is slower, bigger is faster.</desc>
+    <!-- <desc>Speed factor for terrain edits. Smaller is slower, bigger is faster.</desc> -->
+    <desc>Yếu tố tốc độ cho chỉnh sửa địa hình. Nhỏ hơn là chậm hơn, lớn hơn là nhanh hơn.</desc>
   </helpText>
   <helpText id="UIVolume">
-    <desc>Controls the volume of the UI sound effects such as menus and buttons.</desc>
+    <!-- <desc>Controls the volume of the UI sound effects such as menus and buttons.</desc> -->
+    <desc>Điều khiển âm lượng của hiệu ứng âm thanh UI như menu và nút.</desc>
   </helpText>
   <helpText id="EffectsVolume">
-    <desc>Controls the volume of the effects in your game.  This includes explosions, collisions and the sounds that the bots make.</desc>
+    <!-- <desc>Controls the volume of the effects in your game.  This includes explosions, collisions and the sounds that the bots make.</desc> -->
+    <desc>Kiểm soát âm lượng của các hiệu ứng trong trò chơi của bạn. Điều này bao gồm các vụ nổ, va chạm và âm thanh mà các đối tượng tạo ra.</desc>
   </helpText>
   <helpText id="MusicVolume">
-    <desc>Controls the volume of the background music you choose for your game.</desc>
+    <!-- <desc>Controls the volume of the background music you choose for your game.</desc> -->
+    <desc>Điều khiển âm lượng nhạc nền bạn chọn cho trò chơi của mình.</desc>
   </helpText>
   <helpText id="ScoreVisibility">
-    <desc>Controls how prominent the display will be for scoring events of this color.
+    <!-- <desc>Controls how prominent the display will be for scoring events of this color. 
 Off: the score won’t be displayed at all.
 Quiet: the score will be displayed in the corner, but there will be no scoring effects.
 Loud: score events will animate from their location in the game to the scoreboard.
+    </desc>-->
+      <desc>Kiểm soát mức độ nổi bật của màn hình đối với các sự kiện ghi màu này.
+Tắt: điểm số sẽ không được hiển thị ở tất cả.
+Yên tĩnh: điểm số sẽ được hiển thị ở góc, nhưng sẽ không có hiệu ứng ghi bàn.
+Lớn: các sự kiện điểm sẽ hoạt hình từ vị trí của họ trong trò chơi đến bảng điểm.
     </desc>
   </helpText>
 
   <helpText id="ScorePersistence">
-    <desc>Controls whether a given score will be persisted during a NextLevel/PreviousLevel action.
+    <!-- <desc>Controls whether a given score will be persisted during a NextLevel/PreviousLevel action.
 On: the score will be persisted and will maintain the same value when the new level loads
 Off: the score will be reset to zero when the new level loads
+    </desc> -->
+     <desc> Kiểm soát xem một số điểm nhất định có được duy trì trong suốt hành động mức kế tiếp / mức trước đó hay không.
+Bật: điểm sẽ được duy trì và sẽ duy trì cùng giá trị khi cấp mới tải
+Tắt: điểm sẽ được đặt lại về 0 khi tải mức mới
     </desc>
   </helpText>
 
   <helpText id ="ShowVirtualController">
-    <desc>Shows/Hides on screen virtual controller.</desc>
+    <!-- <desc>Shows/Hides on screen virtual controller.</desc> -->
+    <desc>Hiển thị / Ẩn trên bộ điều khiển ảo màn hình.</desc>
   </helpText>
 
   <helpText id="GuiButtonVisibility">
-    <desc>
+    <!-- <desc> 
       Controls how the GUI buttons will display.
       Off: the button won’t be displayed at all.
       No Label: The button will be displayed and will have no text on it.
       Labeled: The button will be displayed along with some text to better identify the button.
+    </desc>-->
+    <desc>
+Kiểm soát cách các nút GUI sẽ hiển thị.
+       Tắt: nút won được hiển thị ở tất cả.
+       Không có nhãn: Nút sẽ được hiển thị và sẽ không có văn bản trên đó.
+       Dán nhãn: Nút sẽ được hiển thị cùng với một số văn bản để xác định rõ hơn nút.
     </desc>
   </helpText>
 
   <helpText id="NextLevel">
-    <desc>
+    <!-- <desc> 
       Sets the level that will be loaded by the "Next Level" tile.  Also enables the "Previous Level" tile from that level to return the player to the current level.
+    </desc>-->
+       <desc>
+      Đặt mức sẽ được tải bởi "Cấp tiếp theo". Đồng thời cho phép "Cấp trước" từ cấp đó để đưa người chơi về cấp hiện tại.
     </desc>
   </helpText>
 
   <helpText id="WaterRaise">
-    <desc>
+    <!-- <desc> 
       Raises the water under this object.
+    </desc>-->
+    <desc>
+     Tăng nước dưới đối tượng này.
     </desc>
   </helpText>
 
   <helpText id="WaterLower">
-    <desc>
+    <!-- <desc> 
       Lowers the water under this object.
+    </desc>-->
+    <desc>
+     Hạ nước dưới vật này.
     </desc>
   </helpText>
   
   
   <helpText id="SetWater">
-    <desc>
+    <!-- <desc> 
       Sets the water type under this object.
+    </desc>-->
+     <desc>
+     Đặt loại nước dưới đối tượng này.
     </desc>
   </helpText>
 
   <!-- Help for User Options Tweak Screen-->
 
   <helpText id ="ShowToolTips">
-    <desc>Allows you to turn off tool tips.</desc>
+    <!-- <desc>Allows you to turn off tool tips.</desc> -->
+    <desc>Cho phép bạn tắt mẹo công cụ.</desc>
   </helpText>
 
   <helpText id ="ShowHints">
-    <desc>Allows you to turn off hints.  Hints are displayed whenever the system detects a situation that might be causing a problem.
-When a hint is displayed, you are given the option of choosing to disable the hint.</desc>
+    <!-- <desc>Allows you to turn off hints.  Hints are displayed whenever the system detects a situation that might be causing a problem. 
+When a hint is displayed, you are given the option of choosing to disable the hint.</desc>-->
+    <desc>Cho phép bạn tắt gợi ý. Gợi ý được hiển thị bất cứ khi nào hệ thống phát hiện tình huống có thể gây ra sự cố.
+Khi một gợi ý được hiển thị, bạn được cung cấp tùy chọn chọn vô hiệu hóa gợi ý.</desc>
   </helpText>
 
   <helpText id="ModalToolMenu">
-    <desc>Normally when the Gamepad Tool Menu is active, the background is blurred out and you can't move the camera around.  By turning this option off, the camera will still be "live".  However, you still must select a tool before interacting with the world.
-Turning this off also means that the left stick is now used to control the camera so you must use the DPad or the Triggers to select the tool you want.</desc>
+    <!-- <desc>Normally when the Gamepad Tool Menu is active, the background is blurred out and you can't move the camera around.  By turning this option off, the camera will still be "live".  However, you still must select a tool before interacting with the world. 
+Turning this off also means that the left stick is now used to control the camera so you must use the DPad or the Triggers to select the tool you want.</desc>-->
+    <desc>Thông thường khi Menu Công cụ Tay cầm hoạt động, nền bị mờ và bạn không thể di chuyển máy ảnh xung quanh. Bằng cách dùng tùy chọn tắt, máy ảnh vẫn sẽ "sống". Tuy nhiên, bạn vẫn phải chọn một công cụ trước khi tương tác với thế giới.
+Tắt cái này cũng có nghĩa là thanh bên trái hiện được sử dụng để điều khiển máy ảnh, do đó bạn phải sử dụng DPad hoặc Triggers để chọn công cụ bạn muốn.
+</desc>
   </helpText>
 
   <helpText id ="RestoreDisabledHints">
-    <desc>This clears the 'disabled' flag on any hints you've previously chosen to disable so that they will appear again.</desc>
+    <!-- <desc>This clears the 'disabled' flag on any hints you've previously chosen to disable so that they will appear again.</desc> -->
+    <desc>Điều này xóa cờ 'bị vô hiệu hóa' trên bất kỳ gợi ý nào bạn đã chọn trước đó để vô hiệu hóa để chúng sẽ xuất hiện lại.</desc>
   </helpText>
 
   <helpText id ="ShowFramerate">
-    <desc>When enabled the current framerate (FPS) is shown in the lower left-hand corner of the screen.</desc>
+    <!-- <desc>When enabled the current framerate (FPS) is shown in the lower left-hand corner of the screen.</desc> -->
+    <desc>Khi được bật, tốc độ khung hình hiện tại (FPS) được hiển thị ở góc dưới bên trái của màn hình.</desc>
   </helpText>
 
   <helpText id ="HelpOverlayAmount">
-    <desc>Controls the amount of help text displayed in the upper left-hand corner of the screen.</desc>
+    <!-- <desc>Controls the amount of help text displayed in the upper left-hand corner of the screen.</desc> -->
+    <desc>Kiểm soát lượng văn bản trợ giúp được hiển thị ở góc trên bên trái màn hình.</desc>
   </helpText>
 
   <helpText id ="Language">
-    <desc>Controls which language is used.  Kodu's translations are done by our community.  If you'd like to help translate Kodu into your language please email KoduSupport@microsoft.com for more information.</desc>
+    <!-- <desc>Controls which language is used.  Kodu's translations are done by our community.  If you'd like to help translate Kodu into your language please email KoduSupport@microsoft.com for more information.</desc> -->
+    <desc>Kiểm soát ngôn ngữ nào được sử dụng. Bản dịch của Kodu được thực hiện bởi cộng đồng của chúng tôi. Nếu bạn muốn giúp dịch Kodu sang ngôn ngữ của bạn, vui lòng gửi email cho KoduSupport@microsoft.com để biết thêm thông tin.</desc>
   </helpText>
 
   <helpText id ="InvertYAxis">
-    <desc>Make pushing the stick move the bot down.</desc>
+    <!-- <desc>Make pushing the stick move the bot down.</desc> -->
+    <desc>Làm cho đẩy thanh di chuyển đối tượng xuống.</desc>
   </helpText>
 
   <helpText id ="InvertXAxis">
-    <desc>Make pushing the stick left turn the bot toward the right.</desc>
+    <!-- <desc>Make pushing the stick left turn the bot toward the right.</desc> -->
+    <desc>Thực hiện đẩy thanh bên trái, xoay bot về phía bên phải.</desc>
   </helpText>
 
   <helpText id ="InvertCamY">
-    <desc>Make pushing the stick forward pitch the camera up.</desc>
+    <!-- <desc>Make pushing the stick forward pitch the camera up.</desc> -->
+    <desc>Thực hiện đẩy gậy về phía trước ném máy ảnh lên.</desc>
   </helpText>
 
   <helpText id ="InvertCamX">
-    <desc>Make pushing the stick left rotate the camera to the right.</desc>
+    <!-- <desc>Make pushing the stick left rotate the camera to the right.</desc> -->
+    <desc>Thực hiện đẩy thanh bên trái xoay máy ảnh sang phải.</desc>
   </helpText>
   
   <helpText id ="Overscan">
-    <desc>The term "overscan" refers to the amount of the rendered image that is cut off at the edges of the display.  This amount depends on both the display device and the connection to the device.  The slider allows you to control how far into the center of the screen the help displays are positioned.  If they're being cut off on your display, make this value larger.  On tube TVs usually 20% works best.  On computer monitors you may be able to work with 0 or 5%.  Experiment and use what looks best for you.</desc>
+    <!-- <desc>The term "overscan" refers to the amount of the rendered image that is cut off at the edges of the display.  This amount depends on both the display device and the connection to the device.  The slider allows you to control how far into the center of the screen the help displays are positioned.  If they're being cut off on your display, make this value larger.  On tube TVs usually 20% works best.  On computer monitors you may be able to work with 0 or 5%.  Experiment and use what looks best for you.</desc> -->
+    <desc>Thuật ngữ "quét quá mức" chỉ số lượng hình ảnh được hiển thị bị cắt ở các cạnh của màn hình. Số tiền này phụ thuộc vào cả thiết bị hiển thị và kết nối với thiết bị. Thanh trượt cho phép bạn kiểm soát khoảng cách vào giữa màn hình mà màn hình trợ giúp được định vị. Nếu chúng bị cắt trên màn hình của bạn, hãy làm cho giá trị này lớn hơn. Trên tube TVs ống thường 20% hoạt động tốt nhất. Trên màn hình máy tính, bạn có thể làm việc với 0 hoặc 5%. Thử nghiệm và sử dụng cái gì đó có vẻ tốt nhất cho bạn.</desc>
   </helpText>
 
   <helpText id="AcceptSentLevels">
-    <desc>If set, other users will be able to add worlds to your download queue.</desc>
+    <!-- <desc>If set, other users will be able to add worlds to your download queue.</desc> -->
+    <desc>Nếu được đặt, những người dùng khác sẽ có thể thêm thế giới vào hàng đợi tải xuống của bạn.</desc>
   </helpText>
 
   <helpText id="AutoReshareLevels">
-    <desc>If set, worlds you download from other players will automatically be marked as shared, making them available for download in future sharing sessions.</desc>
+    <!-- <desc>If set, worlds you download from other players will automatically be marked as shared, making them available for download in future sharing sessions.</desc> -->
+    <desc>Nếu được đặt, các thế giới bạn tải xuống từ những người chơi khác sẽ tự động được đánh dấu là được chia sẻ, làm cho chúng có sẵn để tải xuống trong các phiên chia sẻ trong tương lai.</desc>
   </helpText>
 
   <helpText id="AutoDownloadFavoriteLevels">
-    <desc>In sharing sessions, automatically download worlds marked with the "Favorite" tag.</desc>
+    <!-- <desc>In sharing sessions, automatically download worlds marked with the "Favorite" tag.</desc> -->
+    <desc>Trong các phiên chia sẻ, tự động tải xuống các thế giới được đánh dấu bằng thẻ "Yêu thích".</desc>
   </helpText>
 
   <helpText id="NearByDistance">
-    <desc>The range used by the Close By filter, used by the sight and hearing sensors. Units are in meters. For reference: A terrain tile is a half meter across.</desc>
+    <!-- <desc>The range used by the Close By filter, used by the sight and hearing sensors. Units are in meters. For reference: A terrain tile is a half meter across.</desc> -->
+    <desc>Phạm vi được sử dụng bởi bộ lọc gần, được sử dụng bởi các cảm biến thị giác và thính giác. Đơn vị tính bằng mét. Để tham khảo: Một gạch địa hình có chiều ngang nửa mét.</desc>
   </helpText>
 
   <helpText id="FarAwayDistance">
-    <desc>The range used by the Far Away filter, used by the sight and hearing sensors. Units are in meters. For reference: A terrain tile is a half meter across.</desc>
+    <!-- <desc>The range used by the Far Away filter, used by the sight and hearing sensors. Units are in meters. For reference: A terrain tile is a half meter across.</desc> -->
+    <desc>Phạm vi được sử dụng bởi bộ lọc xa, được sử dụng bởi các cảm biến thị giác và thính giác. Đơn vị tính bằng mét. Để tham khảo: Một gạch địa hình có chiều ngang nửa mét.</desc>
   </helpText>
 
   <helpText id="CheckForUpdates">
-    <desc>If set, during startup Kodu will check to see if a newer version has been released.</desc>
+    <!-- <desc>If set, during startup Kodu will check to see if a newer version has been released.</desc> -->
+    <desc>Nếu được đặt, trong quá trình khởi động, Kodu sẽ kiểm tra xem phiên bản mới hơn đã được phát hành chưa.</desc>
   </helpText>
 
   <helpText id="SendInstrumentation">
-    <desc>If set, Kodu will send anonymous information to Microsoft about how you use Kodu. This information helps us improve Kodu.</desc>    
+    <!-- <desc>If set, Kodu will send anonymous information to Microsoft about how you use Kodu. This information helps us improve Kodu.</desc>     -->
+    <desc>Nếu được đặt, Kodu sẽ gửi thông tin ẩn danh cho Microsoft về cách bạn sử dụng Kodu. Thông tin này giúp chúng tôi cải thiện Kodu.</desc>    
   </helpText>
 
   <helpText id="ShowIntroVideo">
-    <desc>If set, the next time Kodu is started, the introduction video will be played.</desc>
+    <!-- <desc>If set, the next time Kodu is started, the introduction video will be played.</desc> -->
+    <desc>Nếu được đặt, lần tiếp theo Kodu được khởi động, video giới thiệu sẽ được phát.</desc>
   </helpText>
 
   <helpText id="PersistWebLogin">
-    <desc>Normally, your Kodu Community web site login information will be forgotten when you exit Kodu.  If this setting is turned on then we will try to allow your login to persist over multiple Kodu sessions.</desc>
+    <!-- <desc>Normally, your Kodu Community web site login information will be forgotten when you exit Kodu.  If this setting is turned on then we will try to allow your login to persist over multiple Kodu sessions.</desc> -->
+    <desc>Thông thường, thông tin đăng nhập trang web Cộng đồng Kodu của bạn sẽ bị lãng quên khi bạn thoát Kodu. Nếu cài đặt này được bật thì chúng tôi sẽ cố gắng cho phép đăng nhập của bạn tồn tại qua nhiều phiên Kodu.
+</desc>
   </helpText>
 
   <helpText id="ShowTutorialDebug">
-    <desc>This is an aid for people creating their own tutorials.  When turned on and running a tutorial level this will display debug information overlayed on the screen.</desc>
+    <!-- <desc>This is an aid for people creating their own tutorials.  When turned on and running a tutorial level this will display debug information overlayed on the screen.</desc> -->
+    <desc>Đây là một trợ giúp cho những người tạo ra hướng dẫn riêng của họ. Khi bật và chạy một mức hướng dẫn, nó sẽ hiển thị thông tin gỡ lỗi được phủ lên màn hình.</desc>
   </helpText>
 
 </XmlHelpTextData>
