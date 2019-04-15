@@ -1,117 +1,207 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
+  <!-- <foo>The foo string</foo> -->
   <foo>The foo string</foo>
-
   <actorNames>
-    <balloon>Balloon</balloon>
-    <bigYucca1>Tree</bigYucca1>
-    <bigYucca2>Tree</bigYucca2>
+    <!-- <balloon>Balloon</balloon> -->
+    <balloon>Khinh khí cầu tròn</balloon>
+    <!-- <bigYucca1>Tree</bigYucca1> -->
+    <bigYucca1>Cây</bigYucca1>
+    <!-- <boku>Kodu</boku> -->
     <boku>Kodu</boku>
-    <bullet>Ammo</bullet>
-    <cloud>Cloud</cloud>
-    <castle>Castle</castle>
-    <coin>Coin</coin>
-    <cycle>Cycle</cycle>
-    <soccerBall>Ball</soccerBall>
-    <daisy>Daisy</daisy>
-    <drum>Drum</drum>
-    <factory>Factory</factory>
-    <floatBot>Ship</floatBot>
-    <flower>Flower</flower>
-    <flyFish>Flyfish</flyFish>
-    <fruit>Apple</fruit>
-    <heart>Heart</heart>
-    <hut>Hut</hut>
-    <iceBerg>Iceberg</iceBerg>
-    <jet>Jet</jet>
-    <light>Light</light>
+    <!-- <bullet>Ammo</bullet> -->
+    <bullet>Đạn</bullet>
+    <!-- <cloud>Cloud</cloud> -->
+    <cloud>Mây</cloud>
+    <!-- <castle>Castle</castle> -->
+    <castle>Lâu đài</castle>
+    <!-- <coin>Coin</coin> -->
+    <coin>Tiền</coin>
+    <!-- <cycle>Cycle</cycle> -->
+    <cycle>Xe đua</cycle>
+    <!-- <soccerBall>Ball</soccerBall> -->
+    <soccerBall>Bóng</soccerBall>
+    <!-- <daisy>Daisy</daisy> -->
+    <daisy>Hoa cúc</daisy>
+    <!-- <drum>Drum</drum> -->
+    <drum>Tàu không gian</drum>
+    <!-- <factory>Factory</factory> -->
+    <factory>Nhà máy</factory>
+    <!-- <floatBot>Ship</floatBot> -->
+    <floatBot>Tàu Thủy</floatBot>
+    <!-- <flower>Flower</flower> -->
+    <flower>Hoa</flower>
+    <!-- <flyFish>Flyfish</flyFish> -->
+    <flyFish>Cá bay</flyFish>
+    <!-- <fruit>Apple</fruit> -->
+    <fruit>Táo</fruit>
+    <!-- <heart>Heart</heart> -->
+    <heart>Trái tim</heart>
+    <!-- <hut>Hut</hut> -->
+    <hut>Thạm nghỉ chân</hut>
+    <!-- <iceBerg>Iceberg</iceBerg> -->
+    <iceBerg>Tảng băng</iceBerg>
+    <!-- <jet>Jet</jet> -->
+    <jet>Máy bay</jet>
+    <!-- <light>Light</light> -->
+    <light>Nguồn phát sáng</light>
+    <!-- <mine>Mine</mine> -->
     <mine>Mine</mine>
-    <missile>Missile</missile>
-    <pipe>Pipe</pipe>
-    <popsy>Popsy</popsy>
-    <puck>Puck</puck>
-    <pushPad>Push Pad</pushPad>
-    <rock>Rock</rock>
-    <rockLowValue>Igneous</rockLowValue>
-    <rockHighValue>Sedimentary</rockHighValue>
-    <rockLowValueUnknown>Unknown (Igneous)</rockLowValueUnknown>
-    <rockHighValueUnknown>Unknown (Sedimentary)</rockHighValueUnknown>
-    <rockUnknown>Unknown Rock</rockUnknown>
-    <saucer>Saucer</saucer>
-    <sputnik>Sputnik</sputnik>
-    <star>Star</star>
-    <stick>Stick</stick>
-    <sub>Sub</sub>
-    <swimFish>Fish</swimFish>
-    <turtle>Turtle</turtle>
-    <terraCannon>Cannon</terraCannon>
+    <!-- <missile>Missile</missile> -->
+    <missile>Tên lửa</missile>
+    <!-- <pipe>Pipe</pipe> -->
+    <pipe>Ống</pipe>
+    <!-- <popsy>Popsy</popsy> -->
+    <popsy>Dân thường</popsy>
+    <!-- <puck>Puck</puck> -->
+    <puck>Vòng bay</puck>
+    <!-- <pushPad>Push Pad</pushPad> -->
+    <pushPad>Đệm thẩy</pushPad>
+    <!-- <rock>Rock</rock> -->
+    <rock>Đá</rock>
+    <!-- <rockLowValue>Igneous</rockLowValue> -->
+    <rockLowValue>Đá núi lửa</rockLowValue>
+    <!-- <rockHighValue>Sedimentary</rockHighValue> -->
+    <rockHighValue>Đá cũ</rockHighValue>
+    <!-- <rockLowValueUnknown>Unknown (Igneous)</rockLowValueUnknown> -->
+    <rockLowValueUnknown>Đá bí ẩn (đá núi lửa)</rockLowValueUnknown>
+    <!-- <rockHighValueUnknown>Unknown (Sedimentary)</rockHighValueUnknown> -->
+    <rockHighValueUnknown>Đá bí ẩn (đá cũ)</rockHighValueUnknown>
+    <!-- <rockUnknown>Unknown Rock</rockUnknown> -->
+    <rockUnknown>đá bí ẩn</rockUnknown>
+    <!-- <saucer>Saucer</saucer> -->
+    <saucer>Đĩa bay</saucer>
+    <!-- <sputnik>Sputnik</sputnik> -->
+    <sputnik>Vệ tinh</sputnik>
+    <!-- <star>Star</star> -->
+    <star>Ngôi sao</star>
+    <!-- <stick>Stick</stick> -->
+    <stick>Gậy</stick>
+    <!-- <sub>Sub</sub> -->
+    <sub>Tàu ngầm</sub>
+    <!-- <swimFish>Fish</swimFish> -->
+    <swimFish>Cá</swimFish>
+    <!-- <turtle>Turtle</turtle> -->
+    <turtle>Rùa</turtle>
+    <!-- <terraCannon>Cannon</terraCannon> -->
+    <terraCannon>Pháo</terraCannon>
+    <!-- <vlogs ter>Vlogster</vlogster> -->
     <vlogster>Vlogster</vlogster>
-    <wayPoint>Path</wayPoint>
-    <windBlimp>Blimp</windBlimp>
-    <wisp>Wisp</wisp>
-    <pipe>Pipe</pipe>
-    <pipestraight>Pipe Straight</pipestraight>
-    <pipecross>Cross Pipe</pipecross>
-    <pipecorner>CornerPipe</pipecorner>
-    <yucca1>Tree</yucca1>
-    <yucca2>Tree</yucca2>
-    <yucca3>Tree</yucca3>
-    <pathGeneric>plain</pathGeneric>
-    <pathRoad>road</pathRoad>
-    <pathWall>wall</pathWall>
-    <pathVeggie>flora</pathVeggie>
-    <rover>Rover</rover>
-    <clam>Clam</clam>
-    <lilypad>Lily Pad</lilypad>
-    <seagrass>Sea Grass</seagrass>
-    <octopus>Octopus</octopus>
-    <starfish>Starfish</starfish>
-    <fan>Fan</fan>
-    <inkjet>Ink Cloud</inkjet>
+    <!-- <wayPoint>Path</wayPoint> -->
+    <wayPoint>Đường</wayPoint>
+    <!-- <windBlimp>Blimp</windBlimp> -->
+    <windBlimp>Khinh khí cầu bầu dục</windBlimp>
+    <!-- <wisp>Wisp</wisp> -->
+    <wisp>Đốm sáng</wisp>
+    <!-- <pipe>Pipe</pipe> -->
+    <pipe>Ống</pipe>
+    <!-- <pipestraight>Pipe Straight</pipestraight> -->
+    <pipestraight>Ống thẳng</pipestraight>
+    <!-- <pipecross>Cross Pipe</pipecross> -->
+    <pipecross>Ống dấu cộng</pipecross>
+    <!-- <pipecorner>CornerPipe</pipecorner> -->
+    <pipecorner>Ống rẽ</pipecorner>
+    <!-- <yucca1>Tree</yucca1> -->
+    <yucca1>Cây</yucca1>
+    <!-- <yucca2>Tree</yucca2> -->
+    <yucca2>Cây</yucca2>
+    <!-- <yucca3>Tree</yucca3> -->
+    <yucca3>Cây</yucca3>
+    <!-- <pathGeneric>plain</pathGeneric> -->
+    <pathGeneric>Đồng bằng</pathGeneric>
+    <!-- <pathRoa d>road</pathRoad> -->
+    <pathRoad>Đường</pathRoad>
+    <!-- <pathWall>wall</pathWall> -->
+    <pathWall>Tường</pathWall>
+    <!-- <pathVeggie>flora</pathVeggie> -->
+    <pathVeggie>Đường thực vật</pathVeggie>
+    <!-- <rover>Rover</rover> -->
+    <rover>Người máy</rover>
+    <!-- <clam>Clam</clam> -->
+    <clam>Sò</clam>
+    <!-- <lilypad>Lily Pad</lilypad> -->
+    <lilypad>Hoa súng</lilypad>
+    <!-- <seagrass>Sea Grass</seagrass> -->
+    <seagrass>Cỏ biển</seagrass>
+    <!-- <octopus>Octopus</octopus> -->
+    <octopus>Bạch tuộc</octopus>
+    <!-- <starfish>Starfish</starfish> -->
+    <starfish>Sao biển</starfish>
+    <!-- <fan>Fan</fan> -->
+    <fan>Quạt</fan>
+    <!-- <inkjet>Ink Cloud</inkjet> -->
+    <inkjet>Khói đen</inkjet>
   </actorNames>
 
   <colorNames>
-    <white>White</white>
-    <black>Black</black>
-    <grey>Grey</grey>
-    <red>Red</red>
-    <green>Green</green>
-    <blue>Blue</blue>
-    <orange>Orange</orange>
-    <yellow>Yellow</yellow>
-    <purple>Purple</purple>
-    <pink>Pink</pink>
-    <brown>Brown</brown>
+    <!-- <white>White</white> -->
+    <white>Trắng</white>
+    <!-- <black>Black</black> -->
+    <black>Đen</black>
+    <!-- <grey>Grey</grey> -->
+    <grey>Xám</grey>
+    <!-- <red>Red</red> -->
+    <red>Đỏ</red>
+    <!-- <green>Green</green> -->
+    <green>Xanh lá</green>
+    <!-- <blue>Blue</blue> -->
+    <blue>Xanh lam</blue>
+    <!-- <orange>Orange</orange> -->
+    <orange>Cam</orange>
+    <!-- <yellow>Yellow</yellow> -->
+    <yellow>Vàng</yellow>
+    <!-- <purple>Purple</purple> -->
+    <purple>Tím</purple>
+    <!-- <pink>Pink</pink> -->
+    <pink>Hồng</pink>
+    <!-- <brown>Brown</brown> -->
+    <brown>Nâu</brown>
   </colorNames>
 
   <tutorial>
-    <continue>Continue</continue>
-    <back>Back</back>
-    <exitTutorial>Exit Tutorial</exitTutorial>
+    <!-- <continue>Continue</continue> -->
+    <continue>Tiếp tục</continue>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <exitTutorial>Exit Tutorial</exitTutorial> -->
+    <exitTutorial>Thoát ra</exitTutorial>
   </tutorial>
 
   <auth>
-    <signInTitle>Sign In</signInTitle>
-    <signOutTitle>Sign Out</signOutTitle>
-    <newUserTitle>Add New Creator</newUserTitle>
+    <!-- <signInTitle>Sign In</signInTitle> -->
+    <signInTitle>Đăng nhập</signInTitle>
+    <!-- <signOutTitle>Sign Out</signOutTitle> -->
+    <signOutTitle>Đăng xuất</signOutTitle>
+    <!-- <newUserTitle>Add New Creator</newUserTitle> -->
+    <newUserTitle>Thêm người tạo mới</newUserTitle>
     
-    <creator>Creator</creator>
-    <currentlySignedInAs>Currently signed is as : </currentlySignedInAs>
-    <pin>Pin</pin>
-    <pinError>Invalid Pin</pinError>
-    <pinTooShort>Too short, must be 4 digits.</pinTooShort>
-    <pinTooSimple>Too simple.</pinTooSimple>
+    <!-- <creator>Creator</creator> -->
+    <creator>Tên</creator>
+    <!-- <currentlySignedInAs>Currently signed is as : </currentlySignedInAs> -->
+    <currentlySignedInAs>Hiện đăng kí như là : </currentlySignedInAs>
+    <!-- <pin>Pin</pin> -->
+    <pin>Mã</pin>
+    <!-- <pinError>Invalid Pin</pinError> -->
+    <pinError>Mã không hợp lệ</pinError>
+    <!-- <pinTooShort>Too short, must be 4 digits.</pinTooShort> -->
+    <pinTooShort>Quá ngắn, phải có 4 số.</pinTooShort>
+    <!-- <pinTooSimple>Too simple.</pinTooSimple> -->
+    <pinTooSimple>Quá đơn giản.</pinTooSimple>
 
-    <keepSignedIn>Keep me signed in when Kodu exits.</keepSignedIn>
+    <!-- <keepSignedIn>Keep me signed in when Kodu exits.</keepSignedIn> -->
+    <keepSignedIn>Duy trì đăng nhập</keepSignedIn>
 
+    <!-- <ok>OK</ok> -->
     <ok>OK</ok>
-    <cancel>Cancel</cancel>
-    <continue>Continue</continue>
-    <signOut>Sign Out</signOut>
+    <!-- <cancel>Cancel</cancel> -->
+    <cancel>Bỏ</cancel>
+    <!-- <continue>Continue</continue> -->
+    <continue>Tiếp tục</continue>
+    <!-- <signOut>Sign Out</signOut> -->
+    <signOut>Đăng xuất</signOut>
 
-    <helpText>Welcome to the Kodu sign in page.  This dialog allows you to create a new account or sign in to an existing one.
-
+    <!-- <helpText>Welcome to the Kodu sign in page.  This dialog allows you to create a new account or sign in to an existing one. 
 To create a new account, pick a Creator name and a Pin number.  The Creator name will show up on the worlds that you create.  This will allow you to find your worlds both in Kodu and on the Kodu community web site.  For your online safety choose a Creator name that is just your first name or better yet, a nickname.  Do not use your last name, email address or any other information that could identify you online since this name will be visible if you choose to upload worlds to the Kodu community site.
 
 The Pin number should be 4 digits.  This acts as your private password.  Simple patterns like 1111 or 1234 will not be accepted.
@@ -121,1086 +211,1809 @@ Once you have created an account you can use the same Creator name and Pin to si
 You may choose to not create an account.  In that case, just click 'OK' and you will be signed in to the Guest account.
 
 At any time, if you want to create a new account you can do so by picking a new Creator name and Pin.
+</helpText>-->
+
+   <helpText>Chào mừng bạn đến trang đăng nhập Kodu. Hộp thoại này cho phép bạn tạo một tài khoản mới hoặc đăng nhập vào một tài khoản hiện có.
+
+Để tạo tài khoản mới, chọn tên Người tạo và mã. Tên tác giả sẽ hiển thị trên thế giới mà bạn tạo ra. Điều này sẽ cho phép bạn tìm thấy thế giới của mình cả trong Kodu và trên cộng đồng Kodu. Vì sự an toàn trực tuyến của bạn, hãy chọn tên Người tạo chỉ là tên của bạn hoặc tốt hơn là biệt danh. Không sử dụng họ, địa chỉ email hoặc bất kỳ thông tin nào khác có thể nhận dạng bạn trực tuyến vì tên này sẽ hiển thị nếu bạn chọn tải trò chơi lên cộng đồng Kodu.
+
+Mã phải là 4 chữ số. Điều này hoạt động như mật khẩu riêng của bạn. Các mẫu đơn giản như 1111 hoặc 1234 sẽ không được chấp nhận.
+
+Khi bạn đã tạo tài khoản, bạn có thể sử dụng cùng tên Người tạo và Mã để đăng nhập.
+
+Bạn có thể chọn không tạo tài khoản. Trong trường hợp đó, chỉ cần nhấp vào 'OK' và bạn sẽ đăng nhập vào tài khoản Khách.
+
+Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn có thể làm như vậy bằng cách chọn tên và Mã mới.
 </helpText>
 
-    <helpTextShort>For your online safety choose a Creator name that is just your first name or better yet, a nickname.  Do not use your last name, email address or any other information that could identify you online.</helpTextShort>
+    <!-- <helpTextShort>For your online safety choose a Creator name that is just your first name or better yet, a nickname.  Do not use your last name, email address or any other information that could identify you online.</helpTextShort> -->
+    <helpTextShort>Vì sự an toàn trực tuyến của bạn, hãy chọn tên Người tạo chỉ là tên của bạn hoặc tốt hơn là biệt danh. Không sử dụng họ, địa chỉ email hoặc bất kỳ thông tin nào khác có thể nhận dạng bạn trực tuyến.</helpTextShort>
   </auth>
   
   <mainMenu>
     <mainMenu></mainMenu>
-    <resume>RESUME</resume>
-    <new>NEW WORLD</new>
-    <play>LOAD WORLD</play>
-    <import>IMPORT FROM DESKTOP</import>
-    <importWorldsCommitButtonText>Load World(s)</importWorldsCommitButtonText>
-    <learning>LEARNING</learning>
-    <community>COMMUNITY</community>
-    <share>SHARE</share>
-    <options>OPTIONS</options>
-    <help>HELP</help>
-    <exit>QUIT KODU</exit>
-    <storageWarn>Please reinsert the Memory Unit.  Press A when ready to continue.</storageWarn>
+    <!-- <resume>RESUME</resume> -->
+    <resume>TIẾP TỤC</resume>
+    <!-- <new>NEW WORLD</new> -->
+    <new>TẠO MỚI</new>
+    <!-- <play>LOAD WORLD</play> -->
+    <play>MỞ TRÒ CHƠI TRONG MÁY</play>
+    <!-- <import>IMPORT FROM DESKTOP</import> -->
+    <import>MỞ TỪ MÀN HÌNH CHÍNH</import>
+    <!-- <importWorldsCommitButtonText>Load World(s)</importWorldsCommitButtonText> -->
+    <importWorldsCommitButtonText>Tải trò chơi</importWorldsCommitButtonText>
+    <!-- <learning>LEARNING</learning> -->
+    <learning>HỌC</learning>
+    <!-- <community>COMMUNITY</community> -->
+    <community>CỘNG ĐỒNG</community>
+    <!-- <share>SHARE</share> -->
+    <share>CHIA SẺ</share>
+    <!-- <options>OPTIONS</options> -->
+    <options>TÙY CHỌN</options>
+    <!-- <help>HELP</help> -->
+    <help>HỖ TRỢ</help>
+    <!-- <exit>QUIT KODU</exit> -->
+    <exit>THOÁT</exit>
+    <!-- <storageWarn>Please reinsert the Memory Unit.  Press A when ready to continue.</storageWarn> -->
+    <storageWarn>Vui lòng đặt lại Bộ nhớ. Nhấn A khi sẵn sàng để tiếp tục.</storageWarn>
+    <!-- <storageAction> Continue</storageAction> -->
     <storageAction> Continue</storageAction>
-    <storageFailed>
+    <!-- <storageFailed> 
       There has been a failure in the underlying memory storage.
       No data has been lost.
       Please restart Kodu.
+    </storageFailed>-->
+     <storageFailed>
+     Đã có một thất bại trong việc lưu trữ bộ nhớ cơ bản.
+       Không có dữ liệu đã bị mất.
+       Vui lòng khởi động lại Kodu.
     </storageFailed>
-    <storageFailedAction>Exit Kodu</storageFailedAction>
-    <corruptStorageMessage>The storage device you have chosen appears to be either broken or corrupt.  Please choose another.</corruptStorageMessage>
-    <userChoseNoStorageMessage>Kodu requires a storage device to run.  Please choose one.</userChoseNoStorageMessage>
-    <prevSessionCrashedMessage>It looks like Kodu crashed.  Would you like to try and recover your world?</prevSessionCrashedMessage>
-    <webSignOutMessage0>You are currently signed in as </webSignOutMessage0>
-    <webSignOutMessage1>.  Would you like to sign out?</webSignOutMessage1>
-    <newWebSite>Hey!  We have a new web site where you can share your worlds.  Click here to check it out.</newWebSite>
-    <continueToMain>Click anywhere else to continue to the Main Menu.</continueToMain>
-    <more>more!</more>
-    <less>less</less>
-    <news>NEWS</news>
-    <readMoreHere>Read more here!</readMoreHere>
-    <paused>Kodu paused.  Restore to full width to resume.</paused>
+    <!-- <storageFailedAction>Exit Kodu</storageFailedAction> -->
+    <storageFailedAction>Thoát khỏi Kodu</storageFailedAction>
+    <!-- <corruptStorageMessage>The storage device you have chosen appears to be either broken or corrupt.  Please choose another.</corruptStorageMessage> -->
+    <corruptStorageMessage>Thiết bị lưu trữ bạn đã chọn dường như bị hỏng hoặc bị hỏng. Vui lòng chọn cái khác.</corruptStorageMessage>
+    <!-- <userChoseNoStorageMessage>Kodu requires a storage device to run.  Please choose one.</userChoseNoStorageMessage> -->
+    <userChoseNoStorageMessage>Kodu yêu cầu một thiết bị lưu trữ để chạy. Vui lòng chọn một.</userChoseNoStorageMessage>
+    <!-- <prevSessionCrashedMessage>It looks like Kodu crashed.  Would you like to try and recover your world?</prevSessionCrashedMessage> -->
+    <prevSessionCrashedMessage>Có vẻ như Kodu bị rơi. Bạn có muốn thử và phục hồi thế giới của bạn?</prevSessionCrashedMessage>
+    <!-- <webSignOutMessage0>You are currently signed in as </webSignOutMessage0> -->
+    <webSignOutMessage0>Bạn hiện đang đăng nhập như </webSignOutMessage0>
+    <!-- <webSignOutMessage1>.  Would you like to sign out?</webSignOutMessage1> -->
+    <webSignOutMessage1> Bạn có muốn đăng xuất?</webSignOutMessage1>
+    <!-- <newWebSite>Hey!  We have a new web site where you can share your worlds.  Click here to check it out.</newWebSite> -->
+    <newWebSite>Chào! Chúng tôi có một trang web mới nơi bạn có thể chia sẻ trò chơi của mình. Nhấn vào đây để kiểm tra xem nó ra.</newWebSite>
+    <!-- <continueToMain>Click anywhere else to continue to the Main Menu.</continueToMain> -->
+    <continueToMain>Nhấp vào bất cứ nơi nào khác để tiếp tục vào Menu chính.</continueToMain>
+    <!-- <more>more!</more> -->
+    <more>thêm!</more>
+    <!-- <less>less</less> -->
+    <less>bớt</less>
+    <!-- <news>NEWS</news> -->
+    <news>Thông tin</news>
+    <!-- <readMoreHere>Read more here!</readMoreHere> -->
+    <readMoreHere>Đọc thêm!</readMoreHere>
+    <!-- <paused>Kodu paused.  Restore to full width to resume.</paused> -->
+    <paused>Kodu dừng lại. Khôi phục lại toàn bộ chiều rộng để tiếp tục.</paused>
   </mainMenu>
 
   <programming>
-    <page>Page</page>
+    <!-- <page>Page</page> -->
+    <page>Trang</page>
     <defaultSayString></defaultSayString>
-    <back>Back</back>
-    <save>Save</save>
-    <fullScreen>Full Screen</fullScreen>
-    <thoughtBalloonSequential>Thought Balloon, pick line sequentially</thoughtBalloonSequential>
-    <thoughtBalloonRandom>Thought Balloon, pick line randomly</thoughtBalloonRandom>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <save>Save</save> -->
+    <save>Lưu</save>
+    <!-- <fullScreen>Full Screen</fullScreen> -->
+    <fullScreen>Toàn màn hình</fullScreen>
+    <!-- <thoughtBalloonSequential>Thought Balloon, pick line sequentially</thoughtBalloonSequential> -->
+    <thoughtBalloonSequential>Nghĩ khinh khí cầu tròn, chọn dòng lần lượt</thoughtBalloonSequential>
+    <!-- <thoughtBalloonRandom>Thought Balloon, pick line randomly</thoughtBalloonRandom> -->
+    <thoughtBalloonRandom>Nghĩ khinh khí cầu tròn, chọn dòng ngẫu nhiên</thoughtBalloonRandom>
 
-    <triggerAtBeginning>Match as soon as I hear.</triggerAtBeginning>
-    <triggerAtEnd>Match after I've heard.</triggerAtEnd>
+    <!-- <triggerAtBeginning>Match as soon as I hear.</triggerAtBeginning> -->
+    <triggerAtBeginning>Trận đấu ngay khi tôi nghe.</triggerAtBeginning>
+    <!-- <triggerAtEnd>Match after I've heard.</triggerAtEnd> -->
+    <triggerAtEnd>Trận đấu sau khi tôi nghe.</triggerAtEnd>
     
-    <titleXbox>Programming</titleXbox>
-    <sayStringPromptXbox>Enter Text</sayStringPromptXbox>
+    <!-- <titleXbox>Programming</titleXbox> -->
+    <titleXbox>Lập trình</titleXbox>
+    <!-- <sayStringPromptXbox>Enter Text</sayStringPromptXbox> -->
+    <sayStringPromptXbox>Nhập văn bản</sayStringPromptXbox>
 
-    <when>WHEN</when>
-    <do>DO</do>
+    <!-- <when>WHEN</when> -->
+    <when>Khi</when>
+    <!-- <do>DO</do> -->
+    <do>Làm</do>
 
-    <help>Help</help>
-    <cutTile>Cut Tile</cutTile>
-    <copyTile>Copy Tile</copyTile>
-    <pasteTile>Paste Tile</pasteTile>
-    <cutRow>Cut Row</cutRow>
-    <copyRow>Copy Row</copyRow>
-    <pasteRow>Paste Row</pasteRow>
-    <cutPage>Cut Page</cutPage>
-    <copyPage>Copy Page</copyPage>
-    <pastePage>Paste Page</pastePage>
+    <!-- <help>Help</help> -->
+    <help>Hỗ trợ</help>
+    <!-- <cutTile>Cut Tile</cutTile> -->
+    <cutTile>Cắt</cutTile>
+    <!-- <copyTile>Copy Tile</copyTile> -->
+    <copyTile>Sao chép</copyTile>
+    <!-- <pasteTile>Paste Tile</pasteTile> -->
+    <pasteTile>Dáb</pasteTile>
+    <!-- <cutRow>Cut Row</cutRow> -->
+    <cutRow>Cắt hàng</cutRow>
+    <!-- <copyRow>Copy Row</copyRow> -->
+    <copyRow>Sao chép hàng</copyRow>
+    <!-- <pasteRow>Paste Row</pasteRow> -->
+    <pasteRow>Dán hàng</pasteRow>
+    <!-- <cutPage>Cut Page</cutPage> -->
+    <cutPage>Cắt trang</cutPage>
+    <!-- <copyPage>Copy Page</copyPage> -->
+    <copyPage>Sao chép trang</copyPage>
+    <!-- <pastePage>Paste Page</pastePage> -->
+    <pastePage>Dán trang</pastePage>
   </programming>
 
   <miniHub>
-    <minihub>Home Menu</minihub>
-    <emptyLevel>New world</emptyLevel>
-    <unlock>Unlock full game</unlock>
-    <reset>Play world</reset>
-    <edit>Edit world</edit>
-    <save>Save my world</save>
-    <share>Share my world</share>
-    <load>Load world</load>
-    <sharing>Share with friends</sharing>
-    <publish>Share with community</publish>
-    <print>Print kode for level</print>
-    <options>Options</options>
-    <quit>Exit to Main Menu</quit>
+    <!-- <minihub>Home Menu</minihub> -->
+    <minihub>Trang chính</minihub>
+    <!-- <emptyLevel>New world</emptyLevel> -->
+    <emptyLevel>Tạo mới</emptyLevel>
+    <!-- <unlock>Unlock full game</unlock> -->
+    <unlock>Mở hoàn toàn khóa trò chơi</unlock>
+    <!-- <reset>Play world</reset> -->
+    <reset>Chơi</reset>
+    <!-- <edit>Edit world</edit> -->
+    <edit>Chỉnh sửa</edit>
+    <!-- <save>Save my world</save> -->
+    <save>Lưu</save>
+    <!-- <share>Share my world</share> -->
+    <share>Chia sẻ</share>
+    <!-- <load>Load world</load> -->
+    <load>Mở lại trò chơi trong máy</load>
+    <!-- <sharing>Share with friends</sharing> -->
+    <sharing>Chia sẻ cho bạn bè</sharing>
+    <!-- <publish>Share with community</publish> -->
+    <publish>Chia sẻ cho cộng đồng</publish>
+    <!-- <print>Print kode for level</print> -->
+    <print>In</print>
+    <!-- <options>Options</options> -->
+    <options>Tùy chọn</options>
+    <!-- <quit>Exit to Main Menu</quit> -->
+    <quit>Trở lại Trang chủ</quit>
 
-    <shareSuccessMessage>Your world has been posted.  View it at KoduGameLab.com or by browsing "My Worlds" on the Community screen.</shareSuccessMessage>
-    <noCommunityMessage>The Community site is not available at the moment.  Please try again later.</noCommunityMessage>
-    <noSharingMessage>Sharing is not available at the moment.</noSharingMessage>
-    <oldBuildMessage>A new build of Kodu is available.  Please upgrade before accessing the Community site.</oldBuildMessage>
-    <newBuildMessage>A new build of Kodu is available.  Please exit and update to the current version.</newBuildMessage>
+    <!-- <shareSuccessMessage>Your world has been posted.  View it at KoduGameLab.com or by browsing "My Worlds" on the Community screen.</shareSuccessMessage> -->
+    <shareSuccessMessage>Trò chơi của bạn đã được đăng. Xem nó tại KoduGameLab.com hoặc bằng cách duyệt "Thế giới của tôi" trên màn hình Cộng đồng.</shareSuccessMessage>
+    <!-- <noCommunityMessage>The Community site is not available at the moment.  Please try again later.</noCommunityMessage> -->
+    <noCommunityMessage>Trang web Cộng đồng không có sẵn tại thời điểm này. Vui lòng thử lại sau.</noCommunityMessage>
+    <!-- <noSharingMessage>Sharing is not available at the moment.</noSharingMessage> -->
+    <noSharingMessage>Chia sẻ không có sẵn tại thời điểm này.</noSharingMessage>
+    <!-- <oldBuildMessage>A new build of Kodu is available.  Please upgrade before accessing the Community site.</oldBuildMessage> -->
+    <oldBuildMessage>Một bản dựng mới của Kodu có sẵn. Vui lòng nâng cấp trước khi truy cập trang Cộng đồng.</oldBuildMessage>
+    <!-- <newBuildMessage>A new build of Kodu is available.  Please exit and update to the current version.</newBuildMessage> -->
 
-    <signedInMessage>Sharing will post to KoduGameLab.com.  You are signed in as: </signedInMessage>
-    <signedOutMessage>Sharing will post to KoduGameLab.com.  You aren’t signed in. Do you want to sign in?</signedOutMessage>
-    <signInFailedMessage>Sign in failed.</signInFailedMessage>
+    <!-- <signedInMessage>Sharing will post to KoduGameLab.com.  You are signed in as: </signedInMessage> -->
+    <signedInMessage>Chia sẻ sẽ đăng lên KoduGameLab.com. Bạn đã được đăng nhập như: </signedInMessage>
+    <!-- <signedOutMessage>Sharing will post to KoduGameLab.com.  You aren’t signed in. Do you want to sign in?</signedOutMessage> -->
+    <signedOutMessage>Chia sẻ sẽ đăng lên KoduGameLab.com. Bạn đã không được đăng nhập. Bạn có muốn đăng nhập không?</signedOutMessage>
+    <!-- <signInFailedMessage>Sign in failed.</signInFailedMessage> -->
+    <signInFailedMessage>Đăng nhập thất bại.</signInFailedMessage>
 
-    <signedOutLikeCommentMessage>Liking or commenting will post to KoduGameLab.com.  You must be signed in.</signedOutLikeCommentMessage>
+    <!-- <signedOutLikeCommentMessage>Liking or commenting will post to KoduGameLab.com.  You must be signed in.</signedOutLikeCommentMessage> -->
+    <signedOutLikeCommentMessage>Thích hoặc bình luận sẽ đăng lên KoduGameLab.com. Bạn phải đăng nhập.</signedOutLikeCommentMessage>
 
   </miniHub>
 
   <toolBar>
-    <home>Home Menu</home>
-    <runGame>Play Game</runGame>
-    <cameraMove>Position and Rotate Camera</cameraMove>
-    <objectEdit>Add, Edit and Program Object</objectEdit>
-    <paths>Add and Edit Paths</paths>
-    <terrainPaint>Paint Terrain Material</terrainPaint>
-    <terrainRaiseLower>Raise and Lower Terrain</terrainRaiseLower>
-    <terrainSmoothLevel>Smooth and Level Terrain</terrainSmoothLevel>
-    <terrainSpikeyHilly>Roughen Terrain</terrainSpikeyHilly>
-    <waterRaiseLower>Add, Raise or Lower Water</waterRaiseLower>
-    <deleteObjects>Delete Object</deleteObjects>
-    <worldTweak>Change World Settings</worldTweak>
+    <!-- <home>Home Menu</home> -->
+    <home>Trang chính</home>
+    <!-- <runGame>Play Game</runGame> -->
+    <runGame>Chơi game</runGame>
+    <!-- <cameraMove>Position and Rotate Camera</cameraMove> -->
+    <cameraMove>Vị trí và góc quay camera</cameraMove>
+    <!-- <objectEdit>Add, Edit and Program Object</objectEdit> -->
+    <objectEdit>Thêm, chỉnh sửa và đối tượng chương trình</objectEdit>
+    <!-- <paths>Add and Edit Paths</paths> -->
+    <paths>Thêm và chỉnh sửa đường dẫn</paths>
+    <!-- <terrainPaint>Paint Terrain Material</terrainPaint> -->
+    <terrainPaint>Vẽ vật liệu địa hình</terrainPaint>
+    <!-- <terrainRaiseLower>Raise and Lower Terrain</terrainRaiseLower> -->
+    <terrainRaiseLower>Nâng và hạ địa hình</terrainRaiseLower>
+    <!-- <terrainSmoothLevel>Smooth and Level Terrain</terrainSmoothLevel> -->
+    <terrainSmoothLevel>Địa hình mượt mà và đẳng cấp</terrainSmoothLevel>
+    <!-- <terrainSpikeyHilly>Roughen Terrain</terrainSpikeyHilly> -->
+    <terrainSpikeyHilly>Địa hình gồ gề</terrainSpikeyHilly>
+    <!-- <waterRaiseLower>Add, Raise or Lower Water</waterRaiseLower> -->
+    <waterRaiseLower>Thêm, nâng và hạ nước</waterRaiseLower>
+    <!-- <deleteObjects>Delete Object</deleteObjects> -->
+    <deleteObjects>Xóa đối tượng</deleteObjects>
+    <!-- <worldTweak>Change World Settings</worldTweak> -->
+    <worldTweak>Thay đổi cài đặt thế giới</worldTweak>
   </toolBar>
 
   <mouseEdit>
-    <addObject>Add Object</addObject>
-    <worldTweak>Change World Settings</worldTweak>
-    <paste>Paste</paste>
-    <empty>empty</empty>
+    <!-- <addObject>Add Object</addObject> -->
+    <addObject>Thêm đối tượng</addObject>
+    <!-- <worldTweak>Change World Settings</worldTweak> -->
+    <worldTweak>Thay đổi cài đặt thế giới</worldTweak>
+    <!-- <paste>Paste</paste> -->
+    <paste>Dán</paste>
+    <!-- <empty>empty</empty> -->
+    <empty>trống</empty>
 
-    <program>Program</program>
-    <objectTweak>Change Settings</objectTweak>
+    <!-- <program>Program</program> -->
+    <program>Chương trình</program>
+    <!-- <objectTweak>Change Settings</objectTweak> -->
+    <objectTweak>Thay đổi cài đặt</objectTweak>
+    <!-- <cut>Cut</cut> -->
     <cut>Cut</cut>
-    <copy>Copy</copy>
-    <size>Change Size</size>
-    <rotate>Rotate</rotate>
-    <height>Change Height</height>
+    <!-- <copy>Copy</copy> -->
+    <copy>Sao chép</copy>
+    <!-- <size>Change Size</size> -->
+    <size>Thay đổi kích cỡ</size>
+    <!-- <rotate>Rotate</rotate> -->
+    <rotate>Hướng nhìn</rotate>
+    <!-- <height>Change Height</height> -->
+    <height>Thay đổi độ cao</height>
 
-    <sizeValue>Size</sizeValue>
-    <rotationValue>Rotation</rotationValue>
-    <heightValue>Height</heightValue>
+    <!-- <sizeValue>Size</sizeValue> -->
+    <sizeValue>Kích cỡ</sizeValue>
+    <!-- <rotationValue>Rotation</rotationValue> -->
+    <rotationValue>Xoay</rotationValue>
+    <!-- <heightValue>Height</heightValue> -->
+    <heightValue>Độ cao</heightValue>
 
-    <addNodePlain>Add Plain Path</addNodePlain>
-    <addNodeRoad>Add Road</addNodeRoad>
-    <addNodeWall>Add Wall</addNodeWall>
-    <addNodeFlora>Add Flora</addNodeFlora>
+    <!-- <addNodePlain>Add Plain Path</addNodePlain> -->
+    <addNodePlain>Thêm đường phẳng</addNodePlain>
+    <!-- <addNodeRoad>Add Road</addNodeRoad> -->
+    <addNodeRoad>Thêm đường</addNodeRoad>
+    <!-- <addNodeWall>Add Wall</addNodeWall> -->
+    <addNodeWall>Thêm tường</addNodeWall>
+    <!-- <addNodeFlora>Add Flora</addNodeFlora> -->
+    <addNodeFlora>Thêm đường thực vật</addNodeFlora>
 
-    <addMore>Add More Nodes</addMore>
-    <type>Change Type</type>
-    <delete>Delete</delete>
-    <directions>Change Direction</directions>
-    <split>Split</split>
+    <!-- <addMore>Add More Nodes</addMore> -->
+    <addMore>Thêm nút khác</addMore>
+    <!-- <type>Change Type</type> -->
+    <type>Đổi loại</type>
+    <!-- <delete>Delete</delete> -->
+    <delete>Xóa</delete>
+    <!-- <directions>Change Direction</directions> -->
+    <directions>Chuyển hướng</directions>
+    <!-- <split>Split</split> -->
+    <split>Tách</split>
 
   </mouseEdit>
 
   <shareHub>
+    <!-- <appName>Kodu Game Lab</appName> -->
     <appName>Kodu Game Lab</appName>
+    <!-- <appPrefix>Kodu</appPrefix> -->
     <appPrefix>Kodu</appPrefix>
-    <startSharing>ENTER SHARING ROOM</startSharing>
-    <withYourHomies>(Invite friends below first)</withYourHomies>
-    <cmdInvite>INVITE</cmdInvite>
-    <cmdJoin>JOIN</cmdJoin>
-    <cmdStart>START</cmdStart>
-    <statusJoined>JOINED</statusJoined>
-    <statusJoining>JOINING</statusJoining>
-    <statusJoinable>JUMP IN!</statusJoinable>
-    <statusInvited>INVITED</statusInvited>
-    <statusSharing>SHARING</statusSharing>
-    <statusOffline>offline</statusOffline>
-    <presenceSharing>Sharing</presenceSharing>
-    <presenceInvitedYou>Invited You</presenceInvitedYou>
-    <presenceAtShareHub>At Share Hub</presenceAtShareHub>
-    <presenceConnectedToYou>Connected to You</presenceConnectedToYou>
-    <messageOpeningSharingRoom>Entering sharing room, please wait...</messageOpeningSharingRoom>
-    <messageOpeningInviteGuide>Opening invite screen, please wait...</messageOpeningInviteGuide>
+    <!-- <startSharing>ENTER SHARING ROOM</startSharing> -->
+    <startSharing>PHÒNG CHIA SẺ</startSharing>
+    <!-- <withYourHomies>(Invite friends below first)</withYourHomies> -->
+    <withYourHomies>(Mời bạn bè đầu tiên trước)</withYourHomies>
+    <!-- <cmdInvite>INVITE</cmdInvite> -->
+    <cmdInvite>MỜI</cmdInvite>
+    <!-- <cmdJoin>JOIN</cmdJoin> -->
+    <cmdJoin>THAM GIA</cmdJoin>
+    <!-- <cmdStart>START</cmdStart> -->
+    <cmdStart>BẮT ĐẦU</cmdStart>
+    <!-- <statusJoined>JOINED</statusJoined> -->
+    <statusJoined>ĐÃ THAM GIA</statusJoined>
+    <!-- <statusJoining>JOINING</statusJoining> -->
+    <statusJoining>ĐANG THAM GIA</statusJoining>
+    <!-- <statusJoinable>JUMP IN!</statusJoinable> -->
+    <statusJoinable>NHẢY VÀO!</statusJoinable>
+    <!-- <statusInvited>INVITED</statusInvited> -->
+    <statusInvited>ĐÃ MỜI</statusInvited>
+    <!-- <statusSharing>SHARING</statusSharing> -->
+    <statusSharing>ĐANG CHIA SẺ</statusSharing>
+    <!-- <statusOffline>offline</statusOffline> -->
+    <statusOffline>không hoạt động</statusOffline>
+    <!-- <presenceSharing>Sharing</presenceSharing> -->
+    <presenceSharing>Đang chia sẻ</presenceSharing>
+    <!-- <presenceInvitedYou>Invited You</presenceInvitedYou> -->
+    <presenceInvitedYou>Mời bạn</presenceInvitedYou>
+    <!-- <presenceAtShareHub>At Share Hub</presenceAtShareHub> -->
+    <presenceAtShareHub>Tại trung tâm chia sẻ</presenceAtShareHub>
+    <!-- <presenceConnectedToYou>Connected to You</presenceConnectedToYou> -->
+    <presenceConnectedToYou>Kết nối với bạn</presenceConnectedToYou>
+    <!-- <messageOpeningSharingRoom>Entering sharing room, please wait...</messageOpeningSharingRoom> -->
+    <messageOpeningSharingRoom>Đang vào phòng chia sẻ, vui lòng đợi ...</messageOpeningSharingRoom>
+    <!-- <messageOpeningInviteGuide>Opening invite screen, please wait...</messageOpeningInviteGuide> -->
+    <messageOpeningInviteGuide>Đang mở màn hình mời, vui lòng đợi ...</messageOpeningInviteGuide>
 
-    <invite>Invite your friends to share with you (or join an existing session)</invite>
-    <friend>friend</friend>
-    <friends>friends</friends>
-    <invited>invited</invited>
-    <start>When you're ready, hit Start &lt;start&gt; to launch your sharing session.</start>
+    <!-- <invite>Invite your friends to share with you (or join an existing session)</invite> -->
+    <invite>Mời bạn bè của bạn chia sẻ với bạn (hoặc tham gia một phiên hiện có)</invite>
+    <!-- <friend>friend</friend> -->
+    <friend>bạn</friend>
+    <!-- <friends>friends</friends> -->
+    <friends>nhiều bạn</friends>
+    <!-- <invited>invited</invited> -->
+    <invited>đã mời</invited>
+    <!-- <start>When you're ready, hit Start &lt;start&gt; to launch your sharing session.</start> -->
+    <start>Khi bạn đã sẵn sàng, nhấn Bắt đầu &lt;bắt đầu&gt; để khởi chạy phiên chia sẻ của bạn.</start>
   </shareHub>
 
   <loadLevelMenu>
-    <localTitle>LOCAL</localTitle>
-    <sharingTitle>SHARING</sharingTitle>
-    <communityTitle>COMMUNITY</communityTitle>
+    <!-- <localTitle>LOCAL</localTitle> -->
+    <localTitle>MIỀN</localTitle>
+    <!-- <sharingTitle>SHARING</sharingTitle> -->
+    <sharingTitle>ĐANG CHIA SẺ</sharingTitle>
+    <!-- <communityTitle>COMMUNITY</communityTitle> -->
+    <communityTitle>CỘNG ĐỒNG</communityTitle>
 
-    <noMatch>No worlds match your search</noMatch>
-    <noLevels>No worlds were found</noLevels>
-    <searching>Searching...</searching>
-    <waitingForOthers>Waiting for others...</waitingForOthers>
-    <yourHost>Your host:</yourHost>
-    <gamerCountFmt>Sharing with {0} gamers</gamerCountFmt>
+    <!-- <noMatch>No worlds match your search</noMatch> -->
+    <noMatch>Không có thế giới phù hợp với tìm kiếm của bạn</noMatch>
+    <!-- <noLevels>No worlds were found</noLevels> -->
+    <noLevels>Không có thế giới được tìm thấy</noLevels>
+    <!-- <searching>Searching...</searching> -->
+    <searching>Đang tìm kiếm...</searching>
+    <!-- <waitingForOthers>Waiting for others...</waitingForOthers> -->
+    <waitingForOthers>Chờ đợi người khác ...</waitingForOthers>
+    <!-- <yourHost>Your host:</yourHost> -->
+    <yourHost>Máy chủ của bạn:</yourHost>
+    <!-- <gamerCountFmt>Sharing with {0} gamers</gamerCountFmt> -->
+    <gamerCountFmt>Chia sẻ với {0} người chơi</gamerCountFmt>
 
-    <myWorldsTab>My Worlds</myWorldsTab>
-    <starterWorldsTab>Starter Worlds</starterWorldsTab>
-    <downloadsTab>Downloads</downloadsTab>
-    <missionsTab>Missions</missionsTab>
+    <!-- <myWorldsTab>My Worlds</myWorldsTab> -->
+    <myWorldsTab>Thế giới của tôi</myWorldsTab>
+    <!-- <starterWorldsTab>Starter Worlds</starterWorldsTab> -->
+    <starterWorldsTab>Thế giới khởi đầu</starterWorldsTab>
+    <!-- <downloadsTab>Downloads</downloadsTab> -->
+    <downloadsTab>Tải xuống</downloadsTab>
+    <!-- <missionsTab>Missions</missionsTab> -->
+    <missionsTab>Nhiệm vụ</missionsTab>
 
-    <deleteWorld>Delete World</deleteWorld>
-    <oldSortBy>Sort by </oldSortBy>
-    <world>World</world>
-    <oldCreator>Creator</oldCreator>
-    <date>Date</date>
-    <worldCount> World</worldCount>
-    <worldsCount> Worlds</worldsCount>
+    <!-- <deleteWorld>Delete World</deleteWorld> -->
+    <deleteWorld>Xóa thế giới</deleteWorld>
+    <!-- <oldSortBy>Sort by </oldSortBy> -->
+    <oldSortBy>Sắp xếp theo </oldSortBy>
+    <!-- <world>World</world> -->
+    <world>Thế giới</world>
+    <!-- <oldCreator>Creator</oldCreator> -->
+    <oldCreator>Người tạo</oldCreator>
+    <!-- <date>Date</date> -->
+    <date>Ngày</date>
+    <!-- <worldCount> World</worldCount> -->
+    <worldCount> Thế giới</worldCount>
+    <!-- <worldsCount> Worlds</worldsCount> -->
+    <worldsCount> Nhiều thế giới</worldsCount>
     <separator>|</separator>
 
-    <title>TITLE</title>
-    <tags>Tags</tags>
-    <creator>CREATOR</creator>
-    <description>DESCRIPTION</description>
-    <rating>RATING</rating>
-    <vote>VOTE</vote>
-    <share>Share</share>
-    <unshare>Unshare</unshare>
-    <editTags>Edit Tags</editTags>
-    <sendTo>Send To &gt;</sendTo>
-    <delete>Delete</delete>
-    <like>Like</like>
-    <comments>Comments</comments>
-    <signInToComment>Sign in to comment</signInToComment>
-    <addAComment>Add a comment</addAComment>
-    <noComments>Be the first to comment!</noComments>
-    <commentBy>Comment by</commentBy>
-    <signedInAs>Signed in as</signedInAs>
-    <sortBy>Sort:</sortBy>
-    <showOnly>Show:</showOnly>
-    <authoredBy>by</authoredBy>
-    <actions>Actions</actions>
-    <playLevel>Play</playLevel>
-    <editLevel>Edit</editLevel>
-    <export>Export</export>
-    <exportDialogTitle>Where would you like to export your file?</exportDialogTitle>
-    <exportMultiDialogTitle>Where would you like to export your file (all attached levels included)?</exportMultiDialogTitle>
-    <exportPackageString>[Package]</exportPackageString>
-    <videoOut>Video Out</videoOut>
-    <download>Download</download>
-    <downloads>Downloads</downloads>
-    <attach>Attach</attach>
-    <back>Back</back>
-    <scroll>SCROLL L/R</scroll>
-    <moreLikeThis>MORE LIKE THIS</moreLikeThis>
-    <previousPage><![CDATA[< Page]]></previousPage>
+    <!-- <title>TITLE</title> -->
+    <title>TIÊU ĐỀ</title>
+    <!-- <tags>Tags</tags> -->
+    <tags>Thẻ</tags>
+    <!-- <creator>CREATOR</creator> -->
+    <creator>NGƯỜI TẠO</creator>
+    <!-- <description>DESCRIPTION</description> -->
+    <description>MÔ TẢ</description>
+    <!-- <rating>RATING</rating> -->
+    <rating>XÊP HẠNG</rating>
+    <!-- <vote>VOTE</vote> -->
+    <vote>BÌNH CHỌN</vote>
+    <!-- <share>Share</share> -->
+    <share>Chia sẻ</share>
+    <!-- <unshare>Unshare</unshare> -->
+    <unshare>Không chia sẻ</unshare>
+    <!-- <editTags>Edit Tags</editTags> -->
+    <editTags>Chỉnh sửa thẻ</editTags>
+    <!-- <sendTo>Send To &gt;</sendTo> -->
+    <sendTo>Gửi tới &gt;</sendTo>
+    <!-- <delete>Delete</delete> -->
+    <delete>Xóa</delete>
+    <!-- <like>Like</like> -->
+    <like>Thích</like>
+    <!-- <comments>Comments</comments> -->
+    <comments>Bình luận</comments>
+    <!-- <signInToComment>Sign in to comment</signInToComment> -->
+    <signInToComment>Đăng nhập để bình luận</signInToComment>
+    <!-- <addAComment>Add a comment</addAComment> -->
+    <addAComment>Thêm một bình luận</addAComment>
+    <!-- <noComments>Be the first to comment!</noComments> -->
+    <noComments>Hãy trở thành người đầu tiên bình luận!</noComments>
+    <!-- <commentBy>Comment by</commentBy> -->
+    <commentBy>Bình luận bởi</commentBy>
+    <!-- <signedInAs>Signed in as</signedInAs> -->
+    <signedInAs>Đăng nhập với tư cách là</signedInAs>
+    <!-- <sortBy>Sort:</sortBy> -->
+    <sortBy>sắp xếp:</sortBy>
+    <!-- <showOnly>Show:</showOnly> -->
+    <showOnly>Hiện:</showOnly>
+    <!-- <authoredBy>by</authoredBy> -->
+    <authoredBy>bởi</authoredBy>
+    <!-- <actions>Actions</actions> -->
+    <actions>Hành động</actions>
+    <!-- <playLevel>Play</playLevel> -->
+    <playLevel>Chơi</playLevel>
+    <!-- <editLevel>Edit</editLevel> -->
+    <editLevel>Chỉnh sửa</editLevel>
+    <!-- <export>Export</export> -->
+    <export>Xuất</export>
+    <!-- <exportDialogTitle>Where would you like to export your file?</exportDialogTitle> -->
+    <exportDialogTitle>Bạn muốn xuất tập tin của mình ở đâu?</exportDialogTitle>
+    <!-- <exportMultiDialogTitle>Where would you like to export your file (all attached levels included)?</exportMultiDialogTitle> -->
+    <exportMultiDialogTitle>Bạn muốn xuất tệp của mình ở đâu (bao gồm tất cả các cấp độ đính kèm)?</exportMultiDialogTitle>
+    <!-- <exportPackageString>[Package]</exportPackageString> -->
+    <exportPackageString>[Gói]</exportPackageString>
+    <!-- <videoOut>Video Out</videoOut> -->
+    <videoOut>Video ra</videoOut>
+    <!-- <download>Download</download> -->
+    <download>Tải về</download>
+    <!-- <downloads>Downloads</downloads> -->
+    <downloads>Tải xuống</downloads>
+    <!-- <attach>Attach</attach> -->
+    <attach>Đính kèm</attach>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <scroll>SCROLL L/R</scroll> -->
+    <scroll>PHÚT L/R</scroll>
+    <!-- <moreLikeThis>MORE LIKE THIS</moreLikeThis> -->
+    <moreLikeThis>HƠN NHƯ THẾ NÀY</moreLikeThis>
+    <!-- <previousPage><![CDATA[< Page]]></previousPage> -->
     <nextPage><![CDATA[Page >]]></nextPage>
-    <thumbsUp>Like &lt;HeartIcon&gt;</thumbsUp>
-    <thumbsDown>Unlike &lt;BrokenHeartIcon&gt;</thumbsDown>
-    <reportAbuse>Report&lt;ReportAbuseIcon&gt;</reportAbuse>
-    <unReportAbuse>Unflag &lt;ReportAbuseGreyIcon&gt;</unReportAbuse>
-    <viewOnSocl> View on Socl </viewOnSocl>
-    <viewOnKoduGameLab> View on KoduGameLab </viewOnKoduGameLab>
+    <!-- <thumbsUp>Like &lt;HeartIcon&gt;</thumbsUp> -->
+    <thumbsUp>Thích &lt;Tim&gt;</thumbsUp>
+    <!-- <thumbsDown>Unlike &lt;BrokenHeartIcon&gt;</thumbsDown> -->
+    <thumbsDown>Không thích &lt;Bỏ tim&gt;</thumbsDown>
+    <!-- <reportAbuse>Report&lt;ReportAbuseIcon&gt;</reportAbuse> -->
+    <reportAbuse>Báo cáo&lt;Báo cao lạm dụng&gt;</reportAbuse>
+    <!-- <unReportAbuse>Unflag &lt;ReportAbuseGreyIcon&gt;</unReportAbuse> -->
+    <unReportAbuse>Vô duyên &lt;Báo cáo lạm dụng xám&gt;</unReportAbuse>
+    <!-- <viewOnSocl> View on Socl </viewOnSocl> -->
+    <viewOnSocl> Xem trên Socl </viewOnSocl>
+    <!-- <viewOnKoduGameLab> View on KoduGameLab </viewOnKoduGameLab> -->
+    <viewOnKoduGameLab> Xem trên KoduGameLab </viewOnKoduGameLab>
 
-    <tag>Tag</tag>
-    <puzzle>Puzzle</puzzle>
-    <adventure>Adventure</adventure>
-    <other>Other</other>
+    <!-- <tag>Tag</tag> -->
+    <tag>Thẻ</tag>
+    <!-- <puzzle>Puzzle</puzzle> -->
+    <puzzle>Câu đố</puzzle>
+    <!-- <adventure>Adventure</adventure> -->
+    <adventure>Phiêu lưu</adventure>
+    <!-- <other>Other</other> -->
+    <other>Khác</other>
 
-    <showSharing>Friends</showSharing>
-    <showMyWorlds>My Worlds</showMyWorlds>
-    <showDownloads>Downloads</showDownloads>
-    <showLessons>Lessons</showLessons>
-    <showSamples>Samples</showSamples>
-    <showStarterWorlds>Starters</showStarterWorlds>
-    <showAll>All</showAll>
+    <!-- <showSharing>Friends</showSharing> -->
+    <showSharing>Bạn</showSharing>
+    <!-- <showMyWorlds>My Worlds</showMyWorlds> -->
+    <showMyWorlds>Thế giới của tôi</showMyWorlds>
+    <!-- <showDownloads>Downloads</showDownloads> -->
+    <showDownloads>Tải xuống</showDownloads>
+    <!-- <showLessons>Lessons</showLessons> -->
+    <showLessons>Bài học</showLessons>
+    <!-- <showSamples>Samples</showSamples> -->
+    <showSamples>Mẫu</showSamples>
+    <!-- <showStarterWorlds>Starters</showStarterWorlds> -->
+    <showStarterWorlds>Khởi đầu</showStarterWorlds>
+    <!-- <showAll>All</showAll> -->
+    <showAll>Tất cả</showAll>
 
-    <sortDate>Date</sortDate>
-    <sortCreator>Creator</sortCreator>
-    <sortTitle>Title</sortTitle>
-    <sortRating>Rating</sortRating>
-    <sortRank>Rank</sortRank>
+    <!-- <sortDate>Date</sortDate> -->
+    <sortDate>Ngày</sortDate>
+    <!-- <sortCreator>Creator</sortCreator> -->
+    <sortCreator>Người tạo</sortCreator>
+    <!-- <sortTitle>Title</sortTitle> -->
+    <sortTitle>Tiêu đề</sortTitle>
+    <!-- <sortRating>Rating</sortRating> -->
+    <sortRating>Xếp hạng</sortRating>
+    <!-- <sortRank>Rank</sortRank> -->
+    <sortRank>Cấp</sortRank>
 
-    <sharingCloseSessionConfirmMessage>Close sharing room? All users will be booted.</sharingCloseSessionConfirmMessage>
-    <sharingLeaveSessionConfirmMessage>Leave sharing room? Any pending downloads will be canceled.</sharingLeaveSessionConfirmMessage>
-    <sharingSessionEndedMessageFmt>Sharing room closed. {0}.</sharingSessionEndedMessageFmt>
+    <!-- <sharingCloseSessionConfirmMessage>Close sharing room? All users will be booted.</sharingCloseSessionConfirmMessage> -->
+    <sharingCloseSessionConfirmMessage>Đóng phòng chia sẻ? Tất cả người dùng sẽ được khởi động.</sharingCloseSessionConfirmMessage>
+    <!-- <sharingLeaveSessionConfirmMessage>Leave sharing room? Any pending downloads will be canceled.</sharingLeaveSessionConfirmMessage> -->
+    <sharingLeaveSessionConfirmMessage>Rời khỏi phòng chia sẻ? Mọi tải xuống đang chờ xử lý sẽ bị hủy.</sharingLeaveSessionConfirmMessage>
+    <!-- <sharingSessionEndedMessageFmt>Sharing room closed. {0}.</sharingSessionEndedMessageFmt> -->
+    <sharingSessionEndedMessageFmt>Phòng chia sẻ đóng cửa. {0}.</sharingSessionEndedMessageFmt>
 
-    <loadingLevelMessage>Loading World, Please Wait...</loadingLevelMessage>
-    <deletingLevelMessage>Deleting World, Please Wait...</deletingLevelMessage>
-    <exportingLevelMessage>Exporting World, Please Wait...</exportingLevelMessage>
+    <!-- <loadingLevelMessage>Loading World, Please Wait...</loadingLevelMessage> -->
+    <loadingLevelMessage>Đang tải thế giới, vui lòng đợi ...</loadingLevelMessage>
+    <!-- <deletingLevelMessage>Deleting World, Please Wait...</deletingLevelMessage> -->
+    <deletingLevelMessage>Xóa thế giới, vui lòng đợi ...</deletingLevelMessage>
+    <!-- <exportingLevelMessage>Exporting World, Please Wait...</exportingLevelMessage> -->
+    <exportingLevelMessage>Xuất thế giới, vui lòng đợi ...</exportingLevelMessage>
 
-    <levelNotFirstMessage>This level has other levels linking to it.  Would you like to load the first level in the chain?</levelNotFirstMessage>
-    <levelLinksBrokenMessage>This level is part of a chain that contains some broken links - some levels may not link properly.</levelLinksBrokenMessage>
-    <levelChainTooLongMessage>This level is already part of a linked level chain that is too long.  You cannot link further without first removing some levels.</levelChainTooLongMessage>
-    <levelChainHasCycleMessage>You cannot form circular level links.  Please link to a level not already in this chain.</levelChainHasCycleMessage>
-    <targetAlreadyLinkedMessage>This level is already linked to.  If you proceed, that previous link will be removed.</targetAlreadyLinkedMessage>
-    <preserveLinksMessage>New Name or Version detected.
+    <!-- <levelNotFirstMessage>This level has other levels linking to it.  Would you like to load the first level in the chain?</levelNotFirstMessage> -->
+    <levelNotFirstMessage>Cấp độ này có các cấp độ khác liên kết với nó. Bạn có muốn tải cấp độ đầu tiên trong chuỗi?</levelNotFirstMessage>
+    <!-- <levelLinksBrokenMessage>This level is part of a chain that contains some broken links - some levels may not link properly.</levelLinksBrokenMessage> -->
+    <levelLinksBrokenMessage>Cấp độ này là một phần của chuỗi chứa một số liên kết bị hỏng - một số cấp độ có thể không liên kết chính xác.</levelLinksBrokenMessage>
+    <!-- <levelChainTooLongMessage>This level is already part of a linked level chain that is too long.  You cannot link further without first removing some levels.</levelChainTooLongMessage> -->
+    <levelChainTooLongMessage>Cấp độ này đã là một phần của chuỗi cấp độ được liên kết quá dài. Bạn không thể liên kết thêm mà không cần xóa một số cấp trước.</levelChainTooLongMessage>
+    <!-- <levelChainHasCycleMessage>You cannot form circular level links.  Please link to a level not already in this chain.</levelChainHasCycleMessage> -->
+    <levelChainHasCycleMessage>Bạn không thể hình thành các liên kết cấp tròn. Vui lòng liên kết đến một cấp độ chưa có trong chuỗi này.</levelChainHasCycleMessage>
+    <!-- <targetAlreadyLinkedMessage>This level is already linked to.  If you proceed, that previous link will be removed.</targetAlreadyLinkedMessage> -->
+    <targetAlreadyLinkedMessage>Cấp độ này đã được liên kết đến. Nếu bạn tiến hành, liên kết trước đó sẽ bị xóa.</targetAlreadyLinkedMessage>
+    <!-- <preserveLinksMessage>New Name or Version detected. 
       Do you want to keep the links to other levels?
-      Selecting ‘No’ will clear all links to and from this level.</preserveLinksMessage>
-    <brokenLevelExportMessage>This level contains broken links.  Please edit the level and update or remove the links before exporting.</brokenLevelExportMessage>
-    <brokenLevelShareMessage>This level contains broken links.  Please edit the level and update or remove the links before sharing.</brokenLevelShareMessage>
-    <confirmLinkedDownloadMessage>This level had linked levels attached.  All attached levels have been downloaded.</confirmLinkedDownloadMessage>
-    <confirmLinkedShareMessage>This level has linked levels attached.  Sharing it will share all attached levels as well. Continue?</confirmLinkedShareMessage>
+      Selecting ‘No’ will clear all links to and from this level.</preserveLinksMessage>-->
+    <preserveLinksMessage>Tên mới hoặc Phiên bản được phát hiện.
+       Bạn có muốn giữ các liên kết đến các cấp độ khác?
+       Chọn 'Không' sẽ xóa tất cả các liên kết đến và từ cấp độ này.</preserveLinksMessage>  
+    <!-- <brokenLevelExportMessage>This level contains broken links.  Please edit the level and update or remove the links before exporting.</brokenLevelExportMessage> -->
+    <brokenLevelExportMessage>Cấp độ này chứa các liên kết bị hỏng. Vui lòng chỉnh sửa cấp độ và cập nhật hoặc xóa các liên kết trước khi xuất.</brokenLevelExportMessage>
+    <!-- <brokenLevelShareMessage>This level contains broken links.  Please edit the level and update or remove the links before sharing.</brokenLevelShareMessage> -->
+    <brokenLevelShareMessage>Cấp độ này chứa các liên kết bị hỏng. Vui lòng chỉnh sửa cấp độ và cập nhật hoặc xóa các liên kết trước khi chia sẻ.</brokenLevelShareMessage>
+    <!-- <confirmLinkedDownloadMessage>This level had linked levels attached.  All attached levels have been downloaded.</confirmLinkedDownloadMessage> -->
+    <confirmLinkedDownloadMessage>Cấp độ này đã được liên kết cấp độ đính kèm. Tất cả các cấp độ đính kèm đã được tải xuống.</confirmLinkedDownloadMessage>
+    <!-- <confirmLinkedShareMessage>This level has linked levels attached.  Sharing it will share all attached levels as well. Continue?</confirmLinkedShareMessage> -->
+    <confirmLinkedShareMessage>Cấp độ này có các cấp liên kết kèm theo. Chia sẻ nó sẽ chia sẻ tất cả các cấp độ đính kèm là tốt. Tiếp tục?
+</confirmLinkedShareMessage>
     
-    <sendToAll>Send to Everyone</sendToAll>
+    <!-- <sendToAll>Send to Everyone</sendToAll> -->
+    <sendToAll>Gửi đến mọi người</sendToAll>
 
-    <updateAvailableMessageFmt>A Kodu Game Lab update is available! To share with {0}, you must exit and re-download Kodu.</updateAvailableMessageFmt>
+    <!-- <updateAvailableMessageFmt>A Kodu Game Lab update is available! To share with {0}, you must exit and re-download Kodu.</updateAvailableMessageFmt> -->
+    <updateAvailableMessageFmt>Đã có bản cập nhật Kodu Game Lab! Để chia sẻ với {0}, bạn phải thoát và tải lại Kodu.</updateAvailableMessageFmt>
   </loadLevelMenu>
 
   <inGame>
-    <saveRequiredBeforeLink>This level contains un-saved changes.  Save now and continue?</saveRequiredBeforeLink>
-    <nextLevelNotFound>A "Next Level" tile was executed, but the next level property for this world is either missing or invalid.  Please update the link or try re-downloading the level.</nextLevelNotFound>
-    <previousLevelNotFound>A "Previous Level" tile was executed, but this level is not linked to from another level (or that link is invalid).  Please update the link or try re-downloading the level.</previousLevelNotFound>  
+    <!-- <saveRequiredBeforeLink>This level contains un-saved changes.  Save now and continue?</saveRequiredBeforeLink> -->
+    <saveRequiredBeforeLink>Cấp độ này chứa các thay đổi chưa được lưu. Lưu ngay bây giờ và tiếp tục?</saveRequiredBeforeLink>
+    <!-- <nextLevelNotFound>A "Next Level" tile was executed, but the next level property for this world is either missing or invalid.  Please update the link or try re-downloading the level.</nextLevelNotFound> -->
+    <nextLevelNotFound>Một lát "Cấp độ tiếp theo" đã được thực thi, nhưng thuộc tính cấp tiếp theo cho thế giới này bị thiếu hoặc không hợp lệ. Vui lòng cập nhật liên kết hoặc thử tải lại cấp độ.</nextLevelNotFound>
+    <!-- <previousLevelNotFound>A "Previous Level" tile was executed, but this level is not linked to from another level (or that link is invalid).  Please update the link or try re-downloading the level.</previousLevelNotFound>   -->
+    <previousLevelNotFound>Một "Cấp trước" đã được thực thi, nhưng cấp này không được liên kết đến từ cấp khác (hoặc liên kết đó không hợp lệ). Vui lòng cập nhật liên kết hoặc thử tải lại cấp độ.</previousLevelNotFound>  
   </inGame>
 
   <inGamePickLevelMenu>
-    <title>Choose World</title>
-    <attach>Attach</attach>
+    <!-- <title>Choose World</title> -->
+    <title>Chọn thế giới</title>
+    <!-- <attach>Attach</attach> -->
+    <attach>Đính kèm</attach>
   </inGamePickLevelMenu>
 
   <networkSessionEndReason>
-    <clientSignedOut>You signed out</clientSignedOut>
-    <hostEndedSession>Host ended session</hostEndedSession>
-    <removedByHost>Host removed you</removedByHost>
-    <disconnected>Disconnected</disconnected>
+    <!-- <clientSignedOut>You signed out</clientSignedOut> -->
+    <clientSignedOut>Bạn đã đăng xuất</clientSignedOut>
+    <!-- <hostEndedSession>Host ended session</hostEndedSession> -->
+    <hostEndedSession>Máy chủ kết thúc phiên</hostEndedSession>
+    <!-- <removedByHost>Host removed you</removedByHost> -->
+    <removedByHost>Máy chủ đã loại bỏ bạn</removedByHost>
+    <!-- <disconnected>Disconnected</disconnected> -->
+    <disconnected>Ngắt kết nối</disconnected>
   </networkSessionEndReason>
 
   <community>
-    <newsTab>News</newsTab>
-    <page>Community :</page>
-    <pageFormat>Community : Page {0} of {1}</pageFormat>
-    <downloadWorld>Download World</downloadWorld>
-    <downloadSuccessMessage>Selected world has been copied to your Downloads area.</downloadSuccessMessage>
-    <playLevel>Play Now</playLevel>
-    <backToCommunity>Continue Browsing</backToCommunity>
+    <!-- <newsTab>News</newsTab> -->
+    <newsTab>Thông tin</newsTab>
+    <!-- <page>Community :</page> -->
+    <page>Cộng đồng :</page>
+    <!-- <pageFormat>Community : Page {0} of {1}</pageFormat> -->
+    <pageFormat>Cộng đồng : Trang {0} của {1}</pageFormat>
+    <!-- <downloadWorld>Download World</downloadWorld> -->
+    <downloadWorld>Tải thế giới</downloadWorld>
+    <!-- <downloadSuccessMessage>Selected world has been copied to your Downloads area.</downloadSuccessMessage> -->
+    <downloadSuccessMessage>Thế giới đã chọn đã được sao chép vào khu vực Tải xuống của bạn.</downloadSuccessMessage>
+    <!-- <playLevel>Play Now</playLevel> -->
+    <playLevel>Bắt đầu chơi</playLevel>
+    <!-- <backToCommunity>Continue Browsing</backToCommunity> -->
+    <backToCommunity>Tiếp tục duyệt</backToCommunity>
   </community>
 
   <tools>
-    <sampleTool>Sample</sampleTool>
-    <paintMaterialTool>Change Material</paintMaterialTool>
-    <heightMapTool>Raise/Lower</heightMapTool>
-    <deleteTool>Delete Material</deleteTool>
-    <noiseTool>Rough/Smooth</noiseTool>
-    <hillTool>Hill</hillTool>
-    <minMaxTool>Level</minMaxTool>
-    <levelTool>Level</levelTool>
-    <addTool>Material</addTool>
-    <waterAdd>Water</waterAdd>
-    <roadTool>Level Path</roadTool>
-    <delObjTool>Delete Things</delObjTool>
-    <tooManyLights>Sorry, you can't add another light.  You can only have 8 lights per world.</tooManyLights>
-    <balloonText>
+    <!-- <sampleTool>Sample</sampleTool> -->
+    <sampleTool>Mẫu vật</sampleTool>
+    <!-- <paintMaterialTool>Change Material</paintMaterialTool> -->
+    <paintMaterialTool>Thay đổi vật liệu</paintMaterialTool>
+    <!-- <heightMapTool>Raise/Lower</heightMapTool> -->
+    <heightMapTool>Nâng/Hạ</heightMapTool>
+    <!-- <deleteTool>Delete Material</deleteTool> -->
+    <deleteTool>Xóa vật liệu</deleteTool>
+    <!-- <noiseTool>Rough/Smooth</noiseTool> -->
+    <noiseTool>Thô/Mịn</noiseTool>
+    <!-- <hillTool>Hill</hillTool> -->
+    <hillTool>Đồi</hillTool>
+    <!-- <minMaxTool>Level</minMaxTool> -->
+    <minMaxTool>Mức</minMaxTool>
+    <!-- <levelTool>Level</levelTool> -->
+    <levelTool>Mức</levelTool>
+    <!-- <addTool>Material</addTool> -->
+    <addTool>Vật liệu</addTool>
+    <!-- <waterAdd>Water</waterAdd> -->
+    <waterAdd>Nước</waterAdd>
+    <!-- <roadTool>Level Path</roadTool> -->
+    <roadTool>Đường dẫn</roadTool>
+    <!-- <delObjTool>Delete Things</delObjTool> -->
+    <delObjTool>Xóa mọi thứ</delObjTool>
+    <!-- <tooManyLights>Sorry, you can't add another light.  You can only have 8 lights per world.</tooManyLights> -->
+    <tooManyLights>Xin lỗi, bạn không thể thêm một ánh sáng khác. Bạn chỉ có thể có 8 đèn cho mỗi thế giới.</tooManyLights>
+    <!-- <balloonText> 
 &lt;y&gt; Program
 &lt;a&gt; Pick Up</balloonText>
-    <balloonTextMouse>
+    <balloonTextMouse>-->
+     <balloonText>
+&lt;y&gt; Chương trình
+&lt;a&gt; Nhặt lên.</balloonText>
+    <!-- <balloonTextMouse> 
 &lt;rightmouse&gt; Program
-&lt;leftmouse&gt; Drag</balloonTextMouse>
-    <balloonTextTouch>
+&lt;leftmouse&gt; Drag</balloonTextMouse>-->
+<balloonTextMouse>
+&lt;rightmouse&gt; Chương trình
+&lt;leftmouse&gt; Kéo</balloonTextMouse>
+    <!-- <balloonTextTouch> 
       &lt;rotate&gt; Rotate
-      &lt;pinch&gt; Scale</balloonTextTouch>
+      &lt;pinch&gt; Scale</balloonTextTouch>-->
+  <balloonTextTouch>
+      &lt;rotate&gt; Xoay
+      &lt;pinch&gt; Tỷ lệ</balloonTextTouch>
   </tools>
 
+
   <editWorldParams>
-    <changeHistoryTitle>Change History</changeHistoryTitle>
-    <viewHistory>View</viewHistory>
-    <clearHistory>Delete All</clearHistory>
-    <noHistory>There is no history for this world.</noHistory>
+    <!-- <changeHistoryTitle>Change History</changeHistoryTitle> -->
+    <changeHistoryTitle>Thay đổi lịch sử</changeHistoryTitle>
+    <!-- <viewHistory>View</viewHistory> -->
+    <viewHistory>Xem</viewHistory>
+    <!-- <clearHistory>Delete All</clearHistory> -->
+    <clearHistory>Xóa mọi thứ</clearHistory>
+    <!-- <noHistory>There is no history for this world.</noHistory> -->
+    <noHistory>Không có lịch sử cho thế giới này.</noHistory>
 
-    <glassWallsCheckbox>Glass Walls</glassWallsCheckbox>
-    <cameraMode>Camera Mode</cameraMode>
+    <!-- <glassWallsCheckbox>Glass Walls</glassWallsCheckbox> -->
+    <glassWallsCheckbox>Vách kính</glassWallsCheckbox>
+    <!-- <cameraMode>Camera Mode</cameraMode> -->
+    <cameraMode>Chế độ máy ảnh</cameraMode>
+    <!-- <cameraModeFixedPosition>Fixed Position</cameraModeFixedPosition> -->
     <cameraModeFixedPosition>Fixed Position</cameraModeFixedPosition>
+    <!-- <cameraModeFixedOffset>Fixed Offset</cameraModeFixedOffset> -->
     <cameraModeFixedOffset>Fixed Offset</cameraModeFixedOffset>
+    <!-- <cameraModeFree>Free</cameraModeFree> -->
     <cameraModeFree>Free</cameraModeFree>
-    <startingCameraCheckbox>Starting Camera</startingCameraCheckbox>
-    <setCamera>Set Camera</setCamera>
-    <cameraSpringStrength>Camera Spring Strength</cameraSpringStrength>
-    <showCompassCheckbox>Show Compass</showCompassCheckbox>
-    <showResourceMeterCheckbox>Show Resource Meter</showResourceMeterCheckbox>
-    <enableResourceLimitingCheckbox>Enable Resource Limiting</enableResourceLimitingCheckbox>
-    <waveHeight>Wave Height</waveHeight>
-    <waterStrength>Water Strength</waterStrength>
-    <skyPictureList>Sky</skyPictureList>
-    <lightRigPictureList>Lighting</lightRigPictureList>
-    <windMin>Min Breeze</windMin>
-    <windMax>Max Breeze</windMax>
+    <!-- <startingCameraCheckbox>Starting Camera</startingCameraCheckbox> -->
+    <startingCameraCheckbox>Camera khởi động</startingCameraCheckbox>
+    <!-- <setCamera>Set Camera</setCamera> -->
+    <setCamera>Đặt máy ảnh</setCamera>
+    <!-- <cameraSpringStrength>Camera Spring Strength</cameraSpringStrength> -->
+    <cameraSpringStrength>Độ tươi sáng của máy ảnh</cameraSpringStrength>
+    <!-- <showCompassCheckbox>Show Compass</showCompassCheckbox> -->
+    <showCompassCheckbox>Hiển thị la bàn</showCompassCheckbox>
+    <!-- <showResourceMeterCheckbox>Show Resource Meter</showResourceMeterCheckbox> -->
+    <showResourceMeterCheckbox>Hiển thị đồng hồ dung lượng</showResourceMeterCheckbox>
+    <!-- <enableResourceLimitingCheckbox>Enable Resource Limiting</enableResourceLimitingCheckbox> -->
+    <enableResourceLimitingCheckbox>Kích hoạt giới hạn dung lượng</enableResourceLimitingCheckbox>
+    <!-- <waveHeight>Wave Height</waveHeight> -->
+    <waveHeight>Chiều cao sóng</waveHeight>
+    <!-- <waterStrength>Water Strength</waterStrength> -->
+    <waterStrength>Sức mạnh của nước</waterStrength>
+    <!-- <skyPictureList>Sky</skyPictureList> -->
+    <skyPictureList>Bầu trời</skyPictureList>
+    <!-- <lightRigPictureList>Lighting</lightRigPictureList> -->
+    <lightRigPictureList>Thắp sáng</lightRigPictureList>
+    <!-- <windMin>Min Breeze</windMin> -->
+    <windMin>Gió nhẹ</windMin>
+    <!-- <windMax>Max Breeze</windMax> -->
+    <windMax>Gió mạnh</windMax>
 
-    <preGame>Start Game With:</preGame>
-    <nothing>Nothing</nothing>
-    <countdown>Countdown</countdown>
-    <countdownWithDesc>Description with Countdown</countdownWithDesc>
-    <levelTitle>World Title</levelTitle>
-    <levelDesc>World Description</levelDesc>
+    <!-- <preGame>Start Game With:</preGame> -->
+    <preGame>Bắt đầu trò chơi với:</preGame>
+    <!-- <nothing>Nothing</nothing> -->
+    <nothing>Không có gì</nothing>
+    <!-- <countdown>Countdown</countdown> -->
+    <countdown>Đếm ngược</countdown>
+    <!-- <countdownWithDesc>Description with Countdown</countdownWithDesc> -->
+    <countdownWithDesc>Mô tả với Đếm ngược</countdownWithDesc>
+    <!-- <levelTitle>World Title</levelTitle> -->
+    <levelTitle>Tiêu đề thế giới</levelTitle>
+    <!-- <levelDesc>World Description</levelDesc> -->
+    <levelDesc>Mô tả thế giới</levelDesc>
 
-    <debugPathFollow>Debug Path Following</debugPathFollow>
-    <debugDisplayCollisions>Debug Display Collision Data</debugDisplayCollisions>
-    <debugDisplayLinesOfPerception>Debug Sight and Sound Lines</debugDisplayLinesOfPerception>
-    <debugDisplayCurrentPage>Debug Current Programming Page</debugDisplayCurrentPage>
-    <foleyVolume>Effects Volume</foleyVolume>
-    <musicVolume>Music Volume</musicVolume>
+    <!-- <debugPathFollow>Debug Path Following</debugPathFollow> -->
+    <debugPathFollow>Đường dẫn gỡ lỗi theo sau</debugPathFollow>
+    <!-- <debugDisplayCollisions>Debug Display Collision Data</debugDisplayCollisions> -->
+    <debugDisplayCollisions>Gỡ lỗi hiển thị dữ liệu va chạm</debugDisplayCollisions>
+    <!-- <debugDisplayLinesOfPerception>Debug Sight and Sound Lines</debugDisplayLinesOfPerception> -->
+    <debugDisplayLinesOfPerception>Đường ngắm và âm thanh gỡ lỗi</debugDisplayLinesOfPerception>
+    <!-- <debugDisplayCurrentPage>Debug Current Programming Page</debugDisplayCurrentPage> -->
+    <debugDisplayCurrentPage>Gỡ lỗi trang lập trình hiện tại</debugDisplayCurrentPage>
+    <!-- <foleyVolume>Effects Volume</foleyVolume> -->
+    <foleyVolume>Hiệu ứng âm lượng</foleyVolume>
+    <!-- <musicVolume>Music Volume</musicVolume> -->
+    <musicVolume>Tập nhạc </musicVolume>
 
-    <scoreVisibility>Score Visibility: </scoreVisibility>
-    <scorePersistence>Score Persistence: </scorePersistence>
-    <loudLabel>Loud Labeled</loudLabel>
-    <loud>Loud</loud>
-    <quietLabel>Quiet Labeled</quietLabel>
-    <quiet>Quiet</quiet>
-    <on>On</on>
-    <off>Off</off>
+    <!-- <scoreVisibility>Score Visibility: </scoreVisibility> -->
+    <scoreVisibility>Hiển thị điểm: </scoreVisibility>
+    <!-- <scorePersistence>Score Persistence: </scorePersistence> -->
+    <scorePersistence>Điểm bền bỉ: </scorePersistence>
+    <!-- <loudLabel>Loud Labeled</loudLabel> -->
+    <loudLabel>Dán nhãn lớn</loudLabel>
+    <!-- <loud>Loud</loud> -->
+    <loud>To tiếng</loud>
+    <!-- <quietLabel>Quiet Labeled</quietLabel> -->
+    <quietLabel>Nhãn yên tĩnh</quietLabel>
+    <!-- <quiet>Quiet</quiet> -->
+    <quiet> Yên lặng</quiet>
+    <!-- <on>On</on> -->
+    <on>Bật</on>
+    <!-- <off>Off</off> -->
+    <off>Tắt</off>
 
-    <guiButtonVisibility>GUI Button Visibility: </guiButtonVisibility>
-    <labeledButton>Labeled</labeledButton>
-    <solidButton>No Label</solidButton>
-    <off>Off</off>
+    <!-- <guiButtonVisibility>GUI Button Visibility: </guiButtonVisibility> -->
+    <guiButtonVisibility>Hiển thị nút GUI: </guiButtonVisibility>
+    <!-- <labeledButton>Labeled</labeledButton> -->
+    <labeledButton>Dán nhãn</labeledButton>
+    <!-- <solidButton>No Label</solidButton> -->
+    <solidButton>Không nhãn hiệu</solidButton>
+    <!-- <off>Off</off> -->
+    <off>Tắt</off>
     
-    <showVirtualController>Show Virtual Controller</showVirtualController>
+    <!-- <showVirtualController>Show Virtual Controller</showVirtualController> -->
+    <showVirtualController>Hiển thị bộ điều khiển ảo</showVirtualController>
 
-    <nextLevel>Next Level</nextLevel>
-    <noLevelSelected>No Level Selected</noLevelSelected>
-    <clearNextLevel>Clear</clearNextLevel>
+    <!-- <nextLevel>Next Level</nextLevel> -->
+    <nextLevel>Cấp độ tiếp theo</nextLevel>
+    <!-- <noLevelSelected>No Level Selected</noLevelSelected> -->
+    <noLevelSelected>Không có cấp độ được chọn</noLevelSelected>
+    <!-- <clearNextLevel>Clear</clearNextLevel> -->
+    <clearNextLevel>Thông thoáng</clearNextLevel>
   </editWorldParams>
 
   <skyGradientNames>
+    <!-- <grassAndSky>1</grassAndSky> -->
     <grassAndSky>1</grassAndSky>
+    <!-- <space>2</space> -->
     <space>2</space>
+    <!-- <rampBW>3</rampBW> -->
     <rampBW>3</rampBW>
+    <!-- <pink>4</pink> -->
     <pink>4</pink>
+    <!-- <venus>5</venus> -->
     <venus>5</venus>
+    <!-- <sunset>6</sunset> -->
     <sunset>6</sunset>
+    <!-- <mars>7</mars> -->
     <mars>7</mars>
+    <!-- <blues>8</blues> -->
     <blues>8</blues>
+    <!-- <mars2>9</mars2> -->
     <mars2>9</mars2>
+    <!-- <twilight>10</twilight> -->
     <twilight>10</twilight>
+    <!-- <G1>11</G1> -->
     <G1>11</G1>
+    <!-- <G2>12</G2> -->
     <G2>12</G2>
+    <!-- <G3>13</G3> -->
     <G3>13</G3>
+    <!-- <G4>14</G4> -->
     <G4>14</G4>
+    <!-- <G5>15</G5> -->
     <G5>15</G5>
+    <!-- <G6>16</G6> -->
     <G6>16</G6>
+    <!-- <G7>17</G7> -->
     <G7>17</G7>
+    <!-- <G8>18</G8> -->
     <G8>18</G8>
+    <!-- <G9>19</G9> -->
     <G9>19</G9>
+    <!-- <G10>20</G10> -->
     <G10>20</G10>
+    <!-- <G11>21</G11> -->
     <G11>21</G11>
   </skyGradientNames>
 
   <lightRigNames>
-    <day>Day</day>
-    <night>Night</night>
-    <space>Space</space>
-    <dream>Dream</dream>
-    <venus>Venus</venus>
-    <mars>Mars</mars>
-    <dark>Dark</dark>
-    <realdark>Really Dark</realdark>
+    <!-- <day>Day</day> -->
+    <day>ngày</day>
+    <!-- <night>Night</night> -->
+    <night>Đêm</night>
+    <!-- <space>Space</space> -->
+    <space>Không gian</space>
+    <!-- <dream>Dream</dream> -->
+    <dream>Mơ tưởng</dream>
+    <!-- <venus>Venus</venus> -->
+    <venus>sao Kim</venus>
+    <!-- <mars>Mars</mars> -->
+    <mars>sao Hỏa</mars>
+    <!-- <dark>Dark</dark> -->
+    <dark>Tối</dark>
+    <!-- <realdark>Really Dark</realdark> -->
+    <realdark>Thực sự tối</realdark>
   </lightRigNames>
 
   <editObjectParams>
-    <help>Help</help>
+    <!-- <help>Help</help> -->
+    <help>Hỗ Trợ</help>
+    <!-- <ok>OK</ok> -->
     <ok>OK</ok>
-    <back>Back</back>
-    <moreInfo>Press &lt;y&gt; for more information.</moreInfo>
-    <helmet>Helmet</helmet>
-    <pushRange>Push Range</pushRange>
-    <pushStrength>Push Strength</pushStrength>
-    <lightrange>Light Range</lightrange>
-    <immobile>Immobile</immobile>
-    <invulnerable>Invulnerable</invulnerable>
-    <creatable>Creatable</creatable>
-    <maxCreated>Max Created</maxCreated>
-    <mute>Mute</mute>
-    <stayAboveWater>Stay Above Water</stayAboveWater>
-    <loudness>Loudness</loudness>
-    <hearing>Hearing</hearing>
-    <nearByDistance>Close By Range</nearByDistance>
-    <farAwayDistance>Far Away Range</farAwayDistance>
-    <showSensors>Show Sensors</showSensors>
-    <showHitPoints>Show Hit Points</showHitPoints>
-    <maxHitPoints>Max Hit Points</maxHitPoints>
-    <camouflaged>Camouflage</camouflaged>
-    <kickStrength>Kick Strength</kickStrength>
-    <kickRate>Kick Rate</kickRate>
-    <reScale>Size Scale</reScale>
-    <holdDistance>Hold Distance</holdDistance>
-    <movementSpeedMultiplier>Forward Speed Multiplier</movementSpeedMultiplier>
-    <turningSpeedMultiplier>Turning Speed Multiplier</turningSpeedMultiplier>
-    <linearAccelerationMultiplier>Forward Acceleration Multiplier</linearAccelerationMultiplier>
-    <turningAccelerationMultiplier>Turning Acceleration Multiplier</turningAccelerationMultiplier>
-    <verticalSpeedMultiplier>Vertical Speed Multiplier</verticalSpeedMultiplier>
-    <verticalAccelerationMultiplier>Vertical Acceleration Multiplier</verticalAccelerationMultiplier>
-    <bounciness>Bounciness</bounciness>
-    <friction>Friction</friction>
-    <memoryLifetime>Memory Lifetime</memoryLifetime>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <moreInfo>Press &lt;y&gt; for more information.</moreInfo> -->
+    <moreInfo>Nhấn &lt;y&gt; để biết thêm thông tin.</moreInfo>
+    <!-- <helmet>Helmet</helmet> -->
+    <helmet>Mũ bảo hiểm</helmet>
+    <!-- <pushRange>Push Range</pushRange> -->
+    <pushRange>Phạm vi đẩy</pushRange>
+    <!-- <pushStrength>Push Strength</pushStrength> -->
+    <pushStrength>Phạm vi sức mạnh</pushStrength>
+    <!-- <lightrange>Light Range</lightrange> -->
+    <lightrange>Phạm vị ánh sáng</lightrange>
+    <!-- <immobile>Immobile</immobile> -->
+    <immobile>Bất động</immobile>
+    <!-- <invulnerable>Invulnerable</invulnerable> -->
+    <invulnerable>Bất tử</invulnerable>
+    <!-- <creatable>Creatable</creatable> -->
+    <creatable>Có thể tạo</creatable>
+    <!-- <maxCreated>Max Created</maxCreated> -->
+    <maxCreated>Tạo tối đa</maxCreated>
+    <!-- <mute>Mute</mute> -->
+    <mute>Tắt tiếng</mute>
+    <!-- <stayAboveWater>Stay Above Water</stayAboveWater> -->
+    <stayAboveWater>Ở trên mặt nước</stayAboveWater>
+    <!-- <loudness>Loudness</loudness> -->
+    <loudness>Sự ồn ào</loudness>
+    <!-- <hearing>Hearing</hearing> -->
+    <hearing>Thính giác</hearing>
+    <!-- <nearByDistance>Close By Range</nearByDistance> -->
+    <nearByDistance>Phạm vi gần</nearByDistance>
+    <!-- <farAwayDistance>Far Away Range</farAwayDistance> -->
+    <farAwayDistance>Phạm vi xa</farAwayDistance>
+    <!-- <showSensors>Show Sensors</showSensors> -->
+    <showSensors>Hiển thị cảm biến</showSensors>
+    <!-- <showHitPoints>Show Hit Points</showHitPoints> -->
+    <showHitPoints>Hiển thị sức khỏe</showHitPoints>
+    <!-- <maxHitPoints>Max Hit Points</maxHitPoints> -->
+    <maxHitPoints>Điểm tối đa</maxHitPoints>
+    <!-- <camouflaged>Camouflage</camouflaged> -->
+    <camouflaged>Ngụy trang</camouflaged>
+    <!-- <kickStrength>Kick Strength</kickStrength> -->
+    <kickStrength>Sức mạnh đá</kickStrength>
+    <!-- <kickRate>Kick Rate</kickRate> -->
+    <kickRate>Tỷ lệ đá</kickRate>
+    <!-- <reScale>Size Scale</reScale> -->
+    <reScale>Tỷ lệ kích thước</reScale>
+    <!-- <holdDistance>Hold Distance</holdDistance> -->
+    <holdDistance>Giữ khoảng cách</holdDistance>
+    <!-- <movementSpeedMultiplier>Forward Speed Multiplier</movementSpeedMultiplier> -->
+    <movementSpeedMultiplier>Hệ số chuyển tiếp tốc độ</movementSpeedMultiplier>
+    <!-- <turningSpeedMultiplier>Turning Speed Multiplier</turningSpeedMultiplier> -->
+    <turningSpeedMultiplier>Hệ số quay tốc độ</turningSpeedMultiplier>
+    <!-- <linearAccelerationMultiplier>Forward Acceleration Multiplier</linearAccelerationMultiplier> -->
+    <linearAccelerationMultiplier>Hệ số tăng tốc chuyển tiếp</linearAccelerationMultiplier>
+    <!-- <turningAccelerationMultiplier>Turning Acceleration Multiplier</turningAccelerationMultiplier> -->
+    <turningAccelerationMultiplier>Hệ số tăng tốc</turningAccelerationMultiplier>
+    <!-- <verticalSpeedMultiplier>Vertical Speed Multiplier</verticalSpeedMultiplier> -->
+    <verticalSpeedMultiplier>Hệ số tốc độ dọc</verticalSpeedMultiplier>
+    <!-- <verticalAccelerationMultiplier>Vertical Acceleration Multiplier</verticalAccelerationMultiplier> -->
+    <verticalAccelerationMultiplier>Hệ số gia tốc dọc</verticalAccelerationMultiplier>
+    <!-- <bounciness>Bounciness</bounciness> -->
+    <bounciness>Tung lên</bounciness>
+    <!-- <friction>Friction</friction> -->
+    <friction>Ma sát</friction>
+    <!-- <memoryLifetime>Memory Lifetime</memoryLifetime> -->
+    <memoryLifetime>Bộ nhớ thời gian</memoryLifetime>
 
-    <blipDamage>Blip Damage</blipDamage>
-    <blipReloadTime>Blip Reload Time</blipReloadTime>
-    <blipSpeed>Blip Speed</blipSpeed>
-    <blipRange>Blip Range</blipRange>
-    <blipsInAir>Blips At Once</blipsInAir>
+    <!-- <blipDamage>Blip Damage</blipDamage> -->
+    <blipDamage>Sát thương đạn</blipDamage>
+    <!-- <blipReloadTime>Blip Reload Time</blipReloadTime> -->
+    <blipReloadTime>Thời gian nạp đạn</blipReloadTime>
+    <!-- <blipSpeed>Blip Speed</blipSpeed> -->
+    <blipSpeed>Tốc độ đạn</blipSpeed>
+    <!-- <blipRange>Blip Range</blipRange> -->
+    <blipRange>Phạm vi đạn</blipRange>
+    <!-- <blipsInAir>Blips At Once</blipsInAir> -->
+    <blipsInAir>Đạn ngay lập tức</blipsInAir>
 
-    <missileDamage>Missile Damage</missileDamage>
-    <missileReloadTime>Missile Reload Time</missileReloadTime>
-    <missileSpeed>Missile Speed</missileSpeed>
-    <missileRange>Missile Range</missileRange>
-    <missilesInAir>Missiles At Once</missilesInAir>
-    <missileTrails>Missile Smoke</missileTrails>
+    <!-- <missileDamage>Missile Damage</missileDamage> -->
+    <missileDamage>Sát thương tên lửa</missileDamage>
+    <!-- <missileReloadTime>Missile Reload Time</missileReloadTime> -->
+    <missileReloadTime>Thời gian nạp tên lửa</missileReloadTime>
+    <!-- <missileSpeed>Missile Speed</missileSpeed> -->
+    <missileSpeed>Tốc độ tên lửa</missileSpeed>
+    <!-- <missileRange>Missile Range</missileRange> -->
+    <missileRange>Phạm vi tên lửa</missileRange>
+    <!-- <missilesInAir>Missiles At Once</missilesInAir> -->
+    <missilesInAir>Tên lửa ngay lập tức</missilesInAir>
+    <!-- <missileTrails>Missile Smoke</missileTrails> -->
+    <missileTrails>Khói tên lửa</missileTrails>
 
-    <shieldEffects>Shield Effects</shieldEffects>
-    <invisible>Invisible</invisible>
-    <ignored>Ghost</ignored>
+    <!-- <shieldEffects>Shield Effects</shieldEffects> -->
+    <shieldEffects>Hiệu ứng khiên</shieldEffects>
+    <!-- <invisible>Invisible</invisible> -->
+    <invisible>Vô hình</invisible>
+    <!-- <ignored>Ghost</ignored> -->
+    <ignored>Ma</ignored>
 
-    <glowAmt>Glow Strength</glowAmt>
-    <glowLights>Glow Light Strength</glowLights>
-    <glowEmission>Glow Self Lighting</glowEmission>
-    <displayLOS>Debug Lines to Barriers</displayLOS>
-    <displayLOP>Debug Lines of Sight and Sound</displayLOP>
-    <displayCurrentPage>Show the current programming page.</displayCurrentPage>
+    <!-- <glowAmt>Glow Strength</glowAmt> -->
+    <glowAmt>Sức mạnh phát sáng</glowAmt>
+    <!-- <glowLights>Glow Light Strength</glowLights> -->
+    <glowLights>Sức mạnh ánh sáng</glowLights>
+    <!-- <glowEmission>Glow Self Lighting</glowEmission> -->
+    <glowEmission>Tự phát sáng</glowEmission>
+    <!-- <displayLOS>Debug Lines to Barriers</displayLOS> -->
+    <displayLOS>Gỡ lỗi cho hàng rào</displayLOS>
+    <!-- <displayLOP>Debug Lines of Sight and Sound</displayLOP> -->
+    <displayLOP>Gỡ lỗi dòng nhìn và âm thanh</displayLOP>
+    <!-- <displayCurrentPage>Show the current programming page.</displayCurrentPage> -->
+    <displayCurrentPage>Hiển thị trang lập trình hiện tại.</displayCurrentPage>
 
-    <cameraFollow>Camera Follow Mode</cameraFollow>
-    <cameraFollowUserControlled>Only If User Controlled</cameraFollowUserControlled>
-    <cameraFollowAlways>Always</cameraFollowAlways>
-    <cameraFollowNever>Never</cameraFollowNever>
+    <!-- <cameraFollow>Camera Follow Mode</cameraFollow> -->
+    <cameraFollow>Chế độ theo dõi</cameraFollow>
+    <!-- <cameraFollowUserControlled>Only If User Controlled</cameraFollowUserControlled> -->
+    <cameraFollowUserControlled>Chỉ khi người dùng kiểm soát</cameraFollowUserControlled>
+    <!-- <cameraFollowAlways>Always</cameraFollowAlways> -->
+    <cameraFollowAlways>Luôn luôn</cameraFollowAlways>
+    <!-- <cameraFollowNever>Never</cameraFollowNever> -->
+    <cameraFollowNever>Không bao giờ</cameraFollowNever>
 
   </editObjectParams>
 
   <optionsParams>
-    <showToolTips>Show Tool Tips</showToolTips>
-    <showHints>Show Hints</showHints>
-    <restoreDisabledHints>Restore Disabled Hints</restoreDisabledHints>
-    <showFramerate>Show Framerate</showFramerate>
-    <modalToolMenu>Make Gamepad ToolMenu Modal</modalToolMenu>
-    <helpLevel>Help Overlay Amount</helpLevel>
-    <lowHelp>None</lowHelp>
-    <midHelp>Some</midHelp>
-    <highHelp>All</highHelp>
-    <language>Language</language>
-    <invertYAxis>
+    <!-- <showToolTips>Show Tool Tips</showToolTips> -->
+    <showToolTips>Hiển thị Mẹo Công cụ</showToolTips>
+    <!-- <showHints>Show Hints</showHints> -->
+    <showHints>Hiển thị gợi ý</showHints>
+    <!-- <restoreDisabledHints>Restore Disabled Hints</restoreDisabledHints> -->
+    <restoreDisabledHints>Khôi phục gợi ý bị vô hiệu hóa</restoreDisabledHints>
+    <!-- <showFramerate>Show Framerate</showFramerate> -->
+    <showFramerate>Hiển thị khung hình</showFramerate>
+    <!-- <modalToolMenu>Make Gamepad ToolMenu Modal</modalToolMenu> -->
+    <modalToolMenu>Tạo chế độ chơi</modalToolMenu>
+    <!-- <helpLevel>Help Overlay Amount</helpLevel> -->
+    <helpLevel>Số lượng trợ giúp</helpLevel>
+    <!-- <lowHelp>None</lowHelp> -->
+    <lowHelp>không ai</lowHelp>
+    <!-- <midHelp>Some</midHelp> -->
+    <midHelp>Một số</midHelp>
+    <!-- <highHelp>All</highHelp> -->
+    <highHelp>Tất cả</highHelp>
+    <!-- <language>Language</language> -->
+    <language>Ngôn ngữ</language>
+    <!-- <invertYAxis> 
       Invert Stick for Bot Up/Down:
+    </invertYAxis>-->
+    <invertYAxis>
+      Đảo ngược gậy cho đối tượng Lên / Xuống:
     </invertYAxis>
-    <invertXAxis>
+    <!-- <invertXAxis> 
       Invert Stick for Bot Turning:
+    </invertXAxis>-->
+    <invertXAxis>
+      Đảo ngược gậy khi đối tượng quay
     </invertXAxis>
-    <invertCamY>
+    <!-- <invertCamY> 
       Invert Stick for Camera Pitch:
+    </invertCamY>-->
+     <invertCamY>
+      Đảo ngược gậy cho Camera pitch:
     </invertCamY>
-    <invertCamX>
+    <!-- <invertCamX>
       Invert Stick for Camera Turning:
+    </invertCamX> -->
+    <invertCamX>
+      Đảo ngược gậy cho quay camera:
     </invertCamX>
+    <!-- <overscan>Overscan %</overscan> -->
     <overscan>Overscan %</overscan>
-    <terrainSpeed>Terrain Edit Speed</terrainSpeed>
-    <uiVolume>UI Volume</uiVolume>
-    <foleyVolume>Effects Volume</foleyVolume>
-    <musicVolume>Music Volume</musicVolume>
-    <acceptSentLevels>Sharing: Accept Sent Worlds</acceptSentLevels>
-    <autoReshareLevels>Sharing: Auto Reshare Worlds</autoReshareLevels>
-    <autoDownloadFavoriteLevels>Sharing: Auto-Download Favorites</autoDownloadFavoriteLevels>
-    <checkForUpdates>Check for Updates at Startup</checkForUpdates>
-    <sendInstrumentation>Gather Usage Information</sendInstrumentation>
-    <viewCodeOfConduct>Code of Conduct</viewCodeOfConduct>
-    <viewPrivacyStatement>Privacy &amp; Cookies</viewPrivacyStatement>
-    <viewEULA>End-User License Agreement</viewEULA>
-    <viewButtonLabel>View</viewButtonLabel>
-    <showIntroVideo>Show Video at Next Startup</showIntroVideo>
-    <persistWebLogin>Remember web site login</persistWebLogin>
-    <showTutorialDebug>Show tutorial debugging info.</showTutorialDebug>
-    <changeLanguageMessage>Changing the language requires quiting and restarting Kodu.  Do you want to quit Kodu?</changeLanguageMessage>
-    <noContinue>No, continue</noContinue>
-    <yesQuitKodu>Yes, Quit Kodu</yesQuitKodu>
+    <!-- <terrainSpeed>Terrain Edit Speed</terrainSpeed> -->
+    <terrainSpeed>Chỉnh sửa tốc độ địa hình</terrainSpeed>
+    <!-- <uiVolume>UI Volume</uiVolume> -->
+    <uiVolume>UI Âm lượng</uiVolume>
+    <!-- <foleyVolume>Effects Volume</foleyVolume> -->
+    <foleyVolume>Hiệu ứng âm lượng</foleyVolume>
+    <!-- <musicVolume>Music Volume</musicVolume> -->
+    <musicVolume>Âm lượng nhạc</musicVolume>
+    <!-- <acceptSentLevels>Sharing: Accept Sent Worlds</acceptSentLevels> -->
+    <acceptSentLevels>Chia sẻ: Chấp nhận thế giới đã gửi</acceptSentLevels>
+    <!-- <autoReshareLevels>Sharing: Auto Reshare Worlds</autoReshareLevels> -->
+    <autoReshareLevels>Chia sẻ: Thế giới chia sẻ lại tự động</autoReshareLevels>
+    <!-- <autoDownloadFavoriteLevels>Sharing: Auto-Download Favorites</autoDownloadFavoriteLevels> -->
+    <autoDownloadFavoriteLevels>Chia sẻ: Tự động tải xuống yêu thích</autoDownloadFavoriteLevels>
+    <!-- <checkForUpdates>Check for Updates at Startup</checkForUpdates> -->
+    <checkForUpdates>Kiểm tra cập nhật khi khởi động</checkForUpdates>
+    <!-- <sendInstrumentation>Gather Usage Information</sendInstrumentation> -->
+    <sendInstrumentation>Thu thập thông tin sử dụng</sendInstrumentation>
+    <!-- <viewCodeOfConduct>Code of Conduct</viewCodeOfConduct> -->
+    <viewCodeOfConduct>Quy tắc ứng xử</viewCodeOfConduct>
+    <!-- <viewPrivacyStatement>Privacy &amp; Cookies</viewPrivacyStatement> -->
+    <viewPrivacyStatement>Riêng tư &amp; Cookies</viewPrivacyStatement>
+    <!-- <viewEULA>End-User License Agreement</viewEULA> -->
+    <viewEULA>Thỏa thuận cấp phép người dùng cuối</viewEULA>
+    <!-- <viewButtonLabel>View</viewButtonLabel> -->
+    <viewButtonLabel>Xem</viewButtonLabel>
+    <!-- <showIntroVideo>Show Video at Next Startup</showIntroVideo> -->
+    <showIntroVideo>Hiển thị video khi khởi động tiếp theo</showIntroVideo>
+    <!-- <persistWebLogin>Remember web site login</persistWebLogin> -->
+    <persistWebLogin>Nhớ đăng nhập trang web</persistWebLogin>
+    <!-- <showTutorialDebug>Show tutorial debugging info.</showTutorialDebug> -->
+    <showTutorialDebug>Hiển thị thông tin gỡ lỗi hướng dẫn.</showTutorialDebug>
+    <!-- <changeLanguageMessage>Changing the language requires quiting and restarting Kodu.  Do you want to quit Kodu?</changeLanguageMessage> -->
+    <changeLanguageMessage>Thay đổi ngôn ngữ yêu cầu bỏ và khởi động lại Kodu. Bạn có muốn bỏ Kodu không?</changeLanguageMessage>
+    <!-- <noContinue>No, continue</noContinue> -->
+    <noContinue>Không, tiếp tục</noContinue>
+    <!-- <yesQuitKodu>Yes, Quit Kodu</yesQuitKodu> -->
+    <yesQuitKodu>Vâng, bỏ Kodu</yesQuitKodu>
   </optionsParams>
 
   <titleScreen>
-    <challengeMessage>New challenges have been added to your Downloads directory.</challengeMessage>
+    <!-- <challengeMessage>New challenges have been added to your Downloads directory.</challengeMessage> -->
+    <challengeMessage>Những thách thức mới đã được thêm vào thư mục Tải xuống của bạn.</challengeMessage>
   </titleScreen>
 
   <gameOver>
-    <edit>Edit This World</edit>
-    <browse>Home Menu</browse>
-    <restart>Restart World</restart>
-    <team>Team</team>
+    <!-- <edit>Edit This World</edit> -->
+    <edit>Chỉnh sửa thế giới này</edit>
+    <!-- <browse>Home Menu</browse> -->
+    <browse>Trang chính</browse>
+    <!-- <restart>Restart World</restart> -->
+    <restart>Khởi động lại thế giới</restart>
+    <!-- <team>Team</team> -->
+    <team>Đội</team>
   </gameOver>
 
   <textDialog>
-    <newNamePrompt>Enter the new world name:</newNamePrompt>
-    <saveChangesPrompt>Save changes?</saveChangesPrompt>
-    <deletePrompt>Delete this world?</deletePrompt>
-    <deleteLinkedPrompt>This world is linked to other levels.  Deleting it will break those links.  Continue?</deleteLinkedPrompt>
-    <linkedLevelExport>This world is linked to other levels.  All linked levels will be exported.</linkedLevelExport>
-    <levelExported>Level exported to : </levelExported>
-    <logonPrompt>Enter your username.  This will be used as the 'Creator' name for the levels you build.</logonPrompt>
-    <reportAbusePrompt>Do you want to report this level as offensive?</reportAbusePrompt>
-    <save>Save</save>
-    <back>Back</back>
-    <ok>OK</ok>
-    <continue>Continue</continue>
-    <accept>Accept</accept>
-    <cancel>Cancel</cancel>
-    <discard>Discard</discard>
-    <delete>Delete</delete>
-    <quitKodu>Exit Kodu</quitKodu>
-    <resume>Resume</resume>
-    <upload>Upload</upload>
-    <uploadAnonymous>Anonymous</uploadAnonymous>
-    <signIn>Sign In</signIn>
-    <signOut>Sign Out</signOut>
-    <changeUser>Change User</changeUser>
-    <yes>Yes</yes>
-    <no>No</no>
+    <!-- <newNamePrompt>Enter the new world name:</newNamePrompt> -->
+    <newNamePrompt>Nhập tên thế giới mới:</newNamePrompt>
+    <!-- <saveChangesPrompt>Save changes?</saveChangesPrompt> -->
+    <saveChangesPrompt>lưu thay đổi</saveChangesPrompt>
+    <!-- <deletePrompt>Delete this world?</deletePrompt> -->
+    <deletePrompt>Xóa thế giới này?</deletePrompt>
+    <!-- <deleteLinkedPrompt>This world is linked to other levels.  Deleting it will break those links.  Continue?</deleteLinkedPrompt> -->
+    <deleteLinkedPrompt>Thế giới này được liên kết với các cấp độ khác. Xóa nó sẽ phá vỡ các liên kết. Tiếp tục?</deleteLinkedPrompt>
+    <!-- <linkedLevelExport>This world is linked to other levels.  All linked levels will be exported.</linkedLevelExport> -->
+    <linkedLevelExport>Thế giới này được liên kết với các cấp độ khác. Tất cả các cấp liên kết sẽ được xuất khẩu.</linkedLevelExport>
+    <!-- <levelExported>Level exported to : </levelExported> -->
+    <levelExported>Cấp xuất sang: </levelExported>
+    <!-- <logonPrompt>Enter your username.  This will be used as the 'Creator' name for the levels you build.</logonPrompt> -->
+    <logonPrompt>Nhập tên người dùng của bạn. Tên này sẽ được sử dụng làm tên 'Người tạo' cho các cấp độ bạn xây dựng.</logonPrompt>
+    <!-- <reportAbusePrompt>Do you want to report this level as offensive?</reportAbusePrompt> -->
+    <reportAbusePrompt>Bạn có muốn báo cáo cấp độ này là xúc phạm?</reportAbusePrompt>
+    <!-- <save>Save</save> -->
+    <save>Lưu</save>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <ok>OK</ok> -->
+    <ok>Ok</ok>
+    <!-- <continue>Continue</continue> -->
+    <continue>Tiếp tục</continue>
+    <!-- <accept>Accept</accept> -->
+    <accept>Chấp nhận</accept>
+    <!-- <cancel>Cancel</cancel> -->
+    <cancel>Quay lại</cancel>
+    <!-- <discard>Discard</discard> -->
+    <discard>Không lưu</discard>
+    <!-- <delete>Delete</delete> -->
+    <delete>Xóa</delete>
+    <!-- <quitKodu>Exit Kodu</quitKodu> -->
+    <quitKodu>Thoát Kodu</quitKodu>
+    <!-- <resume>Resume</resume> -->
+    <resume>Tiếp tục</resume>
+    <!-- <upload>Upload</upload> -->
+    <upload>Tải lên</upload>
+    <!-- <uploadAnonymous>Anonymous</uploadAnonymous> -->
+    <uploadAnonymous>Ẩn danh</uploadAnonymous>
+    <!-- <signIn>Sign In</signIn> -->
+    <signIn>Đăng nhập</signIn>
+    <!-- <signOut>Sign Out</signOut> -->
+    <signOut>Đăng xuất</signOut>
+    <!-- <changeUser>Change User</changeUser> -->
+    <changeUser>Thay đổi người dùng</changeUser>
+    <!-- <yes>Yes</yes> -->
+    <yes>Được</yes>
+    <!-- <no>No</no> -->
+    <no>Không</no>
   </textDialog>
 
   <microbitPatternEditor>
-    <brightness>Brightness</brightness>
-    <duration>Duration</duration>
-    <toggleLED>Toggle LED</toggleLED>
+    <!-- <brightness>Brightness</brightness> -->
+    <brightness>độ sáng</brightness>
+    <!-- <duration>Duration</duration> -->
+    <duration>thời lượng</duration>
+    <!-- <toggleLED>Toggle LED</toggleLED> -->
+    <toggleLED>Chuyển đổi đèn LED</toggleLED>
   </microbitPatternEditor>
 
   <microbitNeedsDriverDlg>
-    <title>BBC micro:bit needs driver</title>
-    <message>We need to install a driver so that Kodu can talk to your BBC micro:bit. Click the Install button to begin. Click the link below for more information.</message>
-    <linkLabel>Kodu and the BBC micro:bit - Getting Started Guide</linkLabel>
-    <cancelLabel>Cancel</cancelLabel>
-    <installLabel>Install</installLabel>
+    <!-- <title>BBC micro:bit needs driver</title> -->
+    <title>cần driver BBC micro:bit </title>
+    <!-- <message>We need to install a driver so that Kodu can talk to your BBC micro:bit. Click the Install button to begin. Click the link below for more information.</message> -->
+    <message>Chúng tôi cần cài đặt trình điều khiển để Kodu có thể nói chuyện với BBC micro: bit của bạn. Nhấp vào nút Cài đặt để bắt đầu. Nhấp vào liên kết dưới đây để biết thêm thông tin.</message>
+    <!-- <linkLabel>Kodu and the BBC micro:bit - Getting Started Guide</linkLabel> -->
+    <linkLabel>Kodu và BBC micro: bit - Hướng dẫn bắt đầu</linkLabel>
+    <!-- <cancelLabel>Cancel</cancelLabel> -->
+    <cancelLabel>Quay lại</cancelLabel>
+    <!-- <installLabel>Install</installLabel> -->
+    <installLabel>Cài đặt</installLabel>
   </microbitNeedsDriverDlg>
 
   <buttonAliasStrings>
     <aButton>
+      <!-- <alias>a</alias> -->
       <alias>a</alias>
+      <!-- <alias>abutton</alias> -->
       <alias>abutton</alias>
+      <!-- <alias>a button</alias> -->
       <alias>a button</alias>
+      <!-- <alias>buttona</alias> -->
       <alias>buttona</alias>
+      <!-- <alias>button a</alias> -->
       <alias>button a</alias>
     </aButton>
     <bButton>
+      <!-- <alias>b</alias> -->
       <alias>b</alias>
+      <!-- <alias>bbutton</alias> -->
       <alias>bbutton</alias>
+      <!-- <alias>b button</alias> -->
       <alias>b button</alias>
+      <!-- <alias>buttonb</alias> -->
       <alias>buttonb</alias>
+      <!-- <alias>button b</alias> -->
       <alias>button b</alias>
     </bButton>
     <xButton>
+      <!-- <alias>x</alias> -->
       <alias>x</alias>
+      <!-- <alias>xbutton</alias> -->
       <alias>xbutton</alias>
+      <!-- <alias>x button</alias> -->
       <alias>x button</alias>
+      <!-- <alias>buttonx</alias> -->
       <alias>buttonx</alias>
+      <!-- <alias>button x</alias> -->
       <alias>button x</alias>
     </xButton>
     <yButton>
+      <!-- <alias>y</alias> -->
       <alias>y</alias>
+      <!-- <alias>ybutton</alias> -->
       <alias>ybutton</alias>
+      <!-- <alias>y button</alias> -->
       <alias>y button</alias>
+      <!-- <alias>buttony</alias> -->
       <alias>buttony</alias>
+      <!-- <alias>button y</alias> -->
       <alias>button y</alias>
     </yButton>
     <leftStick>
+      <!-- <alias>ls</alias> -->
       <alias>ls</alias>
+      <!-- <alias>l stick</alias> -->
       <alias>l stick</alias>
+      <!-- <alias>lstick</alias> -->
       <alias>lstick</alias>
+      <!-- <alias>left stick</alias> -->
       <alias>left stick</alias>
+      <!-- <alias>leftstick</alias> -->
       <alias>leftstick</alias>
     </leftStick>
     <rightStick>
+      <!-- <alias>rs</alias> -->
       <alias>rs</alias>
+      <!-- <alias>r stick</alias> -->
       <alias>r stick</alias>
+      <!-- <alias>rstick</alias> -->
       <alias>rstick</alias>
+      <!-- <alias>right stick</alias> -->
       <alias>right stick</alias>
+      <!-- <alias>rightstick</alias> -->
       <alias>rightstick</alias>
     </rightStick>
     <leftShoulder>
+      <!-- <alias>lb</alias> -->
       <alias>lb</alias>
+      <!-- <alias>l shoulder</alias> -->
       <alias>l shoulder</alias>
+      <!-- <alias>lshoulder</alias> -->
       <alias>lshoulder</alias>
+      <!-- <alias>left shoulder</alias> -->
       <alias>left shoulder</alias>
+      <!-- <alias>leftshoulder</alias> -->
       <alias>leftshoulder</alias>
+      <!-- <alias>l bumper</alias> -->
       <alias>l bumper</alias>
+      <!-- <alias>lbumper</alias> -->
       <alias>lbumper</alias>
+      <!-- <alias>left bumper</alias> -->
       <alias>left bumper</alias>
+      <!-- <alias>leftbumper</alias> -->
       <alias>leftbumper</alias>
     </leftShoulder>
     <rightShoulder>
+      <!-- <alias>rb</alias> -->
       <alias>rb</alias>
+      <!-- <alias>r shoulder</alias> -->
       <alias>r shoulder</alias>
+      <!-- <alias>rshoulder</alias> -->
       <alias>rshoulder</alias>
+      <!-- <alias>right shoulder</alias> -->
       <alias>right shoulder</alias>
+      <!-- <alias>rightshoulder</alias> -->
       <alias>rightshoulder</alias>
+      <!-- <alias>r bumper</alias> -->
       <alias>r bumper</alias>
+      <!-- <alias>rbumper</alias> -->
       <alias>rbumper</alias>
+      <!-- <alias>right bumper</alias> -->
       <alias>right bumper</alias>
+      <!-- <alias>rightbumper</alias> -->
       <alias>rightbumper</alias>
     </rightShoulder>
     <leftTrigger>
+      <!-- <alias>lt</alias> -->
       <alias>lt</alias>
+      <!-- <alias>l trigger</alias> -->
       <alias>l trigger</alias>
+      <!-- <alias>ltrigger</alias> -->
       <alias>ltrigger</alias>
+      <!-- <alias>left trigger</alias> -->
       <alias>left trigger</alias>
+      <!-- <alias>lefttrigger</alias> -->
       <alias>lefttrigger</alias>
     </leftTrigger>
     <rightTrigger>
+      <!-- <alias>rt</alias> -->
       <alias>rt</alias>
+      <!-- <alias>r trigger</alias> -->
       <alias>r trigger</alias>
+      <!-- <alias>rtrigger</alias> -->
       <alias>rtrigger</alias>
+      <!-- <alias>right trigger</alias> -->
       <alias>right trigger</alias>
+      <!-- <alias>righttrigger</alias> -->
       <alias>righttrigger</alias>
     </rightTrigger>
     <dpadUpDown>
+      <!-- <alias>dpadupdown</alias> -->
       <alias>dpadupdown</alias>
+      <!-- <alias>dpad up down</alias> -->
       <alias>dpad up down</alias>
+      <!-- <alias>dpadvertical</alias> -->
       <alias>dpadvertical</alias>
+      <!-- <alias>dpad vertical</alias> -->
       <alias>dpad vertical</alias>
     </dpadUpDown>
     <dpadUp>
+      <!-- <alias>dpadup</alias> -->
       <alias>dpadup</alias>
+      <!-- <alias>dpad up</alias> -->
       <alias>dpad up</alias>
     </dpadUp>
     <dpadDown>
+      <!-- <alias>dpaddown</alias> -->
       <alias>dpaddown</alias>
+      <!-- <alias>dpad down</alias> -->
       <alias>dpad down</alias>
     </dpadDown>
     <dpadRightLeft>
+      <!-- <alias>dpadrightleft</alias> -->
       <alias>dpadrightleft</alias>
+      <!-- <alias>dpad right left</alias> -->
       <alias>dpad right left</alias>
+      <!-- <alias>dpadhorizontal</alias> -->
       <alias>dpadhorizontal</alias>
+      <!-- <alias>dpad horizontal</alias> -->
       <alias>dpad horizontal</alias>
     </dpadRightLeft>
     <dpadRight>
+      <!-- <alias>dpadright</alias> -->
       <alias>dpadright</alias>
+      <!-- <alias>dpad right</alias> -->
       <alias>dpad right</alias>
     </dpadRight>
     <dpadLeft>
+      <!-- <alias>dpadleft</alias> -->
       <alias>dpadleft</alias>
+      <!-- <alias>dpad left</alias> -->
       <alias>dpad left</alias>
     </dpadLeft>
     <start>
-      <alias>start</alias>
-      <alias>start button</alias>
+      <!-- <alias>start</alias> -->
+      <alias>Bắt đầu</alias>
+      <!-- <alias>start button</alias> -->
+      <alias>nút bắt đầu</alias>
     </start>
     <back>
-      <alias>back</alias>
-      <alias>back button</alias>
+      <!-- <alias>back</alias> -->
+      <alias>trở lại</alias>
+      <!-- <alias>back button</alias> -->
+      <alias>nứt trở lại</alias>
     </back>
     <gamepad>
+      <!-- <alias>gamepad</alias> -->
       <alias>gamepad</alias>
     </gamepad>
 
     <!-- GLYPH SUBSTITUTIONS -->
     <apple>
-      <alias>apple</alias>
-      <alias>fruit</alias>
+      <!-- <alias>apple</alias> -->
+      <alias>táo</alias>
+      <!-- <alias>fruit</alias> -->
+      <alias>trái cây</alias>
     </apple>
     <ball>
-      <alias>ball</alias>
-      <alias>soccer ball</alias>
+      <!-- <alias>ball</alias> -->
+      <alias>bóng</alias>
+      <!-- <alias>soccer ball</alias> -->
+      <alias>bóng đá</alias>
     </ball>
     <balloon>
-      <alias>balloon</alias>
+      <!-- <alias>balloon</alias> -->
+      <alias>khinh khí cầu tròn</alias>
     </balloon>
     <blimp>
-      <alias>blimp</alias>
-      <alias>windblimp</alias>
+      <!-- <alias>blimp</alias> -->
+      <alias>khinh khí cầu bầu dục</alias>
+      <!-- <alias>windblimp</alias> -->
+      <alias>khinh khí cầu bầu dục</alias>
     </blimp>
     <boat>
-      <alias>boat</alias>
-      <alias>ship</alias>
-      <alias>floatbot</alias>
+      <!-- <alias>boat</alias> -->
+      <alias>thuyền</alias>
+      <!-- <alias>ship</alias> -->
+      <alias>tàu thủy</alias>
+      <!-- <alias>floatbot</alias> -->
+      <alias>phao</alias>
     </boat>
     <boku>
+      <!-- <alias>kodu</alias> -->
       <alias>kodu</alias>
     </boku>
     <bullet>
-      <alias>bullet</alias>
+      <!-- <alias>bullet</alias> -->
+      <alias>đạn</alias>
     </bullet>
     <castle>
-      <alias>castle</alias>
+      <!-- <alias>castle</alias> -->
+      <alias>lâu đài</alias>
     </castle>
     <clam>
-      <alias>clam</alias>
+      <!-- <alias>clam</alias> -->
+      <alias>sò</alias>
     </clam>
     <cloud>
-      <alias>cloud</alias>
+      <!-- <alias>cloud</alias> -->
+      <alias>mây</alias>
     </cloud>
     <coin>
-      <alias>coin</alias>
+      <!-- <alias>coin</alias> -->
+      <alias>đồng tiền</alias>
     </coin>
     <cursor>
-      <alias>cursor</alias>
+      <!-- <alias>cursor</alias> -->
+      <alias>con trỏ</alias>
     </cursor>
     <drum>
-      <alias>drum</alias>
+      <!-- <alias>drum</alias> -->
+      <alias>tàu không gian</alias>
     </drum>
     <factory>
-      <alias>factory</alias>
+      <!-- <alias>factory</alias> -->
+      <alias>nhà máy</alias>
     </factory>
     <fan>
-      <alias>fan</alias>
+      <!-- <alias>fan</alias> -->
+      <alias>quạt</alias>
     </fan>
     <fastbot>
-      <alias>fastbot</alias>
-      <alias>cycle</alias>
+      <!-- <alias>fastbot</alias> -->
+      <alias>đối tượng nhanh</alias>
+      <!-- <alias>cycle</alias> -->
+      <alias>đua xe</alias>
     </fastbot>
     <flyfish>
-      <alias>flyfish</alias>
+      <!-- <alias>flyfish</alias> -->
+      <alias>cá bay</alias>
     </flyfish>
     <heart>
-      <alias>heart</alias>
+      <!-- <alias>heart</alias> -->
+      <alias>trái tim</alias>
     </heart>
     <hut>
-      <alias>hut</alias>
+      <!-- <alias>hut</alias> -->
+      <alias>Trạm nghỉ chân</alias>
     </hut>
     <iceBerg>
-      <alias>iceBerg</alias>
+      <!-- <alias>iceBerg</alias> -->
+      <alias>Tảng băng</alias>
     </iceBerg>
     <inkjet>
-      <alias>ink</alias>
-      <alias>inkjet</alias>
+      <!-- <alias>ink</alias> -->
+      <alias>khói</alias>
+      <!-- <alias>inkjet</alias> -->
+      <alias>khói đen</alias>
     </inkjet>
     <jet>
-      <alias>jet</alias>
+      <!-- <alias>jet</alias> -->
+      <alias>máy bay</alias>
     </jet>
     <light>
-      <alias>light</alias>
+      <!-- <alias>light</alias> -->
+      <alias>nguồn sáng</alias>
     </light>
     <lilypad>
-      <alias>lilypad</alias>
+      <!-- <alias>lilypad</alias> -->
+      <alias>lá hoa súng</alias>
     </lilypad>
     <mine>
+      <!-- <alias>mine</alias> -->
       <alias>mine</alias>
     </mine>
     <missile>
-      <alias>ammo</alias>
-      <alias>missile</alias>
+      <!-- <alias>ammo</alias> -->
+      <alias>Đạn</alias>
+      <!-- <alias>missile</alias> -->
+      <alias>Tên lửa</alias>
     </missile>
     <octopus>
-      <alias>octo</alias>
-      <alias>octopus</alias>
+      <!-- <alias>octo</alias> -->
+      <alias>mực</alias>
+      <!-- <alias>octopus</alias> -->
+      <alias>bạch tuộc</alias>
     </octopus>
     <pad>
-      <alias>pad</alias>
-      <alias>pushpad</alias>
+      <!-- <alias>pad</alias> -->
+      <alias>đệm</alias>
+      <!-- <alias>pushpad</alias> -->
+      <alias>đệm thảy</alias>
     </pad>
     <pipe>
-      <alias>pipe</alias>
+      <!-- <alias>pipe</alias> -->
+      <alias>ống</alias>
     </pipe>
     <puck>
-      <alias>puck</alias>
+      <!-- <alias>puck</alias> -->
+      <alias>vòng bay</alias>
     </puck>
     <rock>
-      <alias>rock</alias>
+      <!-- <alias>rock</alias> -->
+      <alias>đá</alias>
     </rock>
     <rockLowValue>
-      <alias>rockLowValue</alias>
+      <!-- <alias>rockLowValue</alias> -->
+      <alias>đá giá trị thấp</alias>
     </rockLowValue>
     <rockHighValue>
-      <alias>rockHighValue</alias>
+      <!-- <alias>rockHighValue</alias> -->
+      <alias>đá giá trị cao</alias>
     </rockHighValue>
     <rockLowValueUnknown>
-      <alias>rockLowValueUnknown</alias>
+      <!-- <alias>rockLowValueUnknown</alias> -->
+      <alias>đá bí ẩn giá trị thấp</alias>
     </rockLowValueUnknown>
     <rockHighValueUnknown>
-      <alias>rockHighValueUnknown</alias>
+      <!-- <alias>rockHighValueUnknown</alias> -->
+      <alias>đá bí ẩn giá trị cao</alias>
     </rockHighValueUnknown>
     <rockUnknown>
-      <alias>rockUnknown</alias>
+      <!-- <alias>rockUnknown</alias> -->
+      <alias>đá bí ẩn</alias>
     </rockUnknown>
     <satellite>
-      <alias>satellite</alias>
-      <alias>sputnik</alias>
+      <!-- <alias>satellite</alias> -->
+      <alias>vệ tinh</alias>
+      <!-- <alias>sputnik</alias> -->
+      <alias>vệ tinh</alias>
     </satellite>
     <saucer>
-      <alias>saucer</alias>
+      <!-- <alias>saucer</alias> -->
+      <alias>đĩa bay</alias>
     </saucer>
     <seagrass>
-      <alias>seagrass</alias>
+      <!-- <alias>seagrass</alias> -->
+      <alias>cỏ biển</alias>
     </seagrass>
     <star>
-      <alias>star</alias>
+      <!-- <alias>star</alias> -->
+      <alias>sao</alias>
     </star>
     <starfish>
-      <alias>starfish</alias>
+      <!-- <alias>starfish</alias> -->
+      <alias>sao biển</alias>
     </starfish>
     <stick>
-      <alias>stick</alias>
-      <alias>stickboy</alias>
+      <!-- <alias>stick</alias> -->
+      <alias>gậy</alias>
+      <!-- <alias>stickboy</alias> -->
+      <alias>gậy</alias>
     </stick>
     <sub>
-      <alias>sub</alias>
-      <alias>subbot</alias>
+      <!-- <alias>sub</alias> -->
+      <alias>tàu ngầm</alias>
+      <!-- <alias>subbot</alias> -->
+      <alias>tàu ngầm</alias>
     </sub>
     <swimfish>
-      <alias>fish</alias>
-      <alias>swimfish</alias>
+      <!-- <alias>fish</alias> -->
+      <alias>cá</alias>
+      <!-- <alias>swimfish</alias> -->
+      <alias>cá</alias>
     </swimfish>
     <terracannon>
-      <alias>cannon</alias>
-      <alias>terracannon</alias>
+      <!-- <alias>cannon</alias> -->
+      <alias>Pháo</alias>
+      <!-- <alias>terracannon</alias> -->
+      <alias>Pháo</alias>
     </terracannon>
     <tree>
-      <alias>tree</alias>
+      <!-- <alias>tree</alias> -->
+      <alias>cây</alias>
     </tree>
     <turtle>
-      <alias>turtle</alias>
+      <!-- <alias>turtle</alias> -->
+      <alias>rùa</alias>
     </turtle>
     <rover>
-      <alias>rover</alias>
+      <!-- <alias>rover</alias> -->
+      <alias>người máy</alias>
     </rover>
     <wisp>
-      <alias>wisp</alias>
+      <!-- <alias>wisp</alias> -->
+      <alias>đốm sáng</alias>
     </wisp>
     <vlogster>
+      <!-- <alias>vlogster</alias> -->
       <alias>vlogster</alias>
     </vlogster>
 
     <!-- Tools -->
     <play>
-      <alias>play</alias>
+      <!-- <alias>play</alias> -->
+      <alias>chơi</alias>
     </play>
     <homeMenu>
-      <alias>homeMenu</alias>
+      <!-- <alias>homeMenu</alias> -->
+      <alias>Trang chính</alias>
     </homeMenu>
     <cameraMove>
-      <alias>cameraMove</alias>
+      <!-- <alias>cameraMove</alias> -->
+      <alias>di chuyển camera</alias>
     </cameraMove>
     <objectEdit>
-      <alias>objectEdit</alias>
+      <!-- <alias>objectEdit</alias> -->
+      <alias>chỉnh sửa nhân vật</alias>
     </objectEdit>
     <objectSettings>
-      <alias>objectSettings</alias>
+      <!-- <alias>objectSettings</alias> -->
+      <alias>cài đặt nhân vật</alias>
     </objectSettings>
     <paths>
-      <alias>paths</alias>
+      <!-- <alias>paths</alias> -->
+      <alias>đường</alias>
     </paths>
     <terrainPaint>
-      <alias>terrainPaint</alias>
+      <!-- <alias>terrainPaint</alias> -->
+      <alias>vẽ địa hình</alias>
     </terrainPaint>
     <terrainUpDown>
-      <alias>terrainUpDown</alias>
+      <!-- <alias>terrainUpDown</alias> -->
+      <alias>nâng/hạ địa hình</alias>
     </terrainUpDown>
     <terrainSmoothLevel>
-      <alias>terrainSmoothLevel</alias>
+      <!-- <alias>terrainSmoothLevel</alias> -->
+      <alias>làm bằng địa hình</alias>
     </terrainSmoothLevel>
     <terrainSpikeyHilly>
-      <alias>terrainSpikeyHilly</alias>
+      <!-- <alias>terrainSpikeyHilly</alias> -->
+      <alias>làm địa hình gồ ghề</alias>
     </terrainSpikeyHilly>
     <deleteObjects>
-      <alias>deleteObjects</alias>
+      <!-- <alias>deleteObjects</alias> -->
+      <alias>xóa nhân vật</alias>
     </deleteObjects>
     <water>
-      <alias>water</alias>
+      <!-- <alias>water</alias> -->
+      <alias>nước</alias>
     </water>
     <worldSettings>
-      <alias>worldSettings</alias>
+      <!-- <alias>worldSettings</alias> -->
+      <alias>cài đặt thế giới</alias>
     </worldSettings>
     <waterType>
-      <alias>waterType</alias>
+      <!-- <alias>waterType</alias> -->
+      <alias>loại nước</alias>
     </waterType>
     <materialType>
-      <alias>materialType</alias>
+      <!-- <alias>materialType</alias> -->
+      <alias>Loại vật liệu</alias>
     </materialType>
     <brushType>
-      <alias>brushType</alias>
+      <!-- <alias>brushType</alias> -->
+      <alias>loại chổi</alias>
     </brushType>
 
     <heartIcon>
-      <alias>heartIcon</alias>
+      <!-- <alias>heartIcon</alias> -->
+      <alias>Tim</alias>
     </heartIcon>
     <brokenHeartIcon>
-      <alias>brokenHeartIcon</alias>
+      <!-- <alias>brokenHeartIcon</alias> -->
+      <alias>Vỡ tim</alias>
     </brokenHeartIcon>
     <reportAbuseIcon>
-      <alias>reportAbuseIcon</alias>
+      <!-- <alias>reportAbuseIcon</alias> -->
+      <alias>Báo cáo lạm dụng</alias>
     </reportAbuseIcon>
     <reportAbuseGreyIcon>
-      <alias>reportAbuseGreyIcon</alias>
+      <!-- <alias>reportAbuseGreyIcon</alias> -->
+      <alias>Báo cáo lạm dụng xám</alias>
     </reportAbuseGreyIcon>
 
     <scoreblack>
-      <alias>score black</alias>
-      <alias>scoreblack</alias>
+      <!-- <alias>score black</alias> -->
+      <alias>điểm màu đen</alias>
+      <!-- <alias>scoreblack</alias> -->
+      <alias>điểm màu đen</alias>
     </scoreblack>
     <scorewhite>
-      <alias>score white</alias>
-      <alias>scorewhite</alias>
+      <!-- <alias>score white</alias> -->
+      <alias>điểm màu trắng</alias>
+      <!-- <alias>scorewhite</alias> -->
+      <alias>điểm màu trắng</alias>
     </scorewhite>
     <scoregrey>
-      <alias>score grey</alias>
-      <alias>scoregrey</alias>
+      <!-- <alias>score grey</alias> -->
+      <alias>điểm màu xám</alias>
+      <!-- <alias>scoregrey</alias> -->
+      <alias>điểm màu xám</alias>
+      <!-- <alias>score gray</alias> -->
       <alias>score gray</alias>
+      <!-- <alias>scoregray</alias> -->
       <alias>scoregray</alias>
     </scoregrey>
     <scorered>
-      <alias>score red</alias>
+      <!-- <alias>score red</alias> -->
+      <alias>điểm màu đỏ</alias>
+      <!-- <alias>scorered</alias> -->
       <alias>scorered</alias>
     </scorered>
     <scoregreen>
-      <alias>score green</alias>
-      <alias>scoregreen</alias>
+      <!-- <alias>score green</alias> -->
+      <alias>điểm màu xanh lá</alias>
+      <!-- <alias>scoregreen</alias> -->
+      <alias>điểm màu xanh lá</alias>
     </scoregreen>
     <scoreblue>
-      <alias>score blue</alias>
-      <alias>scoreblue</alias>
+      <!-- <alias>score blue</alias> -->
+      <alias>điểm màu xanh lam</alias>
+      <!-- <alias>scoreblue</alias> -->
+      <alias>điểm màu xanh lam</alias>
     </scoreblue>
     <scoreorange>
-      <alias>score orange</alias>
-      <alias>scoreorange</alias>
+      <!-- <alias>score orange</alias> -->
+      <alias>diểm màu cam</alias>
+      <!-- <alias>scoreorange</alias> -->
+      <alias>điểm màu cam</alias>
     </scoreorange>
     <scorepurple>
-      <alias>score purple</alias>
-      <alias>scorepurple</alias>
+      <!-- <alias>score purple</alias> -->
+      <alias>điểm màu tím</alias>
+      <!-- <alias>scorepurple</alias> -->
+      <alias>điểm màu tím</alias>
     </scorepurple>
     <scoreyellow>
-      <alias>score yellow</alias>
-      <alias>scoreyellow</alias>
+      <!-- <alias>score yellow</alias> -->
+      <alias>điểm màu vàng</alias>
+      <!-- <alias>scoreyellow</alias> -->
+      <alias>điểm màu vàng</alias>
     </scoreyellow>
     <scorebrown>
-      <alias>score brown</alias>
-      <alias>scorebrown</alias>
+      <!-- <alias>score brown</alias> -->
+      <alias>điểm màu nâu</alias>
+      <!-- <alias>scorebrown</alias> -->
+      <alias>điểm màu nâu</alias>
     </scorebrown>
     <scorepink>
-      <alias>score pink</alias>
-      <alias>scorepink</alias>
+      <!-- <alias>score pink</alias> -->
+      <alias>điểm màu hồng</alias>
+      <!-- <alias>scorepink</alias> -->
+      <alias>điểm màu hồng</alias>
     </scorepink>
 
     <arrowleft>
-      <alias>leftarrow</alias>
-      <alias>left</alias>
+      <!-- <alias>leftarrow</alias> -->
+      <alias>mũi tên trái</alias>
+      <!-- <alias>left</alias> -->
+      <alias>trái</alias>
     </arrowleft>
     <arrowright>
-      <alias>rightarrow</alias>
-      <alias>right</alias>
+      <!-- <alias>rightarrow</alias> -->
+      <alias>mũi tên phải</alias>
+      <!-- <alias>right</alias> -->
+      <alias>phải</alias>
     </arrowright>
     <arrowup>
-      <alias>uparrow</alias>
-      <alias>up</alias>
+      <!-- <alias>uparrow</alias> -->
+      <alias>mũi tên lên</alias>
+      <!-- <alias>up</alias> -->
+      <alias>lên</alias>
     </arrowup>
     <arrowdown>
-      <alias>downarrow</alias>
-      <alias>down</alias>
+      <!-- <alias>downarrow</alias> -->
+      <alias>mũi tên xuống</alias>
+      <!-- <alias>down</alias> -->
+      <alias>xuống</alias>
     </arrowdown>
 
     <keyboard>
-      <alias>keyboard</alias>
+      <!-- <alias>keyboard</alias> -->
+      <alias>bàn phím</alias>
     </keyboard>
     <mouse>
-      <alias>mouse</alias>
+      <!-- <alias>mouse</alias> -->
+      <alias>chuột</alias>
     </mouse>
     <leftmouse>
-      <alias>leftmouse</alias>
+      <!-- <alias>leftmouse</alias> -->
+      <alias>chuột trái</alias>
     </leftmouse>
     <middlemouse>
-      <alias>middlemouse</alias>
+      <!-- <alias>middlemouse</alias> -->
+      <alias>chuột giữa</alias>
     </middlemouse>
     <rightmouse>
-      <alias>rightmouse</alias>
+      <!-- <alias>rightmouse</alias> -->
+      <alias>chuột phải</alias>
     </rightmouse>
 
     <drag>
-      <alias>drag</alias>
+      <!-- <alias>drag</alias> -->
+      <alias>kéo</alias>
     </drag>
     <doubleDrag>
-      <alias>doubleDrag</alias>
+      <!-- <alias>doubleDrag</alias> -->
+      <alias>kéo đôi</alias>
     </doubleDrag>
     <rotate>
-      <alias>rotate</alias>
+      <!-- <alias>rotate</alias> -->
+      <alias>quay</alias>
     </rotate>
     <pinch>
-      <alias>pinch</alias>
+      <!-- <alias>pinch</alias> -->
+      <alias>cướp</alias>
     </pinch>
     <tap>
-      <alias>tap</alias>
+      <!-- <alias>tap</alias> -->
+      <alias>chạm</alias>
     </tap>
     <doubleTap>
-      <alias>doubleTap</alias>
+      <!-- <alias>doubleTap</alias> -->
+      <alias>chạm 2 lần</alias>
     </doubleTap>
     <touchHold>
-      <alias>touchHold</alias>
+      <!-- <alias>touchHold</alias> -->
+      <alias>cảm ứng</alias>
     </touchHold>
 
     <brushBigger>
-      <alias>brushBigger</alias>
+      <!-- <alias>brushBigger</alias> -->
+      <alias>nét lớn hơn</alias>
     </brushBigger>
     <brushSmaller>
-      <alias>brushSmaller</alias>
+      <!-- <alias>brushSmaller</alias> -->
+      <alias>nét nhỏ hơn</alias>
     </brushSmaller>
 
     <undo>
-      <alias>undo</alias>
+      <!-- <alias>undo</alias> -->
+      <alias>hủy bỏ</alias>
     </undo>
     <redo>
-      <alias>redo</alias>
+      <!-- <alias>redo</alias> -->
+      <alias>làm lại</alias>
     </redo>
   </buttonAliasStrings>
 
   <helpCard>
-    <back>Back</back>
-    <examples>Examples</examples>
-    <insert>Insert Example</insert>
-    <noDescription><![CDATA[Press <a> to add a tile.]]></noDescription>
-    <noLabel>Blank</noLabel>
-    <create>Create an Example Character</create>
-    <choose>Choose</choose>
-    <noExamples>There are no examples for this object.</noExamples>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <examples>Examples</examples> -->
+    <examples>Ví dụ</examples>
+    <!-- <insert>Insert Example</insert> -->
+    <insert>Chèn ví dụ</insert>
+    <!-- <noDescription><![CDATA[Press <a> to add a tile.]]></noDescription> -->
+    <noDescription><![CDATA[Nhấn <a> để thêm tiêu đề..]]></noDescription>
+    <!-- <noLabel>Blank</noLabel> -->
+    <noLabel>Màu đen</noLabel>
+    <!-- <create>Create an Example Character</create> -->
+    <create>Tạo một nhân vật mẫu</create>
+    <!-- <choose>Choose</choose> -->
+    <choose>Chọn</choose>
+    <!-- <noExamples>There are no examples for this object.</noExamples> -->
+    <noExamples>Không có ví dụ cho đối tượng này.</noExamples>
   </helpCard>
 
   <toolTips>
-    <insert>Insert</insert>
+    <!-- <insert>Insert</insert> -->
+    <insert>chèn</insert>
     <!-- <examples>Examples</examples> -->
     <examples>Ví dụ</examples>
     <!-- <change>Change</change> -->
@@ -1211,201 +2024,351 @@ At any time, if you want to create a new account you can do so by picking a new 
     <remove>Xoá</remove>
     <!-- <group>group</group> -->
     <group>Gộp</group>
-    <groupDesc><![CDATA[Press <a> for more...]]></groupDesc>
+    <!-- <groupDesc><![CDATA[Press <a> for more...]]></groupDesc> -->
+    <groupDesc><![CDATA[Nhấn <a> để biết thêm ...]]></groupDesc>
 
-    <pageHandleLabel>page handle</pageHandleLabel>
-    <pageHandleDesc><![CDATA[Your program can have up to twelve pages.  Use the SWITCH action to change pages.]]></pageHandleDesc>
-    <rowHandleLabel>row handle</rowHandleLabel>
-    <rowHandleDesc><![CDATA[Use <lt> to cut and <rt> to paste rows.  The numbering indicates the priority of the rules.]]></rowHandleDesc>
+    <!-- <pageHandleLabel>page handle</pageHandleLabel> -->
+    <pageHandleLabel>xử lý trang </pageHandleLabel>
+    <!-- <pageHandleDesc><![CDATA[Your program can have up to twelve pages.  Use the SWITCH action to change pages.]]></pageHandleDesc> -->
+    <pageHandleDesc><![CDATA[Chương trình của bạn có thể có tối đa mười hai trang. Sử dụng hành động SWITCH để thay đổi trang.]]></pageHandleDesc>
+    <!-- <rowHandleLabel>row handle</rowHandleLabel> -->
+    <rowHandleLabel>xử lý hàng</rowHandleLabel>
+    <!-- <rowHandleDesc><![CDATA[Use <lt> to cut and <rt> to paste rows.  The numbering indicates the priority of the rules.]]></rowHandleDesc> -->
+    <rowHandleDesc><![CDATA[Sử dụng <lt> để cắt và <rt> để dán hàng. Việc đánh số cho biết mức độ ưu tiên của các quy tắc.]]></rowHandleDesc>
   </toolTips>
 
   <saveLevelDialog>
-    <change>Change</change>
-    <save>Save</save>
-    <cancel>Cancel</cancel>
-    <quickSave>Save</quickSave>
-    <name>Name : </name>
-    <creator>Creator : </creator>
-    <description>Description : </description>
+    <!-- <change>Change</change> -->
+    <change>Thay đổi</change>
+    <!-- <save>Save</save> -->
+    <save>Lưu</save>
+    <!-- <cancel>Cancel</cancel> -->
+    <cancel>Quay lại</cancel>
+    <!-- <quickSave>Save</quickSave> -->
+    <quickSave>Lưu</quickSave>
+    <!-- <name>Name : </name> -->
+    <name>Tên : </name>
+    <!-- <creator>Creator : </creator> -->
+    <creator>Người tạo : </creator>
+    <!-- <description>Description : </description> -->
+    <description>Mô tả : </description>
+    <!-- <version>v</version> -->
     <version>v</version>
-    <tags>Tags :</tags>
-    <noTags>None</noTags>
+    <!-- <tags>Tags :</tags> -->
+    <tags>Thẻ :</tags>
+    <!-- <noTags>None</noTags> -->
+    <noTags>Không ai</noTags>
 
-    <overwriteWarning>Warning: you are about to overwrite an existing file.</overwriteWarning>
-    <overwrite>Save</overwrite>
-    <back>Back</back>
-    <incrementVersion>Increment &amp; Save</incrementVersion>
+    <!-- <overwriteWarning>Warning: you are about to overwrite an existing file.</overwriteWarning> -->
+    <overwriteWarning>Cảnh báo: bạn sắp ghi đè lên một tệp hiện có.</overwriteWarning>
+    <!-- <overwrite>Save</overwrite> -->
+    <overwrite>Lưu</overwrite>
+    <!-- <back>Back</back> -->
+    <back>Trở lại</back>
+    <!-- <incrementVersion>Increment &amp; Save</incrementVersion> -->
+    <incrementVersion>Tăng &amp; Lưu</incrementVersion>
 
-    <titleXbox>Save World</titleXbox>
-    <namePromptXbox>Enter a new name for your world.</namePromptXbox>
-    <creatorPromptXbox>Enter creator name for your world.</creatorPromptXbox>
-    <descriptionPromptXbox>Enter a description for your world.</descriptionPromptXbox>
-    <descriptionPromptPC>Click here and enter a description for your world with the keyboard</descriptionPromptPC>
+    <!-- <titleXbox>Save World</titleXbox> -->
+    <titleXbox>Lưu thế giới</titleXbox>
+    <!-- <namePromptXbox>Enter a new name for your world.</namePromptXbox> -->
+    <namePromptXbox>Nhập một tên mới cho thế giới của bạn.</namePromptXbox>
+    <!-- <creatorPromptXbox>Enter creator name for your world.</creatorPromptXbox> -->
+    <creatorPromptXbox>Nhập tên người tạo cho thế giới của bạn.</creatorPromptXbox>
+    <!-- <descriptionPromptXbox>Enter a description for your world.</descriptionPromptXbox> -->
+    <descriptionPromptXbox>Nhập một mô tả cho thế giới của bạn.</descriptionPromptXbox>
+    <!-- <descriptionPromptPC>Click here and enter a description for your world with the keyboard</descriptionPromptPC> -->
+    <descriptionPromptPC>Nhấn vào đây và nhập một mô tả cho thế giới của bạn với bàn phím</descriptionPromptPC>
 
-    <safetyWarning>For your online safety do not use your name, email address, or any web addresses in the world name or description.</safetyWarning>
+    <!-- <safetyWarning>For your online safety do not use your name, email address, or any web addresses in the world name or description.</safetyWarning> -->
+    <safetyWarning>Vì sự an toàn trực tuyến của bạn, không sử dụng tên, địa chỉ email hoặc bất kỳ địa chỉ web nào trong tên hoặc mô tả thế giới.</safetyWarning>
   </saveLevelDialog>
 
   <gamePadInputDialog>
-    <noControllerMoron>You must have at least one controller plugged in to play Kodu. Please plug in a controller.</noControllerMoron>
-    <noControllerAction> Continue</noControllerAction>
-    <unPluggedMoron>A controller has come unplugged. Press A button when ready to continue.</unPluggedMoron>
-    <unPluggedAction> Continue</unPluggedAction>
+    <!-- <noControllerMoron>You must have at least one controller plugged in to play Kodu. Please plug in a controller.</noControllerMoron> -->
+    <noControllerMoron>Bạn phải có ít nhất một bộ điều khiển được cắm để chơi Kodu. Vui lòng cắm một bộ điều khiển.</noControllerMoron>
+    <!-- <noControllerAction> Continue</noControllerAction> -->
+    <noControllerAction> tiếp tục</noControllerAction>
+    <!-- <unPluggedMoron>A controller has come unplugged. Press A button when ready to continue.</unPluggedMoron> -->
+    <unPluggedMoron>Một bộ điều khiển đã được rút ra. Nhấn nút A khi sẵn sàng tiếp tục.</unPluggedMoron>
+    <!-- <unPluggedAction> Continue</unPluggedAction> -->
+    <unPluggedAction>tiếp tục </unPluggedAction>
   </gamePadInputDialog>
 
   <newerVersionDialog>
-    <text>One or more of the levels you have imported were created with a newer version of Kodu.  You will not be able to see them until you upgrade.</text>
-    <action> Continue</action>
+    <!-- <text>One or more of the levels you have imported were created with a newer version of Kodu.  You will not be able to see them until you upgrade.</text> -->
+    <text>Một hoặc nhiều cấp độ bạn đã nhập được tạo bằng phiên bản Kodu mới hơn. Bạn sẽ không thể nhìn thấy chúng cho đến khi bạn nâng cấp.</text>
+    <!-- <action> Continue</action> -->
+    <action> Tiếp tục</action>
   </newerVersionDialog>
 
   <undoStack>
-    <undo>Undo</undo>
-    <redo>Redo</redo>
+    <!-- <undo>Undo</undo> -->
+    <undo>Hủy bỏ</undo>
+    <!-- <redo>Redo</redo> -->
+    <redo>làm lại</redo>
   </undoStack>
 
   <toast>
-    <yButtonMore>More</yButtonMore>
+    <!-- <yButtonMore>More</yButtonMore> -->
+    <yButtonMore>Thêm</yButtonMore>
 
-    <continue>Continue</continue>
-    <dismiss>Do not show again</dismiss>
+    <!-- <continue>Continue</continue> -->
+    <continue>tiếp tục</continue>
+    <!-- <dismiss>Do not show again</dismiss> -->
+    <dismiss>Không hiển thị trở lại</dismiss>
 
     <!--
       The *Toast strings are the short version which is displayed in the toast pop-up.
       The *Modal strings are the longer strings displayed in the modal help dialog.
     -->
 
-    <resourceMeterToast>Too much stuff!</resourceMeterToast>
-    <resourceMeterModal>
+    <!-- <resourceMeterToast>Too much stuff!</resourceMeterToast> -->
+    <resourceMeterToast>Quá nhiều thứ!</resourceMeterToast>
+    <!-- <resourceMeterModal> 
       The thermometer gage on the right side of the screen is showing you that you've almost used up all the resources of the world.  This can cause a low frame rate making the animation look chunky.
       Both the terrain in the world and the characters in the world use up resources so reducing either of them will help your game's performance.
+    </resourceMeterModal>-->
+    <resourceMeterModal>
+      Đồng hồ đo nhiệt kế ở bên phải màn hình đang cho bạn thấy rằng bạn gần như đã sử dụng hết tất cả các tài nguyên trên thế giới. Điều này có thể gây ra tốc độ khung hình thấp làm cho hình ảnh động trông chunky.
+       Cả địa hình trên thế giới và các nhân vật trên thế giới đều sử dụng hết tài nguyên, do đó việc giảm một trong hai sẽ giúp hiệu suất trò chơi của bạn.
     </resourceMeterModal>
 
+    <!-- <fullResourceToast>Maximum resource limit reached.</fullResourceToast> -->
     <fullResourceToast>Maximum resource limit reached.</fullResourceToast>
-    <fullResourceModal>
+    <!-- <fullResourceModal>
       The rude buzzing sound and the thermometer gage on the right side of the screen are showing you that you've used up all the resources available to the world.
       At this point you are not allowed to add any more terrain or characters to your game.
       Both the terrain in the world and the characters in the world use up resources so reducing either of them will help your game's performance.
+    </fullResourceModal> -->
+     <fullResourceModal>
+     Âm thanh ù ù thô lỗ và thước đo nhiệt kế ở bên phải màn hình đang cho bạn thấy rằng bạn đã sử dụng hết tất cả các tài nguyên có sẵn trên thế giới.
+       Tại thời điểm này, bạn không được phép thêm bất kỳ địa hình hoặc nhân vật nào vào trò chơi của mình.
+       Cả địa hình trên thế giới và các nhân vật trên thế giới đều sử dụng hết tài nguyên, do đó việc giảm một trong hai sẽ giúp hiệu suất trò chơi của bạn.
     </fullResourceModal>
 
+
+    <!-- <noControllerToast>This level requires a controller to play.</noControllerToast> -->
     <noControllerToast>This level requires a controller to play.</noControllerToast>
-    <noControllerModal>
+    <!-- <noControllerModal> 
       This level appears to require a gamepad controller in order to play.
       We are not detecting one in your system.
       You can still play the game but you will probably have to modify the programming to allow for keyboard control.
+    </noControllerModal>-->
+      <noControllerModal>
+     Cấp độ này dường như yêu cầu bộ điều khiển gamepad để chơi.
+       Chúng tôi không phát hiện một trong hệ thống của bạn.
+       Bạn vẫn có thể chơi trò chơi nhưng có lẽ bạn sẽ phải sửa đổi chương trình để cho phép điều khiển bàn phím.
     </noControllerModal>
 
-    <quietMainMenuToast>Try selecting 'Load World'</quietMainMenuToast>
-    <quietMainMenuModal>
+
+    <!-- <quietMainMenuToast>Try selecting 'Load World'</quietMainMenuToast> -->
+    <quietMainMenuToast>Hãy thử chọn 'Mở lại trò chơi có trong máy'</quietMainMenuToast>
+    <!-- <quietMainMenuModal>
       Welcome.  If you are a new user you may want to start by selecting 'Load World'.
       This will let you load and play an already built level.
+    </quietMainMenuModal> -->
+    <quietMainMenuModal>
+     Chào mừng bạn Nếu bạn là người dùng mới, bạn có thể muốn bắt đầu bằng cách chọn 'Tải thế giới'.
+       Điều này sẽ cho phép bạn tải và chơi một cấp độ đã được xây dựng.
     </quietMainMenuModal>
 
-    <waterTerrainToast>Water flows.</waterTerrainToast>
-    <waterTerrainModal>
+
+    <!-- <waterTerrainToast>Water flows.</waterTerrainToast> -->
+    <waterTerrainToast>Dòng nước.</waterTerrainToast>
+    <!-- <waterTerrainModal> 
       When you add water to the world, it will flow out to fill as much space as possible.
       If you want to contain the water you need to use the terrain editing tools to raise the land surrounding the area you want filled with water.
 
       "Empty your mind, be formless, shapeless - like water. Now you put water into a cup, it becomes the cup, you put water into a bottle, it becomes the bottle, you put it in a teapot, it becomes the teapot. Now water can flow or it can crash. Be water, my friend."
       Bruce Lee
+    </waterTerrainModal>-->
+      <waterTerrainModal>
+     Khi bạn thêm nước vào thế giới, nó sẽ chảy ra để lấp đầy không gian nhiều nhất có thể.
+       Nếu bạn muốn chứa nước, bạn cần sử dụng các công cụ chỉnh sửa địa hình để nâng cao vùng đất xung quanh khu vực bạn muốn chứa đầy nước.
+
+       "Làm trống tâm trí của bạn, vô hình, không có hình dạng - giống như nước. Bây giờ bạn cho nước vào cốc, nó trở thành cốc, bạn cho nước vào chai, nó trở thành chai, bạn đặt nó vào ấm trà, nó trở thành ấm trà. Bây giờ nước có thể chảy hoặc nó có thể sụp đổ. Hãy là nước, bạn của tôi. "
+       Bruce Lee
     </waterTerrainModal>
 
-    <waterNoTerrainToast>Water must go over terrain.</waterNoTerrainToast>
-    <waterNoTerrainModal>Water can only be added on top of terrain.  Either add some land or move the cursor over existing land before adding water.</waterNoTerrainModal>
+    <!-- <waterNoTerrainToast>Water must go over terrain.</waterNoTerrainToast> -->
+    <waterNoTerrainToast>Nước phải vượt địa hình.</waterNoTerrainToast>
+    <!-- <waterNoTerrainModal>Water can only be added on top of terrain.  Either add some land or move the cursor over existing land before adding water.</waterNoTerrainModal> -->
+    <waterNoTerrainModal>Nước chỉ có thể được thêm vào trên địa hình. Hoặc thêm một số đất hoặc di chuyển con trỏ qua đất hiện có trước khi thêm nước.</waterNoTerrainModal>
 
-    <noTerrainToRaiseToast>First add terrain with the Ground Brush &lt;terrainpaint&gt;.</noTerrainToRaiseToast>
-    <noTerrainToRaiseModal>
+    <!-- <noTerrainToRaiseToast>First add terrain with the Ground Brush &lt;terrainpaint&gt;.</noTerrainToRaiseToast> -->
+    <noTerrainToRaiseToast>Đầu tiên thêm địa hình bằng vẽ đất&lt; vẽ địa hình&gt;.</noTerrainToRaiseToast>
+    <!-- <noTerrainToRaiseModal>
       Before you can raise hills you need to add terrain with the Ground Brush &lt;terrainpaint&gt;.
+    </noTerrainToRaiseModal> -->
+     <noTerrainToRaiseModal>
+    Trước khi bạn có thể nâng đồi, bạn cần thêm địa hình vẽ đất &lt; vẽ địa hình&gt;.
     </noTerrainToRaiseModal>
     
-    <gamepadNoFilterToast>You programmed using a gamepad without specifying any buttons or sticks to check.</gamepadNoFilterToast>
-    <gamepadNoFilterModal>
+    
+    <!-- <gamepadNoFilterToast>You programmed using a gamepad without specifying any buttons or sticks to check.</gamepadNoFilterToast> -->
+    <gamepadNoFilterToast>Bạn đã lập trình bằng gamepad mà không chỉ định bất kỳ nút hoặc gậy nào để kiểm tra.</gamepadNoFilterToast>
+    <!-- <gamepadNoFilterModal>
       When programming your character to respond to the gamepad you also need to specify which stick or button to test for.
       For instance:
       When <![CDATA[<gamepad><leftstick>]]> Do Move
       When <![CDATA[<gamepad><abutton>]]> Do Shoot
+    </gamepadNoFilterModal> -->
+     <gamepadNoFilterModal>
+      Khi lập trình nhân vật của bạn để phản hồi với gamepad, bạn cũng cần chỉ định thanh hoặc nút nào để kiểm tra.
+      Ví dụ:
+      Khi <![CDATA[<gamepad><leftstick>]]> Làm di chuyển
+      Khi <![CDATA[<gamepad><abutton>]]> Làm bắn
     </gamepadNoFilterModal>
 
-    <switchNoTargetToast>You programmed a switch without telling what page to switch to.</switchNoTargetToast>
-    <switchNoTargetModal>
+
+    <!-- <switchNoTargetToast>You programmed a switch without telling what page to switch to.</switchNoTargetToast> -->
+    <switchNoTargetToast>Bạn đã lập trình một công tắc mà không cho biết trang nào sẽ chuyển sang.</switchNoTargetToast>
+    <!-- <switchNoTargetModal> 
       When using the Switch &lt;actuator.switchtask&gt; tile you also need to tell the system what page to switch to.
       
       For example: &lt;actuator.switchtask&gt; &lt;modifier.taskb&gt;
+    </switchNoTargetModal>-->
+   <switchNoTargetModal>
+      Khi sử dụng Switch &lt; Actuator.switchtask &gt; bạn cũng cần cho hệ thống biết trang nào sẽ chuyển sang.
+      
+    Ví dụ: &lt; thiết bị truyền động.switchtask &gt; &lt; modifier.taskb &gt;
     </switchNoTargetModal>
 
-    <microbitNeedsResetHintToast>Flashing your BBC micro:bit, please wait...</microbitNeedsResetHintToast>
+    <!-- <microbitNeedsResetHintToast>Flashing your BBC micro:bit, please wait...</microbitNeedsResetHintToast> -->
+    <microbitNeedsResetHintToast>Nhấp nháy BBC micro: bit, vui lòng đợi ...</microbitNeedsResetHintToast>
     
   </toast>
 
   <error>
-    <xna2required>Kodu requires XNA version 3.0 in order to run.  Please install the update and try again.</xna2required>
-    <outOfDiskSpace>Error saving, you may be out of disk space.  Please clear some disk space before restarting Kodu.</outOfDiskSpace>
+    <!-- <xna2required>Kodu requires XNA version 3.0 in order to run.  Please install the update and try again.</xna2required> -->
+    <xna2required>Kodu yêu cầu XNA phiên bản 3.0 để chạy. Vui lòng cài đặt bản cập nhật và thử lại.</xna2required>
+    <!-- <outOfDiskSpace>Error saving, you may be out of disk space.  Please clear some disk space before restarting Kodu.</outOfDiskSpace> -->
+    <outOfDiskSpace>Lỗi lưu, bạn có thể hết dung lượng đĩa. Vui lòng xóa một số dung lượng đĩa trước khi khởi động lại Kodu.
+ 
+</outOfDiskSpace>
   </error>
 
   <warning>
-    <noncomplianttouch_title>Windows 8 Compliance</noncomplianttouch_title>
-    <noncomplianttouch>The detected touch device is not Windows 8 compliant and may not be able to accurately recognize all Kodu touch gestures.
+    <!-- <noncomplianttouch_title>Windows 8 Compliance</noncomplianttouch_title> -->
+    <noncomplianttouch_title>Tuân thủ Windows 8</noncomplianttouch_title>
+    <!-- <noncomplianttouch>The detected touch device is not Windows 8 compliant and may not be able to accurately recognize all Kodu touch gestures.
 
-Please use a compliant device or revert to other input methods if your device is not responding to touch gestures correctly.</noncomplianttouch>
+Please use a compliant device or revert to other input methods if your device is not responding to touch gestures correctly.</noncomplianttouch> -->
+    <noncomplianttouch>Thiết bị cảm ứng được phát hiện không tuân thủ Windows 8 và có thể không thể nhận ra chính xác tất cả các cử chỉ chạm của Kodu.
+
+Vui lòng sử dụng một thiết bị tuân thủ hoặc hoàn nguyên các phương thức nhập khác nếu thiết bị của bạn không phản ứng với cử chỉ chạm chính xác.
+ 
+Gửi phản hồi
+Lịch sử
+</noncomplianttouch>
   </warning>
-  
+
 
   <terrainProcess>
-    <pack>Optimizing Data - Please Wait</pack>
-    <unpack>Unpacking Data - Please Wait</unpack>
+    <!-- <pack>Optimizing Data - Please Wait</pack> -->
+    <pack>  Tối ưu hóa dữ liệu - Vui lòng đợi</pack>
+    <!-- <unpack>Unpacking Data - Please Wait</unpack> -->
+    <unpack>Giải nén dữ liệu - Vui lòng đợi Wait</unpack>
   </terrainProcess>
 
   <genres>
-    <all>All</all>
-    <action>Action</action>
-    <adventure>Adventure</adventure>
-    <puzzle>Puzzle</puzzle>
-    <racing>Racing</racing>
+    <!-- <all>All</all> -->
+    <all>tất cả</all>
+    <!-- <action>Action</action> -->
+    <action>hành động</action>
+    <!-- <adventure>Adventure</adventure> -->
+    <adventure>thám hiểm</adventure>
+    <!-- <puzzle>Puzzle</puzzle> -->
+    <puzzle>Câu đố</puzzle>
+    <!-- <racing>Racing</racing> -->
+    <racing>cuộc đua</racing>
+    <!-- <rpg>RPG</rpg> -->
     <rpg>RPG</rpg>
-    <shooter>Shooter</shooter>
-    <sports>Sports</sports>
-    <strategy>Strategy</strategy>
-    <multiplayer>Multiplayer</multiplayer>
-    <favorite>Favorite</favorite>
-    <keyboard>Keyboard/Mouse</keyboard>
-    <controller>Xbox Controller</controller>
-    <touch>Touch</touch>
+    <!-- <shooter>Shooter</shooter> -->
+    <shooter>bắn súng</shooter>
+    <!-- <sports>Sports</sports> -->
+    <sports>Thể thao</sports>
+    <!-- <strategy>Strategy</strategy> -->
+    <strategy>chiến lược</strategy>
+    <!-- <multiplayer>Multiplayer</multiplayer> -->
+    <multiplayer>nhiều người chơi</multiplayer>
+    <!-- <favorite>Favorite</favorite> -->
+    <favorite>yêu thích</favorite>
+    <!-- <keyboard>Keyboard/Mouse</keyboard> -->
+    <keyboard>bàn phím/chuột</keyboard>
+    <!-- <controller>Xbox Controller</controller> -->
+    <controller>Bộ điều khiển Xbox</controller>
+    <!-- <touch>Touch</touch> -->
+    <touch>cảm ứng</touch>
 
-    <lessons>Lessons</lessons>
-    <sampleWorlds>Sample Worlds</sampleWorlds>
-    <starterWorlds>Starter Worlds</starterWorlds>
-    <finishedWorlds>Finished</finishedWorlds>
+    <!-- <lessons>Lessons</lessons> -->
+    <lessons>bài học</lessons>
+    <!-- <sampleWorlds>Sample Worlds</sampleWorlds> -->
+    <sampleWorlds>Thế giới mẫu</sampleWorlds>
+    <!-- <starterWorlds>Starter Worlds</starterWorlds> -->
+    <starterWorlds>Thế giới khởi đầu</starterWorlds>
+    <!-- <finishedWorlds>Finished</finishedWorlds> -->
+    <finishedWorlds>Kết thúc</finishedWorlds>
 
-    <builtInWorlds>Built-In Worlds</builtInWorlds>
-    <myWorlds>My Worlds</myWorlds>
-    <downloads>Downloads</downloads>
+    <!-- <builtInWorlds>Built-In Worlds</builtInWorlds> -->
+    <builtInWorlds>Xây dựng thế giới</builtInWorlds>
+    <!-- <myWorlds>My Worlds</myWorlds> -->
+    <myWorlds>Thế giới của tôi</myWorlds>
+    <!-- <downloads>Downloads</downloads> -->
+    <downloads>Tải xuống</downloads>
   </genres>
 
   <shareFeedEvent>
-    <isJoiningFmt>{0} is joining.</isJoiningFmt>
-    <hasJoinedFmt>{0} has joined.</hasJoinedFmt>
-    <olderVersionHasJoinedFmt>{0} has joined using an older version of Kodu and cannot share with you.</olderVersionHasJoinedFmt>
-    <hasLeftFmt>{0} has left.</hasLeftFmt>
-    <isDownloadingFmt>{0} is downloading '{1}' from {2}.</isDownloadingFmt>
-    <finishedDownloadingFmt>{0} finished downloading '{1}'.</finishedDownloadingFmt>
-    <invitedFmt>{0} is invited.</invitedFmt>
-    <noOneInvited>No friends have been invited. Press &lt;B&gt; to invite your friends.</noOneInvited>
-    <startedSharingFmt>{0} started sharing '{1}'.</startedSharingFmt>
-    <stoppedSharingFmt>{0} stopped sharing '{1}'.</stoppedSharingFmt>
-    <hostEntered>Host has joined.</hostEntered>
-    <waitingForHost>Waiting for host to join.</waitingForHost>
-    <levelSentToMeFmt>{0} sent you '{1}'.</levelSentToMeFmt>
-    <levelSendAcceptedFmt>You queued '{0}' for download by {1}.</levelSendAcceptedFmt>
-    <levelSendRejectedFmt>{1} already has '{0}'.</levelSendRejectedFmt>
-    <updateAvailableFmt>A Kodu update is available! Re-download Kodu to share with {0}.</updateAvailableFmt>
+    <!-- <isJoiningFmt>{0} is joining.</isJoiningFmt> -->
+    <isJoiningFmt>{0} đang tham gia.</isJoiningFmt>
+    <!-- <hasJoinedFmt>{0} has joined.</hasJoinedFmt> -->
+    <hasJoinedFmt>{0} đã tham gia</hasJoinedFmt>
+    <!-- <olderVersionHasJoinedFmt>{0} has joined using an older version of Kodu and cannot share with you.</olderVersionHasJoinedFmt> -->
+    <olderVersionHasJoinedFmt>{0} đã tham gia bằng phiên bản cũ hơn của Kodu và không thể chia sẻ với bạn.</olderVersionHasJoinedFmt>
+    <!-- <hasLeftFmt>{0} has left.</hasLeftFmt> -->
+    <hasLeftFmt>{0} đã rời đi.</hasLeftFmt>
+    <!-- <isDownloadingFmt>{0} is downloading '{1}' from {2}.</isDownloadingFmt> -->
+    <isDownloadingFmt>{0} đang tải xuống '{1}' từ {2}.</isDownloadingFmt>
+    <!-- <finishedDownloadingFmt>{0} finished downloading '{1}'.</finishedDownloadingFmt> -->
+    <finishedDownloadingFmt>{0} đã hoàn tất tải xuống '{1}'.</finishedDownloadingFmt>
+    <!-- <invitedFmt>{0} is invited.</invitedFmt> -->
+    <invitedFmt>{0} được mời</invitedFmt>
+    <!-- <noOneInvited>No friends have been invited. Press &lt;B&gt; to invite your friends.</noOneInvited> -->
+    <noOneInvited>Không có bạn bè đã được mời.Nhấn &lt;B&gt; để mời bạn bè của bạn.</noOneInvited>
+    <!-- <startedSharingFmt>{0} started sharing '{1}'.</startedSharingFmt> -->
+    <startedSharingFmt>{0} bắt đầu chia sẻ '{1}'.</startedSharingFmt>
+    <!-- <stoppedSharingFmt>{0} stopped sharing '{1}'.</stoppedSharingFmt> -->
+    <stoppedSharingFmt>{0} đã ngừng chia sẻ '{1}'.</stoppedSharingFmt>
+    <!-- <hostEntered>Host has joined.</hostEntered> -->
+    <hostEntered>Chủ nhà đã tham gia.</hostEntered>
+    <!-- <waitingForHost>Waiting for host to join.</waitingForHost> -->
+    <waitingForHost>Chờ chủ nhà tham gia.</waitingForHost>
+    <!-- <levelSentToMeFmt>{0} sent you '{1}'.</levelSentToMeFmt> -->
+    <levelSentToMeFmt>{0} đã gửi cho bạn '{1}'.</levelSentToMeFmt>
+    <!-- <levelSendAcceptedFmt>You queued '{0}' for download by {1}.</levelSendAcceptedFmt> -->
+    <levelSendAcceptedFmt>Bạn đã xếp hàng '{0}' để tải xuống bởi {1}.</levelSendAcceptedFmt>
+    <!-- <levelSendRejectedFmt>{1} already has '{0}'.</levelSendRejectedFmt> -->
+    <levelSendRejectedFmt>{1} đã có '{0}'.</levelSendRejectedFmt>
+    <!-- <updateAvailableFmt>A Kodu update is available! Re-download Kodu to share with {0}.</updateAvailableFmt> -->
+    <updateAvailableFmt>Một bản cập nhật Kodu có sẵn! Tải xuống lại Kodu để chia sẻ với {0}.</updateAvailableFmt>
   </shareFeedEvent>
   <Update>
-    <FormTitle>Kodu Update Available</FormTitle>
-    <UpdateMessage>A new version of ^Kodu Game Lab^ is available!</UpdateMessage>
-    <ReleaseNotesMessage>For more details please see the ^release notes^</ReleaseNotesMessage>
-    <CurrentVersion>Current Version</CurrentVersion>
-    <LatestVersion>Latest Version</LatestVersion>
-    <UpdateButtonText>Update Now</UpdateButtonText>
-    <IgnoreButtonText>Ignore This Update</IgnoreButtonText>
-    <RemindButtonText>Remind Me Later</RemindButtonText>
+    <!-- <FormTitle>Kodu Update Available</FormTitle> -->
+    <FormTitle>Cập nhật Kodu có sẵn</FormTitle>
+    <!-- <UpdateMessage>A new version of ^Kodu Game Lab^ is available!</UpdateMessage> -->
+    <UpdateMessage>Đã có phiên bản mới của ^ Kodu Game Lab ^!</UpdateMessage>
+    <!-- <ReleaseNotesMessage>For more details please see the ^release notes^</ReleaseNotesMessage> -->
+    <ReleaseNotesMessage>Để biết thêm chi tiết xin vui lòng xem ^ ghi chú phát hành ^</ReleaseNotesMessage>
+    <!-- <CurrentVersion>Current Version</CurrentVersion> -->
+    <CurrentVersion>Phiên bản hiện tại</CurrentVersion>
+    <!-- <LatestVersion>Latest Version</LatestVersion> -->
+    <LatestVersion>Phiên bản mới nhất</LatestVersion>
+    <!-- <UpdateButtonText>Update Now</UpdateButtonText> -->
+    <UpdateButtonText>Cập nhật ngay</UpdateButtonText>
+    <!-- <IgnoreButtonText>Ignore This Update</IgnoreButtonText> -->
+    <IgnoreButtonText>bỏ qua bản cập nhật này</IgnoreButtonText>
+    <!-- <RemindButtonText>Remind Me Later</RemindButtonText> -->
+    <RemindButtonText>nhắc tôi sau</RemindButtonText>
   </Update>
 
 </Strings>
