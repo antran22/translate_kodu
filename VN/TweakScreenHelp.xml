@@ -76,7 +76,7 @@ Lưu ý rằng điều này có thể kiến bạn dễ dàng vượt qua dung l
 For creatables, this count limits the number that can be created during gameplay. Clones that you spread about while editing don't count, this just limits the number that can be spawned by other bots with Create while playing.
     </desc>-->
     <desc>
-Đối với người tạo, số lượng này giới hạn số lượng có thể được tạo trong quá trình chơi trò chơi. Bản sao mà bạn tạo ra trong khi chỉnh sửa không được tính, điều này chỉ giới hạn số lượng có thể được sinh ra bởi các đối tượng khác với Tạo trong khi chơi.
+Đối với các vật có thể tạo, số lượng này giới hạn số lượng có thể được tạo trong quá trình chơi trò chơi. Bản sao mà bạn tạo ra trong khi chỉnh sửa không được tính, điều này chỉ giới hạn số lượng có thể được sinh ra bởi các đối tượng khác với Tạo trong khi chơi.
     </desc>
   </helpText>
   <helpText id="CameraFollowMode">
@@ -86,9 +86,9 @@ If you set this to Always then the camera will always follow this bot.  If you h
 If you set this to Never then the camera will ignore this bot even if it is user controlled.
     </desc>-->
      <desc>
-Kiểm soát cách thức hoạt động của máy ảnh liên quan đến đối tượng này. Thông thường camera sẽ theo bất kỳ đối tượng nào được điều khiển bởi người chơi.
-Nếu bạn đặt thành Luôn luôn thì máy ảnh sẽ luôn theo đối tượng này. Nếu bạn có nhiều đối tượng với bộ này thì máy ảnh sẽ thử và giữ tất cả chúng trên màn hình.
-Nếu bạn đặt thành Không bao giờ thì máy ảnh sẽ bỏ qua bot này ngay cả khi nó do người dùng kiểm soát.
+Kiểm soát cách thức hoạt động của camera liên quan đến đối tượng này. Thông thường camera sẽ theo bất kỳ đối tượng nào được điều khiển bởi người chơi.
+Nếu bạn đặt thành Luôn luôn thì camera sẽ luôn theo đối tượng này. Nếu bạn có nhiều đối tượng với bộ này thì camera sẽ thử và giữ tất cả chúng trên màn hình.
+Nếu bạn đặt thành Không bao giờ thì camera sẽ bỏ qua bot này ngay cả khi nó do người dùng kiểm soát.
     </desc>
   </helpText>
   <helpText id="HoldDistance">
@@ -268,7 +268,7 @@ Khi đối tượng đã bắn con số này, nó không thể bắn lại cho �
 The Balloon, Cloud, Jet, Light, Saucer, Blimp, Wisp and Missile can go through the glass wall.</desc> -->
    <desc>Tạo ra một rào cản vô hình xung quanh các cạnh của thế giới của bạn. Điều này sẽ ngăn đối tượng rơi khỏi rìa thế giới.
     
-khinh khí cầu tròn, đám mây, máy bay, ánh sáng, đĩa bay, khinh khí cầu bầu dục, đốm sáng và tên lửa có thể đi xuyên qua bức tường này.</desc>
+Khinh khí cầu tròn, Đám mây, Máy bay, Nguồn sáng, Đĩa bay, Khinh khí cầu bầu dục, Đốm sáng và Tên lửa có thể đi xuyên qua bức tường này.</desc>
   </helpText>
   <helpText id ="ChangeHistory">
     <!-- <desc>Displays a history of the people who have changed this world.</desc> -->
@@ -285,18 +285,18 @@ The Free option is the default and lets the camera roam free unless a bot's prog
     </desc>-->
      <desc>Cho phép bạn kiểm soát cách camera di chuyển khi trò chơi của bạn đang chạy.
     
-Tùy chọn Fixed Position cố định giữ cho máy ảnh không di chuyển trong khi trò chơi của bạn đang chạy. Hữu ích cho các trò chơi phong cách arcade đòi hỏi một cái nhìn trên cao. Lưu ý rằng chế độ xem sẽ khác nhau trên màn hình rộng.
+Tùy chọn Fixed Position cố định giữ cho camera không di chuyển trong khi trò chơi của bạn đang chạy. Hữu ích cho các trò chơi phong cách arcade đòi hỏi một cái nhìn trên cao. Lưu ý rằng chế độ xem sẽ khác nhau trên màn hình rộng.
 
-Tùy chọn Offset cố định giữ cho máy ảnh một khoảng cách và hướng cố định từ bất kỳ đối tượng nào mà máy ảnh đang theo dõi. Đây có thể là con trỏ hoặc đối tượng. Hữu ích cho sidecrollers.
+Tùy chọn Offset cố định giữ cho camera một khoảng cách và hướng cố định từ bất kỳ đối tượng nào mà camera đang theo dõi. Đây có thể là con trỏ hoặc đối tượng. Hữu ích cho sidecrollers.
 
-Tùy chọn Free là mặc định và cho phép máy ảnh chuyển vùng miễn phí trừ khi lập trình của đối tượng bảo máy ảnh ở vị trí đầu tiên hoặc theo dõi nó. Nếu bạn đang sử dụng máy ảnh cố định hoặc bù, hãy nhấn &lt; X&gt; nút sẽ cho phép bạn đặt vị trí của máy ảnh.
+Tùy chọn Free là mặc định và cho phép camera chuyển vùng miễn phí trừ khi lập trình của đối tượng bảo camera ở vị trí đầu tiên hoặc theo dõi nó. Nếu bạn đang sử dụng camera cố định hoặc bù, hãy nhấn &lt; X&gt; nút sẽ cho phép bạn đặt vị trí của camera.
     </desc>
   </helpText>
   <helpText id="StartingCameraPosition">
       <!-- <desc>Controls where the camera is positioned when your game starts.  To use, move the camera to where you want it to be when the game starts, open World Settings and check the box. 
 If you later want to change the position you can press &lt;x&gt; which will be put into a mode which will let you freely align the camera to whatever position you need.</desc>-->
       <desc>Điều khiển vị trí đặt camera khi trò chơi của bạn bắt đầu. Để sử dụng, hãy di chuyển camera đến nơi bạn muốn khi trò chơi bắt đầu, mở Cài đặt thế giới và chọn hộp.
-Nếu sau này bạn muốn thay đổi vị trí, bạn có thể nhấn &lt; x&gt; sẽ được đưa vào chế độ cho phép bạn tự do căn chỉnh máy ảnh theo bất kỳ vị trí nào bạn cần.</desc>
+Nếu sau này bạn muốn thay đổi vị trí, bạn có thể nhấn &lt;x&gt; sẽ được đưa vào chế độ cho phép bạn tự do căn chỉnh camera theo bất kỳ vị trí nào bạn cần.</desc>
   </helpText>
   <helpText id ="CameraSpringStrength">
     <!-- <desc>Controls how strongly the camera swings to be behind a user-controlled character. </desc> -->
@@ -357,7 +357,7 @@ Kết hợp cài đặt Bầu trời và Ánh sáng để giúp tạo tâm trạ
   <desc>Kiểm soát cách trò chơi của bạn bắt đầu khi bạn chơi nó:
 "Không có gì" chỉ bắt đầu trò chơi như bình thường, không có hiệu lực.
 "Tiêu đề thế giới" hiển thị tên của thế giới trong 3 giây và sau đó bắt đầu chơi.
-"Mô tả thế giới" hiển thị tên của thế giới và nhắc người dùng nhấn &lt; a&gt; để bắt đầu chơi Điều này sử dụng mô tả bạn cung cấp khi bạn lưu trò chơi.
+"Mô tả thế giới" hiển thị tên của thế giới và nhắc người dùng nhấn &lt;a&gt; để bắt đầu chơi Điều này sử dụng mô tả bạn cung cấp khi bạn lưu trò chơi.
 "Đếm ngược" hiển thị đếm ngược 3-2-1 trước khi trò chơi bắt đầu. Điều này là tuyệt vời cho các trò chơi đua xe.</desc>
   </helpText>
   <helpText id="Debug:PathFollowing">
@@ -430,7 +430,7 @@ Tắt: điểm sẽ được đặt lại về 0 khi tải mức mới
     </desc>-->
     <desc>
 Kiểm soát cách các nút GUI sẽ hiển thị.
-       Tắt: nút won được hiển thị ở tất cả.
+       Tắt: nút không được hiển thị ở tất cả.
        Không có nhãn: Nút sẽ được hiển thị và sẽ không có văn bản trên đó.
        Dán nhãn: Nút sẽ được hiển thị cùng với một số văn bản để xác định rõ hơn nút.
     </desc>
@@ -450,7 +450,7 @@ Kiểm soát cách các nút GUI sẽ hiển thị.
       Raises the water under this object.
     </desc>-->
     <desc>
-     Tăng nước dưới đối tượng này.
+     Nâng nước dưới đối tượng này.
     </desc>
   </helpText>
 
@@ -490,8 +490,8 @@ Khi một gợi ý được hiển thị, bạn được cung cấp tùy chọn 
   <helpText id="ModalToolMenu">
     <!-- <desc>Normally when the Gamepad Tool Menu is active, the background is blurred out and you can't move the camera around.  By turning this option off, the camera will still be "live".  However, you still must select a tool before interacting with the world. 
 Turning this off also means that the left stick is now used to control the camera so you must use the DPad or the Triggers to select the tool you want.</desc>-->
-    <desc>Thông thường khi Menu Công cụ Tay cầm hoạt động, nền bị mờ và bạn không thể di chuyển máy ảnh xung quanh. Bằng cách dùng tùy chọn tắt, máy ảnh vẫn sẽ "sống". Tuy nhiên, bạn vẫn phải chọn một công cụ trước khi tương tác với thế giới.
-Tắt cái này cũng có nghĩa là thanh bên trái hiện được sử dụng để điều khiển máy ảnh, do đó bạn phải sử dụng DPad hoặc Triggers để chọn công cụ bạn muốn.
+    <desc>Thông thường khi Menu Công cụ Tay cầm hoạt động, nền bị mờ và bạn không thể di chuyển camera xung quanh. Bằng cách dùng tùy chọn tắt, camera vẫn sẽ "sống". Tuy nhiên, bạn vẫn phải chọn một công cụ trước khi tương tác với thế giới.
+Tắt cái này cũng có nghĩa là thanh bên trái hiện được sử dụng để điều khiển camera, do đó bạn phải sử dụng DPad hoặc Triggers để chọn công cụ bạn muốn.
 </desc>
   </helpText>
 
@@ -527,12 +527,12 @@ Tắt cái này cũng có nghĩa là thanh bên trái hiện được sử dụn
 
   <helpText id ="InvertCamY">
     <!-- <desc>Make pushing the stick forward pitch the camera up.</desc> -->
-    <desc>Thực hiện đẩy gậy về phía trước ném máy ảnh lên.</desc>
+    <desc>Thực hiện đẩy gậy về phía trước ném camera lên.</desc>
   </helpText>
 
   <helpText id ="InvertCamX">
     <!-- <desc>Make pushing the stick left rotate the camera to the right.</desc> -->
-    <desc>Thực hiện đẩy thanh bên trái xoay máy ảnh sang phải.</desc>
+    <desc>Thực hiện đẩy thanh bên trái xoay camera sang phải.</desc>
   </helpText>
   
   <helpText id ="Overscan">
