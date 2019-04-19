@@ -568,7 +568,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <world>World</world> -->
     <world>Thế giới</world>
     <!-- <oldCreator>Creator</oldCreator> -->
-    <oldCreator>Người sáng tạo</oldCreator>
+    <oldCreator>Người thực hiện</oldCreator>
     <!-- <date>Date</date> -->
     <date>Ngày</date>
     <!-- <worldCount> World</worldCount> -->
@@ -582,7 +582,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <tags>Tags</tags> -->
     <tags>Thẻ</tags>
     <!-- <creator>CREATOR</creator> -->
-    <creator>Người sáng tạo</creator>
+    <creator>Người thực hiện</creator>
     <!-- <description>DESCRIPTION</description> -->
     <description>MÔ TẢ</description>
     <!-- <rating>RATING</rating> -->
@@ -689,7 +689,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <sortDate>Date</sortDate> -->
     <sortDate>Ngày</sortDate>
     <!-- <sortCreator>Creator</sortCreator> -->
-    <sortCreator>Người sáng tạo</sortCreator>
+    <sortCreator>Người thực hiện</sortCreator>
     <!-- <sortTitle>Title</sortTitle> -->
     <sortTitle>Tiêu đề</sortTitle>
     <!-- <sortRating>Rating</sortRating> -->
@@ -709,22 +709,22 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <deletingLevelMessage>Deleting World, Please Wait...</deletingLevelMessage> -->
     <deletingLevelMessage>Xóa thế giới, vui lòng đợi ...</deletingLevelMessage>
     <!-- <exportingLevelMessage>Exporting World, Please Wait...</exportingLevelMessage> -->
-    <exportingLevelMessage>Xuất thế giới, vui lòng đợi ...</exportingLevelMessage>
+    <exportingLevelMessage>Xuất dữ liệu thế giới, vui lòng đợi ...</exportingLevelMessage>
 
     <!-- <levelNotFirstMessage>This level has other levels linking to it.  Would you like to load the first level in the chain?</levelNotFirstMessage> -->
     <levelNotFirstMessage>Màn chơi này có các màn chơi khác liên kết với nó. Bạn có muốn tải màn chơi đầu tiên trong chuỗi?</levelNotFirstMessage>
     <!-- <levelLinksBrokenMessage>This level is part of a chain that contains some broken links - some levels may not link properly.</levelLinksBrokenMessage> -->
     <levelLinksBrokenMessage>Màn chơi này là một phần của chuỗi chứa một số liên kết bị hỏng - một số màn chơi có thể không liên kết chính xác.</levelLinksBrokenMessage>
     <!-- <levelChainTooLongMessage>This level is already part of a linked level chain that is too long.  You cannot link further without first removing some levels.</levelChainTooLongMessage> -->
-    <levelChainTooLongMessage>Màn chơi này đã là một phần của chuỗi màn chơi được liên kết quá dài. Bạn không thể liên kết thêm mà không cần xóa một số cấp trước.</levelChainTooLongMessage>
+    <levelChainTooLongMessage>Màn chơi này đã là một phần của chuỗi màn chơi được liên kết quá dài. Bạn không thể liên kết thêm mà không cần xóa một số màn chơi trước.</levelChainTooLongMessage>
     <!-- <levelChainHasCycleMessage>You cannot form circular level links.  Please link to a level not already in this chain.</levelChainHasCycleMessage> -->
-    <levelChainHasCycleMessage>Bạn không thể hình thành các liên kết cấp tròn. Vui lòng liên kết đến một màn chơi chưa có trong chuỗi này.</levelChainHasCycleMessage>
+    <levelChainHasCycleMessage>Bạn không thể tạo liên kết màn chơi vòng tròn. Vui lòng liên kết đến một màn chơi chưa có trong chuỗi này.</levelChainHasCycleMessage>
     <!-- <targetAlreadyLinkedMessage>This level is already linked to.  If you proceed, that previous link will be removed.</targetAlreadyLinkedMessage> -->
     <targetAlreadyLinkedMessage>Màn chơi này đã được liên kết. Nếu bạn tiếp tục, liên kết đó sẽ bị xóa.</targetAlreadyLinkedMessage>
     <!-- <preserveLinksMessage>New Name or Version detected. 
       Do you want to keep the links to other levels?
       Selecting ‘No’ will clear all links to and from this level.</preserveLinksMessage>-->
-    <preserveLinksMessage>Tên mới hoặc Phiên bản được phát hiện.
+    <preserveLinksMessage>Tên hoặc Phiên bản mới được phát hiện.
        Bạn có muốn giữ các liên kết đến các màn chơi khác?
        Chọn 'Không' sẽ xóa tất cả các liên kết đến và từ màn chơi này.</preserveLinksMessage>  
     <!-- <brokenLevelExportMessage>This level contains broken links.  Please edit the level and update or remove the links before exporting.</brokenLevelExportMessage> -->
@@ -732,9 +732,9 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <brokenLevelShareMessage>This level contains broken links.  Please edit the level and update or remove the links before sharing.</brokenLevelShareMessage> -->
     <brokenLevelShareMessage>Màn chơi này chứa các liên kết bị hỏng. Vui lòng chỉnh sửa màn chơi và cập nhật hoặc xóa các liên kết trước khi chia sẻ.</brokenLevelShareMessage>
     <!-- <confirmLinkedDownloadMessage>This level had linked levels attached.  All attached levels have been downloaded.</confirmLinkedDownloadMessage> -->
-    <confirmLinkedDownloadMessage>Màn chơi này đã được liên kết màn chơi đính kèm. Tất cả các màn chơi đính kèm đã được tải xuống.</confirmLinkedDownloadMessage>
+    <confirmLinkedDownloadMessage>Màn chơi này có đính kèm các màn chơi được liên kết. Tất cả các màn chơi được đính kèm đã được tải xuống.</confirmLinkedDownloadMessage>
     <!-- <confirmLinkedShareMessage>This level has linked levels attached.  Sharing it will share all attached levels as well. Continue?</confirmLinkedShareMessage> -->
-    <confirmLinkedShareMessage>Màn chơi này có các cấp liên kết kèm theo. Chia sẻ nó sẽ chia sẻ tất cả các màn chơi đính kèm là tốt. Tiếp tục?
+    <confirmLinkedShareMessage>Màn chơi này có đính kèm các màn chơi được liên kết. Chia sẻ nó sẽ đồng thời chia sẻ tất cả các màn chơi đính kèm. Tiếp tục?
 </confirmLinkedShareMessage>
     
     <!-- <sendToAll>Send to Everyone</sendToAll> -->
@@ -764,7 +764,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <clientSignedOut>You signed out</clientSignedOut> -->
     <clientSignedOut>Bạn đã đăng xuất</clientSignedOut>
     <!-- <hostEndedSession>Host ended session</hostEndedSession> -->
-    <hostEndedSession>Máy chủ kết thúc phiên</hostEndedSession>
+    <hostEndedSession>Máy chủ đã kết thúc phiên</hostEndedSession>
     <!-- <removedByHost>Host removed you</removedByHost> -->
     <removedByHost>Máy chủ đã loại bỏ bạn</removedByHost>
     <!-- <disconnected>Disconnected</disconnected> -->
@@ -790,7 +790,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
 
   <tools>
     <!-- <sampleTool>Sample</sampleTool> -->
-    <sampleTool>Mẫu vật</sampleTool>
+    <sampleTool>Lấy mẫu vật</sampleTool>
     <!-- <paintMaterialTool>Change Material</paintMaterialTool> -->
     <paintMaterialTool>Thay đổi vật liệu</paintMaterialTool>
     <!-- <heightMapTool>Raise/Lower</heightMapTool> -->
@@ -802,15 +802,15 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <hillTool>Hill</hillTool> -->
     <hillTool>Đồi</hillTool>
     <!-- <minMaxTool>Level</minMaxTool> -->
-    <minMaxTool>Mức</minMaxTool>
+    <minMaxTool>Làm bằng</minMaxTool>
     <!-- <levelTool>Level</levelTool> -->
-    <levelTool>Mức</levelTool>
+    <levelTool>Làm bằng</levelTool>
     <!-- <addTool>Material</addTool> -->
     <addTool>Vật liệu</addTool>
     <!-- <waterAdd>Water</waterAdd> -->
     <waterAdd>Nước</waterAdd>
     <!-- <roadTool>Level Path</roadTool> -->
-    <roadTool>Đường dẫn</roadTool>
+    <roadTool>Đường đi</roadTool>
     <!-- <delObjTool>Delete Things</delObjTool> -->
     <delObjTool>Xóa mọi thứ</delObjTool>
     <!-- <tooManyLights>Sorry, you can't add another light.  You can only have 8 lights per world.</tooManyLights> -->
@@ -831,7 +831,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     -->
     <balloonTextMouse>
 &lt;rightmouse&gt; Lập trình
-&lt;leftmouse&gt; Kéo
+&lt;leftmouse&gt; Di chuyển
     </balloonTextMouse>
     <!-- <balloonTextTouch> 
           &lt;rotate&gt; Rotate
@@ -883,7 +883,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <skyPictureList>Sky</skyPictureList> -->
     <skyPictureList>Bầu trời</skyPictureList>
     <!-- <lightRigPictureList>Lighting</lightRigPictureList> -->
-    <lightRigPictureList>Thắp sáng</lightRigPictureList>
+    <lightRigPictureList>Ánh sáng</lightRigPictureList>
     <!-- <windMin>Min Breeze</windMin> -->
     <windMin>Gió nhẹ</windMin>
     <!-- <windMax>Max Breeze</windMax> -->
@@ -1080,7 +1080,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <verticalSpeedMultiplier>Vertical Speed Multiplier</verticalSpeedMultiplier> -->
     <verticalSpeedMultiplier>Hệ số tốc độ thẳng đứng</verticalSpeedMultiplier>
     <!-- <verticalAccelerationMultiplier>Vertical Acceleration Multiplier</verticalAccelerationMultiplier> -->
-    <verticalAccelerationMultiplier>Hệ số gia tốc thẳng đứng</verticalAccelerationMultiplier>
+    <verticalAccelerationMultiplier>Hệ số tăng tốc thẳng đứng</verticalAccelerationMultiplier>
     <!-- <bounciness>Bounciness</bounciness> -->
     <bounciness>Độ nảy</bounciness>
     <!-- <friction>Friction</friction> -->
@@ -1126,7 +1126,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <glowEmission>Glow Self Lighting</glowEmission> -->
     <glowEmission>Tự phát sáng</glowEmission>
     <!-- <displayLOS>Debug Lines to Barriers</displayLOS> -->
-    <displayLOS>Gỡ lỗi cho hàng rào</displayLOS>
+    <displayLOS>Gỡ lỗi hiện thị rào cản</displayLOS>
     <!-- <displayLOP>Debug Lines of Sight and Sound</displayLOP> -->
     <displayLOP>Gỡ lỗi tầm nhìn và âm thanh</displayLOP>
     <!-- <displayCurrentPage>Show the current programming page.</displayCurrentPage> -->
@@ -1167,27 +1167,19 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <invertYAxis> 
       Invert Stick for Bot Up/Down:
     </invertYAxis>-->
-    <invertYAxis>
-      Đảo ngược điều khiển Lên / Xuống:
-    </invertYAxis>
+    <invertYAxis>Đảo ngược điều khiển Lên / Xuống:</invertYAxis>
     <!-- <invertXAxis> 
       Invert Stick for Bot Turning:
     </invertXAxis>-->
-    <invertXAxis>
-      Đảo ngược điều khiển quay
-    </invertXAxis>
+    <invertXAxis>Đảo ngược điều khiển quay</invertXAxis>
     <!-- <invertCamY> 
       Invert Stick for Camera Pitch:
     </invertCamY>-->
-     <invertCamY>
-      Đảo ngược điều khiển góc nâng camera:
-    </invertCamY>
+     <invertCamY>Đảo ngược điều khiển góc nâng camera:</invertCamY>
     <!-- <invertCamX>
       Invert Stick for Camera Turning:
     </invertCamX> -->
-    <invertCamX>
-      Đảo ngược điều khiển góc quay camera:
-    </invertCamX>
+    <invertCamX>Đảo ngược điều khiển góc quay camera:</invertCamX>
     <!-- <overscan>Overscan %</overscan> -->
     <overscan>Overscan %</overscan>
     <!-- <terrainSpeed>Terrain Edit Speed</terrainSpeed> -->
@@ -1201,7 +1193,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <acceptSentLevels>Sharing: Accept Sent Worlds</acceptSentLevels> -->
     <acceptSentLevels>Chia sẻ: Chấp nhận thế giới đã gửi</acceptSentLevels>
     <!-- <autoReshareLevels>Sharing: Auto Reshare Worlds</autoReshareLevels> -->
-    <autoReshareLevels>Chia sẻ: Thế giới chia sẻ lại tự động</autoReshareLevels>
+    <autoReshareLevels>Chia sẻ: Tự động chia sẻ lại thế giới</autoReshareLevels>
     <!-- <autoDownloadFavoriteLevels>Sharing: Auto-Download Favorites</autoDownloadFavoriteLevels> -->
     <autoDownloadFavoriteLevels>Chia sẻ: Tự động tải xuống yêu thích</autoDownloadFavoriteLevels>
     <!-- <checkForUpdates>Check for Updates at Startup</checkForUpdates> -->
@@ -1217,7 +1209,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <viewButtonLabel>View</viewButtonLabel> -->
     <viewButtonLabel>Xem</viewButtonLabel>
     <!-- <showIntroVideo>Show Video at Next Startup</showIntroVideo> -->
-    <showIntroVideo>Hiển thị video khi khởi động tiếp theo</showIntroVideo>
+    <showIntroVideo>Hiển thị video khi khởi động lần sau</showIntroVideo>
     <!-- <persistWebLogin>Remember web site login</persistWebLogin> -->
     <persistWebLogin>Nhớ đăng nhập trang web</persistWebLogin>
     <!-- <showTutorialDebug>Show tutorial debugging info.</showTutorialDebug> -->
@@ -1227,7 +1219,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <noContinue>No, continue</noContinue> -->
     <noContinue>Không, tiếp tục</noContinue>
     <!-- <yesQuitKodu>Yes, Quit Kodu</yesQuitKodu> -->
-    <yesQuitKodu>Vâng, bỏ Kodu</yesQuitKodu>
+    <yesQuitKodu>Vâng, thoát Kodu</yesQuitKodu>
   </optionsParams>
 
   <titleScreen>
@@ -1250,7 +1242,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <newNamePrompt>Enter the new world name:</newNamePrompt> -->
     <newNamePrompt>Nhập tên thế giới mới:</newNamePrompt>
     <!-- <saveChangesPrompt>Save changes?</saveChangesPrompt> -->
-    <saveChangesPrompt>lưu thay đổi</saveChangesPrompt>
+    <saveChangesPrompt>Lưu thay đổi</saveChangesPrompt>
     <!-- <deletePrompt>Delete this world?</deletePrompt> -->
     <deletePrompt>Xóa thế giới này?</deletePrompt>
     <!-- <deleteLinkedPrompt>This world is linked to other levels.  Deleting it will break those links.  Continue?</deleteLinkedPrompt> -->
@@ -1260,7 +1252,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <levelExported>Level exported to : </levelExported> -->
     <levelExported>Xuất dữ liệu sang: </levelExported>
     <!-- <logonPrompt>Enter your username.  This will be used as the 'Creator' name for the levels you build.</logonPrompt> -->
-    <logonPrompt>Nhập tên người dùng của bạn. Tên này sẽ được sử dụng làm tên 'Người sáng chế' cho các màn chơi bạn xây dựng.</logonPrompt>
+    <logonPrompt>Nhập tên người dùng của bạn. Tên này sẽ được sử dụng làm tên 'Người thực hiện' cho các màn chơi bạn xây dựng.</logonPrompt>
     <!-- <reportAbusePrompt>Do you want to report this level as offensive?</reportAbusePrompt> -->
     <reportAbusePrompt>Bạn có muốn báo cáo màn chơi này là xúc phạm?</reportAbusePrompt>
     <!-- <save>Save</save> -->
@@ -1592,9 +1584,10 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     </fan>
     <fastbot>
       <!-- <alias>fastbot</alias> -->
-      <alias>đối tượng nhanh</alias>
+      <alias>robot nhanh</alias>
       <!-- <alias>cycle</alias> -->
-      <alias>đua xe</alias>
+      <alias>xe máy
+      </alias>
     </fastbot>
     <flyfish>
       <!-- <alias>flyfish</alias> -->
@@ -1606,11 +1599,11 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     </heart>
     <hut>
       <!-- <alias>hut</alias> -->
-      <alias>Trạm nghỉ chân</alias>
+      <alias>trạm nghỉ chân</alias>
     </hut>
     <iceBerg>
       <!-- <alias>iceBerg</alias> -->
-      <alias>Tảng băng</alias>
+      <alias>tảng băng</alias>
     </iceBerg>
     <inkjet>
       <!-- <alias>ink</alias> -->
@@ -1636,9 +1629,9 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     </mine>
     <missile>
       <!-- <alias>ammo</alias> -->
-      <alias>Đạn</alias>
+      <alias>đạn</alias>
       <!-- <alias>missile</alias> -->
-      <alias>Tên lửa</alias>
+      <alias>tên lửa</alias>
     </missile>
     <octopus>
       <!-- <alias>octo</alias> -->
@@ -1650,7 +1643,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
       <!-- <alias>pad</alias> -->
       <alias>đệm</alias>
       <!-- <alias>pushpad</alias> -->
-      <alias>đệm thảy</alias>
+      <alias>đệm nhảy</alias>
     </pad>
     <pipe>
       <!-- <alias>pipe</alias> -->
@@ -1666,7 +1659,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     </rock>
     <rockLowValue>
       <!-- <alias>rockLowValue</alias> -->
-      <alias>đá giá trị thấp</alias>
+      <alias>đá ít giá trị</alias>
     </rockLowValue>
     <rockHighValue>
       <!-- <alias>rockHighValue</alias> -->
@@ -1674,7 +1667,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     </rockHighValue>
     <rockLowValueUnknown>
       <!-- <alias>rockLowValueUnknown</alias> -->
-      <alias>đá bí ẩn giá trị thấp</alias>
+      <alias>đá bí ẩn ít giá trị</alias>
     </rockLowValueUnknown>
     <rockHighValueUnknown>
       <!-- <alias>rockHighValueUnknown</alias> -->
@@ -1740,7 +1733,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     </turtle>
     <rover>
       <!-- <alias>rover</alias> -->
-      <alias>người máy</alias>
+      <alias>xe tự hành</alias>
     </rover>
     <wisp>
       <!-- <alias>wisp</alias> -->
@@ -2056,11 +2049,11 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <name>Name : </name> -->
     <name>Tên : </name>
     <!-- <creator>Creator : </creator> -->
-    <creator>Người sáng tạo : </creator>
+    <creator>Người thực hiện : </creator>
     <!-- <description>Description : </description> -->
     <description>Mô tả : </description>
     <!-- <version>v</version> -->
-    <version>v</version>
+    <version>phiên bản </version>
     <!-- <tags>Tags :</tags> -->
     <tags>Thẻ :</tags>
     <!-- <noTags>None</noTags> -->
@@ -2080,7 +2073,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <namePromptXbox>Enter a new name for your world.</namePromptXbox> -->
     <namePromptXbox>Nhập một tên mới cho thế giới của bạn.</namePromptXbox>
     <!-- <creatorPromptXbox>Enter creator name for your world.</creatorPromptXbox> -->
-    <creatorPromptXbox>Nhập tên Người sáng tạo cho thế giới của bạn.</creatorPromptXbox>
+    <creatorPromptXbox>Nhập tên Người thực hiện cho thế giới của bạn.</creatorPromptXbox>
     <!-- <descriptionPromptXbox>Enter a description for your world.</descriptionPromptXbox> -->
     <descriptionPromptXbox>Nhập một mô tả cho thế giới của bạn.</descriptionPromptXbox>
     <!-- <descriptionPromptPC>Click here and enter a description for your world with the keyboard</descriptionPromptPC> -->
@@ -2094,11 +2087,11 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <noControllerMoron>You must have at least one controller plugged in to play Kodu. Please plug in a controller.</noControllerMoron> -->
     <noControllerMoron>Bạn phải có ít nhất một bộ điều khiển được cắm để chơi Kodu. Vui lòng cắm một bộ điều khiển.</noControllerMoron>
     <!-- <noControllerAction> Continue</noControllerAction> -->
-    <noControllerAction> tiếp tục</noControllerAction>
+    <noControllerAction> Tiếp tục</noControllerAction>
     <!-- <unPluggedMoron>A controller has come unplugged. Press A button when ready to continue.</unPluggedMoron> -->
     <unPluggedMoron>Một bộ điều khiển đã được rút ra. Nhấn nút A khi sẵn sàng tiếp tục.</unPluggedMoron>
     <!-- <unPluggedAction> Continue</unPluggedAction> -->
-    <unPluggedAction>tiếp tục </unPluggedAction>
+    <unPluggedAction> Tiếp tục</unPluggedAction>
   </gamePadInputDialog>
 
   <newerVersionDialog>
@@ -2112,7 +2105,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <!-- <undo>Undo</undo> -->
     <undo>Hủy bỏ</undo>
     <!-- <redo>Redo</redo> -->
-    <redo>làm lại</redo>
+    <redo>Làm lại</redo>
   </undoStack>
 
   <toast>
@@ -2120,7 +2113,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
     <yButtonMore>Thêm</yButtonMore>
 
     <!-- <continue>Continue</continue> -->
-    <continue>tiếp tục</continue>
+    <continue>Tiếp tục</continue>
     <!-- <dismiss>Do not show again</dismiss> -->
     <dismiss>Không hiển thị trở lại</dismiss>
 
@@ -2136,8 +2129,8 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
       Both the terrain in the world and the characters in the world use up resources so reducing either of them will help your game's performance.
     </resourceMeterModal>-->
     <resourceMeterModal>
-      Đồng hồ đo nhiệt kế ở bên phải màn hình đang cho bạn thấy rằng bạn gần như đã sử dụng hết tất cả các tài nguyên trên thế giới. Điều này có thể gây ra tốc độ khung hình thấp làm cho hình ảnh động trông chunky.
-       Cả địa hình trên thế giới và các nhân vật trên thế giới đều sử dụng hết tài nguyên, do đó việc giảm một trong hai sẽ giúp hiệu suất trò chơi của bạn.
+      Đồng hồ đo ở bên phải màn hình đang cho bạn thấy rằng bạn gần như đã sử dụng hết tất cả các tài nguyên trên thế giới. Điều này có thể gây ra tốc độ khung hình thấp làm cho hình ảnh động trông không mượt.
+      Cả địa hình trên thế giới và các nhân vật trên thế giới đều đang sử dụng hết tài nguyên, do đó việc giảm một trong hai sẽ giúp hiệu suất trò chơi của bạn.
     </resourceMeterModal>
 
     <!-- <fullResourceToast>Maximum resource limit reached.</fullResourceToast> -->
@@ -2147,10 +2140,9 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
       At this point you are not allowed to add any more terrain or characters to your game.
       Both the terrain in the world and the characters in the world use up resources so reducing either of them will help your game's performance.
     </fullResourceModal> -->
-     <fullResourceModal>
-     Âm thanh ù ù thô lỗ và thước đo nhiệt kế ở bên phải màn hình đang cho bạn thấy rằng bạn đã sử dụng hết tất cả các tài nguyên có sẵn trên thế giới.
-       Tại thời điểm này, bạn không được phép thêm bất kỳ địa hình hoặc nhân vật nào vào trò chơi của mình.
-       Cả địa hình trên thế giới và các nhân vật trên thế giới đều sử dụng hết tài nguyên, do đó việc giảm một trong hai sẽ giúp hiệu suất trò chơi của bạn.
+    <fullResourceModal>Âm thanh ù ù thô lỗ và thước đo nhiệt kế ở bên phải màn hình đang cho bạn thấy rằng bạn đã sử dụng hết tất cả các tài nguyên có sẵn trên thế giới.
+    Tại thời điểm này, bạn không được phép thêm bất kỳ địa hình hoặc nhân vật nào vào trò chơi của mình.
+    Cả địa hình trên thế giới và các nhân vật trên thế giới đều sử dụng hết tài nguyên, do đó việc giảm một trong hai sẽ giúp hiệu suất trò chơi của bạn.
     </fullResourceModal>
 
 
@@ -2193,27 +2185,27 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
      Khi bạn thêm nước vào thế giới, nó sẽ chảy ra để lấp đầy không gian nhiều nhất có thể.
        Nếu bạn muốn chứa nước, bạn cần sử dụng các công cụ chỉnh sửa địa hình để nâng cao vùng đất xung quanh khu vực bạn muốn chứa đầy nước.
 
-       "Làm trống tâm trí của bạn, vô hình, không có hình dạng - giống như nước. Bây giờ bạn cho nước vào cốc, nó trở thành cốc, bạn cho nước vào chai, nó trở thành chai, bạn đặt nó vào ấm trà, nó trở thành ấm trà. Bây giờ nước có thể chảy hoặc nó có thể sụp đổ. Hãy là nước, bạn của tôi. "
-       Bruce Lee
+       "Làm trống tâm trí của bạn, vô hình, không có hình dạng - giống như nước. Bây giờ bạn đổ nước vào cốc, nó trở thành cốc, bạn đổ nước vào chai, nó trở thành chai, bạn đổ nó vào ấm trà, nó trở thành ấm trà. Bây giờ nước có thể chảy nhẹ nhàng hoặc nó có thể đổ xiết. Hãy là nước, bạn của tôi. "
+        Lý Tiểu Long
     </waterTerrainModal>
 
     <!-- <waterNoTerrainToast>Water must go over terrain.</waterNoTerrainToast> -->
-    <waterNoTerrainToast>Nước phải vượt địa hình.</waterNoTerrainToast>
+    <waterNoTerrainToast>Nước phải nằm ở trên địa hình.</waterNoTerrainToast>
     <!-- <waterNoTerrainModal>Water can only be added on top of terrain.  Either add some land or move the cursor over existing land before adding water.</waterNoTerrainModal> -->
-    <waterNoTerrainModal>Nước chỉ có thể được thêm vào trên địa hình. Hoặc thêm một số đất hoặc di chuyển con trỏ qua đất hiện có trước khi thêm nước.</waterNoTerrainModal>
+    <waterNoTerrainModal>Nước chỉ có thể được thêm vào trên địa hình. Hoặc thêm một số đất hoặc di chuyển con trỏ lên trên mặt đất hiện có trước khi thêm nước.</waterNoTerrainModal>
 
     <!-- <noTerrainToRaiseToast>First add terrain with the Ground Brush &lt;terrainpaint&gt;.</noTerrainToRaiseToast> -->
-    <noTerrainToRaiseToast>Đầu tiên thêm địa hình bằng vẽ đất&lt;terrainpaint&gt;.</noTerrainToRaiseToast>
+    <noTerrainToRaiseToast>Đầu tiên thêm địa hình bằng Công cụ Bút vẽ Địa hình&lt;terrainpaint&gt;.</noTerrainToRaiseToast>
     <!-- <noTerrainToRaiseModal>
       Before you can raise hills you need to add terrain with the Ground Brush &lt;terrainpaint&gt;.
     </noTerrainToRaiseModal> -->
      <noTerrainToRaiseModal>
-    Trước khi bạn có thể nâng đồi, bạn cần thêm địa hình vẽ đất &lt;terrainpaint&gt;.
+    Trước khi bạn có thể nâng đồi, bạn cần thêm thêm địa hình bằng Công cụ Bút vẽ Địa Hình &lt;terrainpaint&gt;.
     </noTerrainToRaiseModal>
     
     
     <!-- <gamepadNoFilterToast>You programmed using a gamepad without specifying any buttons or sticks to check.</gamepadNoFilterToast> -->
-    <gamepadNoFilterToast>Bạn đã lập trình bằng gamepad mà không chỉ định bất kỳ nút hoặc gậy nào để kiểm tra.</gamepadNoFilterToast>
+    <gamepadNoFilterToast>Bạn đã lập trình bằng gamepad mà không chỉ định bất kỳ nút hoặc cần điều khiển nào để kiểm tra.</gamepadNoFilterToast>
     <!-- <gamepadNoFilterModal>
       When programming your character to respond to the gamepad you also need to specify which stick or button to test for.
       For instance:
@@ -2221,7 +2213,7 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
       When <![CDATA[<gamepad><abutton>]]> Do Shoot
     </gamepadNoFilterModal> -->
      <gamepadNoFilterModal>
-      Khi lập trình nhân vật của bạn để phản hồi với gamepad, bạn cũng cần chỉ định thanh hoặc nút nào để kiểm tra.
+      Khi lập trình nhân vật của bạn để phản hồi với gamepad, bạn cũng cần chỉ định cần điều khiển hoặc nút nào để kiểm tra.
       Ví dụ:
       Khi <![CDATA[<gamepad><leftstick>]]> Làm di chuyển
       Khi <![CDATA[<gamepad><abutton>]]> Làm bắn
@@ -2229,14 +2221,14 @@ Bất cứ lúc nào, nếu bạn muốn tạo một tài khoản mới, bạn c
 
 
     <!-- <switchNoTargetToast>You programmed a switch without telling what page to switch to.</switchNoTargetToast> -->
-    <switchNoTargetToast>Bạn đã lập trình một công tắc mà không cho biết trang nào sẽ chuyển sang.</switchNoTargetToast>
+    <switchNoTargetToast>Bạn đã lập trình một câu lệnh chuyển đổi trang mà không cho biết trang nào sẽ chuyển sang.</switchNoTargetToast>
     <!-- <switchNoTargetModal> 
       When using the Switch &lt;actuator.switchtask&gt; tile you also need to tell the system what page to switch to.
       
       For example: &lt;actuator.switchtask&gt; &lt;modifier.taskb&gt;
     </switchNoTargetModal>-->
    <switchNoTargetModal>
-      Khi sử dụng Switch &lt;actuator.switchtask&gt; bạn cũng cần cho hệ thống biết trang nào sẽ chuyển sang.
+      Khi sử dụng Câu lệnh chuyển Trang &lt;actuator.switchtask&gt; bạn cũng cần cho hệ thống biết trang nào sẽ chuyển sang.
       
     Ví dụ: &lt;actuator.switchtask&gt; &lt;modifier.taskb&gt;
     </switchNoTargetModal>
@@ -2277,36 +2269,36 @@ Please use a compliant device or revert to other input methods if your device is
 
   <genres>
     <!-- <all>All</all> -->
-    <all>tất cả</all>
+    <all>Tất cả</all>
     <!-- <action>Action</action> -->
-    <action>hành động</action>
+    <action>Hành động</action>
     <!-- <adventure>Adventure</adventure> -->
-    <adventure>thám hiểm</adventure>
+    <adventure>Thám hiểm</adventure>
     <!-- <puzzle>Puzzle</puzzle> -->
     <puzzle>Câu đố</puzzle>
     <!-- <racing>Racing</racing> -->
-    <racing>cuộc đua</racing>
+    <racing>Cuộc đua</racing>
     <!-- <rpg>RPG</rpg> -->
     <rpg>RPG</rpg>
     <!-- <shooter>Shooter</shooter> -->
-    <shooter>bắn súng</shooter>
+    <shooter>Bắn súng</shooter>
     <!-- <sports>Sports</sports> -->
     <sports>Thể thao</sports>
     <!-- <strategy>Strategy</strategy> -->
-    <strategy>chiến lược</strategy>
+    <strategy>Chiến lược</strategy>
     <!-- <multiplayer>Multiplayer</multiplayer> -->
-    <multiplayer>nhiều người chơi</multiplayer>
+    <multiplayer>Nhiều người chơi</multiplayer>
     <!-- <favorite>Favorite</favorite> -->
-    <favorite>yêu thích</favorite>
+    <favorite>Yêu thích</favorite>
     <!-- <keyboard>Keyboard/Mouse</keyboard> -->
-    <keyboard>bàn phím/chuột</keyboard>
+    <keyboard>Bàn phím/chuột</keyboard>
     <!-- <controller>Xbox Controller</controller> -->
     <controller>Bộ điều khiển Xbox</controller>
     <!-- <touch>Touch</touch> -->
-    <touch>cảm ứng</touch>
+    <touch>Cảm ứng</touch>
 
     <!-- <lessons>Lessons</lessons> -->
-    <lessons>bài học</lessons>
+    <lessons>Bài học</lessons>
     <!-- <sampleWorlds>Sample Worlds</sampleWorlds> -->
     <sampleWorlds>Thế giới mẫu</sampleWorlds>
     <!-- <starterWorlds>Starter Worlds</starterWorlds> -->

@@ -30,7 +30,8 @@ if '%errorlevel%' NEQ '0' (
 
 :-------------------------------------- 
 
-xcopy /y .\VN\* "C:\Program Files (x86)\Microsoft Research\Kodu Game Lab\Content\Xml\Localizable\ES"
 
+
+echo Finish Copying
 echo Start Kodu and Change the Language to Spanish (Espanol) for this patch to work
 pause
